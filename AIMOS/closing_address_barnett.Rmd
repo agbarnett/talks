@@ -29,32 +29,72 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE,
 ## When you're a hammer ...
 
 .pull-left[
-```{r, out.width= '70%'}
-knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/AIMOS/master/figures/hammer1.JPG")
+```{r, out.width= '80%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/AIMOS/figures/hammer1.JPG")
 ```
 ]
 
+https://github.com/agbarnett/talks/blob/master/AIMOS/figures/hammer1.JPG?raw=true
+
 .pull-right[
-```{r, out.width= '80%'}
-knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/AIMOS/master/figures/hammer2.JPG")
+```{r, out.width= '90%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/AIMOS/figures/hammer2.JPG")
 ```
 ]
 
 ---
 class: inverse
-## Examples
+### Doing good stuff
 
 .pull-left[
 <!--- from https://twitter.com/dmonett/status/1190338424307359744) --->
+```{r, out.width= '70%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/AIMOS/figures/justsayinmice.png")
+```
+
 ```{r, out.width= '80%'}
-knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/AIMOS/master/figures/justsayinmice.png")
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/AIMOS/figures/equator_logo.png")
 ```
 ]
 
 .pull-right[
 <!--- from https://rescience.github.io/ten-years/ --->
+```{r, out.width= '60%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/AIMOS/figures/ten-years-challenge.png")
+```
+
 ```{r, out.width= '70%'}
-knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/AIMOS/master/figures/ten-years-challenge.png")
+knitr::include_graphics("https://cpb-ap-se2.wpmucdn.com/blogs.unimelb.edu.au/dist/0/363/files/2019/03/twitter-logo_repliCATS-2itjze2-e1553226968843.png")
+```
+
+]
+
+---
+# Suppression
+
+.pull-left[
+### [Survey of Australian researchers](https://onlinelibrary.wiley.com/doi/10.1111/j.1753-6405.2007.00142.x)
+
+21% of survey respondents had personal experience of suppression (Jan 2001 to Aug 2006). _Aust N Z J Public Health_ 2007; __31__: 551–557.
+
+--
+### Andreas Georgiou
+
+Ex-head of the Greek national statistics office
+
+```{r, out.width= '70%'}
+knitr::include_graphics("https://www.amstat.org/images/ASAImages/news/Georgiou.jpg")
+```
+]
+
+.pull-right[
+
+--
+### [French scheme for academics in trouble](https://www.college-de-france.fr/site/en-program-pause/index.htm)
+
+
+```{r, out.width= '40%'}
+knitr::include_graphics("https://www.college-de-france.fr/media/programme-pause/UPL7601742412184807040_logo_PAUSE_pages.jpg")
 ```
 ]
 
@@ -65,7 +105,7 @@ knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/AIMOS/maste
 
 #### "Shouldn't this be happening anyway?"
 
-#### "You're undermining health and medical
+#### "You're undermining health and medical research"
 
 <!--- Black books --->
 ![](https://media.giphy.com/media/ORuWOAMhBCsr6/giphy.gif) 
@@ -78,17 +118,36 @@ class: inverse, center, middle
 ![](https://media.giphy.com/media/3o6fISbwpqD9W9sGpq/giphy.gif)
 
 ---
+# Incentives
 
-# ABC Health Report
+[No, it’s not The Incentives—it’s you](https://www.talyarkoni.org/blog/2018/10/02/no-its-not-the-incentives-its-you/)
+
+Tal Yarkoni
+
+```{r, out.width= '50%'}
+knitr::include_graphics("https://talyarkoni.org/images/icecream.jpg")
+```
+
+---
+# Registered reports
+
+## An editor's meeting
+
+"We discussed whether to use a “Registered Reports” [...] While we understand benefits of this process for randomized trials, we currently believe it is not in [_Field X_]’ interest to implement such a process."
+
+---
+## ABC Health Report
+
+#### [Special episode on p-values](https://www.abc.net.au/radionational/programs/healthreport/getting-rid-of-statistical-significance/11470502)
 
 ```{r, out.width= '90%'}
-knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/AIMOS/master/figures/SwannTweet1.jpg")
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/AIMOS/figures/SwannTweet1.jpg")
 ```
 
 --
 
 ```{r, out.width= '90%'}
-knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/AIMOS/master/figures/SwannTweet2.jpg")
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/AIMOS/figures/SwannTweet2.jpg")
 ```
 
 
@@ -96,5 +155,4 @@ knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/AIMOS/maste
 class: inverse, center, middle
 # Impressions of the first AIMOS
 
-Aim Oz?
 
