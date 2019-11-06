@@ -1,0 +1,100 @@
+---
+title: "Conference wrap-up and <br>some common issues in meta-research<br>"
+author: 'Adrian Barnett, QUT <br> `r icon::fa("twitter")` <a href="https://twitter.com/aidybarnett"> @aidybarnett</a><br> `r icon::fa("paper-plane")` <a href="mailto:a.barnett@qut.edu.au">a.barnett@qut.edu.au </a><br>'
+date: "8 November 2019"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+class: inverse, center, middle
+# Some common themes in research and meta-research
+
+<!--- help from --->
+<!--- https://github.com/yihui/xaringan/wiki/Deploy-Slides-Online --->
+<!--- https://github.com/apreshill/talks --->
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, 
+  comment = NA, dpi = 300, echo = FALSE,
+  fig.align = "center", out.width = "80%", cache = FALSE)
+```
+
+---
+## When you're a hammer ...
+
+.pull-left[
+```{r, out.width= '70%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/AIMOS/master/figures/hammer1.JPG")
+```
+]
+
+.pull-right[
+```{r, out.width= '80%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/AIMOS/master/figures/hammer2.JPG")
+```
+]
+
+---
+class: inverse
+## Examples
+
+.pull-left[
+<!--- from https://twitter.com/dmonett/status/1190338424307359744) --->
+```{r, out.width= '80%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/AIMOS/master/figures/justsayinmice.png")
+```
+]
+
+.pull-right[
+<!--- from https://rescience.github.io/ten-years/ --->
+```{r, out.width= '70%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/AIMOS/master/figures/ten-years-challenge.png")
+```
+]
+
+---
+# Funding
+
+#### "Is this really research?"
+
+#### "Shouldn't this be happening anyway?"
+
+#### "You're undermining health and medical
+
+<!--- Black books --->
+![](https://media.giphy.com/media/ORuWOAMhBCsr6/giphy.gif) 
+
+---
+class: inverse, center, middle
+# Life as a meta-researcher
+
+<!--- Orson Wells --->
+![](https://media.giphy.com/media/3o6fISbwpqD9W9sGpq/giphy.gif)
+
+---
+
+# ABC Health Report
+
+```{r, out.width= '90%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/AIMOS/master/figures/SwannTweet1.jpg")
+```
+
+--
+
+```{r, out.width= '90%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/AIMOS/master/figures/SwannTweet2.jpg")
+```
+
+
+---
+class: inverse, center, middle
+# Impressions of the first AIMOS
+
+Aim Oz?
+
