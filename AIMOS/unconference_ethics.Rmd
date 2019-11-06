@@ -4,11 +4,11 @@ author: 'Anna Scott, Bond<br> Adrian Barnett, QUT<br> `r icon::fa("twitter")` <a
 date: "8 November 2019"
 output:
   xaringan::moon_reader:
-  lib_dir: libs
-nature:
-  highlightStyle: github
-highlightLines: true
-countIncrementalSlides: false
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
 
 ---
 class: inverse
