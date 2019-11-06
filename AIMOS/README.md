@@ -1,6 +1,6 @@
 # AIMOS (Interdisciplinary Meta-research & Open Science conference)
 
-Slides for AIMOS conference talks: 
+Slides for AIMOS conference talks (November 2019): 
 * "Conference Wrap-up and Some Common Issues in Meta-research". 
 * Unconference session on "Reducing Research Waste: Unnecessary Ethics Reviews of Low/Negligible Risk Health and Medical Research in Australia" 
 
