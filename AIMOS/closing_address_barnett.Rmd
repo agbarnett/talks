@@ -34,10 +34,8 @@ knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/maste
 ```
 ]
 
-https://github.com/agbarnett/talks/blob/master/AIMOS/figures/hammer1.JPG?raw=true
-
 .pull-right[
-```{r, out.width= '90%'}
+```{r, out.width= '80%'}
 knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/AIMOS/figures/hammer2.JPG")
 ```
 ]
@@ -70,27 +68,26 @@ knitr::include_graphics("https://cpb-ap-se2.wpmucdn.com/blogs.unimelb.edu.au/dis
 ]
 
 ---
-# Suppression
+## Suppression
 
 .pull-left[
-### [Survey of Australian researchers](https://onlinelibrary.wiley.com/doi/10.1111/j.1753-6405.2007.00142.x)
+#### [Survey of Australian researchers](https://onlinelibrary.wiley.com/doi/10.1111/j.1753-6405.2007.00142.x)
 
 21% of survey respondents had personal experience of suppression (Jan 2001 to Aug 2006). _Aust N Z J Public Health_ 2007; __31__: 551–557.
 
---
-### Andreas Georgiou
+#### Andreas Georgiou
 
 Ex-head of the Greek national statistics office
 
-```{r, out.width= '70%'}
+```{r, out.width= '35%'}
 knitr::include_graphics("https://www.amstat.org/images/ASAImages/news/Georgiou.jpg")
 ```
 ]
 
+--
 .pull-right[
 
---
-### [French scheme for academics in trouble](https://www.college-de-france.fr/site/en-program-pause/index.htm)
+#### [French scheme for academics in trouble](https://www.college-de-france.fr/site/en-program-pause/index.htm)
 
 
 ```{r, out.width= '40%'}
@@ -105,7 +102,7 @@ knitr::include_graphics("https://www.college-de-france.fr/media/programme-pause/
 
 #### "Shouldn't this be happening anyway?"
 
-#### "You're undermining health and medical research"
+#### "You are undermining health and medical research"
 
 <!--- Black books --->
 ![](https://media.giphy.com/media/ORuWOAMhBCsr6/giphy.gif) 
@@ -118,20 +115,9 @@ class: inverse, center, middle
 ![](https://media.giphy.com/media/3o6fISbwpqD9W9sGpq/giphy.gif)
 
 ---
-# Incentives
-
-[No, it’s not The Incentives—it’s you](https://www.talyarkoni.org/blog/2018/10/02/no-its-not-the-incentives-its-you/)
-
-Tal Yarkoni
-
-```{r, out.width= '50%'}
-knitr::include_graphics("https://talyarkoni.org/images/icecream.jpg")
-```
-
----
 # Registered reports
 
-## An editor's meeting
+## From an editor's meeting
 
 "We discussed whether to use a “Registered Reports” [...] While we understand benefits of this process for randomized trials, we currently believe it is not in [_Field X_]’ interest to implement such a process."
 
@@ -152,7 +138,17 @@ knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/maste
 
 
 ---
+# Incentives
+
+[No, it’s not The Incentives—it’s you](https://www.talyarkoni.org/blog/2018/10/02/no-its-not-the-incentives-its-you/)
+
+Tal Yarkoni
+
+```{r, out.width= '50%'}
+knitr::include_graphics("https://talyarkoni.org/images/icecream.jpg")
+```
+
+---
 class: inverse, center, middle
 # Impressions of the first AIMOS
-
 
