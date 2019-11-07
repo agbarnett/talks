@@ -1,6 +1,6 @@
 ---
 title: "Unconference at AIMOS<br>Reducing Research Waste"
-author: 'Anna Scott, Bond<br> Adrian Barnett, QUT<br> `r icon::fa("twitter")` <a href="https://twitter.com/aidybarnett"> @aidybarnett</a><br> `r icon::fa("paper-plane")` <a href="mailto:a.barnett@qut.edu.au">a.barnett@qut.edu.au </a><br>'
+author: 'Anna Scott, Natalie Taylor, Jennifer Byrne<br>Amanda Rush, Adrian Barnett<br> `r icon::fa("twitter")` <a href="https://twitter.com/aidybarnett"> @aidybarnett</a><br> `r icon::fa("paper-plane")` <a href="mailto:a.barnett@qut.edu.au">a.barnett@qut.edu.au </a><br>'
 date: "8 November 2019"
 output:
   xaringan::moon_reader:
@@ -60,7 +60,7 @@ class: inverse
 
 ## Estimated economic cost
 
-### Costs based on:
+#### Costs based on:
 
 * 14,200 low-risk applications nationally per year
 * 65 days needed per application
@@ -70,6 +70,5 @@ class: inverse
 
 * Savings for a self-certification = $163 million per year
   
-
 ![](https://media.giphy.com/media/xUA7bedqb7WksxLeb6/giphy.gif) 
 
