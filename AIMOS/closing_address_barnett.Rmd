@@ -1,6 +1,6 @@
 ---
 title: "Conference wrap-up and <br>some common issues in meta-research<br>"
-author: 'Adrian Barnett, QUT <br> `r icon::fa("github")` `r icon::fa("twitter")` <a href="https://twitter.com/aidybarnett"> aidybarnett</a><br> `r icon::fa("paper-plane")` <a href="mailto:a.barnett@qut.edu.au">a.barnett@qut.edu.au </a><br>'
+author: 'Adrian Barnett, QUT <br> `r icon::fa("github")` <a href="https://github.com/agbarnett/"> agbarnett</a><br> `r icon::fa("twitter")` <a href="https://twitter.com/aidybarnett"> aidybarnett</a><br> `r icon::fa("paper-plane")` <a href="mailto:a.barnett@qut.edu.au">a.barnett@qut.edu.au </a><br>'
 date: "8 November 2019"
 output:
   xaringan::moon_reader:
