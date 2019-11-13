@@ -1,0 +1,288 @@
+---
+title: "Improving statistical practice in health and medical research<br>"
+author: 'Adrian Barnett, QUT <br> `r icon::fa("github")` <a href="https://github.com/agbarnett/"> agbarnett</a> (slides available here)<br> `r icon::fa("twitter")` <a href="https://twitter.com/aidybarnett"> aidybarnett</a><br> `r icon::fa("paper-plane")` <a href="mailto:a.barnett@qut.edu.au">a.barnett@qut.edu.au </a><br>'
+date: "20 November 2019"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      
+---
+class: inverse
+# Science
+```{r setup, include=FALSE}
+# 20 minute talk, 5 mins questions
+# • Wasted hours on ethics applications
+# • Lack of training / understanding of statistics
+# • Results that can’t be reproduced
+# • Rewards that focus on impact factors rather than real-world research impact
+
+knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE, error=FALSE, comment='', dpi=400)
+options(htmltools.dir.version = FALSE)
+library(ggplot2)
+library(dplyr)
+```
+
+#### "Science is the best thing that has happened to humanity, but we can do it better" John Ioannidis
+
+```{r, out.width= '40%'}
+knitr::include_graphics("https://www.bmj.com/content/bmj/351/bmj.h4992/F1.large.jpg")
+```
+
+---
+class: center
+## I walk through many fields
+
+```{r fields, include=FALSE}
+# make data
+fields = c('Epidemiology','Psychology','Ecology','Exercise\nphysiology','Geriatrics','Intensivists','Cardiology','Economics','Nurses','Physio-\ntherapy','Dietetics','Policy\nmakers','Editors','Research\neducation','Biology','Computer\nscience')
+fields = fields[rev(order(fields))]
+n.fields = length(fields)
+plot.data = expand.grid(x=1:4, y=1:4)
+plot.data$field = fields
+cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+colours = sample(cbbPalette, 16, replace=TRUE)
+# make plot
+jpeg('figures/fields.jpg', width=6, height=4, units='in', res=400, quality = 100)
+par(mai=rep(0, 4))
+plot(c(0.5, 4.5), c(0.5, 4.5), xaxt='n', type='n', xlab='', ylab='')
+text(x=plot.data$x, y=plot.data$y, labels=plot.data$field, col=colours, cex=1.6)
+invisible(dev.off())
+```
+
+```{r, out.width= '90%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/fields.jpg")
+```
+
+---
+class: inverse
+## Shock: Statisticians want more statistics!
+
+[Lee et al](https://www.mja.com.au/journal/2019/211/10/biostatistics-fundamental-discipline-core-modern-health-data-science) (2019) "Biostatistics: a fundamental discipline at the core of modern health data science" _MJA_
+
+* "Without investment in biostatistics [...] the entire Australian medical research enterprise is at considerable risk of drowning in data but starving for knowledge."
+
+--
+
+McCullough JPA, Lipman J, Presneill JJ (2018) "The statistical curriculum within randomized controlled trials in critical illness" _Crit Care Med_ 
+
+* "In-depth training in the assumptions and limitations of these current and emerging biostatistical methods may not be practically achievable for most clinicians, making accessible specialist biostatistical support an asset to evidence-based clinical practice."
+
+--
+
+#### Commentary: 
+
+* "As much as clinicians love to hate statistics, understanding statistics turns out to be one of those things that can matter at the bedside."
+
+* "Consider how often presenters, whether at morning conference or international meetings, hand-wave through statistical procedures."
+
+---
+class:center, middle, inverse
+
+# Credible versus Incredible
+
+# Competence versus Excellence
+
+---
+class:inverse
+## Data organisation counts #1
+
+<!--- could use https://media.giphy.com/media/Sb9KqeeymLlESGWZyE/giphy.gif --->
+
+Broman & Woo (2017) "Data Organization in Spreadsheets"
+
+* Write dates as YYYY-MM-DD
+* Do not leave any cells empty
+* Put just one thing in a cell
+* Organize the data as a single rectangle (subjects = rows, variables = columns)
+* Use a single header row
+* Create a data dictionary
+* Do not include calculations in the raw data files
+* Do not use font color or highlighting as data
+* Choose good names for things
+* Make backups
+
+[DOI: 10.1080/00031305.2017.1375989](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989)
+
+---
+## Data organisation counts #2
+
+<!--- See also https://www.vox.com/future-perfect/2019/10/3/20895240/study-typo-religion-children-generosity-retraction --->
+
+[Does a Religious Upbringing Promote Generosity?](https://www.psychologytoday.com/us/blog/human-flourishing/201909/does-religious-upbringing-promote-generosity-or-not)
+
+```{r, out.width='100%', fig.width=5, fig.height=2.2}
+# example plot of categories versus linear
+example = data.frame(country = 1:3, category = c(2, 1, 5), linear=c(1,2.1,3.2)) 
+gplot = ggplot(data=example, aes(x=country, y=category))+
+  geom_text(aes(x=2, y=3, label='Illustrative data'), col='grey', angle=-30, size=9)+
+  geom_point(size=5, colour='sky blue')+
+  geom_line(aes(x=country, y=linear), size=1.2, colour='dark red')+
+  scale_x_continuous(breaks=1:3, labels=c('Canada','USA','UK'))+
+  xlab('')+
+  ylab('Generosity')+
+  theme_bw()+
+  theme(axis.text.x = element_text(angle=45, hjust = 1))
+gplot
+```
+
+#### Original finding: religious children were less generous
+
+--
+#### After correction: no association
+
+---
+class:inverse
+## Spending time on models counts #1
+
+<!--- code from Z:/Los/Grayson.R --->
+
+```{r, out.width= '76%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/Grayson1.jpg")
+```
+
+Grayson et al "Significant reductions in methicillin-resistant Staphylococcus aureus [...]". _Med J Aust_ 2008
+
+---
+class:inverse
+## Spending time on models counts #1
+
+<!--- code from Z:/Los/Grayson.R --->
+
+```{r, out.width= '76%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/Grayson2.jpg")
+```
+
+Grayson et al "Significant reductions in methicillin-resistant Staphylococcus aureus [...]". _Med J Aust_ 2008, 201 citations
+
+---
+## Spending time on models counts #2
+
+[Morello et al](https://www.mja.com.au/journal/2015/203/9/extra-resource-burden-hospital-falls-cost-falls-study) "The extra resource burden of in-hospital falls [...]". _Med J Aust_ 2015, 50 citations
+
+#### Compared length of hospital stay for patients who fell during there stay vs patients who did not
+
+#### Estimated extra 8 days in hospital
+
+---
+class:inverse
+## We need better statistical models
+
+"If at first you succeed, try, try and try again." Andrew Leigh
+
+```{r, out.width= '90%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/AIMOS/figures/cakes.jpg")
+```
+
+--
+
+[Ernst & Albers](https://peerj.com/articles/3323/) "Regression assumptions in clinical psychology research practice" _PeerJ_ 2017.
+
+* 92% of all papers using linear regression were unclear about their assumption checks
+
+---
+class:inverse
+### P-values 
+
+#### Histograms of lower and upper confidence intervals (odds ratios, risk ratios, etc) from _Pubmed_ between 1976 and 2019
+
+```{r, out.width= '76%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/BarnettAppendixFig2.jpg")
+```
+
+In press, _BMJ Open_. DOI: 10.1136/bmjopen-2019-032506
+
+---
+class:inverse
+## ABC Health Report
+
+#### [Special episode on p-values](https://www.abc.net.au/radionational/programs/healthreport/getting-rid-of-statistical-significance/11470502)
+
+```{r, out.width= '90%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/AIMOS/figures/SwannTweet1.jpg")
+```
+
+--
+
+```{r, out.width= '90%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/AIMOS/figures/SwannTweet2.jpg")
+```
+
+---
+## Ethics/governance processes
+
+* 14,200 low-risk applications nationally per year
+* 65 days needed per application
+* Salary research assistant ~$66K; cost per application = $12K
+* National cost $168 million
+--
+
+* Savings for a US-style self-certification = $163 million per year
+  
+![](https://media.giphy.com/media/xUA7bedqb7WksxLeb6/giphy.gif) 
+
+---
+class:center, middle, inverse
+# What can you do?
+
+![](https://media.giphy.com/media/zaqclXyLz3Uoo/giphy.gif)
+
+---
+# [Read this book](https://www.penguin.co.uk/books/294/294857/the-art-of-statistics/9780241398630.html)
+
+
+```{r, out.width= '70%'}
+knitr::include_graphics("https://www.penguin.co.uk/content/dam/prh/books/294/294857/9780241398630.jpg.transform/PRHDesktopWide_small/image.jpg")
+```
+
+---
+## Get more training
+
+### [The Biostatistics Collaboration of Australia](http://www.bca.edu.au)
+
+
+```{r, out.width= '80%'}
+knitr::include_graphics("http://www.bca.edu.au/images/bannerlarge1.3.gif")
+```
+
+### [Recent courses via the Statistical Society of Australia](https://statsoc.org.au/)
+
+* Develop essential quantitative analysis & interpretation skills (Brisbane)
+* Using R (Melbourne)
+* Survey data (Brisbane)
+* Randomised trials (Melbourne)
+
+<!--- * Machine Learning with Python (Melbourne)--->
+
+---
+class: inverse
+# Promote positive change
+
+Weeks et al (2019) "Improving Experimental Design and Reporting of Animal Cardiac and Metabolic Studies: Awareness, Survey, Training and Practical Tools"
+
+#### Promoted change using:
+* Surveys of researchers
+* Presentations promoting awareness and providing advice and practical tools
+* Strong support from senior staff
+
+--
+
+#### Improved the number of researchers using:
+* Randomisation
+* Blinding
+
+[DOI: 10.1152/ajpheart.00327.2019](https://www.physiology.org/doi/full/10.1152/ajpheart.00327.2019)
+
+---
+class: inverse
+# Doug Altman
+
+#### "We need less research, better research, and research done for the right reasons" _BMJ_ 1994
+
+
+```{r, out.width= '40%'}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/1/12/Doug_altman.jpeg")
+```

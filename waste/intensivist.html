@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Improving statistical practice in health and medical research</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Adrian Barnett, QUT   <i class="fab  fa-github "></i>  agbarnett (slides available here)  <i class="fab  fa-twitter "></i>  aidybarnett  <i class="fas  fa-paper-plane "></i> a.barnett@qut.edu.au" />
+    <meta name="date" content="2019-11-20" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+    <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Improving statistical practice in health and medical research<br>
+### Adrian Barnett, QUT <br> <i class="fab  fa-github "></i> <a href="https://github.com/agbarnett/"> agbarnett</a> (slides available here)<br> <i class="fab  fa-twitter "></i> <a href="https://twitter.com/aidybarnett"> aidybarnett</a><br> <i class="fas  fa-paper-plane "></i> <a href="mailto:a.barnett@qut.edu.au">a.barnett@qut.edu.au </a><br>
+### 20 November 2019
+
+---
+
+class: inverse
+# Science
+
+
+#### "Science is the best thing that has happened to humanity, but we can do it better" John Ioannidis
+
+&lt;img src="https://www.bmj.com/content/bmj/351/bmj.h4992/F1.large.jpg" width="40%" /&gt;
+
+---
+class: center
+## I walk through many fields
+
+
+
+&lt;img src="https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/fields.jpg" width="90%" /&gt;
+
+---
+class: inverse
+## Shock: Statisticians want more statistics!
+
+[Lee et al](https://www.mja.com.au/journal/2019/211/10/biostatistics-fundamental-discipline-core-modern-health-data-science) (2019) "Biostatistics: a fundamental discipline at the core of modern health data science" _MJA_
+
+* "Without investment in biostatistics [...] the entire Australian medical research enterprise is at considerable risk of drowning in data but starving for knowledge."
+
+--
+
+McCullough JPA, Lipman J, Presneill JJ (2018) "The statistical curriculum within randomized controlled trials in critical illness" _Crit Care Med_ 
+
+* "In-depth training in the assumptions and limitations of these current and emerging biostatistical methods may not be practically achievable for most clinicians, making accessible specialist biostatistical support an asset to evidence-based clinical practice."
+
+--
+
+#### Commentary: 
+
+* "As much as clinicians love to hate statistics, understanding statistics turns out to be one of those things that can matter at the bedside."
+
+* "Consider how often presenters, whether at morning conference or international meetings, hand-wave through statistical procedures."
+
+---
+class:center, middle, inverse
+
+# Credible versus Incredible
+
+# Competence versus Excellence
+
+---
+class:inverse
+## Data organisation counts #1
+
+&lt;!--- could use https://media.giphy.com/media/Sb9KqeeymLlESGWZyE/giphy.gif ---&gt;
+
+Broman &amp; Woo (2017) "Data Organization in Spreadsheets"
+
+* Write dates as YYYY-MM-DD
+* Do not leave any cells empty
+* Put just one thing in a cell
+* Organize the data as a single rectangle (subjects = rows, variables = columns)
+* Use a single header row
+* Create a data dictionary
+* Do not include calculations in the raw data files
+* Do not use font color or highlighting as data
+* Choose good names for things
+* Make backups
+
+[DOI: 10.1080/00031305.2017.1375989](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989)
+
+---
+## Data organisation counts #2
+
+&lt;!--- See also https://www.vox.com/future-perfect/2019/10/3/20895240/study-typo-religion-children-generosity-retraction ---&gt;
+
+[Does a Religious Upbringing Promote Generosity?](https://www.psychologytoday.com/us/blog/human-flourishing/201909/does-religious-upbringing-promote-generosity-or-not)
+
+&lt;img src="intensivist_files/figure-html/unnamed-chunk-3-1.png" width="100%" /&gt;
+
+#### Original finding: religious children were less generous
+
+--
+#### After correction: no association
+
+---
+class:inverse
+## Spending time on models counts #1
+
+&lt;!--- code from Z:/Los/Grayson.R ---&gt;
+
+&lt;img src="https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/Grayson1.jpg" width="76%" /&gt;
+
+Grayson et al "Significant reductions in methicillin-resistant Staphylococcus aureus [...]". _Med J Aust_ 2008
+
+---
+class:inverse
+## Spending time on models counts #1
+
+&lt;!--- code from Z:/Los/Grayson.R ---&gt;
+
+&lt;img src="https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/Grayson2.jpg" width="76%" /&gt;
+
+Grayson et al "Significant reductions in methicillin-resistant Staphylococcus aureus [...]". _Med J Aust_ 2008, 201 citations
+
+---
+## Spending time on models counts #2
+
+[Morello et al](https://www.mja.com.au/journal/2015/203/9/extra-resource-burden-hospital-falls-cost-falls-study) "The extra resource burden of in-hospital falls [...]". _Med J Aust_ 2015, 50 citations
+
+#### Compared length of hospital stay for patients who fell during there stay vs patients who did not
+
+#### Estimated extra 8 days in hospital
+
+---
+class:inverse
+## We need better statistical models
+
+"If at first you succeed, try, try and try again." Andrew Leigh
+
+&lt;img src="https://raw.githubusercontent.com/agbarnett/talks/master/AIMOS/figures/cakes.jpg" width="90%" /&gt;
+
+--
+
+[Ernst &amp; Albers](https://peerj.com/articles/3323/) "Regression assumptions in clinical psychology research practice" _PeerJ_ 2017.
+
+* 92% of all papers using linear regression were unclear about their assumption checks
+
+---
+class:inverse
+### P-values 
+
+#### Histograms of lower and upper confidence intervals (odds ratios, risk ratios, etc) from _Pubmed_ between 1976 and 2019
+
+&lt;img src="https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/BarnettAppendixFig2.jpg" width="76%" /&gt;
+
+In press, _BMJ Open_. DOI: 10.1136/bmjopen-2019-032506
+
+---
+class:inverse
+## ABC Health Report
+
+#### [Special episode on p-values](https://www.abc.net.au/radionational/programs/healthreport/getting-rid-of-statistical-significance/11470502)
+
+&lt;img src="https://raw.githubusercontent.com/agbarnett/talks/master/AIMOS/figures/SwannTweet1.jpg" width="90%" /&gt;
+
+--
+
+&lt;img src="https://raw.githubusercontent.com/agbarnett/talks/master/AIMOS/figures/SwannTweet2.jpg" width="90%" /&gt;
+
+---
+## Ethics/governance processes
+
+* 14,200 low-risk applications nationally per year
+* 65 days needed per application
+* Salary research assistant ~$66K; cost per application = $12K
+* National cost $168 million
+--
+
+* Savings for a US-style self-certification = $163 million per year
+  
+![](https://media.giphy.com/media/xUA7bedqb7WksxLeb6/giphy.gif) 
+
+---
+class:center, middle, inverse
+# What can you do?
+
+![](https://media.giphy.com/media/zaqclXyLz3Uoo/giphy.gif)
+
+---
+# [Read this book](https://www.penguin.co.uk/books/294/294857/the-art-of-statistics/9780241398630.html)
+
+
+&lt;img src="https://www.penguin.co.uk/content/dam/prh/books/294/294857/9780241398630.jpg.transform/PRHDesktopWide_small/image.jpg" width="70%" /&gt;
+
+---
+## Get more training
+
+### [The Biostatistics Collaboration of Australia](http://www.bca.edu.au)
+
+
+&lt;img src="http://www.bca.edu.au/images/bannerlarge1.3.gif" width="80%" /&gt;
+
+### [Recent courses via the Statistical Society of Australia](https://statsoc.org.au/)
+
+* Develop essential quantitative analysis &amp; interpretation skills (Brisbane)
+* Using R (Melbourne)
+* Survey data (Brisbane)
+* Randomised trials (Melbourne)
+
+&lt;!--- * Machine Learning with Python (Melbourne)---&gt;
+
+---
+class: inverse
+# Promote positive change
+
+Weeks et al (2019) "Improving Experimental Design and Reporting of Animal Cardiac and Metabolic Studies: Awareness, Survey, Training and Practical Tools"
+
+#### Promoted change using:
+* Surveys of researchers
+* Presentations promoting awareness and providing advice and practical tools
+* Strong support from senior staff
+
+--
+
+#### Improved the number of researchers using:
+* Randomisation
+* Blinding
+
+[DOI: 10.1152/ajpheart.00327.2019](https://www.physiology.org/doi/full/10.1152/ajpheart.00327.2019)
+
+---
+class: inverse
+# Doug Altman
+
+#### "We need less research, better research, and research done for the right reasons" _BMJ_ 1994
+
+
+&lt;img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Doug_altman.jpeg" width="40%" /&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
