@@ -29,31 +29,6 @@ knitr::include_graphics("https://www.bmj.com/content/bmj/351/bmj.h4992/F1.large.
 ```
 
 ---
-class: center
-## I walk through many fields
-
-```{r fields, include=FALSE}
-# make data
-fields = c('Epidemiology','Psychology','Ecology','Exercise\nphysiology','Geriatrics','Intensivists','Cardiology','Economics','Nurses','Physio-\ntherapy','Dietetics','Policy\nmakers','Editors','Research\neducation','Biology','Computer\nscience')
-fields = fields[rev(order(fields))]
-n.fields = length(fields)
-plot.data = expand.grid(x=1:4, y=1:4)
-plot.data$field = fields
-cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
-colours = sample(cbbPalette, 16, replace=TRUE)
-# make plot
-jpeg('figures/fields.jpg', width=6, height=4, units='in', res=400, quality = 100)
-par(mai=rep(0, 4))
-plot(c(0.5, 4.5), c(0.5, 4.5), xaxt='n', type='n', xlab='', ylab='')
-text(x=plot.data$x, y=plot.data$y, labels=plot.data$field, col=colours, cex=1.6)
-invisible(dev.off())
-```
-
-```{r, out.width= '90%'}
-knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/fields.jpg")
-```
-
----
 class: inverse
 ## Shock: Statisticians want more statistics!
 
