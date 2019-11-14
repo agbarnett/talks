@@ -1,7 +1,7 @@
 ---
 title: "Improving statistical practice in health and medical research<br>"
 author: 'Adrian Barnett, QUT <br> `r icon::fa("github")` <a href="https://github.com/agbarnett/"> agbarnett</a> (slides available here)<br> `r icon::fa("twitter")` <a href="https://twitter.com/aidybarnett"> aidybarnett</a><br> `r icon::fa("paper-plane")` <a href="mailto:a.barnett@qut.edu.au">a.barnett@qut.edu.au </a><br>'
-date: "20 November 2019"
+date: "21 November 2019"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -14,11 +14,7 @@ output:
 class: inverse
 # Science
 ```{r setup, include=FALSE}
-# 20 minute talk, 5 mins questions
-# • Wasted hours on ethics applications
-# • Lack of training / understanding of statistics
-# • Results that can’t be reproduced
-# • Rewards that focus on impact factors rather than real-world research impact
+# 20 minute talk, share with Paul
 
 knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE, error=FALSE, comment='', dpi=400, fig.align = 'center')
 options(htmltools.dir.version = FALSE)

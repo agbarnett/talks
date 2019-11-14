@@ -1,5 +1,5 @@
 ---
-title: "Improving statistical practice in health and medical research<br>"
+title: "The huge problem of research waste and how we can all improve<br>"
 author: 'Adrian Barnett, QUT <br> `r icon::fa("github")` <a href="https://github.com/agbarnett/"> agbarnett</a> (slides available here)<br> `r icon::fa("twitter")` <a href="https://twitter.com/aidybarnett"> aidybarnett</a><br> `r icon::fa("paper-plane")` <a href="mailto:a.barnett@qut.edu.au">a.barnett@qut.edu.au </a><br>'
 date: "20 November 2019"
 output:
@@ -14,47 +14,19 @@ output:
 class: inverse
 # Science
 ```{r setup, include=FALSE}
-# 20 minute talk, 5 mins questions
-# • Wasted hours on ethics applications
-# • Lack of training / understanding of statistics
-# • Results that can’t be reproduced
-# • Rewards that focus on impact factors rather than real-world research impact
-
-knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE, error=FALSE, comment='', dpi=400, fig.align = 'center')
+knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE, error=FALSE, comment='', dpi=400, fig.align='center')
 options(htmltools.dir.version = FALSE)
 library(ggplot2)
+cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
 library(dplyr)
 ```
+
+<!--- see https://github.com/yihui/xaringan/wiki --->
 
 #### "Science is the best thing that has happened to humanity, but we can do it better" John Ioannidis
 
 ```{r, out.width= '40%'}
 knitr::include_graphics("https://www.bmj.com/content/bmj/351/bmj.h4992/F1.large.jpg")
-```
-
----
-class: center
-## I walk through many fields
-
-```{r fields, include=FALSE}
-# make data
-fields = c('Epidemiology','Psychology','Ecology','Exercise\nphysiology','Geriatrics','Intensivists','Cardiology','Economics','Nurses','Physio-\ntherapy','Dietetics','Policy\nmakers','Editors','Research\neducation','Biology','Computer\nscience')
-fields = fields[rev(order(fields))]
-n.fields = length(fields)
-plot.data = expand.grid(x=1:4, y=1:4)
-plot.data$field = fields
-cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
-colours = sample(cbbPalette, 16, replace=TRUE)
-# make plot
-jpeg('figures/fields.jpg', width=6, height=4, units='in', res=400, quality = 100)
-par(mai=rep(0, 4))
-plot(c(0.5, 4.5), c(0.5, 4.5), xaxt='n', type='n', xlab='', ylab='')
-text(x=plot.data$x, y=plot.data$y, labels=plot.data$field, col=colours, cex=1.6)
-invisible(dev.off())
-```
-
-```{r, out.width= '90%'}
-knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/fields.jpg")
 ```
 
 ---
@@ -71,12 +43,6 @@ McCullough JPA, Lipman J, Presneill JJ (2018) "The statistical curriculum within
 
 * "In-depth training in the assumptions and limitations of these current and emerging biostatistical methods may not be practically achievable for most clinicians, making accessible specialist biostatistical support an asset to evidence-based clinical practice."
 
---
-
-#### Commentary: 
-
-* "As much as clinicians love to hate statistics, understanding statistics turns out to be one of those things that can matter at the bedside."
-
 * "Consider how often presenters, whether at morning conference or international meetings, hand-wave through statistical procedures."
 
 ---
@@ -85,6 +51,100 @@ class:center, middle, inverse
 # Credible versus Incredible
 
 # Competence versus Excellence
+
+---
+# Size of the waste
+
+```{r, out.width= '85%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/wasteFive.jpg")
+```
+
+[Glasziou & Chalmers](https://www.bmj.com/content/363/bmj.k4645) "Research waste is still a scandal" _BMJ_ 2018
+
+---
+## Political consequences
+
+```{r, out.width= '65%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/news_story1.png")
+```
+
+
+```{r, out.width= '40%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/news_story2.png")
+```
+
+<!--- https://www.smh.com.au/national/bad-science-australian-studies-found-to-be-unreliable-compromised-20190719-p528ql.html --->
+<!--- https://nyti.ms/2CxNwt0 --->
+
+---
+## Low return on animal studies
+
+```{r venn.diagram}
+library(shape)
+library(RColorBrewer)
+myCol <- brewer.pal(5, "Pastel2")
+jpeg('figures/Macleod_Venn.jpg', width=5, height=5, units='in', res=300, quality = 100)
+par(mai=rep(0.01,4))
+plot(-1:1, -1:1, type='n', xlab='', ylab='')
+shape::plotcircle(mid=c(0,0), r=1, col=myCol[1], lcol=NA) # 1026
+shape::plotcircle(mid=c(0,0), r=603/1026, col=myCol[2], lcol=NA) # 603
+shape::plotcircle(mid=c(0,0), r=374/1026, col=myCol[3], lcol=NA) # 374
+shape::plotcircle(mid=c(0,0), r=97/1026, col=myCol[4], lcol=NA) # 97
+shape::plotcircle(mid=c(0,0), r=5/1026, col=myCol[5], lcol=NA) # 1 (had to change radius to 5 because invisible)
+text(0.02, 1, 'In vitro and in vivo = 1026', adj=0)
+text(0.02, 603/1026, 'Tested in vivo = 603', adj=0)
+text(0.02, 374/1026, 'Effective in vivo = 374', adj=0)
+text(0.02, 97/1026, 'Tested in clinical trial = 97', adj=0)
+text(0.02, 1/1026, 'Effective in clinical trial = 1', adj=0)
+invisible(dev.off())
+```
+
+```{r, out.width= '60%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/Macleod_Venn.jpg")
+```
+
+O'Collins et al ["1,026 experimental treatments in acute stroke"](https://www.ncbi.nlm.nih.gov/pubmed/16453316) 2006 _Ann Neurol_
+
+---
+# Just say "In mice"
+
+```{r, out.width= '70%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/AIMOS/figures/justsayinmice.png")
+```
+
+
+---
+# Missing trials #1
+
+#### RCTs funded by the NHMRC between 2008 and 2010
+
+```{r, out.width= '75%'}
+knitr::include_graphics("https://bmjopen.bmj.com/content/bmjopen/7/3/e012212/F5.large.jpg")
+```
+
+Strand et al, ["Time to publication for publicly funded clinical trials in Australia"](https://bmjopen.bmj.com/content/7/3/e012212) _BMJ Open_ 2017
+
+---
+class:inverse
+# Missing trials #2
+
+#### Clinical trials funded by NIH 
+
+```{r, out.width= '75%'}
+knitr::include_graphics("https://www.bmj.com/content/bmj/344/bmj.d7292/F2.large.jpg")
+```
+
+Ross et al, ["Publication of NIH funded trials registered in ClinicalTrials.gov"](https://www.ncbi.nlm.nih.gov/pubmed/22214755?dopt=Abstract) _BMJ_ 2012
+
+
+---
+class:inverse
+### Registered reports: From a meeting of editors
+
+"We discussed whether to use a “Registered Reports” [...] While we understand benefits of this process for randomized trials, we currently believe it is not in [_Field X_]’s interest to implement such a process."
+
+
+![](https://media.giphy.com/media/sxXAPBtcd6Je8/giphy.gif)
 
 ---
 class:inverse
@@ -169,10 +229,32 @@ Grayson et al "Significant reductions in methicillin-resistant Staphylococcus au
 
 [Morello et al](https://www.mja.com.au/journal/2015/203/9/extra-resource-burden-hospital-falls-cost-falls-study) "The extra resource burden of in-hospital falls [...]". _Med J Aust_ 2015, 50 citations
 
+```{r, include=FALSE}
+p1 = data.frame(patient=1, times=c(0,5,9), event=0:2)
+p2 = data.frame(patient=2, times=c(0,7,12), event=0:2)
+p3 = data.frame(patient=3, times=c(0,4), event=c(0,2))
+p4 = data.frame(patient=4, times=c(0,3), event=c(0,2))
+times = bind_rows(p1, p2, p3, p4)
+time.plot = ggplot(data=times, aes(y=patient, x=times, shape=factor(event), color=factor(event)))+
+  geom_point(pch=19, size=6, show.legend = FALSE)+
+  geom_point(size=3, col='white', show.legend = FALSE)+
+  scale_x_continuous(breaks=c(0,3,6,9,12))+
+  xlab('Time since admission (days)')+
+  ylab('Patient')+
+  scale_shape_manual('Event', values=c('A','F','D'))+
+  scale_color_manual('Event', values=cbbPalette[c(1,7,3)])+
+  theme(plot.margin=unit(c(1,1,1,1),"mm"), legend.position = 'none')+
+  theme_bw()
+jpeg('figures/patient_times.jpg', width=5, height=2.5, units='in', res=300, quality = 100)
+print(time.plot)
+invisible(dev.off())
+```
+
 ```{r, out.width= '76%'}
-# from usydney.Rmd
 knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/patient_times.jpg")
 ```
+
+#### Estimated extra 8 days in hospital due to falls
 
 ---
 class: middle, inverse
@@ -181,6 +263,19 @@ class: middle, inverse
 ```{r, out.width= '100%'}
 knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/black_box.jpg")
 ```
+
+
+---
+class:inverse
+## [Dichotomania](https://www.fharrell.com/post/errmed/#catg) or "Always be suspicious of thresholds"
+
+```{r, out.width= '90%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/dichotomania.jpg")
+```
+
+"This study demonstrated that the cut-off value of 81.2 years for age might be considered a threshold for the deterioration of daily living function in older adults in clinical practice."
+
+[DOI: 10.1371/journal.pone.0218112](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0218112)
 
 ---
 class:inverse
@@ -240,8 +335,41 @@ knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/maste
 ![](https://media.giphy.com/media/xUA7bedqb7WksxLeb6/giphy.gif) 
 
 ---
+## Suppression #1
+
+#### [Survey of Australian researchers](https://onlinelibrary.wiley.com/doi/10.1111/j.1753-6405.2007.00142.x)
+
+21% of survey respondents had personal experience of suppression (Jan 2001 to Aug 2006). 
+
+<font size="2">Aust N Z J Public Health 2007; 31: 551–557.</font>
+
+--
+#### [Bushfires](https://www.theguardian.com/australia-news/2019/nov/13/nsw-public-servants-at-climate-conference-told-not-to-discuss-link-with-bushfires)
+
+```{r, out.width= '50%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/bushfire_suppression.png")
+```
+
+
+---
+## Suppression #2
+
+#### Andreas Georgiou, ex-head of the Greek national statistics office
+
+```{r, out.width= '22%'}
+knitr::include_graphics("https://www.amstat.org/images/ASAImages/news/Georgiou.jpg")
+```
+
+#### [French scheme for academics in trouble](https://www.college-de-france.fr/site/en-program-pause/index.htm)
+
+
+```{r, out.width= '35%'}
+knitr::include_graphics("https://www.college-de-france.fr/media/programme-pause/UPL7601742412184807040_logo_PAUSE_pages.jpg")
+```
+
+---
 class:center, middle, inverse
-# What can you do?
+# What can researchers do?
 
 ![](https://media.giphy.com/media/zaqclXyLz3Uoo/giphy.gif)
 
@@ -264,7 +392,7 @@ class: inverse
 knitr::include_graphics("http://www.bca.edu.au/images/bannerlarge1.3.gif")
 ```
 
-### [Recent courses via the Statistical Society of Australia](https://statsoc.org.au/)
+### [Recent courses via the Statistical Society of Australia:](https://statsoc.org.au/)
 
 * Develop essential quantitative analysis & interpretation skills (Brisbane)
 * Using R (Melbourne)
@@ -294,6 +422,16 @@ Weeks et al (2019) "Improving Experimental Design and Reporting of Animal Cardia
 
 ---
 class: inverse
+# Join AIMOS
+
+```{r, out.width= '100%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/AIMOS.jpg")
+```
+
+Next AIMOS conference in Sydney in 2020
+
+---
+class: inverse
 # Doug Altman
 
 #### "We need less research, better research, and research done for the right reasons" _BMJ_ ["The scandal of poor medical research"](https://www.bmj.com/content/308/6924/283) 1994
@@ -303,18 +441,4 @@ class: inverse
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/1/12/Doug_altman.jpeg")
 ```
 
----
-## Political consequences
-
-```{r, out.width= '65%'}
-knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/news_story1.png")
-```
-
-
-```{r, out.width= '40%'}
-knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/news_story2.png")
-```
-
-<!--- https://www.smh.com.au/national/bad-science-australian-studies-found-to-be-unreliable-compromised-20190719-p528ql.html --->
-<!--- https://nyti.ms/2CxNwt0 --->
 
