@@ -34,7 +34,7 @@ knitr::include_graphics("https://www.bmj.com/content/bmj/351/bmj.h4992/F1.large.
 
 ---
 class: center
-## I walk through many fields
+## I play in many backyards
 
 ```{r fields, include=FALSE}
 # make data
@@ -101,7 +101,7 @@ Broman & Woo (2017) "Data Organization in Spreadsheets"
 * Use a single header row
 * Create a data dictionary
 * Do not include calculations in the raw data files
-* Do not use font color or highlighting as data
+* Do not use font colour or highlighting as data
 * Choose good names for things
 * Make backups
 
@@ -135,10 +135,10 @@ invisible(dev.off())
 knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/religious.jpg")
 ```
 
-#### Original finding: religious children were less generous
+#### Original finding assuming linear data: religious children were less generous
 
 --
-#### After correction: no association
+#### After correction assuming categorical data: no association
 
 ---
 class:inverse
@@ -200,9 +200,7 @@ knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/maste
 
 ---
 class:inverse
-### P-values 
-
-##### Histograms of lower and upper confidence intervals (odds ratios, risk ratios, etc) from _Pubmed_ between 1976 and 2019
+### **P-values**: Histograms of lower and upper confidence intervals (odds ratios, risk ratios, etc) from _PubMed_ between 1976 and 2019
 
 ```{r, out.width= '76%'}
 knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/BarnettAppendixFig2.jpg")
@@ -255,23 +253,26 @@ knitr::include_graphics("https://www.penguin.co.uk/content/dam/prh/books/294/294
 
 ---
 class: inverse
-## Get more training
+### Training
 
-### [The Biostatistics Collaboration of Australia](http://www.bca.edu.au)
+#### [The Biostatistics Collaboration of Australia](http://www.bca.edu.au)
 
 
-```{r, out.width= '80%'}
+```{r, out.width= '70%'}
 knitr::include_graphics("http://www.bca.edu.au/images/bannerlarge1.3.gif")
 ```
 
-### [Recent courses via the Statistical Society of Australia](https://statsoc.org.au/)
+#### Free online course by Frank Harrell [http://hbiostat.org/bbr/](http://hbiostat.org/bbr/) "Biostatistics for Biomedical Research"
 
-* Develop essential quantitative analysis & interpretation skills (Brisbane)
+#### [Recent courses via the Statistical Society of Australia:](https://statsoc.org.au/)
+
 * Using R (Melbourne)
 * Survey data (Brisbane)
 * Randomised trials (Melbourne)
 
-<!--- * Machine Learning with Python (Melbourne)--->
+<!--- * Develop essential quantitative analysis & interpretation skills (Brisbane)
+, * Machine Learning with Python (Melbourne)--->
+
 
 ---
 class: inverse
@@ -279,7 +280,7 @@ class: inverse
 
 Weeks et al (2019) "Improving Experimental Design and Reporting of Animal Cardiac and Metabolic Studies: Awareness, Survey, Training and Practical Tools"
 
-#### Promoted change using:
+#### Promoted change across the organisation using:
 * Surveys of researchers
 * Presentations promoting awareness and providing advice and practical tools
 * Strong support from senior staff
