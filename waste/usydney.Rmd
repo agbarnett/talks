@@ -55,7 +55,7 @@ class:center, middle, inverse
 ---
 # Size of the waste
 
-```{r, out.width= '85%'}
+```{r, out.width= '90%'}
 knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/wasteFive.jpg")
 ```
 
@@ -140,12 +140,23 @@ Ross et al, ["Publication of NIH funded trials registered in ClinicalTrials.gov"
 
 ---
 class:inverse
-## Registered reports: From a meeting of editors
+## Registered reports #1: From a meeting of editors
 
 "We discussed whether to use a “Registered Reports” [...] While we understand benefits of this process for randomized trials, we currently believe it is not in [_Field X_]’s interest to implement such a process."
 
 
 ![](https://media.giphy.com/media/sxXAPBtcd6Je8/giphy.gif)
+
+---
+class: inverse
+## Registered reports #2
+
+```{r, out.width= '78%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/journal.pbio.3000246.g001.PNG")
+```
+
+[Allen and Mehler](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000246) (2019) "Open science challenges, benefits and tips in early career and beyond" _PLOS Biology_
+
 
 ---
 class:inverse
@@ -297,7 +308,7 @@ knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/maste
 
 ---
 class:inverse
-### **P-values**: Histograms of lower and upper confidence intervals (odds ratios, risk ratios, etc) from _Pubmed_ between 1976 and 2019
+### **P-values #1**: Histograms of lower and upper confidence intervals (odds ratios, risk ratios, etc) from _Pubmed_ between 1976 and 2019
 
 ```{r, out.width= '76%'}
 knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/BarnettAppendixFig2.jpg")
@@ -307,7 +318,7 @@ In press, _BMJ Open_. DOI: 10.1136/bmjopen-2019-032506
 
 ---
 class:inverse
-## ABC Health Report
+## P-values #2: ABC Health Report
 
 #### [Special episode on p-values](https://www.abc.net.au/radionational/programs/healthreport/getting-rid-of-statistical-significance/11470502)
 
@@ -322,7 +333,7 @@ knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/maste
 ```
 
 ---
-## Ethics/governance processes
+### Ethics/governance processes
 
 * 14,200 low-risk applications nationally per year
 * 65 days needed per application
@@ -332,7 +343,9 @@ knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/maste
 
 * Savings for a US-style self-certification = $163 million per year
   
-![](https://media.giphy.com/media/xUA7bedqb7WksxLeb6/giphy.gif) 
+![](https://media.giphy.com/media/xUA7bedqb7WksxLeb6/giphy.gif)
+
+Petition [here](https://www.thepetitionsite.com/en-au/981/617/971/we-need-a-national-inquiry-to-streamlineimprove-research-ethics-and-governance-in-australia/)
 
 ---
 ## Suppression #1
@@ -352,6 +365,7 @@ knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/maste
 
 
 ---
+class:inverse
 ## Suppression #2
 
 #### Andreas Georgiou, ex-head of the Greek national statistics office
@@ -424,7 +438,7 @@ Weeks et al (2019) "Improving Experimental Design and Reporting of Animal Cardia
 
 ---
 class: inverse
-# Join AIMOS
+# Join AIMOS (Australian Interdisciplinary Meta-Research and Open Science)
 
 ```{r, out.width= '100%'}
 knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/AIMOS.jpg")
