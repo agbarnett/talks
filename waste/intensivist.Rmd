@@ -174,6 +174,9 @@ Grayson et al "Significant reductions in methicillin-resistant Staphylococcus au
 knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/patient_times.jpg")
 ```
 
+#### Estimated extra 8 days in hospital due to falls
+
+
 ---
 class: middle, inverse
 ## Spending time on models counts #3
@@ -200,7 +203,7 @@ knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/maste
 
 ---
 class:inverse
-### **P-values**: Histograms of lower and upper confidence intervals (odds ratios, risk ratios, etc) from _PubMed_ between 1976 and 2019
+### **P-values #1**: Histograms of lower and upper confidence intervals (odds ratios, risk ratios, etc) from _PubMed_ between 1976 and 2019
 
 ```{r, out.width= '76%'}
 knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/BarnettAppendixFig2.jpg")
@@ -210,7 +213,7 @@ In press, _BMJ Open_. DOI: 10.1136/bmjopen-2019-032506
 
 ---
 class:inverse
-## ABC Health Report
+## P-values #2: ABC Health Report
 
 #### [Special episode on p-values](https://www.abc.net.au/radionational/programs/healthreport/getting-rid-of-statistical-significance/11470502)
 
@@ -225,7 +228,7 @@ knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/maste
 ```
 
 ---
-## Ethics/governance processes
+### Ethics/governance processes
 
 * 14,200 low-risk applications nationally per year
 * 65 days needed per application
@@ -236,6 +239,9 @@ knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/maste
 * Savings for a US-style self-certification = $163 million per year
   
 ![](https://media.giphy.com/media/xUA7bedqb7WksxLeb6/giphy.gif) 
+
+Petition [here](https://www.thepetitionsite.com/en-au/981/617/971/we-need-a-national-inquiry-to-streamlineimprove-research-ethics-and-governance-in-australia/)
+
 
 ---
 class:center, middle, inverse
@@ -253,7 +259,7 @@ knitr::include_graphics("https://www.penguin.co.uk/content/dam/prh/books/294/294
 
 ---
 class: inverse
-### Training
+## Training
 
 #### [The Biostatistics Collaboration of Australia](http://www.bca.edu.au)
 
