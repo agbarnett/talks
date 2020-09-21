@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>The prevalence and problems of thoughtless statistical analysis</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Adrian Barnett, Queensland University of Technology   <i class="fab  fa-github "></i>  agbarnett (slides available on GitHub)  <i class="fab  fa-twitter "></i>  aidybarnett  <i class="fas  fa-paper-plane "></i> a.barnett@qut.edu.au" />
+    <meta name="date" content="2020-10-25" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+    <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# The prevalence and problems of thoughtless statistical analysis<br>
+### Adrian Barnett, Queensland University of Technology <br> <i class="fab  fa-github "></i> <a href="https://github.com/agbarnett/"> agbarnett</a> (slides available on GitHub)<br> <i class="fab  fa-twitter "></i> <a href="https://twitter.com/aidybarnett"> aidybarnett</a><br> <i class="fas  fa-paper-plane "></i> <a href="mailto:a.barnett@qut.edu.au">a.barnett@qut.edu.au </a><br>
+### 25 October 2020
+
+---
+
+#### "Science is the best thing that has happened to humanity, but we can do it better" John Ioannidis
+
+
+
+&lt;img src="https://www.bmj.com/content/bmj/351/bmj.h4992/F1.large.jpg" width="40%" style="display: block; margin: auto;" /&gt;
+
+###### Image from BMJ
+
+---
+## Mea culpas
+
+* Programming errors
+ 
+* Notational errors 
+
+* Failed to read and cite key papers
+
+Blog [here](https://medianwatch.netlify.app/post/making-mistakes/) on mistakes I've made
+
+![](https://media.giphy.com/media/xT5LMzIK1AdZJ4cYW4/giphy.gif)
+
+---
+class: inverse
+# Measuring malnutrition
+
+&lt;!--- https://scopeblog.stanford.edu/2015/05/29/study-finds-arm-circumference-is-accurate-measure-of-malnutrition-in-children-with-diarrheal-illnesses/ ---&gt;
+
+![](http://scopeblog.stanford.edu/wp-content/uploads/2015/05/Bangladesh-Scourge-of-Malnutrition-e1432759407250.jpg)
+
+###### Image from Stanford Medicine (study was not by Stanford)
+
+---
+## Dichotomania
+
+&lt;!--- from bar_plot_20.R ---&gt;
+![](https://raw.githubusercontent.com/agbarnett/talks/master/skepticon/figures/malnutrition.jpg)
+
+---
+class:inverse
+## [Dichotomania](https://www.fharrell.com/post/errmed/#catg)
+
+&lt;img src="https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/dichotomania.jpg" width="95%" style="display: block; margin: auto;" /&gt;
+
+“This study demonstrated that the cut-off value of 81.2 years for age might be considered a threshold for the deterioration of daily living function.”
+
+###### [DOI: 10.1371/journal.pone.0218112](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0218112)
+
+---
+class: inverse
+## Jargonitis
+
+##### “RUN had significantly (p&lt;0.05) greater size-adjusted CSMI and BSI than C, SWIM, and CYC; and higher size, age, and YST-adjusted CSMI and BSI than SWIM and CYC.” 
+
+--
+
+&lt;img src="https://raw.githubusercontent.com/agbarnett/talks/master/skepticon/figures/trend.words.and.acronyms.jpg" width="54%" style="display: block; margin: auto;" /&gt;
+
+###### [Barnett &amp; Doubleday](https://elifesciences.org/articles/60080) "The growth of acronyms in the scientific literature" _eLife_ 2020.
+
+---
+## Smoothing syndrome 
+
+&lt;!--- from https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0213780, 2019 paper in PLOS ONE ---&gt;
+### "Outliers were removed when the residual had a Studentized residual &lt; -4 or &gt; 4"
+
+--
+
+&lt;img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Newgrange.JPG" width="401" height="301"/&gt;
+
+“A cream cheese cake with dried currants distributed about.” P.R. Giot
+
+###### Image from Wikipedia, Shira
+
+---
+
+&lt;!--- two columns ---&gt;
+
+.pull-left[
+# The most exciting phrase to hear in science, the one that heralds new discoveries, is not “Eureka” but “That’s funny...”
+
+Isaac Asimov (1920–1992)
+]
+
+.pull-right[
+
+&lt;img src="https://upload.wikimedia.org/wikipedia/commons/archive/3/34/20100906191953%21Isaac.Asimov01.jpg" width="278" height="404"/&gt;
+
+###### Image from Wikipedia, Phillip Leonian
+
+]
+
+
+&lt;!--- from annals paper * interpreting the statistical findings on the basis of expectation, not actual results (30%) ---&gt;
+
+---
+## Cargo-cult statistics
+
+“Practitioners go through the motions with scant understanding” 
+
+###### [Stark and Saltelli](https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2018.01174.x) "Cargo‐cult statistics and scientific crisis" _Significance_ 2018
+
+--
+
+“All statistical analysis was performed using the Graphpad Prism software.”
+
+![](https://media.giphy.com/media/IX2sn8cnqDyRq/giphy.gif) 
+
+---
+class:inverse
+## Lack of qualified judges
+
+&lt;!--- defend yourself in court ---&gt;
+
+&lt;img src="https://raw.githubusercontent.com/agbarnett/talks/master/AIMOS/figures/cakes.jpg" width="90%" style="display: block; margin: auto;" /&gt;
+
+--
+
+* 92% of all papers using linear regression were unclear about their assumption checks
+
+###### [Ernst &amp; Albers](https://peerj.com/articles/3323/) "Regression assumptions in clinical psychology research practice" _PeerJ_ 2017.
+
+---
+class: inverse 
+## Sins of omission
+
+Survey of US statisticians, reported requests in last 5 years:
+
+* Removing or altering data to better support the research hypothesis (24%)
+
+* Not reporting the presence of key missing data that might bias the results (24%)
+
+* Ignoring violations of assumptions that would change results from positive to negative (29%)
+
+###### [Wang et al](https://www.acpjournals.org/doi/10.7326/M18-1230) "Researcher Requests for Inappropriate Analysis and Reporting: A U.S. Survey of Consulting Biostatisticians" _Annals of Internal Medicine_ 2018
+
+&lt;!--- Algorithm that leaves out every single observation and re-calculates p-value ---&gt;
+
+---
+## Registered reports
+
+&lt;img src="https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/journal.pbio.3000246.g001.PNG" width="72%" style="display: block; margin: auto;" /&gt;
+
+###### [Allen and Mehler](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000246) (2019) "Open science challenges, benefits and tips in early career and beyond" _PLOS Biology_
+
+
+
+---
+# Mountains of monotony
+
+Under every exciting finding there should be mountains of dull but careful science
+
+.pull-left[
+&lt;img src="https://media.giphy.com/media/XNX9uw7fykn5e/giphy.gif" width="90%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+
+]
+
+---
+# Mountains of monotony
+
+Under every exciting finding there should be mountains of dull but careful science
+
+.pull-left[
+&lt;img src="https://media.giphy.com/media/XNX9uw7fykn5e/giphy.gif" width="90%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+
+&lt;!--- celebrate boring work ---&gt;
+
+&lt;img src="https://raw.githubusercontent.com/agbarnett/talks/master/skepticon/figures/lancet_groundshot.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+
+---
+
+.pull-left[
+
+# “Do you want to be credible or incredible?”
+
+&lt;img src="https://raw.githubusercontent.com/agbarnett/talks/master/skepticon/figures/blank.jpg" width="10%" style="display: block; margin: auto;" /&gt;
+
+“What I’m alleging is that the reviewers, the editors of the so-called top-tier journals, grant review committees, promotion committees, and the scientific community repeatedly tolerate poor-quality science” 
+
+]
+
+.pull-right[
+
+&lt;img src="https://www.psychologicalscience.org/redesign/wp-content/uploads/2012/08/Vazire_Web.jpg" width="45%" style="display: block; margin: auto;" /&gt;
+
+Simine Vazire
+
+&lt;img src="https://www.bio21.org/images/2018-10-19_Bio21%20Big%20Picture_Glenn%20Begley.jpg" width="45%" style="display: block; margin: auto;" /&gt;
+
+Glenn Begley
+
+]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
