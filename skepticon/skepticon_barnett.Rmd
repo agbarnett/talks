@@ -1,0 +1,241 @@
+---
+title: "The prevalence and problems of thoughtless statistical analysis<br>"
+author: 'Adrian Barnett, Queensland University of Technology <br> `r icon::fa("github")` <a href="https://github.com/agbarnett/"> agbarnett</a> (slides available on GitHub)<br> `r icon::fa("twitter")` <a href="https://twitter.com/aidybarnett"> aidybarnett</a><br> `r icon::fa("paper-plane")` <a href="mailto:a.barnett@qut.edu.au">a.barnett@qut.edu.au </a><br>'
+date: "25 October 2020"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      
+---
+#### "Science is the best thing that has happened to humanity, but we can do it better" John Ioannidis
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE, error=FALSE, comment='', dpi=400, fig.align='center')
+options(htmltools.dir.version = FALSE)
+library(dplyr)
+library(ggplot2)
+cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+```
+
+```{r, out.width= '40%'}
+knitr::include_graphics("https://www.bmj.com/content/bmj/351/bmj.h4992/F1.large.jpg")
+```
+
+###### Image from BMJ
+
+---
+## Mea culpas
+
+* Programming errors
+ 
+* Notational errors 
+
+* Failed to read and cite key papers
+
+Blog [here](https://medianwatch.netlify.app/post/making-mistakes/) on mistakes I've made
+
+![](https://media.giphy.com/media/xT5LMzIK1AdZJ4cYW4/giphy.gif)
+
+---
+class: inverse
+# Measuring malnutrition
+
+<!--- https://scopeblog.stanford.edu/2015/05/29/study-finds-arm-circumference-is-accurate-measure-of-malnutrition-in-children-with-diarrheal-illnesses/ --->
+
+![](http://scopeblog.stanford.edu/wp-content/uploads/2015/05/Bangladesh-Scourge-of-Malnutrition-e1432759407250.jpg)
+
+###### Image from Stanford Medicine (study was not by Stanford)
+
+---
+## Dichotomania
+
+<!--- from bar_plot_20.R --->
+![](https://raw.githubusercontent.com/agbarnett/talks/master/skepticon/figures/malnutrition.jpg)
+
+---
+class:inverse
+## [Dichotomania](https://www.fharrell.com/post/errmed/#catg)
+
+```{r, out.width= '95%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/dichotomania.jpg")
+```
+
+“This study demonstrated that the cut-off value of 81.2 years for age might be considered a threshold for the deterioration of daily living function.”
+
+###### [DOI: 10.1371/journal.pone.0218112](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0218112)
+
+---
+class: inverse
+## Jargonitis
+
+##### “RUN had significantly (p<0.05) greater size-adjusted CSMI and BSI than C, SWIM, and CYC; and higher size, age, and YST-adjusted CSMI and BSI than SWIM and CYC.” 
+
+--
+
+```{r, out.width= '54%'}
+# from 3_plot_trends_words_and_acronyms.R
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/skepticon/figures/trend.words.and.acronyms.jpg")
+```
+
+###### [Barnett & Doubleday](https://elifesciences.org/articles/60080) "The growth of acronyms in the scientific literature" _eLife_ 2020.
+
+---
+## Smoothing syndrome 
+
+<!--- from https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0213780, 2019 paper in PLOS ONE --->
+### "Outliers were removed when the residual had a Studentized residual < -4 or > 4"
+
+--
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Newgrange.JPG" width="401" height="301"/>
+
+“A cream cheese cake with dried currants distributed about.” P.R. Giot
+
+###### Image from Wikipedia, Shira
+
+---
+
+<!--- two columns --->
+
+.pull-left[
+# The most exciting phrase to hear in science, the one that heralds new discoveries, is not “Eureka” but “That’s funny...”
+
+Isaac Asimov (1920–1992)
+]
+
+.pull-right[
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/archive/3/34/20100906191953%21Isaac.Asimov01.jpg" width="278" height="404"/>
+
+###### Image from Wikipedia, Phillip Leonian
+
+]
+
+
+<!--- from annals paper * interpreting the statistical findings on the basis of expectation, not actual results (30%) --->
+
+---
+## Cargo-cult statistics
+
+“Practitioners go through the motions with scant understanding” 
+
+###### [Stark and Saltelli](https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2018.01174.x) "Cargo‐cult statistics and scientific crisis" _Significance_ 2018
+
+--
+
+“All statistical analysis was performed using the Graphpad Prism software.”
+
+![](https://media.giphy.com/media/IX2sn8cnqDyRq/giphy.gif) 
+
+---
+class:inverse
+## Lack of qualified judges
+
+<!--- defend yourself in court --->
+
+```{r, out.width= '90%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/AIMOS/figures/cakes.jpg")
+```
+
+--
+
+* 92% of all papers using linear regression were unclear about their assumption checks
+
+###### [Ernst & Albers](https://peerj.com/articles/3323/) "Regression assumptions in clinical psychology research practice" _PeerJ_ 2017.
+
+---
+class: inverse 
+## Sins of omission
+
+Survey of US statisticians, reported requests in last 5 years:
+
+* Removing or altering data to better support the research hypothesis (24%)
+
+* Not reporting the presence of key missing data that might bias the results (24%)
+
+* Ignoring violations of assumptions that would change results from positive to negative (29%)
+
+###### [Wang et al](https://www.acpjournals.org/doi/10.7326/M18-1230) "Researcher Requests for Inappropriate Analysis and Reporting: A U.S. Survey of Consulting Biostatisticians" _Annals of Internal Medicine_ 2018
+
+<!--- Algorithm that leaves out every single observation and re-calculates p-value --->
+
+---
+## Registered reports
+
+```{r, out.width= '72%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/journal.pbio.3000246.g001.PNG")
+```
+
+###### [Allen and Mehler](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000246) (2019) "Open science challenges, benefits and tips in early career and beyond" _PLOS Biology_
+
+
+
+---
+# Mountains of monotony
+
+Under every exciting finding there should be mountains of dull but careful science
+
+.pull-left[
+```{r, out.width= '90%'}
+knitr::include_graphics("https://media.giphy.com/media/XNX9uw7fykn5e/giphy.gif")
+```
+]
+
+.pull-right[
+
+]
+
+---
+# Mountains of monotony
+
+Under every exciting finding there should be mountains of dull but careful science
+
+.pull-left[
+```{r, out.width= '90%'}
+knitr::include_graphics("https://media.giphy.com/media/XNX9uw7fykn5e/giphy.gif")
+```
+]
+
+.pull-right[
+
+<!--- celebrate boring work --->
+
+```{r, out.width= '100%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/skepticon/figures/lancet_groundshot.jpg")
+```
+]
+
+
+---
+
+.pull-left[
+
+# “Do you want to be credible or incredible?”
+
+```{r, out.width= '10%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/skepticon/figures/blank.jpg")
+```
+
+“What I’m alleging is that the reviewers, the editors of the so-called top-tier journals, grant review committees, promotion committees, and the scientific community repeatedly tolerate poor-quality science” 
+
+]
+
+.pull-right[
+
+```{r, out.width= '45%'}
+knitr::include_graphics("https://www.psychologicalscience.org/redesign/wp-content/uploads/2012/08/Vazire_Web.jpg")
+```
+
+Simine Vazire
+
+```{r, out.width= '45%'}
+knitr::include_graphics("https://www.bio21.org/images/2018-10-19_Bio21%20Big%20Picture_Glenn%20Begley.jpg")
+```
+
+Glenn Begley
+
+]
