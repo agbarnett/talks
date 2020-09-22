@@ -11,7 +11,19 @@ output:
       countIncrementalSlides: false
       
 ---
-#### "Science is the best thing that has happened to humanity, but we can do it better" John Ioannidis
+### Mea culpas
+
+
+* Programming errors
+
+* Failed to read and cite key papers
+
+Blog [here](https://medianwatch.netlify.app/post/making-mistakes/) on mistakes I've made
+
+![](https://media.giphy.com/media/xT5LMzIK1AdZJ4cYW4/giphy.gif)
+
+---
+### "Science is the best thing that has happened to humanity, but we can do it better" John Ioannidis
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE, error=FALSE, comment='', dpi=400, fig.align='center')
@@ -26,18 +38,6 @@ knitr::include_graphics("https://www.bmj.com/content/bmj/351/bmj.h4992/F1.large.
 ```
 
 ###### Image from BMJ
-
----
-### Mea culpas
-
-
-* Programming errors
-
-* Failed to read and cite key papers
-
-Blog [here](https://medianwatch.netlify.app/post/making-mistakes/) on mistakes I've made
-
-![](https://media.giphy.com/media/xT5LMzIK1AdZJ4cYW4/giphy.gif)
 
 ---
 class: inverse
