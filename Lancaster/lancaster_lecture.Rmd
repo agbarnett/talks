@@ -1,0 +1,358 @@
+---
+title: "Bad statistics in health and medical research"
+author: "Adrian Barnett, Queensland University of Technology"
+date: "24 March 2021"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/sfah.css", "css/fonts.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: dracula
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "https://platform.twitter.com/widgets.js"
+    seal: false 
+---
+
+```{r setup, include=FALSE}
+# see https://github.com/rstudio-education/arm-workshop-rsc2019/blob/master/static/slides/xaringan.Rmd
+knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE, error=FALSE, comment='', dpi=400, fig.align='center')
+options(htmltools.dir.version = FALSE)
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+library(fontawesome) # from github: https://github.com/rstudio/fontawesome
+cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+```
+
+layout: true
+  
+---
+name: xaringan-title
+class: left, middle
+
+# .center[Bad statistics in health and medical research]
+
+## .center[Lancaster Lecture]
+
+### .center[Adrian Barnett, Queensland University of Technology]
+
+#### .center[24 March 2021]
+
+[`r fa(name = "twitter")` @aidybarnett](http://twitter.com/aidybarnett)  
+[`r fa(name = "github")` @agbarnett](http://github.com/agbarnett)  
+[`r fa(name = "paper-plane")` a.barnett@qut.edu.au](mailto:a.barnett@qut.edu.au)
+
+
+---
+
+## Henry Oliver Lancaster, 1913 to 2001
+
+.pull-left[
+
+![lancaster](figures/lancaster_obit.jpg)
+
+]
+
+.pull-right[
+
+#### Co-founded the Statistical Society of Australia.
+
+#### HRH: "Lies, damn lies and statistics''
+
+#### HOL: "Figures fool when fools figure"
+
+]
+
+<!--- https://stackoverflow.com/questions/46408057/incremental-slides-do-not-work-with-a-two-column-layout --->
+
+
+---
+## This talk in a nutshell
+
+![trump](figures/trump_fauci.png)
+
+```{r, out.width= '72%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/Lancaster/figures/trump_fauci.png")
+```
+
+---
+## Paper numbers over time
+
+
+```{r, out.width= '60%'}
+library(rentrez)
+library(ggplot2)
+library(dplyr)
+is.data = length(dir('data', pattern='pubmed'))>0 # already data
+if(is.data==FALSE){
+counts = NULL
+for (year in 1990:2020){
+  search_text = paste(year, '[PDAT]', sep='')
+  psearch = entrez_search(db='pubmed', term=search_text)
+  frame = data.frame(year = year, count=psearch$count)
+  counts = bind_rows(counts, frame)
+}
+save(counts, file='data/pubmed.RData')
+}
+if(is.data==TRUE){
+  load('data/pubmed.RData')
+}
+counts = mutate(counts, scale = count / 10^5)
+plot = ggplot(data=counts, aes(x=year, y=scale))+
+  geom_line(size=1.9, color='indianred1')+
+  xlab('Year')+
+  ylab('Number of items (per 100,000)')+
+  theme_bw()+
+  theme(text = element_text(size=20),
+        panel.grid.minor = element_blank())
+plot
+```
+
+Data from _PubMed_.
+
+---
+class:inverse, center
+## Research-shaped objects
+
+```{r, out.width= '100%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/AIMOS/figures/cakes.jpg")
+```
+
+---
+## Support for good statistics
+
+#### "Areas where researcher competence is critical [...] study statistics and analysis" [NHMRC report](https://www.nhmrc.gov.au/research-policy/research-quality-steering-committee)
+
+#### "Biostatistics: a fundamental discipline at the core of modern health data science" [MJA paper](https://www.mja.com.au/journal/2019/211/10/biostatistics-fundamental-discipline-core-modern-health-data-science)
+
+#### "The Statistical Crisis in Science" [Andrew Gelman](https://www.americanscientist.org/article/the-statistical-crisis-in-science)
+
+---
+class:inverse
+## Support from colleagues?
+
+
+.pull-left[
+
+<!--- confused --->
+```{r, out.width= '50%'}
+knitr::include_graphics("https://media.giphy.com/media/3o6YglDndxKdCNw7q8/giphy.gif")
+```
+
+]
+
+.pull-right[
+
+Citation to our MJA paper:
+
+“P value is considered significant when its value equal or less than 0.05(18).”
+
+]
+
+---
+class:inverse
+# Imaginative support 
+
+<!--- https://twitter.com/ChelseaParlett/status/1367985904237776899?s=20 --->
+```{r, echo=FALSE, out.width="50%"}
+knitr::include_graphics("figures/Chelsea1.png")
+```
+
+<!--- https://twitter.com/ChelseaParlett/status/1366113557377523713 --->
+```{r, echo=FALSE, out.width="60%"}
+knitr::include_graphics("figures/Chelsea2.png")
+```
+
+---
+## Going through the motions with scant understanding
+
+* "All statistical analysis was performed using the Graphpad Prism software.”
+
+* "Two-tailed T tests will be performed with a p value of 0.05 indicating significance."
+
+<!--- from ANZCTR --->
+
+![](https://media.giphy.com/media/IX2sn8cnqDyRq/giphy.gif) 
+
+
+###### [Stark and Saltelli](https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2018.01174.x) "Cargo‐cult statistics and scientific crisis" _Significance_ 2018
+
+---
+class: top, center, inverse
+background-image: url(figures/podium.jpg)
+background-size: cover
+### .left[Worst ever statistical methods section]
+
+--
+
+## .left[t-test]
+
+--
+
+## .right[SPSS]
+
+
+<!--- http://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?ACTRN=12617001415392 --->
+
+--
+
+## .center[SSPS]
+
+<!--- https://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?id=373697 --->
+
+
+---
+class: top, center, inverse
+## Even better?
+
+![](figures/daniela.png)
+
+---
+# Statistics on statistics
+
+<!--- ---> 
+* [Only 22% of papers in medical journals reported checks of the regression model assumptions](https://ebm.bmj.com/content/24/5/185)
+
+<!--- https://peerj.com/articles/3323/ --->
+* [92% of all papers using linear regression were unclear about their assumption checks](https://peerj.com/articles/3323/)
+
+<!--- --->
+* [Studies that explained sample size: 0%, 6% and 17%](https://www.thelancet.com/action/showPdf?pii=S0140-6736%2813%2962228-X)
+
+<!--- Schriger, D. L. et al. From submission to publication: A retrospective review of the tables and figures in a cohort of randomized controlled trials submitted to the british medical journal --->
+* "[Less than half the figures met their data presentation potential](https://pubmed.ncbi.nlm.nih.gov/16978740/)"
+
+---
+class:inverse
+## Pressure  
+
+![](figures/paulie.png)
+
+From [BMJ opinion](https://blogs.bmj.com/bmj/2020/07/14/specialist-college-training-a-potential-source-of-research-wastage/)
+
+
+---
+## Smoothing syndrome 
+
+<!--- from https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0213780, 2019 paper in PLOS ONE --->
+#### "Outliers were removed when the residual had a Studentized residual < -4 or > 4"
+
+--
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Newgrange.JPG" width="401" height="301"/>
+
+“A cream cheese cake with dried currants distributed about.” P.R. Giot
+
+###### Image from Wikipedia, Shira
+
+---
+
+<!--- two columns --->
+
+.pull-left[
+### The most exciting phrase to hear in science, the one that heralds new discoveries, is not “Eureka” but “That’s funny...”
+
+Isaac Asimov (1920--1992)
+]
+
+.pull-right[
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/archive/3/34/20100906191953%21Isaac.Asimov01.jpg" width="278" height="404"/>
+
+###### Image from Wikipedia, Phillip Leonian
+
+]
+
+
+<!--- from annals paper * interpreting the statistical findings on the basis of expectation, not actual results (30%) --->
+
+
+
+---
+class: inverse 
+## Sins of omission
+
+Survey of US statisticians, reported requests in last 5 years:
+
+* Removing or altering data to better support the research hypothesis (24%)
+
+* Not reporting the presence of key missing data that might bias the results (24%)
+
+* Ignoring violations of assumptions that would change results from positive to negative (29%)
+
+###### [Wang et al](https://www.acpjournals.org/doi/10.7326/M18-1230) "Researcher Requests for Inappropriate Analysis and Reporting: A U.S. Survey of Consulting Biostatisticians" _Annals of Internal Medicine_ 2018
+
+<!--- Algorithm that leaves out every single observation and re-calculates p-value --->
+
+---
+## Registered reports
+
+```{r, out.width= '72%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/journal.pbio.3000246.g001.PNG")
+```
+
+###### [Allen and Mehler](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000246) (2019) "Open science challenges, benefits and tips in early career and beyond" _PLOS Biology_
+
+
+---
+class:inverse
+### Terrible plots
+
+
+![pie](figures/JEHP-4-101-g002.jpg)
+
+<!--- from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4946282/ --->
+
+.pull-left[
+
+<!--- top left 1 + 3.23 + 19.35 + 27.42 + 45.16 =  96.16, top-middle 17.74+43.55+33.87+4.34 = 99.5, bottom-right = 1.61+30.65+16.13+51.61 =100 :--->
+
+* No labels
+
+* Terrible colours and moiré patterns
+
+* Unexplained changes in size
+
+]
+
+.pull-right[
+
+
+* Numbers don't add to 100 (top-left is 96.16)
+
+* Unnecessary decimal places
+
+
+]
+
+---
+## Smart country
+
+.pull-left[
+
+![](https://media.giphy.com/media/3o7aCUjWw5t6ryLN84/giphy.gif)
+
+]
+
+.pull-right[
+
+
+<!--- from AMSI --->
+
+* Less than one in four Australian Year 7 to 10 students have a qualified maths teacher
+
+* 7% of Year 12 girls took advanced maths in 2017 compared to 12% of boys
+
+* Gutting of maths/stats at Murdoch
+
+* Likely closure of ANU statistical consultancy unit
+
+]
+
+---
+class:center
+![](figures/lee.png)
+
+[https://github.com/Lee-V-Jones/statistical-quality](https://github.com/Lee-V-Jones/statistical-quality)
