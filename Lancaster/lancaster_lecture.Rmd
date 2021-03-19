@@ -4,9 +4,9 @@ author: "Adrian Barnett, Queensland University of Technology"
 date: "24 March 2021"
 output:
   xaringan::moon_reader:
-    css: ["default", "css/sfah.css", "css/fonts.css"]
     lib_dir: libs
     nature:
+      ratio: '16:9'
       highlightStyle: dracula
       highlightLines: true
       countIncrementalSlides: false
@@ -18,6 +18,7 @@ output:
 # see https://github.com/rstudio-education/arm-workshop-rsc2019/blob/master/static/slides/xaringan.Rmd
 knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE, error=FALSE, comment='', dpi=400, fig.align='center')
 options(htmltools.dir.version = FALSE)
+#xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 library(tidyverse)
 library(dplyr)
 library(ggplot2)
@@ -30,7 +31,7 @@ layout: true
   
 ---
 name: xaringan-title
-class: left, middle
+class: inverse, left, middle
 
 # .center[Bad statistics in health and medical research]
 
@@ -41,9 +42,17 @@ class: left, middle
 #### .center[24 March 2021]
 
 [`r fa(name = "twitter")` @aidybarnett](http://twitter.com/aidybarnett)  
+
 [`r fa(name = "github")` @agbarnett](http://github.com/agbarnett)  
+
+[`r fa(name = "blog")` Median Watch](https://medianwatch.netlify.app)
+
 [`r fa(name = "paper-plane")` a.barnett@qut.edu.au](mailto:a.barnett@qut.edu.au)
 
+
+---
+background-image: url(figures/AcknowledgementTraditionalOwners.jpg)
+background-size: cover
 
 ---
 
@@ -73,18 +82,12 @@ class: left, middle
 
 ![trump](figures/trump_fauci.png)
 
-```{r, out.width= '72%'}
-knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/Lancaster/figures/trump_fauci.png")
-```
 
 ---
-## Paper numbers over time
+## Boom in quantity
 
-
-```{r, out.width= '60%'}
+```{r, out.width= '50%'}
 library(rentrez)
-library(ggplot2)
-library(dplyr)
 is.data = length(dir('data', pattern='pubmed'))>0 # already data
 if(is.data==FALSE){
 counts = NULL
@@ -105,12 +108,24 @@ plot = ggplot(data=counts, aes(x=year, y=scale))+
   xlab('Year')+
   ylab('Number of items (per 100,000)')+
   theme_bw()+
-  theme(text = element_text(size=20),
+  theme(text = element_text(size=22),
         panel.grid.minor = element_blank())
 plot
 ```
 
 Data from _PubMed_.
+
+---
+## Reverse boom in quality
+
+```{r, out.width= '50%'}
+arrow = data.frame(x=1990, xend=2020, y=16, yend=4)
+text = data.frame(x=2005, y=11, label='Quality?')
+new_plot = plot + 
+  geom_segment(data=arrow, aes(x=x, y=y, xend=xend, yend=yend), size=2, colour='darkseagreen3', arrow=arrow())+
+  geom_text(data=text, aes(x=x, y=y, label=label), colour='darkseagreen3', size=11, angle=-42)
+new_plot
+```
 
 ---
 class:inverse, center
@@ -121,61 +136,19 @@ knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/maste
 ```
 
 ---
-## Support for good statistics
+### Bad statistics is abetting weak science
 
-#### "Areas where researcher competence is critical [...] study statistics and analysis" [NHMRC report](https://www.nhmrc.gov.au/research-policy/research-quality-steering-committee)
-
-#### "Biostatistics: a fundamental discipline at the core of modern health data science" [MJA paper](https://www.mja.com.au/journal/2019/211/10/biostatistics-fundamental-discipline-core-modern-health-data-science)
-
-#### "The Statistical Crisis in Science" [Andrew Gelman](https://www.americanscientist.org/article/the-statistical-crisis-in-science)
-
----
-class:inverse
-## Support from colleagues?
-
-
-.pull-left[
-
-<!--- confused --->
-```{r, out.width= '50%'}
-knitr::include_graphics("https://media.giphy.com/media/3o6YglDndxKdCNw7q8/giphy.gif")
-```
-
-]
-
-.pull-right[
-
-Citation to our MJA paper:
-
-“P value is considered significant when its value equal or less than 0.05(18).”
-
-]
-
----
-class:inverse
-# Imaginative support 
-
-<!--- https://twitter.com/ChelseaParlett/status/1367985904237776899?s=20 --->
-```{r, echo=FALSE, out.width="50%"}
-knitr::include_graphics("figures/Chelsea1.png")
-```
-
-<!--- https://twitter.com/ChelseaParlett/status/1366113557377523713 --->
-```{r, echo=FALSE, out.width="60%"}
-knitr::include_graphics("figures/Chelsea2.png")
-```
-
----
-## Going through the motions with scant understanding
-
-* "All statistical analysis was performed using the Graphpad Prism software.”
+<!--- from ANZCTR: --->
 
 * "Two-tailed T tests will be performed with a p value of 0.05 indicating significance."
 
-<!--- from ANZCTR --->
+* "All statistical analysis was performed using the Graphpad Prism software.”
 
 ![](https://media.giphy.com/media/IX2sn8cnqDyRq/giphy.gif) 
 
+--
+
+* "Many people think that all you need to do statistics is a computer and appropriate software." Doug Altman
 
 ###### [Stark and Saltelli](https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2018.01174.x) "Cargo‐cult statistics and scientific crisis" _Significance_ 2018
 
@@ -205,12 +178,17 @@ background-size: cover
 
 ---
 class: top, center, inverse
-## Even better?
+# Platinum medal
 
-![](figures/daniela.png)
+```{r, out.width= '61%'}
+knitr::include_graphics("figures/daniela.png")
+```
+
 
 ---
-# Statistics on statistics
+# Terrible practice
+
+### Regression:
 
 <!--- ---> 
 * [Only 22% of papers in medical journals reported checks of the regression model assumptions](https://ebm.bmj.com/content/24/5/185)
@@ -218,90 +196,24 @@ class: top, center, inverse
 <!--- https://peerj.com/articles/3323/ --->
 * [92% of all papers using linear regression were unclear about their assumption checks](https://peerj.com/articles/3323/)
 
+### Sample size:
+
 <!--- --->
 * [Studies that explained sample size: 0%, 6% and 17%](https://www.thelancet.com/action/showPdf?pii=S0140-6736%2813%2962228-X)
 
+### Figures:
+
 <!--- Schriger, D. L. et al. From submission to publication: A retrospective review of the tables and figures in a cohort of randomized controlled trials submitted to the british medical journal --->
 * "[Less than half the figures met their data presentation potential](https://pubmed.ncbi.nlm.nih.gov/16978740/)"
-
----
-class:inverse
-## Pressure  
-
-![](figures/paulie.png)
-
-From [BMJ opinion](https://blogs.bmj.com/bmj/2020/07/14/specialist-college-training-a-potential-source-of-research-wastage/)
-
-
----
-## Smoothing syndrome 
-
-<!--- from https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0213780, 2019 paper in PLOS ONE --->
-#### "Outliers were removed when the residual had a Studentized residual < -4 or > 4"
-
---
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Newgrange.JPG" width="401" height="301"/>
-
-“A cream cheese cake with dried currants distributed about.” P.R. Giot
-
-###### Image from Wikipedia, Shira
-
----
-
-<!--- two columns --->
-
-.pull-left[
-### The most exciting phrase to hear in science, the one that heralds new discoveries, is not “Eureka” but “That’s funny...”
-
-Isaac Asimov (1920--1992)
-]
-
-.pull-right[
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/archive/3/34/20100906191953%21Isaac.Asimov01.jpg" width="278" height="404"/>
-
-###### Image from Wikipedia, Phillip Leonian
-
-]
-
-
-<!--- from annals paper * interpreting the statistical findings on the basis of expectation, not actual results (30%) --->
-
-
-
----
-class: inverse 
-## Sins of omission
-
-Survey of US statisticians, reported requests in last 5 years:
-
-* Removing or altering data to better support the research hypothesis (24%)
-
-* Not reporting the presence of key missing data that might bias the results (24%)
-
-* Ignoring violations of assumptions that would change results from positive to negative (29%)
-
-###### [Wang et al](https://www.acpjournals.org/doi/10.7326/M18-1230) "Researcher Requests for Inappropriate Analysis and Reporting: A U.S. Survey of Consulting Biostatisticians" _Annals of Internal Medicine_ 2018
-
-<!--- Algorithm that leaves out every single observation and re-calculates p-value --->
-
----
-## Registered reports
-
-```{r, out.width= '72%'}
-knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/journal.pbio.3000246.g001.PNG")
-```
-
-###### [Allen and Mehler](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000246) (2019) "Open science challenges, benefits and tips in early career and beyond" _PLOS Biology_
 
 
 ---
 class:inverse
 ### Terrible plots
 
-
-![pie](figures/JEHP-4-101-g002.jpg)
+```{r, echo=FALSE, out.width="60%"}
+knitr::include_graphics("figures/JEHP-4-101-g002.jpg")
+```
 
 <!--- from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4946282/ --->
 
@@ -327,8 +239,123 @@ class:inverse
 
 ]
 
+
 ---
-## Smart country
+## Smoothing syndrome 
+
+<!--- from https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0213780, 2019 paper in PLOS ONE --->
+#### "Outliers were removed when the residual had a Studentized residual < -4 or > 4"
+
+![](https://media.giphy.com/media/YuEdUiDmey8W4/giphy.gif)
+
+--
+
+#### "[We continuously increased the number of animals until statistical significance was reached to support our conclusions.](https://www.nature.com/articles/s41467-017-02765-w.pdf)"
+
+---
+
+<!--- two columns --->
+
+.pull-left[
+## The most exciting phrase to hear in science, the one that heralds new discoveries, is not “Eureka” but “That’s funny...”
+
+Isaac Asimov (1920--1992)
+]
+
+.pull-right[
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/archive/3/34/20100906191953%21Isaac.Asimov01.jpg" width="320" height="464"/>
+
+###### Image from Wikipedia, Phillip Leonian
+
+]
+
+
+---
+class:inverse
+### Researcher degrees of freedom
+
+```{r, out.width= '70%'}
+knitr::include_graphics("figures/bayo.png")
+```
+
+---
+### Researcher degrees of freedom
+
+```{r, out.width= '85%'}
+knitr::include_graphics("https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/ampa/2018/ampa_1_3/2515245917747646/20181024/images/large/10.1177_2515245917747646-fig2.jpeg")
+```
+
+##### Silberzahn et al "Many Analysts, One Data Set: Making Transparent How Variations in Analytic Choices Affect Results" 
+
+<!--- from https://journals.sagepub.com/doi/10.1177/2515245917747646 --->
+
+---
+class: inverse 
+# Pressure for "good" results
+
+Survey of US statisticians; reported requests in last 5 years:
+
+* Removing or altering data to better support the research hypothesis = 24%
+
+* Not reporting the presence of key missing data that might bias the results = 24%
+
+* Ignoring violations of assumptions that would change results from positive to negative = 29%
+
+###### [Wang et al](https://www.acpjournals.org/doi/10.7326/M18-1230) "Researcher Requests for Inappropriate Analysis and Reporting: A U.S. Survey of Consulting Biostatisticians" _Annals of Internal Medicine_ 2018
+
+<!--- Algorithm that leaves out every single observation and re-calculates p-value --->
+
+
+---
+## P-values
+
+```{r, out.width= '72%'}
+knitr::include_graphics("figures/zwet.jpg")
+```
+
+
+From "[The Significance Filter, the Winner's Curse and the Need to Shrink](https://arxiv.org/abs/2009.09440)"
+
+<!--- * All scientific thinking gets defenestrated as soon as clinicians see the p-value --->
+
+---
+## P-values
+
+```{r, out.width= '58%'}
+knitr::include_graphics("figures/kareem_carr_tweet.png")
+```
+
+
+---
+## Bad practice gives good results
+
+```{r, out.width= '60%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/waste/figures/journal.pbio.3000246.g001.PNG")
+```
+
+###### [Allen and Mehler](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000246) (2019) "Open science challenges, benefits and tips in early career and beyond" _PLOS Biology_
+
+
+---
+class:inverse
+## Terrible incentives  
+
+![](figures/paulie.png)
+
+From Paulina Stehlik et al, available at [BMJ opinion](https://blogs.bmj.com/bmj/2020/07/14/specialist-college-training-a-potential-source-of-research-wastage/)
+
+--
+
+## Also ...
+
+* Cash rewards and promotions based on publication counts
+
+* Need to focus on competence not excellence
+
+
+---
+# The clever country?
 
 .pull-left[
 
@@ -352,7 +379,120 @@ class:inverse
 ]
 
 ---
+## Support for good statistics
+
+#### "The Statistical Crisis in Science" [Andrew Gelman](https://www.americanscientist.org/article/the-statistical-crisis-in-science)
+
+#### "Areas where researcher competence is critical [...] study statistics and analysis" [NHMRC report](https://www.nhmrc.gov.au/research-policy/research-quality-steering-committee)
+
+#### "Biostatistics: a fundamental discipline at the core of modern health data science" [MJA paper](https://www.mja.com.au/journal/2019/211/10/biostatistics-fundamental-discipline-core-modern-health-data-science)
+
+---
+class:inverse
+## Support from colleagues?
+
+
+.pull-left[
+
+<!--- confused --->
+```{r, out.width= '80%'}
+knitr::include_graphics("https://media.giphy.com/media/3o6YglDndxKdCNw7q8/giphy.gif")
+```
+
+]
+
+.pull-right[
+
+Citation to our MJA paper:
+
+“P value is considered significant when its value equal or less than 0.05(18).”
+
+]
+
+---
+class:inverse
+# Imaginative support 
+
+.pull-left[
+
+<!--- https://twitter.com/ChelseaParlett/status/1367985904237776899?s=20 --->
+```{r, echo=FALSE, out.width="90%"}
+knitr::include_graphics("figures/Chelsea1.png")
+```
+
+]
+
+.pull-right[
+
+<!--- https://twitter.com/ChelseaParlett/status/1366113557377523713 --->
+```{r, echo=FALSE, out.width="90%"}
+knitr::include_graphics("figures/Chelsea2.png")
+```
+]
+
+---
+class:center, middle
+#Automation
+
+![](https://media.giphy.com/media/CmFMWpEa4IFtS/giphy.gif)
+
+---
+## Impressive example of automation
+
+```{r, echo=FALSE, out.width="48%"}
+knitr::include_graphics("figures/journal.pbio.3001107.g001.PNG")
+```
+
+Serghiou et al "[Assessment of transparency indicators across the biomedical literature: How open is open](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001107)"
+
+---
+# What can we check?
+
+*	Numerical errors in text and tables using existing tools, e.g.,: “10/20 (55%)”
+
+*	P-values and confidence intervals. Checks for inconsistencies and errors using existing tools
+
+*	Sample size calculations. Checks of whether the sample size can be reproduced
+
+*	Linear and logistic regression models. Checks of whether appropriate model assumptions have been verified
+
+*	Missing data. Checks to detect missing data in the results that have not been mentioned in the methods 
+
+* Fraudulant data, groups in randomised trials that are too similar
+
+---
+# What more can we check?
+
+* Outcome switching by comparing the protocol and published paper
+
+* Qualitative guidance on interpreting p-values
+
+* Poorly designed figures
+
+* Citation manipulation
+
+---
+class: inverse, center
+# Removing bad papers once they are published ...
+
+![](https://media.giphy.com/media/awgr596OVsfhPqkGeZ/giphy.gif)
+
+---
+class: inverse, center, middle
+# We need to change the conversation about statistics in health and medical research
+
+--
+
+### “Most scientists today are devoid of ideas, full of fear, intent on producing some paltry result so that they can contribute to the flood of inane papers that now constitutes ‘scientific progress’ in many areas” Paul Feyerabend, 1975
+
+--
+
+### “Poor quality publications won’t change the world, they won’t add to knowledge, they won’t lead to improvements in the length or quality of our lives” - NHMRC CEO Professor Anne Kelso, 2019
+
+---
 class:center
 ![](figures/lee.png)
 
 [https://github.com/Lee-V-Jones/statistical-quality](https://github.com/Lee-V-Jones/statistical-quality)
+
+**Review just five papers**
