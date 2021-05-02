@@ -68,9 +68,9 @@ knitr::include_graphics("figures/acronyms_3d.jpg")
 
 - Over 200 COVID prediction models<sup>2</sup>, almost all have been "useless" (Laure Wynants)
 
-.small[<sup>1</sup> Zhou et al, Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study]
+###### <sup>1</sup> Zhou et al, Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study
 
-.small[<sup>2</sup> Wynants et al, [Living systematic review](https://www.bmj.com/content/369/bmj.m1328) at the _BMJ_]
+###### <sup>2</sup> Wynants et al, [Living systematic review](https://www.bmj.com/content/369/bmj.m1328) at the _BMJ_
 
 ---
 ## For the next crisis
