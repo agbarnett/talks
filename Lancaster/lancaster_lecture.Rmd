@@ -223,7 +223,7 @@ knitr::include_graphics("figures/JEHP-4-101-g002.jpg")
 
 * No labels
 
-* Terrible colours and moiré patterns
+* Terrible colours and Moiré patterns
 
 * Unexplained changes in size
 
@@ -236,6 +236,7 @@ knitr::include_graphics("figures/JEHP-4-101-g002.jpg")
 
 * Unnecessary decimal places
 
+* Typo
 
 ]
 
