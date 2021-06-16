@@ -1,0 +1,180 @@
+---
+title: "Using lotteries to award funding in health and medical research"
+author: "Adrian Barnett, Queensland University of Technology"
+date: "8 July 2021"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      highlightStyle: dracula
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "https://platform.twitter.com/widgets.js"
+    seal: false 
+---
+
+```{r setup, include=FALSE}
+# see https://github.com/rstudio-education/arm-workshop-rsc2019/blob/master/static/slides/xaringan.Rmd
+knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE, error=FALSE, comment='', dpi=400, fig.align='center')
+options(htmltools.dir.version = FALSE)
+#xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+library(fontawesome) # from github: https://github.com/rstudio/fontawesome
+cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+```
+
+layout: true
+  
+---
+name: xaringan-title
+class: inverse, left, middle
+
+# .center[Using lotteries to award funding in health and medical research]
+
+## .center[Adrian Barnett, Queensland University of Technology]
+
+### .center[8 July 2021]
+
+[`r fa(name = "twitter")` @aidybarnett](http://twitter.com/aidybarnett)  
+
+[`r fa(name = "github")` @agbarnett](http://github.com/agbarnett)  
+
+[`r fa(name = "blog")` Median Watch](https://medianwatch.netlify.app)
+
+[`r fa(name = "paper-plane")` a.barnett@qut.edu.au](mailto:a.barnett@qut.edu.au)
+
+
+---
+background-image: url(figures/AcknowledgementTraditionalOwners.jpg)
+background-size: cover
+
+---
+## Statistical bleach
+
+```{r}
+knitr::include_graphics(path='figures/coin.png')
+```
+
+<!--- https://commons.wikimedia.org/wiki/File:Coin_of_Demetrius_I_Soter,_minted_in_Ecbatana.jpg --->
+
+##### Image adapted from Wikipedia
+
+---
+## Just choose the best science
+
+<!--- could use quotes from here https://academic.oup.com/rev/advance-article/doi/10.1093/reseval/rvaa027/6017979?login=true --->
+
+```{r}
+knitr::include_graphics(path='figures/dead_heat.jpg')
+```
+
+
+##### From Alvin Loke via Wikimedia Commons
+
+<!--- https://commons.wikimedia.org/wiki/File:Olympic_Development_(Mens)_100m_Dash.jpg --->
+
+---
+class: inverse
+## Number of reviewers needed for "sufficient" reliability
+
+```{r}
+knitr::include_graphics(path='figures/nih_numbers.png', dpi=300)
+```
+
+##### [Forsher et al](https://psyarxiv.com/483zj/) (2019) "How many reviewers are required to obtain reliable evaluations of NIH R01 grant proposals?"
+
+---
+## Signal-to-noise ratio in peer review
+
+```{r, fig.height=7}
+knitr::include_graphics(path='figures/nih_variance.png', dpi=300)
+```
+
+##### [Forsher et al](https://psyarxiv.com/483zj/) (2019) "How many reviewers are required to obtain reliable evaluations of NIH R01 grant proposals?"
+
+---
+class:inverse
+## Grey zone in NHMRC data
+
+
+```{r, fig.height=4}
+knitr::include_graphics(path='figures/bmj_grey_zone.jpg')
+```
+
+##### [Graves et al](https://www.bmj.com/content/343/bmj.d4797) (2011) "Funding grant proposals for scientific research: retrospective analysis of scores by members of grant review panel"
+
+---
+class:inverse
+## Bias against women
+
+```{r, out.width='50%'}
+knitr::include_graphics(path='https://assets.bwbx.io/images/users/iqjWHBFdfxIU/imn1EeSBYb.4/v1/1000x-1.jpg')
+```
+
+##### Image from Graeme Robertson/Getty Images
+
+--
+
+* [2021 study of funding applications](https://tinyurl.com/3efkad6y) in Canada found smaller bias against women in project-based applications than people-based applications.
+
+* [2021 study of fellowships](https://tinyurl.com/ymanp4p9) in Brazil with randomly allocated gender. Male applicants received higher scores for all categories evaluated.
+
+---
+## Researchers' view 
+
+<!--- could add image --->
+
+* Survey of New Zealand researchers who had experienced randomisation
+
+* Randomisation is an acceptable method for allocating Explorer Grant funds with 63% (n = 79) in favour and 25% (n = 32) against
+
+--
+
+* Supported after ineligible applications had been excluded and outstanding applications funded, so that the remaining applications were truly equal
+
+* Greater support for randomisation amongst those that won funding at random
+
+##### [Liu et al](https://researchintegrityjournal.biomedcentral.com/articles/10.1186/s41073-019-0089-z) (2020) "The acceptability of using a lottery to allocate research funding: a survey of applicants"
+
+
+---
+class:inverse
+## Political problems
+
+.pull-left[
+
+"It would make it look like we don’t know what we’re doing." Research Officer.
+
+"Some critics have been suggesting that peer review is just too much hard work and perhaps a lottery would be better. Mind you this is a suggestion from economists, so take that any way you want." Warwick Anderson, 2015
+
+]
+
+.pull-right[
+
+
+![](https://media.giphy.com/media/jc8WlL3nDFGdw5yZtx/giphy.gif) 
+
+]
+
+---
+## World first
+
+No previous study of the impact of research funding, despite billions of dollars invested
+
+```{r}
+# from PlotResearchers.R
+knitr::include_graphics(path='figures/NumbersOverTime.png')
+```
+
+
+---
+## Numbers recruited since 2015
+```{r}
+# CONSORT flow diagram
+knitr::include_graphics(path='figures/consort.flow.slide.jpg', dpi=300)
+```
+

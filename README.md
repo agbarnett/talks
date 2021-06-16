@@ -6,3 +6,4 @@
 * `skepticon` Talk on statistics for [Skepticon 2020](https://www.skepticon.org.au/) (October 2020)
 * `Lancaster` Lancaster lecture (March 2021)
 * `SER` Society for Epidemiologic Research [2021 meeting](https://epiresearch.org/annual-meeting/2021-meeting/) (June 2021)
+* `ANZSC` [Australian Statistical Society and New Zealand Statistical Association Conference](https://anzsc2021.com.au/) (July 2021)
