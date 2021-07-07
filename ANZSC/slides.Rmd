@@ -61,7 +61,7 @@ knitr::include_graphics(path='figures/coin.png')
 
 <!--- https://commons.wikimedia.org/wiki/File:Coin_of_Demetrius_I_Soter,_minted_in_Ecbatana.jpg --->
 
-##### Image adapted from Wikipedia
+##### Image adapted from Wikipedia courtesy of Classical Numismatic Group, Inc
 
 ---
 ## Just choose the best science
@@ -78,6 +78,15 @@ knitr::include_graphics(path='figures/dead_heat.jpg')
 <!--- https://commons.wikimedia.org/wiki/File:Olympic_Development_(Mens)_100m_Dash.jpg --->
 
 ---
+## Signal-to-noise ratio in peer review
+
+```{r, fig.height=7.5}
+knitr::include_graphics(path='figures/nih_variance.png', dpi=300)
+```
+
+##### [Forsher et al](https://psyarxiv.com/483zj/) (2019) "How many reviewers are required to obtain reliable evaluations of NIH R01 grant proposals?"
+
+---
 class: inverse
 ## Number of reviewers needed for "sufficient" reliability
 
@@ -87,14 +96,6 @@ knitr::include_graphics(path='figures/nih_numbers.png', dpi=300)
 
 ##### [Forsher et al](https://psyarxiv.com/483zj/) (2019) "How many reviewers are required to obtain reliable evaluations of NIH R01 grant proposals?"
 
----
-## Signal-to-noise ratio in peer review
-
-```{r, fig.height=7}
-knitr::include_graphics(path='figures/nih_variance.png', dpi=300)
-```
-
-##### [Forsher et al](https://psyarxiv.com/483zj/) (2019) "How many reviewers are required to obtain reliable evaluations of NIH R01 grant proposals?"
 
 ---
 class:inverse
@@ -109,9 +110,9 @@ knitr::include_graphics(path='figures/bmj_grey_zone.jpg')
 
 ---
 class:inverse
-## Bias against women
+## Bias against women in peer review
 
-```{r, out.width='50%'}
+```{r, out.width='48%'}
 knitr::include_graphics(path='https://assets.bwbx.io/images/users/iqjWHBFdfxIU/imn1EeSBYb.4/v1/1000x-1.jpg')
 ```
 
@@ -124,6 +125,26 @@ knitr::include_graphics(path='https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i
 * [2021 study of fellowships](https://tinyurl.com/ymanp4p9) in Brazil with randomly allocated gender. Male applicants received higher scores for all categories evaluated.
 
 ---
+class:center
+## Modified lottery
+
+## Stage 1: Peer review used to rule out ineligible or terrible applications
+
+--
+
+## Stage 2: Winners then awarded at random until funds are exhausted
+
+---
+class: inverse
+## Mario Capecchi
+
+```{r, out.width='31%'}
+knitr::include_graphics(path='https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/MarioCapecchiFotoThalerTamas.JPG/512px-MarioCapecchiFotoThalerTamas.JPG')
+```
+
+##### Image from Thaler Tamás via Wikipedia
+
+---
 ## Researchers' view 
 
 <!--- could add image --->
@@ -134,7 +155,7 @@ knitr::include_graphics(path='https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i
 
 --
 
-* Supported after ineligible applications had been excluded and outstanding applications funded, so that the remaining applications were truly equal
+* Randomisation supported after ineligible applications had been excluded and outstanding applications funded, so that the remaining applications were truly equal
 
 * Greater support for randomisation amongst those that won funding at random
 
@@ -149,7 +170,7 @@ class:inverse
 
 "It would make it look like we don’t know what we’re doing." Research Officer.
 
-"Some critics have been suggesting that peer review is just too much hard work and perhaps a lottery would be better. Mind you this is a suggestion from economists, so take that any way you want." Warwick Anderson, 2015
+"Some critics have been suggesting that peer review is just too much hard work and perhaps a lottery would be better. Mind you this is a suggestion from economists, so take that any way you want." Warwick Anderson, ex-NHMRC CEO, 2015
 
 ]
 
@@ -172,7 +193,7 @@ knitr::include_graphics(path='figures/NumbersOverTime.png')
 
 
 ---
-## Numbers recruited since 2015
+## Researchers recruited since 2015
 ```{r}
 # CONSORT flow diagram
 knitr::include_graphics(path='figures/consort.flow.slide.jpg', dpi=300)
