@@ -205,9 +205,19 @@ background-image: url(figures/brain_surgery.jpg)
 ---
 ## Too much oversight in Australia
 
-* For exempting low-risk health and medical research: "The broadest set of exemptions exist in the Netherlands and the narrowest in Australia." [Scott et&nbsp;al.](https://health-policy-systems.biomedcentral.com/articles/10.1186/s12961-019-0520-4#Tab1) 
+.pull-left[
 
-* "Sometimes it can be quite adversarial" [Guillemin et&nbsp;al](https://journals.sagepub.com/doi/abs/10.1525/jer.2012.7.3.38)
+* "For exempting low-risk health and medical research: "The broadest set of exemptions exist in the Netherlands and the narrowest in Australia." [Scott et&nbsp;al.](https://health-policy-systems.biomedcentral.com/articles/10.1186/s12961-019-0520-4#Tab1) 
+
+<!--- * "Sometimes it can be quite adversarial" [Guillemin et&nbsp;al](https://journals.sagepub.com/doi/abs/10.1525/jer.2012.7.3.38) --->
+
+]
+
+.pull-right[
+
+![](https://media.giphy.com/media/htwABV5tJsqDm/giphy.gif)
+
+]
 
 ---
 class: inverse
@@ -393,9 +403,10 @@ knitr::include_graphics(path='figures/cost_savings.png')
 
 ![](https://media.giphy.com/media/13i9MA8PmVZMzu/giphy.gif)
 
+April 2020: Greg Hunt: Positive change is coming
+
 February 2017: Greg Hunt: Positive change is coming
 
-April 2020: Greg Hunt: Positive change is coming
 
 ---
 class:inverse, center
@@ -426,7 +437,7 @@ knitr::include_graphics(path='figures/Paul_Glasziou.png')
 
 * Vanessa Constable led a project to reduce repeated site-specific assessment at Metro North Hospital and Health Service
 
-* Average number of SSAs saved per year = 171; total costs saved = $49,000.
+* Average number of SSAs saved per year = 171; total costs saved = $49,000
 
 ]
 
