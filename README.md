@@ -10,3 +10,4 @@ In date order:
 * `SER` Society for Epidemiologic Research [2021 meeting](https://epiresearch.org/annual-meeting/2021-meeting/) (June 2021)
 * `social_media` Using social media in research for QIMR students (June 2021)
 * `ANZSC` [Australian Statistical Society and New Zealand Statistical Association Conference](https://anzsc2021.com.au/) (July 2021)
+* `ethics` NSWHSB Seminar Series (July 2021)
