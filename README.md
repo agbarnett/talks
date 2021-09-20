@@ -11,3 +11,4 @@ In date order:
 * `social_media` Using social media in research for QIMR students (June 2021)
 * `ANZSC` [Australian Statistical Society and New Zealand Statistical Association Conference](https://anzsc2021.com.au/) (July 2021)
 * `ethics` NSWHSB Seminar Series (July 2021)
+* `stats_society` Statistical Society of Australia Queensland Branch seminar on "Statisticians and the reproducibility crisis" (September 2021)

@@ -35,7 +35,7 @@ class: inverse, left, middle
 
 # .center[“No country bureaucratized its way to excellence”, how unnecessary ethics and governance requirements are holding back research in Australia]
 
-## .center[Adrian Barnett, QUT; Anna Scott, Bond;<br>Natalie Taylor, NSWCC; Jeniffer Byrne, Sydney]
+## .center[Adrian Barnett, QUT; Anna Scott, Bond;<br>Natalie Taylor, NSWCC; Jennifer Byrne, Sydney]
 
 ### .center[27 July 2021]
 
