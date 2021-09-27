@@ -147,6 +147,13 @@ class:center, middle
 knitr::include_graphics("figures/audit.jpg")
 ```
 
-###### DOI: 10.1371/journal.pone.0195613
+###### DOI: [10.1371/journal.pone.0195613](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0195613)
+
+---
+class:inverse, center, middle
+
+```{r, echo=FALSE, out.width="82%"}
+knitr::include_graphics("figures/publish_perish.png")
+```
 
 
