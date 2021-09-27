@@ -141,9 +141,9 @@ class:center, middle
 * Flag citations to retracted papers
 
 ---
-# Random audits
+## Random audits
 
-```{r, echo=FALSE, out.width="58%"}
+```{r, echo=FALSE, out.width="52%"}
 knitr::include_graphics("figures/audit.jpg")
 ```
 
@@ -152,7 +152,7 @@ knitr::include_graphics("figures/audit.jpg")
 ---
 class:inverse, center, middle
 
-```{r, echo=FALSE, out.width="82%"}
+```{r, echo=FALSE, out.width="87%"}
 knitr::include_graphics("figures/publish_perish.png")
 ```
 
