@@ -1,0 +1,403 @@
+---
+title: “Why is this taking so long?” The views of health and medical researchers on delays in ethics and governance
+author: 
+date: "2 December 2021"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      highlightStyle: dracula
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "https://platform.twitter.com/widgets.js"
+    seal: false 
+---
+
+```{r setup, include=FALSE}
+# see https://github.com/rstudio-education/arm-workshop-rsc2019/blob/master/static/slides/xaringan.Rmd
+knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE, error=FALSE, comment='', dpi=400, fig.align='center')
+options(htmltools.dir.version = FALSE)
+#xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+library(fontawesome) # from github: https://github.com/rstudio/fontawesome
+cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+```
+
+layout: true
+  
+---
+name: xaringan-title
+class: inverse, left, middle
+
+# .center[“Why is this taking so long?” The views of health and medical researchers on delays in ethics and governance]
+
+## .center[Adrian Barnett, QUT; Anna Scott, Bond;<br>Natalie Taylor, NSWCC; Jennifer Byrne, Sydney]
+
+### .center[2 December 2021]
+
+[`r fa(name = "twitter")` @aidybarnett](http://twitter.com/aidybarnett)  
+
+[`r fa(name = "github")` @agbarnett](http://github.com/agbarnett)  
+
+[`r fa(name = "blog")` Median Watch](https://medianwatch.netlify.app)
+
+[`r fa(name = "paper-plane")` a.barnett@qut.edu.au](mailto:a.barnett@qut.edu.au)
+
+
+---
+background-image: url(figures/AcknowledgementTraditionalOwners.jpg)
+background-size: cover
+
+---
+class:center, middle
+# Ethics is vital for research
+
+# This is my perspective as a researcher, I have biases
+
+
+```{r, out.width='48%'}
+knitr::include_graphics(path='figures/perspective.png')
+```
+
+---
+class:center, middle, inverse
+# Four bad examples
+
+---
+## Bad example #1: [national vaccine study](https://onlinelibrary.wiley.com/doi/full/10.1111/1753-6405.12929)
+
+```{r, out.width='100%'}
+knitr::include_graphics(path='figures/vaccine.png')
+```
+
+--
+
+* Six years to finally get data
+
+* Funding ended before data was received
+
+* Western Australia withdrew
+
+* "convoluted", "inconsistent"
+
+* "Extensive negotiation [...] between 18 different agencies"
+
+
+---
+## Bad example #2: [discarded samples](https://onlinelibrary.wiley.com/doi/full/10.1111/ans.15447)
+
+```{r, out.width='100%'}
+knitr::include_graphics(path='figures/infection.png')
+```
+
+--
+
+* 11+ months
+
+* 106 emails
+
+* valuable samples lost
+
+* "over-bureaucratisation"
+
+ 
+---
+### Lots more to choose from
+
+```{r, out.width='84%'}
+knitr::include_graphics(path='figures/lots_papers.png')
+```
+
+---
+background-image: url(figures/old_lady_hat.jpg)
+background-size: cover
+## Bad example #3: patient engagement
+
+* Chat with heart failure patients about thermal clothing
+
+* Documentation was a NEAF, protocol, cover letter, participant information and consent form, and CVs
+
+* Approval process took 4 months
+
+--
+
+* Interviews lasted 2 hours
+
+* Approvals not commensurate with the level of risk
+
+###### Image from Help the Aged, UK
+
+---
+class: inverse
+## Bad example #4: drive-through
+
+![](https://media.giphy.com/media/U3JOffKzRRP40Ua3cH/giphy.gif)
+
+* Poorly ventilated spaces with vehicles idling
+
+* Easily fixed with "air" windows
+
+--
+
+* Multiple companies declined to engage with me
+
+* Applied to ethics to conceal purpose of a monitoring study from employers ... was rejected
+
+---
+background-image: url(figures/minefield.png)
+background-size: cover
+
+.pull-right[
+
+###### Image from T & L, flickr.com
+
+]
+
+.pull-left[
+
+* "I was once told by the Chairperson of an ethics committee that he saw its role as making sure that the
+university didn’t get sued" [Guillemin et&nbsp;al](https://journals.sagepub.com/doi/abs/10.1525/jer.2012.7.3.38)
+
+* HREC member: "To ensure that someone is not going off on a frolic that will destroy or damage the reputation of the university" (ibid)
+
+<!--- * I prioritise learning something important about the world over the risk of upsetting some people --->
+
+]
+
+
+---
+## Too much oversight in Australia
+
+.pull-left[
+
+* "For exempting low-risk health and medical research: "The broadest set of exemptions exist in the Netherlands and the narrowest in Australia." [Scott et&nbsp;al.](https://health-policy-systems.biomedcentral.com/articles/10.1186/s12961-019-0520-4#Tab1) 
+
+<!--- * "Sometimes it can be quite adversarial" [Guillemin et&nbsp;al](https://journals.sagepub.com/doi/abs/10.1525/jer.2012.7.3.38) --->
+
+]
+
+.pull-right[
+
+![](https://media.giphy.com/media/htwABV5tJsqDm/giphy.gif)
+
+]
+
+---
+class: inverse
+### Ethics creep?
+
+```{r, out.width='55%'}
+knitr::include_graphics(path='figures/spanish_church.jpg')
+```
+
+* Typographical comments 
+
+* "To tinker with the methodology at the edges I think is outside their remit" [Guillemin et&nbsp;al](https://journals.sagepub.com/doi/abs/10.1525/jer.2012.7.3.38)
+
+--
+
+* 13/34 of the ethics committee members indicated that they were aware of the National Statement but did not often refer to it ... 3 ethics committee members had not read the National Statement [Guillemin et&nbsp;al](https://journals.sagepub.com/doi/abs/10.1525/jer.2012.7.3.38)
+
+* Audio version of the statement here [here](https://osf.io/yefv8/)
+
+<!--- Professional disadvantage of big four, higher standard --->
+
+---
+## Research rush
+
+![](https://media.giphy.com/media/3oz8xKaR836UJOYeOc/giphy.gif)
+--
+
+* The quality of the submission (ensuring correct attachments, up to date documents, clear information etc.) could account for a significant proportion of the burden and delay associated with ethical review [Brandenburg et al](https://journals.sagepub.com/doi/full/10.1177/1747016121999935)
+
+---
+## Hidden costs
+
+```{r, out.width='80%'}
+knitr::include_graphics(path='figures/anna_paper.png')
+```
+
+* Survey of Australian health/medical researchers and Human Research Ethics Committee members
+
+--
+
+* 43% of researchers reported changing projects in anticipation of obstacles from the ethics review process
+
+* 25% of researchers reported abandoning projects 
+
+* Research methods were altered so that a project could be classified as a low/negligible risk rather than higher risk, to avoid a full ethics review
+
+---
+background-image: url(figures/quote.png)
+class:inverse
+## Quotes
+
+* "Avoiding obtaining data from certain groups for example, those under 18 years old, pregnant women, Indigenous peoples, and those with disability"
+
+--
+
+* "Reducing the number of HRECs involved, especially avoiding those known to have few sittings a year and very long lead times"
+
+--
+
+* "I am an Aboriginal researcher undertaking Aboriginal community health research in my own community. The HREC regarded my situation as a conflict of interest, so I changed my ethics application status from CI-A to CI-D so I could continue to engage with my own community."
+
+--
+
+* "Many projects I have been involved with have been abandoned because the ethics approval process takes too long and is too laborious, especially for junior researchers"
+
+--
+
+* "Current processes for low risk are so cumbersome at my local health service: 100-page submission that still needs to be signed off by CEO of hospital even for low risk with site governance from another committee!"
+
+
+---
+## Disagreements
+
+```{r, out.width='78%'}
+knitr::include_graphics(path='figures/probability_scenarios.jpg')
+```
+
+---
+class: inverse
+## Publication misconception
+
+.pull-left[
+
+"The criteria that pushes this over a threshold for ethics review is the desire to publish and disseminate the research further."
+
+<!--- Many ethics committee members expressed the opinion that if the research was to be published in a journal then it required ethical approval, even if it was negligible or low risk.--->
+
+<!--- Most medical journals allow authors to explain why their research is exempt, and regularly publish research that did not require or receive ethical review. --->
+
+]
+
+.pull-right[
+
+```{r, out.width='100%'}
+knitr::include_graphics(path='figures/shelves.jpg')
+```
+
+###### Image from R Boed, flickr.com
+
+]
+
+---
+class: inverse
+## So here's what we did
+
+```{r, out.width='44%'}
+knitr::include_graphics(path='figures/petition.png')
+```
+
+* Not just a few cranky researchers
+
+<!--- https://www.thepetitionsite.com/981/617/971/we-need-a-national-inquiry-to-streamlineimprove-research-ethics-and-governance-in-australia/ --->
+
+---
+background-image: url(figures/quote.png)
+## Petition gave us more great quotes
+
+* "Our department usually has about 16 active trials at a time & now has now a dedicated nurse just to manage ethics and governance requirements. This is at a cost of $130,000/year"
+
+--
+
+* "I’ve lost funding previously because governance requirements could not be met within funding timelines"
+
+--
+
+* "As a busy clinical researcher I spend hundreds of unpaid hours doing these forms!"
+
+--
+
+* "Regulatory hurdles are harming patients by delaying vital research"
+
+--
+
+* "No country bureaucratized its way to excellence"
+
+---
+## Political meetings
+
+* Met Science Minister's staff member (Karen Andrews)
+
+* October 2019 submitted executive brief to Health Minister including petition, economic costs, survey quotes (Greg Hunt)
+
+--
+
+* Discussed with Labor MP Andrew Leigh
+
+* Zoom meeting with Labor staff member
+
+--
+
+* No response from The Greens
+
+* Met with Medicines Australia
+
+* Had session at AIMOS conference and frequently talked with other researchers
+
+All documents available here: [https://osf.io/nf48c/](https://osf.io/nf48c/)
+
+---
+## Economic savings
+
+
+```{r, out.width='40%'}
+knitr::include_graphics(path='figures/costs.png')
+```
+
+
+--
+
+```{r, out.width='40%'}
+knitr::include_graphics(path='figures/cost_savings.png')
+```
+
+---
+## Like the horizon
+
+![](https://media.giphy.com/media/13i9MA8PmVZMzu/giphy.gif)
+
+February 2017: Greg Hunt: Positive change is coming
+
+April 2020: Greg Hunt: Positive change is coming
+
+---
+## Things could get worse
+
+*NHMRC Public Consultation on the National Statement on Ethical Conduct in Human Research Sections 4 and 5*
+
+* Proposed change: "All research should be assessed for level of risk"
+
+--
+
+### "If someone starts asking for ethical approval of systematic reviews, I am prepared to go to jail!!" (after Richard Doll)
+
+```{r, out.width='30%'}
+knitr::include_graphics(path='figures/Paul_Glasziou.png')
+```
+
+---
+class: inverse
+## Questions
+
+.pull-left[
+
+* "I think researchers hate ethics committees, I have rarely found a researcher and I mean good researchers, mediocre and bad, in my realm of work every year, who don’t bitch about ethics committees" [Guillemin et&nbsp;al](https://journals.sagepub.com/doi/abs/10.1525/jer.2012.7.3.38)
+
+]
+
+.pull-right[
+
+```{r, out.width='80%'}
+knitr::include_graphics(path='figures/question.jpg')
+```
+
+###### Image from Cesar Bojorquez, flickr.com
+
+]

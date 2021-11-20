@@ -12,3 +12,4 @@ In date order:
 * `ANZSC` [Australian Statistical Society and New Zealand Statistical Association Conference](https://anzsc2021.com.au/) (July 2021)
 * `ethics` NSWHSB Seminar Series (July 2021)
 * `stats_society` Statistical Society of Australia Queensland Branch seminar on "Statisticians and the reproducibility crisis" (September 2021)
+* `ethics2` [2nd National HREC Conference](https://www.eventcreate.com/e/hrec2021) (December 2021)
