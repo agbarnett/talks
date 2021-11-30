@@ -1,6 +1,6 @@
 ---
 title: “Why is this taking so long?” The views of health and medical researchers on delays in ethics and governance
-author: 
+author: Adrian Barnett
 date: "2 December 2021"
 output:
   xaringan::moon_reader:
