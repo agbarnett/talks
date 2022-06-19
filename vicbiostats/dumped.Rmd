@@ -1,0 +1,16 @@
+---
+# Quotes
+
+[Yates and Healy](https://onlinelibrary.wiley.com/doi/10.1111/jeb.14009) (1964)  ‘[significance tests] are popular with non-statisticians, who like to feel certainty where no certainty exists’
+
+
+---
+# Attitude to statistics
+
+```{r, out.width='50%'}
+knitr::include_graphics(path='figures/science_magazine.png')
+```
+
+``I usually start with the abstract, which gives me a brief snapshot of what the study is all about. Then I read the entire article, leaving the methods to the end unless I can't make sense of the results or I'm unfamiliar with the experiments.''
+
+[Science Magazine](https://www.science.org/content/article/how-seriously-read-scientific-paper)

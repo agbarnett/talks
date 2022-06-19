@@ -1,0 +1,24 @@
+---
+# Ordinal data
+
+.pull-left[
+
+There should be tighter restrictions on the quota of proposals per Chief Investigator
+
+]
+
+.pull-right[
+
+```{r, out.width='88%'}
+knitr::include_graphics(path='figures/quota_ci.png')
+```
+
+
+]
+
+---
+# Distribution of mean
+
+```{r}
+
+```
