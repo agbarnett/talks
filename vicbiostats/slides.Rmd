@@ -187,7 +187,7 @@ Statistical methods sections:
 ---
 class: top, center, inverse
 
-```{r, out.width= '61%'}
+```{r, out.width= '64%'}
 knitr::include_graphics("figures/daniela.png")
 ```
 
@@ -376,7 +376,7 @@ knitr::include_graphics(path='figures/table_PMC7443541.png')
 ---
 ## [Shiny page](https://aushsi.shinyapps.io/baseline/)
 
-```{r, out.width='75%'}
+```{r, out.width='78%'}
 knitr::include_graphics(path='figures/shiny.png')
 ```
 
