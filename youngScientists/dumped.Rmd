@@ -1,4 +1,20 @@
 ---
+title: Dumped slides
+author: Adrian Barnett
+date: "23 June 2022"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      highlightStyle: dracula
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "https://platform.twitter.com/widgets.js"
+    seal: false 
+---
+
+---
 # Ordinal data
 
 .pull-left[

@@ -1,4 +1,20 @@
 ---
+title: Dumped slides
+author: Adrian Barnett
+date: "23 June 2022"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      highlightStyle: dracula
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "https://platform.twitter.com/widgets.js"
+    seal: false 
+---
+
+---
 # Quotes
 
 [Yates and Healy](https://onlinelibrary.wiley.com/doi/10.1111/jeb.14009) (1964)  ‘[significance tests] are popular with non-statisticians, who like to feel certainty where no certainty exists’
