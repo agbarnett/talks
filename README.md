@@ -17,5 +17,5 @@ In date order:
 * `lottery` Research Income: A lottery, game or fair?,  School of Exercise and Nutrition Sciences Research Planning Day (December 2021)
 * `vicbiostats` Victorian Centre for Biostatistics seminar (June 2022)
 * `youngScientists` Young Scientists Forum German Society for Biomaterials (June 2022)
-* `AEA` Australian Epidemiological Association (July 2022)
 * `FHMRI` Flinders Health and Medical Research Institute Seminar (July 2022)
+* `AEA` Australian Epidemiological Association (July 2022)
