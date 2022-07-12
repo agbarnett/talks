@@ -1,0 +1,224 @@
+---
+title: The Experience of Early Career Researchers in Australia
+author: Adrian Barnett
+date: "21 July 2022"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      highlightStyle: dracula
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "https://platform.twitter.com/widgets.js"
+    seal: false 
+---
+
+```{r setup, include=FALSE}
+# see https://github.com/rstudio-education/arm-workshop-rsc2019/blob/master/static/slides/xaringan.Rmd
+knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE, error=FALSE, comment='', dpi=400, fig.align='center')
+options(htmltools.dir.version = FALSE)
+#xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(gridExtra)
+library(knitr)
+library(janitor)
+library(flextable)
+library(fontawesome) # from github: https://github.com/rstudio/fontawesome
+cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+g.theme = theme_bw() + theme(panel.grid.minor = element_blank())
+```
+
+layout: true
+  
+---
+name: xaringan-title
+class: inverse, left, middle
+
+.pull-left[
+
+# .center[The Experience of Early Career Researchers in Australia]
+
+## .center[Adrian Barnett, QUT]
+
+### .center[21 July 2022]
+
+[`r fa(name = "twitter")` @aidybarnett](http://twitter.com/aidybarnett)  
+
+[`r fa(name = "github")` @agbarnett](http://github.com/agbarnett)  
+
+[`r fa(name = "blog")` Median Watch](https://medianwatch.netlify.app)
+
+[`r fa(name = "paper-plane")` a.barnett@qut.edu.au](mailto:a.barnett@qut.edu.au)
+
+]
+
+
+.pull-right[
+
+![](figures/disruption_image3.png)
+
+<!--- ![](https://media.giphy.com/media/3oKIPoAP1wLvewc7QI/giphy.gif) --->
+
+##### From Gina Ravenscroft (Harry Perkins Institute of Medical Research) “Giacomo 13 months old. Career disruptions don't magically disappear at the end of maternity leave. We need more nuanced ways to capture these delightful disruptions to work productivity.”
+
+]
+
+---
+# Noise in funding decisions
+
+```{r, fig.height=3.2}
+data = data.frame(source = c('Application','Noise'), percent = c(22.9, 77.1)) %>%
+  mutate(label = paste(round(percent), '%', sep=''))
+hplot = ggplot(data=data, aes(x=source, y=percent, fill=source))+
+  geom_bar(col='grey33', stat='identity')+
+  geom_text(data=data, aes(x=source, y=percent, label=label), col='white', vjust=1.5, size=12)+
+  scale_fill_manual(NULL, values=c('goldenrod','darkseagreen'))+
+  theme_bw()+
+  xlab('')+
+  ylab('Percent of variance explained')+
+  theme(text = element_text(size=12),
+    legend.position = 'none',
+        panel.grid.minor = element_blank())
+hplot
+```
+
+DOI: [10.1371/journal.pone.0165147](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0165147)
+
+---
+# Persistent funding gap
+
+```{r, out.width='60%'}
+# from U:\Research\Projects\ihbi\aushsi\aushsi_barnetta\NHMRC\Louise
+knitr::include_graphics(path='figures/totals_time.jpg')
+```
+
+---
+class: inverse
+# Persistent funding gap
+
+```{r, out.width='60%'}
+# from U:\Research\Projects\ihbi\aushsi\aushsi_barnetta\NHMRC\Louise
+knitr::include_graphics(path='figures/totals_money.jpg')
+```
+
+---
+
+```{r, out.width='60%'}
+knitr::include_graphics(path='figures/yerbery.png')
+```
+
+From [ABC news](https://www.abc.net.au/news/2020-12-03/mnd-researcher-justin-yerbury-catalyst-for-change-at-nhmrc/12944012)
+
+---
+class:center, middle, inverse
+
+# Hypothesis: Some noise in funding decisions is due to treatment of career disruption
+
+--
+
+# Premise: Career disruption is no way associated with talent
+
+---
+# Two surveys of Australian researchers
+
+* Random sample of recently active researchers from _PubMed_
+
+* Identical survey open to all (non-random)
+
+* Sent in October 2021
+
+* Response percent 32%
+
+---
+# Who responded?
+
+```{r, out.width='73%'}
+knitr::include_graphics(path='figures/combined_demographics.jpg')
+```
+
+---
+## Reasons for not including career disruptions (random sample)
+
+```{r, out.width='65%'}
+knitr::include_graphics(path='figures/Figure3_slide.jpg')
+```
+
+---
+class: inverse, middle
+
+## "I am female and don’t want to appear “weak”. Obvious career breaks such as childbirth, childcare or caring for a partner with cancer are fairly straight forward but other circumstances such as a breakdown could affect my reputation or bias the reviewers to think I would not be able to complete the project." (Female, 21 years or more).
+
+---
+class: inverse
+### Stigma for mental health
+
+```{r, out.width='65%'}
+knitr::include_graphics(path='figures/time_adjustment.jpg')
+```
+
+---
+class:inverse
+
+.pull-left[
+## "For me this scenario would increase the time I had to write" (Male, 21 years of more experience)
+]
+
+.pull-right[
+
+![](https://media.giphy.com/media/xUA7aNsAjcYEKsK2e4/giphy.gif)
+
+]
+
+
+---
+### Gender differences
+
+```{r, out.width='65%'}
+knitr::include_graphics(path='figures/gender_odds.jpg')
+```
+
+---
+class:inverse, center, middle
+# Solutions?
+
+---
+### Separate medical/social panel for judging career disruption
+
+```{r, out.width='69%'}
+knitr::include_graphics(path='figures/medical_panel.jpg')
+```
+
+---
+# Stratify by gender 
+
+50:50 split of winners
+
+50:50 split of funding pool
+
+---
+# Be part of the discussion
+
+#### NHMRC consultation: options to reach gender equity in Investigator Grants
+
+Monday 1 August, 12:30pm TRI, Wooloongabba
+
+---
+class:inverse
+
+.pull-left[
+
+![](figures/disruption_image2.png)
+
+]
+
+.pull-right[
+#### Annabel Sheehy (University Technology Sydney) “I started my PhD when my son was five weeks old. My oldest daughter was 10. I would start working at 10pm after his feed and work until 3 or 4am. Then I would go to sleep for a few hours and wake up take my daughter to school and then come home to nap if I could. During that time instead of being a midwifery lecturer I stopped that in order to get my PhD. After my son was born I also had another child when I was 40, she is my youngest of my three children. This is career disruption #101 !!!!!”
+]
+
+"Meta-research: justifying career disruption in funding applications, a survey of Australian researchers"
+Adrian Barnett, Katie Page, Carly Dyer, Susanna Cramb, DOI: [10.7554/eLife.76123](https://elifesciences.org/articles/76123)
+ 
+

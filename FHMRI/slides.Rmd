@@ -99,6 +99,7 @@ gplot = ggplot(data, aes(x=total))+
   g.theme
 bplot = ggplot(data, aes(x=total))+
   geom_boxplot()+
+  scale_y_continuous(breaks=NULL)+
   g.theme
 grid.arrange(gplot, bplot, ncol=2)
 ```

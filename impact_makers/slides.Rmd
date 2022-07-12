@@ -1,0 +1,314 @@
+---
+title: How to be a good scientific citizen
+author: Adrian Barnett
+date: "15 July 2022"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      highlightStyle: dracula
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "https://platform.twitter.com/widgets.js"
+    seal: false 
+---
+
+```{r setup, include=FALSE}
+## got 35 mins ##
+
+# see https://github.com/rstudio-education/arm-workshop-rsc2019/blob/master/static/slides/xaringan.Rmd
+knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE, error=FALSE, comment='', dpi=400, fig.align='center')
+options(htmltools.dir.version = FALSE)
+#xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+library(flextable)
+library(fontawesome) # from github: https://github.com/rstudio/fontawesome
+cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+```
+
+layout: true
+  
+---
+name: xaringan-title
+class: inverse, left, middle
+
+.pull-left[
+
+# .center[How to be a good scientific citizen]
+
+## .center[Adrian Barnett, QUT]
+
+### .center[15 July 2022]
+
+[`r fa(name = "twitter")` @aidybarnett](http://twitter.com/aidybarnett)  
+
+[`r fa(name = "github")` @agbarnett](http://github.com/agbarnett)  
+
+[`r fa(name = "blog")` Median Watch](https://medianwatch.netlify.app)
+
+[`r fa(name = "paper-plane")` a.barnett@qut.edu.au](mailto:a.barnett@qut.edu.au)
+
+]
+
+
+.pull-right[
+
+![](https://media.giphy.com/media/i9qmSfLuXXcXK/giphy.gif)
+
+]
+
+---
+# Read a lot
+
+```{r, out.width='65%'}
+knitr::include_graphics(path='figures/google_scholar.jpg')
+```
+
+---
+class: middle, inverse
+# Not like this
+
+```{r, out.width='45%'}
+knitr::include_graphics(path='figures/the_gilp.jpg')
+```
+
+
+---
+# Have humility
+
+## Avoid arrogance, over-confidence and intellectual fragility
+
+## "I appreciate being corrected when I make a mistake."
+
+DOI: [10.1038/s41562-021-01203-8](https://www.nature.com/articles/s41562-021-01203-8)
+
+---
+class: inverse
+# Be prepared for bad and good luck
+
+.pull-left[
+
+### "It's just the luck of the draw and I shudder to think of some of the talented people that have had the door shut in their faces." Bob Mortimer
+]
+
+.pull-right[
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Bob_mortimer_Middlesbrough.jpg" width="256"/>
+
+###### Image from Wikipedia, University of Salford Press Office
+
+]
+
+---
+class:inverse
+## Ignore the sideshows
+
+.pull-left[
+
+#### Ignore journal impact factors, awards, titles
+
+#### The main game is improving peoples' lives
+
+]
+
+.pull-right[
+
+![](https://media.giphy.com/media/l3q2IIpJlpLxrg1Us/giphy.gif)
+
+<!---knitr::include_graphics(path='figures/ginny_impact.jpg')--->
+
+]
+
+---
+# Research big, obvious problems
+
+```{r, out.width='55%'}
+knitr::include_graphics(path='figures/gix121fig3.jpeg')
+```
+
+DOI: [10.1093/gigascience/gix121](https://doi.org/10.1093/gigascience/gix121)
+
+
+---
+class:inverse, middle, center
+# Slow down
+
+![](figures/quality.gif)
+
+---
+class:inverse, center
+## Take time to learn methods
+
+```{r, out.width= '100%'}
+knitr::include_graphics("https://raw.githubusercontent.com/agbarnett/talks/master/AIMOS/figures/cakes.jpg")
+```
+
+---
+# Take time to learn methods
+
+```{r, out.width='80%'}
+knitr::include_graphics(path='figures/pie_terrible.jpg')
+```
+
+---
+## (never ever use pie charts)
+
+```{r, out.width='62%'}
+knitr::include_graphics(path='figures/pie_charts.jfif')
+```
+
+From [https://twitter.com/MaxCRoser/status/857389434756505600](https://twitter.com/MaxCRoser/status/857389434756505600)
+
+
+
+---
+class:inverse
+# Plan your work
+
+.pull-left[
+* Use systematic reviews
+* Write a protocol
+* Write an analysis plan
+* Use scrambled outcomes
+]
+
+.pull-right[
+![](https://media.giphy.com/media/IcHYWAuGJ1g7dTphLu/giphy.gif)
+]
+
+---
+class: middle, center, inverse
+# Involve patients or the public early
+
+![](https://media.giphy.com/media/ZF8GoFOeBDwHFsVYqt/giphy.gif)
+
+
+---
+class: middle, center
+# Be transparent and open to sharing
+
+![](https://media.giphy.com/media/Izcsdt83EqId7ONhZD/giphy.gif)
+
+
+---
+class:inverse
+# Develop your communication skills
+
+.pull-left[
+
+### "The ultimate test of your knowledge is your ability to convey it to another." Richard Feynman
+
+]
+
+.pull-right[
+
+
+```{r, out.width='74%'}
+knitr::include_graphics(path='figures/feynman.jfif')
+```
+
+(from @ProfFeynman)
+
+]
+
+---
+# Stop using acronyms
+
+"RUN had significantly (p<0.05) greater size-adjusted CSMI and BSI than C, SWIM, and CYC; and higher size, age, and YST-adjusted CSMI and BSI than SWIM and CYC."
+
+```{r, out.width='57%'}
+knitr::include_graphics(path='figures/lax_60080_elife-60080-fig1-v1.tif.jpg')
+```
+
+DOI: [10.7554/eLife.60080](https://elifesciences.org/articles/60080)
+
+
+---
+# Describe your work, use research check lists
+
+```{r, out.width='89%'}
+knitr::include_graphics(path='figures/checklists.png')
+```
+
+[goodreports.org](https://www.goodreports.org/)
+
+
+---
+class:inverse
+## Be open to surprises
+
+.pull-left[
+## The most exciting phrase to hear in science, the one that heralds new discoveries, is not “Eureka” but “That’s funny...”
+
+Isaac Asimov (1920 - 1992)
+]
+
+.pull-right[
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/archive/3/34/20100906191953%21Isaac.Asimov01.jpg" width="320" height="464"/>
+
+###### Image from Wikipedia, Phillip Leonian
+
+]
+
+---
+## Stop using p-values and statistical significance
+
+```{r, out.width='80%'}
+knitr::include_graphics(path='figures/z_values.png')
+```
+
+---
+class:inverse, center, middle
+## Avoid group-think
+
+![](https://media.giphy.com/media/vtf0uP1bwXBg4/giphy.gif)
+
+
+
+---
+class: inverse, center
+# Give compliments when earned
+
+![](https://media.giphy.com/media/xT9IgrNBmDXi6Z0YoM/giphy.gif)
+
+
+---
+# Embrace change
+
+```{r, out.width='50%'}
+knitr::include_graphics(path='figures/drawing_tools.jpg')
+```
+
+
+
+---
+# Read/Follow Retraction Watch
+
+```{r, out.width='70%'}
+knitr::include_graphics(path='figures/retraction_watch.jpg')
+```
+
+---
+class:inverse
+# Be generous (for supervisors) 
+
+.pull-left[
+
+### Push your students forward
+
+### Give them opportunities
+
+]
+
+.pull-right[
+
+![](https://media.giphy.com/media/SxhDfgXq4nAYoKkvbR/giphy.gif)
+
+]
+
+  

@@ -19,3 +19,4 @@ In date order:
 * `youngScientists` Young Scientists Forum German Society for Biomaterials (June 2022)
 * `FHMRI` Flinders Health and Medical Research Institute Seminar (July 2022)
 * `AEA` Australian Epidemiological Association (July 2022)
+* `impact_makers` Impact Makers 2022 conference at QUT (July 2022)
