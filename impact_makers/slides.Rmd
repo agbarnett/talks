@@ -164,16 +164,24 @@ knitr::include_graphics(path='figures/pie_charts.jfif')
 From [https://twitter.com/MaxCRoser/status/857389434756505600](https://twitter.com/MaxCRoser/status/857389434756505600)
 
 
+---
+# Ten simple rules for good research practice
+
+```{r, out.width='51%'}
+knitr::include_graphics(path='figures/journal.pcbi.1010139.g001.png')
+```
+
+DOI: [10.1371/journal.pcbi.1010139](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010139)
 
 ---
 class:inverse
 # Plan your work
 
 .pull-left[
-* Use systematic reviews
-* Write a protocol
-* Write an analysis plan
-* Use scrambled outcomes
+## * Use systematic reviews
+## * Write a protocol
+## * Write an analysis plan
+## * Use scrambled outcomes
 ]
 
 .pull-right[
@@ -228,23 +236,13 @@ DOI: [10.7554/eLife.60080](https://elifesciences.org/articles/60080)
 
 
 ---
-# Describe your work, use research check lists
-
-```{r, out.width='89%'}
-knitr::include_graphics(path='figures/checklists.png')
-```
-
-[goodreports.org](https://www.goodreports.org/)
-
-
----
 class:inverse
 ## Be open to surprises
 
 .pull-left[
-## The most exciting phrase to hear in science, the one that heralds new discoveries, is not “Eureka” but “That’s funny...”
+### The most exciting phrase to hear in science, the one that heralds new discoveries, is not “Eureka” but “That’s funny...”
 
-Isaac Asimov (1920 - 1992)
+Isaac Asimov (1920 to 1992)
 ]
 
 .pull-right[
@@ -264,7 +262,7 @@ knitr::include_graphics(path='figures/z_values.png')
 
 ---
 class:inverse, center, middle
-## Avoid group-think
+# Avoid group-think
 
 ![](https://media.giphy.com/media/vtf0uP1bwXBg4/giphy.gif)
 
@@ -283,8 +281,6 @@ class: inverse, center
 ```{r, out.width='50%'}
 knitr::include_graphics(path='figures/drawing_tools.jpg')
 ```
-
-
 
 ---
 # Read/Follow Retraction Watch
