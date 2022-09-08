@@ -1,0 +1,93 @@
+---
+title: "Distribution of the power in the CDSR"
+author: "Erik van Zwet"
+header-includes:
+  - \usepackage{amsmath}
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  pdf_document:
+    toc: true
+    toc_depth: 3
+    number_sections: true
+---
+
+<!--- code from Erik for creating power curve --->
+
+# Get the data
+
+Get the data from Schwab, S. (2020) Re-estimating 400,000 treatment effects from intervention studies in the Cochrane Database of Systematic Reviews [Data set]. Open Science Framework. (https://osf.io/xjv9g/).
+
+
+```{r, warning=FALSE, message=FALSE, echo=TRUE}
+library(ggplot2)
+library(dplyr)
+library(flexmix)  # for estimating normal mixture distribution
+
+d=read.csv("https://osf.io/xq4b2/?action=download")
+d=d %>% filter(RCT=="yes")
+d=d[d$outcome.group=="efficacy" & d$outcome.nr==1 & abs(d$z)<20,]
+d=group_by(d,study.id.sha1) %>% sample_n(size=1)   # select single outcome per study 
+
+z=d$z
+cat("number of z-values:",length(z),"\n")
+cat("proportion significant:",mean(abs(z)>1.96),"\n")
+```
+
+# Mixture distribution of z and SNR
+
+Estimate the distribution of the z-values with a 4-part normal mixture. We restrict the means to be zero, as we also did in van Zwet, E., Schwab, S. and Senn, S., 2021. The statistical properties of RCTs and a proposal for shrinkage. _Statistics in Medicine_, 40(27), pp.6107-6117.
+
+```{r, warning=FALSE, message=FALSE, echo=TRUE}
+fit=flexmix(z ~ 0, k = 4)        # estimate distr of b/s
+for (i in 1:5){                  # try few restarts
+  fit1=flexmix(z ~ 0, k = 4)
+  if (fit1@logLik > fit@logLik) fit = fit1
+}
+
+p=summary(fit)@comptab$prior
+s=parameters(fit)
+```
+
+Do the "deconvolution trick" to get the standard deviations of the SNR.
+
+```{r, warning=FALSE, message=FALSE, echo=TRUE}
+s=sqrt(s^2 - 1)              # standard deviations of SNR
+```
+
+#  Distribution of the power
+
+Sample 10^6 from the mixture distribution of the SNR, and transform them to the power.
+
+```{r, warning=FALSE, message=FALSE, echo=TRUE}
+rmix = function(n,p,m,s){   # sample from a normal mixture
+  d=rmultinom(n,1,p)
+  rnorm(n,m%*%d,s%*%d)
+}
+
+snr=rmix(10^6,p,m=rep(0,4),s)
+power=pnorm(-1.96,snr,1) + 1 - pnorm(1.96,snr,1)
+summary(power)
+```
+
+Finally, make a histogram of the power.
+
+```{r, warning=FALSE, message=FALSE, echo=TRUE}
+df=data.frame(power=power)
+ggplot(df, aes(x=power, y=..density..)) +
+  geom_histogram(bins=40,fill="white",col="black") + 
+  scale_x_continuous(breaks = seq(0,1,0.1)) +
+  theme_bw() + labs(x="power",y="")
+
+# added by AGB
+median = median(df$power)*100
+text = data.frame(x=median, y=200000, label=paste('Median = ', round(median), '%', sep=''))
+gplot = ggplot(df, aes(x=power*100)) +
+  geom_vline(xintercept = median, lty=2)+
+  geom_label(data=text, aes(x=x, y=y, label=label), adj=-0.1)+
+  geom_histogram(bins=40, fill="skyblue", col="grey33") + 
+ # scale_x_continuous(breaks = seq(0,1,0.1)*100) +
+  theme_bw() + 
+  theme(panel.grid.minor = element_blank())+
+  labs(x="Power (%)",y="Count")
+ggsave(filename = 'figures/power_histogram.jpg', width=5, height=4, units='in', dpi=500)
+```
