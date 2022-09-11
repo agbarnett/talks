@@ -182,6 +182,10 @@ Hat-tip to [Andrew Gelman](https://statmodeling.stat.columbia.edu/)
 # Quiz question
 <!--- Add a menti with options --->
 
+#### https://www.menti.com/v7z29zhuba
+
+#### Go to www.menti.com and use the code 1728 3788
+
 The P value is the probability ...
 
 a) that the null hypothesis is true
@@ -198,7 +202,7 @@ e) that the results happened by chance
 class:inverse
 ## The evidence-base is horribly biased
 
-```{r, out.width='62%'}
+```{r, out.width='60%'}
 # from U:\Research\Projects\ihbi\aushsi\aushsi_barnetta\meta.research\text.mining\outside.confidence.intervals\figures\4_plot_z.R
 knitr::include_graphics(path='figures/Z_plot.png')
 ```
