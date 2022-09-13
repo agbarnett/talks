@@ -182,21 +182,21 @@ Hat-tip to [Andrew Gelman](https://statmodeling.stat.columbia.edu/)
 # Quiz question
 <!--- Add a menti with options --->
 
-#### https://www.menti.com/v7z29zhuba
+#### https://www.menti.com/5624oqzron
 
-#### Go to www.menti.com and use the code 1728 3788
+#### Go to www.menti.com and use the code 3205 7080
 
 The P value is the probability ...
 
-a) that the null hypothesis is true
+* that the null hypothesis is true
 
-b) that the alternative hypothesis is true
+* that the alternative hypothesis is true
 
-c) of obtaining the observed or more extreme results if the alternative hypothesis is true
+* that the study worked
 
-d) of obtaining the observed results or results which are more extreme if the null hypothesis is true
+* that the results happened by chance
 
-e) that the results happened by chance
+* of obtaining the observed or more extreme results if the alternative hypothesis is true
 
 ---
 class:inverse
@@ -207,17 +207,31 @@ class:inverse
 knitr::include_graphics(path='figures/Z_plot.png')
 ```
 
-Z-values extracted from _Medline_ between 1976 and 2019
+Z-values extracted from confidence intervals in _Medline_ between 1976 and 2019
 
 ---
+## Bad practice in Australia
 
-<!--- registered reports --->
+.pull-left[
 
-```{r, out.width='61%'}
-knitr::include_graphics(path='figures/pbio.3000246.g001.png')
-```
+In the past three years how often have you: 
 
-DOI: [https://doi.org/10.1371/journal.pbio.3000246.g001](https://journals.plos.org/plosbiology/article/figure?id=10.1371/journal.pbio.3000246.g001)
+* Not attempted to publish a valid "negative" or "neutral" study = 25%
+* Selected the statistical method that provided the desired result = 8% ...
+* ... Rises to 30% when asking about witnessing this approach in others
+
+From NHMRC [2019 Survey of research culture in Australian NHMRC-funded institutions](https://www.nhmrc.gov.au/file/15321/download?token=PivJ5dGE)
+
+]
+
+.pull-right[
+
+<!--- from https://www.craigmarker.com/file-drawer-problem/ --->
+
+![](figures/filedrawer1-1002x675.jpg)
+
+]
+
 
 ---
 ## Abandon p-values and statistical significance 
@@ -282,33 +296,21 @@ Yates, Fisher and Cochran
 knitr::include_graphics(path='figures/power_histogram.jpg')
 ```
 
-* Actual power from over 1 million RCTs in the Cochrane database
+* Actual power from over 1 million randomised controlled trials in the Cochrane database
 
 DOI: [10.1111/1740-9713.01587](https://rss.onlinelibrary.wiley.com/doi/full/10.1111/1740-9713.01587)
 
 
 ---
-## Bad practice in Australia
 
-.pull-left[
+<!--- registered reports --->
 
-In the past three years how often have you: 
+```{r, out.width='61%'}
+knitr::include_graphics(path='figures/pbio.3000246.g001.png')
+```
 
-* Not attempted to publish a valid "negative" or "neutral" study = 25%
-* Selected the statistical method that provided the desired result = 8% ...
-* ... Rises to 30% when asking about witnessing this approach in others
+DOI: [https://doi.org/10.1371/journal.pbio.3000246.g001](https://journals.plos.org/plosbiology/article/figure?id=10.1371/journal.pbio.3000246.g001)
 
-From NHMRC [2019 Survey of research culture in Australian NHMRC-funded institutions](https://www.nhmrc.gov.au/file/15321/download?token=PivJ5dGE)
-
-]
-
-.pull-right[
-
-<!--- from https://www.craigmarker.com/file-drawer-problem/ --->
-
-![](figures/filedrawer1-1002x675.jpg)
-
-]
 
 ---
 class: inverse, center, middle
@@ -472,11 +474,11 @@ brick.” Bill Kaelin --->
 
 .pull-left[
 
-### Randomly audit 50 papers per year from each university & research institute
+### Randomly audit 100 papers per year from each university & research institute
 
 ### Statisticians check the analysis and see if they can reproduce the results
 
-### Reviewers read the papers and assess originality, reproducibility and translation into practice
+<!--- ### Reviewers read the papers and assess originality, reproducibility and translation into practice --->
 
 ]
 
@@ -523,14 +525,23 @@ knitr::include_graphics(path='figures/saitoh_simple.jpg')
 ```
 
 ---
-class: center, middle
+class: inverse
+# The continuing scandal of bad medical research
 
 .pull-left[
-# Losing battle
+
+* 1994: Doug Altman wrote about ‘The scandal of poor medical research’
+
+* 2015: Doug: Wish I'd said 'bad'
+
+* 2022: 1013 out of 1659 at high risk of bias. Estimated cost of bad trials was £726 million to £8 billion, DOI: [10.1186/s13063-022-06415-5](https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-022-06415-5)
 ]
 
 .pull-right[
-![](https://media.giphy.com/media/l1TRyTtoIfV8hnmOA3/giphy.gif)
+
+![](figures/Doug_altman.jpeg)
+
+##### By Oxford Clinical Trials Research Unit
 
 ]
 
