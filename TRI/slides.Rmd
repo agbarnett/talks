@@ -262,7 +262,7 @@ knitr::include_graphics(path='figures/pval_journey3.jpg')
 knitr::include_graphics(path='figures/pval_journey4.jpg')
 ```
 
-False positive probability = 9 / (9 + 12) = 43%
+False positive probability = 9 / (9 + 12) = 43%. See [DOI: 10.1098/rsos.140216](https://royalsocietypublishing.org/doi/10.1098/rsos.140216) for details.
 
 ---
 class:inverse
@@ -296,7 +296,7 @@ Yates, Fisher and Cochran
 knitr::include_graphics(path='figures/power_histogram.jpg')
 ```
 
-* Actual power from over 1 million randomised controlled trials in the Cochrane database
+* Actual power estimated from 20,000 randomised controlled trials in the Cochrane database
 
 DOI: [10.1111/1740-9713.01587](https://rss.onlinelibrary.wiley.com/doi/full/10.1111/1740-9713.01587)
 
