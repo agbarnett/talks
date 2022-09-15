@@ -20,4 +20,4 @@ In date order:
 * `FHMRI` Flinders Health and Medical Research Institute Seminar (July 2022)
 * `AEA` Australian Epidemiological Association (July 2022)
 * `impact_makers` Impact Makers 2022 conference at QUT (July 2022)
-* `TRI` TRI Director’s Choice Seminar (September 2022)
+* `TRI` TRI Director’s Choice Seminar (September 2022) - also presented to the South Australia Branch of the Statistical Society of Australia (September 2022)

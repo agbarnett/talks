@@ -1,7 +1,7 @@
 ---
 title: Bad statistics in medical research
 author: Adrian Barnett
-date: "13 September 2022"
+date: "September 2022"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -43,7 +43,7 @@ class: inverse, left, middle
 
 ## .center[Adrian Barnett, QUT]
 
-### .center[13 September 2022]
+### .center[September 2022]
 
 [`r fa(name = "twitter")` @aidybarnett](http://twitter.com/aidybarnett)  
 
