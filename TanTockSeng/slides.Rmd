@@ -1,0 +1,99 @@
+---
+title: Statistics and Data Analysis
+author: Adrian Barnett
+date: "21 October 2022"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      highlightStyle: dracula
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "https://platform.twitter.com/widgets.js"
+    seal: false 
+---
+
+```{r setup, include=FALSE}
+## got 35 mins ##
+
+# see https://github.com/rstudio-education/arm-workshop-rsc2019/blob/master/static/slides/xaringan.Rmd
+knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE, error=FALSE, comment='', dpi=400, fig.align='center')
+options(htmltools.dir.version = FALSE)
+#xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+library(flextable)
+library(fontawesome) # from github: https://github.com/rstudio/fontawesome
+cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+```
+
+layout: true
+  
+---
+name: xaringan-title
+class: inverse, left, middle
+
+.pull-left[
+
+# .center[Statistics and Data Analysis]
+
+## .center[Adrian Barnett, QUT]
+
+### .center[21 October 2022]
+
+[`r fa(name = "twitter")` @aidybarnett](http://twitter.com/aidybarnett)  
+
+[`r fa(name = "github")` @agbarnett](http://github.com/agbarnett)  
+
+[`r fa(name = "blog")` Median Watch](https://medianwatch.netlify.app)
+
+[`r fa(name = "paper-plane")` a.barnett@qut.edu.au](mailto:a.barnett@qut.edu.au)
+
+]
+
+
+.pull-right[
+
+![](https://media.giphy.com/media/SKab6E8Qeg7sY/giphy.gif)
+
+]
+
+---
+# Complex hospital data
+
+```{r, out.width='70%'}
+knitr::include_graphics(path='figures/patient_journey.png')
+```
+
+---
+# Causal models
+
+```{r, out.width='70%'}
+knitr::include_graphics(path='figures/causal_diagram.png')
+```
+
+
+
+---
+# Data overload
+
+1,000,000 records
+
+Errors in just 0.001
+
+1,000 errors to fix
+
+--
+
+Take random samples instead
+
+
+---
+# Data access
+
+![](https://media.giphy.com/media/BiuW4yryygP8thjyeW/giphy.gif)
+
+
