@@ -1,5 +1,5 @@
-# QUT Impact Makers conference 2022
+# Visit from Tan Tock Seng Hospital 2022
 
-*Title*: How to be a good scientific citizen
+*Title*: Statistics and Data Analysis
 
-Slides are available [here](https://agbarnett.github.io/talks/impact_makers/slides).
+Slides are available [here](https://agbarnett.github.io/talks/TanTockSeng/slides).

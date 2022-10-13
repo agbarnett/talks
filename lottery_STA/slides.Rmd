@@ -1,0 +1,95 @@
+---
+title: Awarding Small Grants at Random - A novel way to increase fairness and reduce costs
+author: Adrian Barnett
+date: "15 November 2022"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      highlightStyle: dracula
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "https://platform.twitter.com/widgets.js"
+    seal: false 
+---
+
+```{r setup, include=FALSE}
+# see https://github.com/rstudio-education/arm-workshop-rsc2019/blob/master/static/slides/xaringan.Rmd
+knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE, error=FALSE, comment='', dpi=400, fig.align='center')
+options(htmltools.dir.version = FALSE)
+#xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+library(fontawesome) # from github: https://github.com/rstudio/fontawesome
+cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+```
+
+layout: true
+  
+---
+name: xaringan-title
+class: inverse, left, middle
+
+.pull-left[
+
+# .center[Awarding Small Grants at Random: A novel way to increase fairness and reduce costs]
+
+## .center[Adrian Barnett, QUT]
+
+### .center[15 November 2022]
+
+[`r fa(name = "twitter")` @aidybarnett](http://twitter.com/aidybarnett)  
+
+[`r fa(name = "github")` @agbarnett](http://github.com/agbarnett)  
+
+[`r fa(name = "blog")` Median Watch](https://medianwatch.netlify.app)
+
+[`r fa(name = "paper-plane")` a.barnett@qut.edu.au](mailto:a.barnett@qut.edu.au)
+
+]
+
+
+.pull-right[
+
+![](https://media.giphy.com/media/dvgefaMHmaN2g/giphy.gif)
+
+]
+
+---
+class: center, middle
+# What is your favourite shade of blue?
+
+```{r, out.width='58%'}
+# from Make_blues.R
+knitr::include_graphics(path='figures/blues.jpg')
+```
+
+---
+# Noise in peer review
+
+```{r, out.width='50%'}
+# from gallo.R
+knitr::include_graphics(path='figures/gallo.jpg')
+```
+
+###### [Gallo et al](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0165147) _PLOS ONE_ 2016
+
+
+---
+class: center
+# Random allocation
+
+![](https://media.giphy.com/media/dvgefaMHmaN2g/giphy.gif)
+
+---
+class: center
+## Being used in New Zealand
+
+```{r, out.width='78%'}
+knitr::include_graphics(path='figures/lottery_paper.png')
+```
+
+### 63% in favour of using lottery, 25% against
