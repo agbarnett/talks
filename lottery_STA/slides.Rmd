@@ -21,6 +21,7 @@ options(htmltools.dir.version = FALSE)
 #xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 library(tidyverse)
 library(dplyr)
+library(cowplot) # for side-by-side figures
 library(ggplot2)
 library(knitr)
 library(fontawesome) # from github: https://github.com/rstudio/fontawesome
@@ -59,6 +60,74 @@ class: inverse, left, middle
 ]
 
 ---
+class: inverse
+# Running order
+
+.pull-left[
+* Problems with traditional funding schemes
+* How a lottery system can help
+* Who is using a lottery system
+* How to use a lottery system
+* Questions
+
+]
+
+.pull-right[
+![](https://media.giphy.com/media/JUNKPoNsn8hcS7IpGs/giphy.gif)
+]
+
+
+---
+class: inverse
+# Running order
+
+.pull-left[
+* Problems with traditional funding schemes
+* How a lottery system can help
+* Who is using a lottery system
+* How to use a lottery system
+* Questions
+
+Lottery = Random
+
+Small grants:
+* PhD top-ups
+* Travel scholarships
+* Seed funding
+
+]
+
+.pull-right[
+![](https://media.giphy.com/media/JUNKPoNsn8hcS7IpGs/giphy.gif)
+]
+
+
+
+---
+# My background
+
+.pull-left[
+
+* Professor of statistics
+* Ran experiments on funding:
+  + Uncertainty in scoring and decisions
+  + Time needed to complete applications
+  + Stress on applicants
+  + Using a lottery
+  
+]
+
+.pull-right[
+
+<!--- Once worked in a bingo hall ; https://www.wikihow.com/Call-Bingo--->
+
+![](figures/bingo_caller.jpg)
+
+###### Image from _wikiHow_
+
+]
+
+---
 class: center, middle
 # What is your favourite shade of blue?
 
@@ -66,6 +135,41 @@ class: center, middle
 # from Make_blues.R
 knitr::include_graphics(path='figures/blues.jpg')
 ```
+
+---
+class: center, middle
+# Who most deserves funding?
+
+```{r, out.width='40%'}
+knitr::include_graphics(path='figures/four_scientists.jpg')
+```
+
+##### Images from _Wikipedia_
+
+---
+# Reviewers can be biased
+
+```{r}
+# Create simple plot for editing with photos in photoshop
+data = data.frame(who = 1:3, reject=c(23, 48, 65))
+gplot = ggplot(data=data, aes(x=who, y=reject))+
+  geom_line(col = 'dodgerblue', size=1.05)+
+  geom_point(col = 'dodgerblue', size=4)+
+  scale_x_continuous(breaks=1:3, labels=c("Nobel",'Anonymous','Little known'))+
+  scale_y_continuous(limits=c(0,NA))+
+  xlab('')+
+  ylab('Percent rejected')+
+  theme_bw()+
+  theme(panel.grid.minor = element_blank(),
+        plot.margin = margin(0.1, 0.5, 2.8, 0.1, "cm")) # t, r, b, l
+jpeg('figures/nobel.jpg', width=5, height=4, units='in', res=500, quality=100)
+print(gplot)
+invisible(dev.off())
+# include edited version
+knitr::include_graphics(path='figures/nobel_edited.jpg')
+```
+
+###### [Huber et al](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4190976)
 
 ---
 # Noise in peer review
@@ -79,17 +183,306 @@ knitr::include_graphics(path='figures/gallo.jpg')
 
 
 ---
-class: center
-# Random allocation
+# Science is unpredictable
 
-![](https://media.giphy.com/media/dvgefaMHmaN2g/giphy.gif)
+```{r, out.width='45%'}
+knitr::include_graphics(path='figures/elife_edited.jpg')
+```
+
+[Fang et al](https://elifesciences.org/articles/13323)
 
 ---
-class: center
-## Being used in New Zealand
+# Costs and accuracy
 
-```{r, out.width='78%'}
+```{r, out.width='45%'}
+knitr::include_graphics(path='figures/bmjopen-2013-January-3-5--F2.large.jpg')
+```
+
+[Herbert et al](https://bmjopen.bmj.com/content/3/5/e002800)
+
+---
+# Externalising costs 
+
+.pull-left[
+* 650 applicants and 6 awards; success < 1%
+
+* Total prize = $900,000 ($150,000 per winner)
+
+* Prize would be wiped out if each applicant spent 7 days on their application 
+
+[Blog post](https://medianwatch.netlify.app/post/hidden_funding_costs)
+]
+
+.pull-right[
+
+```{r, out.width='57%'}
+knitr::include_graphics(path='https://media.giphy.com/media/5rW0M5Hmm28cE/giphy.gif')
+```
+
+
+###### (from giphy.com)
+
+]
+
+---
+class: inverse
+# A modified lottery
+
+### 1. Applicants are reviewed to ensure they fit the goals of the scheme
+
+--
+
+### 2. Eligible applicants awarded at random until funding runs out
+
+
+---
+class: middle, inverse
+# Lottery examples from ancient and recent history
+
+```{r}
+knitr::include_graphics(path='figures/lottery_examples.jpg')
+```
+
+---
+class: middle
+# International funders using modified lotteries
+
+```{r, out.width='150%'}
+knitr::include_graphics(path='figures/agencies.jpg')
+```
+
+
+---
+class: middle
+# Societies using modified lotteries
+
+```{r, out.width='100%'}
+knitr::include_graphics(path='figures/societies.jpg')
+```
+
+
+---
+# What did applicants say?
+
+.pull-left[
+
+```{r, out.width='100%'}
 knitr::include_graphics(path='figures/lottery_paper.png')
 ```
 
-### 63% in favour of using lottery, 25% against
+[Lui et al](https://researchintegrityjournal.biomedcentral.com/articles/10.1186/s41073-019-0089-z)
+
+]
+
+.pull-right[
+
+* 63% in favour of using lottery, 25% against
+
+* Provided those applications that made it through the initial stage were “of equal merit”, “deemed worthy enough”
+
+* “I don't think a randomisation process is any less fair than an individual reviewer finding some minor reason for a great project not to be funded.”
+
+]
+
+---
+# Arguments against using a modified lottery
+
+.pull-left[
+
+Rewards less deserving and/or less enthusiastic
+
+Encourages less talented to apply
+
+Applicants put in less effort
+
+Still requires peer review
+
+]
+
+.pull-right[
+
+![](https://media.giphy.com/media/LOEI8jsNKPmzdJYvhJ/giphy.gif)
+
+###### (from giphy.com)
+
+]
+
+---
+# Potential benefits for scientific societies
+
+.pull-left[
+
+Reduces cronyism (and perception of cronyism)
+
+Increases diversity in winners
+
+Reduces application and review costs
+
+Acknowledges that science is unpredictable
+
+Reduces stigma of failure
+
+Might reduce "Matthew effect"
+
+]
+
+.pull-right[
+
+![](https://media.giphy.com/media/lbrzkRK0DxSEg/giphy.gif)
+
+###### (from giphy.com)
+
+]
+
+---
+class: center, inverse, middle
+# How to randomise
+
+---
+# Put names in Excel spreadsheet
+
+```{r, out.width='74%'}
+knitr::include_graphics(path='figures/excel_1.jpg')
+```
+
+---
+# Use random function
+
+```{r, out.width='74%'}
+knitr::include_graphics(path='figures/excel_2.jpg')
+```
+
+---
+# Copy function to all eligible people
+
+```{r, out.width='74%'}
+knitr::include_graphics(path='figures/excel_3.jpg')
+```
+
+---
+# Copy column and paste to another column using values
+
+```{r, out.width='74%'}
+knitr::include_graphics(path='figures/excel_4.jpg')
+```
+
+---
+# Delete original random column
+
+```{r, out.width='74%'}
+knitr::include_graphics(path='figures/excel_5.jpg')
+```
+
+---
+# Select all and sort
+
+```{r, out.width='101%'}
+knitr::include_graphics(path='figures/excel_6.jpg')
+```
+
+---
+# Select column for sorting
+
+```{r, out.width='74%'}
+knitr::include_graphics(path='figures/excel_6b.jpg')
+```
+
+---
+# Final list
+
+```{r, out.width='74%'}
+knitr::include_graphics(path='figures/excel_7.jpg')
+```
+
+---
+# Alterations
+
+.pull-left[
+
+1. Golden ticket: "outstanding" applications skip the lottery
+
+2. Weighted lotteries: some applicants get more tickets than others
+
+3. Stratified lotteries: e.g., winners at least 50% women
+
+]
+
+.pull-right[
+
+```{r, out.width='60%'}
+knitr::include_graphics(path='figures/pexels-tima-miroshnichenko-6714383.jpg')
+```
+
+
+##### Photo by Tima Miroshnichenko
+
+]
+
+---
+# Example email to applicants
+
+.pull-left[
+
+### "Thank you for your application to the Amazing Scientist scheme. Your application was judged as meritorious, but was not selected using the lottery process. There were 10 eligible applications and 4 were randomly selected to receive funding. We hope you will consider applying in future rounds."
+
+]
+
+.pull.right[
+
+![](https://media.giphy.com/media/2wWBH0vXsVUmKtRJOe/giphy.gif)
+
+]
+
+---
+# Worthwhile data
+
+.pull-left[
+
+### Ask applicants:
+
+### 1. How long they spent on their application
+
+### 2. What system they would prefer 
+
+]
+
+.pull-right[
+
+![](https://media.giphy.com/media/YRVUxiJP9z1lfE5htb/giphy.gif)
+
+]
+
+---
+# Further reading
+
+.pull-left[
+
+[Blog](https://www.statnews.com/2022/10/21/research-funding-broken-lottery-approach-could-fix-it/) on using lotteries in research
+
+[Scientific paper](https://www.sciencedirect.com/science/article/pii/S0039368118300190) on using lotteries
+
+[Nature article](https://www.nature.com/articles/d41586-021-01232-3) on using lotteries
+
+[New York Times article](https://www.nytimes.com/2020/02/14/science/research-funding-lotteries.html) on using lotteries
+
+<!--- [](Explanation) from Swiss National Science Foundation on why they are using 
+lotteries --->
+
+]
+
+.pull-right[
+
+![](https://media.giphy.com/media/34ZNcoaN5u4hi/giphy.gif)
+
+###### (from giphy.com)
+
+]
+
+
+---
+class: inverse, center, middle
+# Questions?
+
+![](https://media.giphy.com/media/xT0xeuOy2Fcl9vDGiA/giphy.gif)
+
+###### (from giphy.com)
