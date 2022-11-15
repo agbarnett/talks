@@ -23,3 +23,5 @@ In date order:
 * `TRI` TRI Director’s Choice Seminar (September 2022) - also presented to the South Australia Branch of the Statistical Society of Australia (September 2022)
 * `TanTockSeng` Visit from Tan Tock Seng Hospital (October 2022)
 * `lottery_STA` Science Technology Australia webinar series (November 2022)
+* `lottery_bardsnet` BARDsNet – the network of Business School Associate Deans Research across ANZ (November 2022)
+* `ISI` International Statistical Institute Regional Seminar Series (December 2022)

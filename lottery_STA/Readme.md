@@ -1,4 +1,4 @@
-# Science Technology Australia webinar series
+# Science Technology Australia webinar series, November 2022
 
 *Title*: Awarding Small Grants at Random: A novel way to increase fairness & reduce costs.
 
