@@ -25,3 +25,5 @@ In date order:
 * `lottery_STA` Science Technology Australia webinar series (November 2022)
 * `lottery_bardsnet` BARDsNet – the network of Business School Associate Deans Research across ANZ (November 2022)
 * `ISI` International Statistical Institute Regional Seminar Series (December 2022)
+* `DCE` AusHSI Discrete Choice Experiments: Exploring and evaluating methodologies (March 2023)
+* `crikey` Critical care Research International: Knowledge, Evidence and beYond (CRIKEY), Gold Coast (March 2023)

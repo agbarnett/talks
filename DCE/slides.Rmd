@@ -1,0 +1,147 @@
+---
+title: A discrete choice experiment to understand researchers’ publication preferences
+author: Adrian Barnett, Sucharitha Weerasuriya, Sameera Senanayake, David Brain, Sanjeewa Kularatna
+date: "3 March 2023"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      highlightStyle: dracula
+      highlightLines: true
+      slideNumberFormat: ''
+      countIncrementalSlides: false
+      beforeInit: "https://platform.twitter.com/widgets.js"
+    seal: false 
+---
+
+```{r setup, include=FALSE}
+# have removed slide number using slideNumberFormat
+# see https://github.com/rstudio-education/arm-workshop-rsc2019/blob/master/static/slides/xaringan.Rmd
+knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE, error=FALSE, comment='', dpi=400, fig.align='center')
+options(htmltools.dir.version = FALSE)
+#xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
+library(tidyverse)
+library(dplyr)
+#library(cowplot) # for side-by-side figures
+#library(ggplot2)
+library(knitr)
+library(flextable)
+library(fontawesome) # from github: https://github.com/rstudio/fontawesome
+cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+```
+
+layout: true
+
+---
+name: xaringan-title
+class: inverse, left, middle
+
+.pull-left[
+
+# .center[A discrete choice experiment to understand researchers’ publication preferences]
+
+## .center[Adrian Barnett, Sucharitha Weerasuriya, Sameera Senanayake, David Brain, Sanjeewa Kularatna]
+
+### .center[3 March 2023]
+
+[`r fa(name = "twitter")` @aidybarnett](http://twitter.com/aidybarnett)  
+
+[`r fa(name = "github")` @agbarnett](http://github.com/agbarnett)  
+
+[`r fa(name = "blog")` Median Watch](https://medianwatch.netlify.app)
+
+[`r fa(name = "paper-plane")` a.barnett@qut.edu.au](mailto:a.barnett@qut.edu.au)
+
+]
+
+.pull-right[
+
+![](https://media.giphy.com/media/3og0Iwmv38WmJBrYvS/giphy.gif)
+
+(from [giphy](https://giphy.com/))
+
+]
+
+
+---
+# Papers are academic currency
+
+```{r, out.width='80%'}
+knitr::include_graphics(path='figures/DALL·E 2023-02-16 18.27.54 - A scientist celebrating a journal paper.png')
+```
+
+(from DALL·E)
+
+---
+class: inverse
+# Papers are a vital record of evidence
+
+```{r, out.width='67%'}
+knitr::include_graphics(path='figures/WRA-Three-Priorities-launch_Feb22.jpg')
+```
+
+(from [Micromobility](https://micromobilityreport.com.au/infrastructure/policy-and-funding/we-ride-federal-election-pitch-pushes-three-priorities/))
+
+---
+class: middle, center
+# Which paper would you prefer?
+
+```{r}
+table = read.table(header = TRUE, sep=',', text='
+Option 1, Option 2
+Impact Factor 10, Impact Factor 2
+200 Citations,20 Citations
+First author,3rd author
+No impact on policy,Changes policy at a hospital
+1000 downloads, 800 downloads
+')
+flextable(table) %>%
+  fontsize(size=20, part = "all") %>%
+  autofit() %>%
+  theme_vanilla()
+```
+
+---
+class: middle, center
+# Some potential attributes
+
+```{r}
+table = read.table(header = FALSE, sep=',', text='
+Impact factor,Journal prestige,Journal circulation
+Paper has editorial,Paper replicates previous work,Open Access
+Author position,Author numbers,With renowned co-authors
+Altmetric,Media coverage,Wins an award
+Cited in policy,Cited in textbook,Download numbers
+')
+flextable(table) %>%
+  delete_part(part = "header") %>%
+  fontsize(size=18, part = "all") %>%
+  autofit() %>%
+  theme_box()
+```
+
+
+---
+class:center
+## Too many researchers are choosing their career over evidence
+
+```{r, out.width='69%'}
+knitr::include_graphics(path='figures/Z_plot.png') # from text.mining/outside.confidence.intervals
+```
+
+---
+# Researchers under pressure
+
+### "In my discipline ... there’s just a few journals, and if you’re not in that journal, then your publication doesn’t really count.'' [DOI: 10.1007/s11948-007-9042-5](https://link.springer.com/article/10.1007/s11948-007-9042-5)
+
+### "Most of the pressure I have felt to fabricate data or rush studies has come from the need to publish for grants and to publish before my contract runs out.'' [DOI: 10.1101/2022.12.06.519378](https://www.biorxiv.org/content/10.1101/2022.12.06.519378v1.abstract)
+
+---
+class: inverse, middle, center
+
+```{r, out.width='80%'}
+knitr::include_graphics(path='https://media.giphy.com/media/L84mZKrSkc2JO/giphy.gif')
+```
+
+(from [giphy](https://giphy.com/))
