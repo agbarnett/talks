@@ -27,3 +27,4 @@ In date order:
 * `ISI` International Statistical Institute Regional Seminar Series (December 2022)
 * `DCE` AusHSI Discrete Choice Experiments: Exploring and evaluating methodologies (March 2023)
 * `crikey` Critical care Research International: Knowledge, Evidence and beYond (CRIKEY), Gold Coast (March 2023)
+* `more_than_our_rank` [More Than Our Rank Community Call](https://inorms.net/more-than-our-rank-community-calls/) (March 2023)

@@ -64,11 +64,24 @@ class: inverse, left, middle
 
 
 ---
-### Terms of refernece for a UK review
+## Terms of reference for a 2022 UK review
 
-How do we facilitate access to data by researchers while preserving patient privacy?
+.pull-left[
+#### How do we facilitate access to data by researchers while preserving patient privacy?
 
-How do we facilitate access to NHS data by researchers, commissioners, and innovators, while preserving patient privacy?
+#### How do we facilitate access to NHS data by researchers, commissioners, and innovators, while preserving patient privacy?
+
+]
+
+.pull-right[
+
+![](https://media.giphy.com/media/l0HlRnAWXxn0MhKLK/giphy.gif)
+
+
+(from giphy)
+
+]
+
 
 ---
 class: center, middle
@@ -76,29 +89,39 @@ class: center, middle
 
 ![](figures/duszynski.jpg)
 
-Took six years to get linked data
+### Took six years to get linked data
 
----
-# Already done it
-
-![](figures/urner.jpg)
 
 ---
 # Done it better in the UK
 
-![](figures/openSafely.jpg)
+```{r, out.width='73%'}
+knitr::include_graphics(path='figures/openSafely.jpg')
+```
 
 ---
-# Getting this in Australia?
 
-Add giphy for uphill task
+![](figures/open_safely_papers.jpg)
+
+---
+## Proof of concept from Australia
+
+![](figures/urner.jpg)
+
+---
+class: center, middle, inverse
+## Getting this in Australia?
+
+![](https://media.giphy.com/media/3ov9jWs5B1NI2voeuk/giphy.gif)
+
+(from giphy.com)
 
 
 ---
 class: center, middle
 
 ```{r}
-# space slide
+# space slide between talks
 ```
 
 ---
@@ -235,8 +258,6 @@ class: inverse
 .pull-left[
 
 * 1994: Doug Altman wrote about ‘The scandal of poor medical research’
-
-* 2015: Doug: Wish I'd said 'bad'
 
 * 2022: 1013 out of 1659 at high risk of bias. Estimated cost of bad trials was £726 million to £8 billion, DOI: [10.1186/s13063-022-06415-5](https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-022-06415-5)
 ]
