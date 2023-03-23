@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>More Than Our Rank Community Call</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Adrian Barnett" />
+    <meta name="date" content="2023-03-23" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+    <link href="libs/tabwid/tabwid.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+layout: true
+  
+---
+name: xaringan-title
+class: inverse, left, middle
+
+.pull-left[
+
+# .center[Teflon tables: is there any criticism of university league tables that will stick?]
+
+## .center[Adrian Barnett, QUT]
+
+### .center[23 March 2023]
+
+[<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg> @aidybarnett](http://twitter.com/aidybarnett)  
+
+[<svg aria-hidden="true" role="img" viewBox="0 0 496 512" style="height:1em;width:0.97em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg> @agbarnett](http://github.com/agbarnett)  
+
+[<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M172.2 226.8c-14.6-2.9-28.2 8.9-28.2 23.8V301c0 10.2 7.1 18.4 16.7 22 18.2 6.8 31.3 24.4 31.3 45 0 26.5-21.5 48-48 48s-48-21.5-48-48V120c0-13.3-10.7-24-24-24H24c-13.3 0-24 10.7-24 24v248c0 89.5 82.1 160.2 175 140.7 54.4-11.4 98.3-55.4 109.7-109.7 17.4-82.9-37-157.2-112.5-172.2zM209 0c-9.2-.5-17 6.8-17 16v31.6c0 8.5 6.6 15.5 15 15.9 129.4 7 233.4 112 240.9 241.5.5 8.4 7.5 15 15.9 15h32.1c9.2 0 16.5-7.8 16-17C503.4 139.8 372.2 8.6 209 0zm.3 96c-9.3-.7-17.3 6.7-17.3 16.1v32.1c0 8.4 6.5 15.3 14.8 15.9 76.8 6.3 138 68.2 144.9 145.2.8 8.3 7.6 14.7 15.9 14.7h32.2c9.3 0 16.8-8 16.1-17.3-8.4-110.1-96.5-198.2-206.6-206.7z"/></svg> Median Watch](https://medianwatch.netlify.app)
+
+[<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"/></svg> a.barnett@qut.edu.au](mailto:a.barnett@qut.edu.au)
+
+]
+
+
+.pull-right[
+
+![](https://media.giphy.com/media/8maSJL7Xu9ybIvGP0p/giphy.gif)
+
+(from giphy)
+
+]
+
+---
+background-image: url(figures/AcknowledgementTraditionalOwners.jpg)
+background-size: cover
+
+
+---
+
+&lt;img src="figures/archer.jpg" width="81%" style="display: block; margin: auto;" /&gt;
+
+Photo by &lt;a href="https://unsplash.com/@hiteshchoudhary?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"&gt;Hitesh Choudhary&lt;/a&gt; on &lt;a href="https://unsplash.com/photos/ec6E029hwMo?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;
+  
+
+---
+class: inverse
+background-image: url(figures/qut_recent.jpg)
+background-size: contain
+
+---
+class: inverse, center, middle
+
+.pull-left[
+
+![](figures/HistoryOfTheWorld.jpg)
+
+(from Wikipedia)
+
+]
+
+---
+class: inverse, center, middle
+
+.pull-left[
+
+![](figures/HistoryOfTheWorld.jpg)
+
+(from Wikipedia)
+
+]
+
+.pull-right[
+
+&lt;!--- get a verdict ---&gt;
+
+# "You were okay.''
+
+]
+
+---
+class:inverse
+## Truly measuring quality
+
+.pull-left[
+
+Innovation / originality
+
+Economic value
+
+Social value
+
+Knowledge impact
+
+]
+
+.pull-right[
+![](https://media.giphy.com/media/dvgefaMHmaN2g/giphy.gif)
+
+(from giphy)
+
+]
+
+DOI: [10.1371/journal.pone.0195613](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0195613)
+
+---
+class:inverse
+## Magic of numbers and equations
+
+&lt;img src="figures/witchcraft.jpg" width="74%" style="display: block; margin: auto;" /&gt;
+
+Photo by &lt;a href="https://unsplash.com/@art_maltsev?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"&gt;Artem Maltsev&lt;/a&gt; on &lt;a href="https://unsplash.com/photos/3n7DdlkMfEg?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;
+  
+&lt;!--- https://www.timeshighereducation.com/world-university-rankings/world-university-rankings-2023-methodology#node-comments ---&gt;  
+  
+---
+
+.pull-left[
+
+&lt;img src="figures/freeways.jpg" width="82%" style="display: block; margin: auto;" /&gt;
+
+
+Photo by &lt;a href="https://unsplash.com/@dnevozhai?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"&gt;Denys Nevozhai&lt;/a&gt; on &lt;a href="https://unsplash.com/s/photos/freeway?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;
+
+]
+  
+.pull-right[
+
+#### Field-Weighted Citation Impact (FWCI)
+
+#### Fractional counting of authors
+
+#### Subject-specific rankings
+
+]
+
+
+---
+
+.pull-left[
+
+
+&lt;img src="figures/freeways_with_trees.jpg" width="82%" style="display: block; margin: auto;" /&gt;
+
+Tree from a Photo by &lt;a href="https://unsplash.com/@jeroendenotter?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"&gt;Jeroen den Otter&lt;/a&gt; on &lt;a href="https://unsplash.com/images/nature/tree?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;
+
+]
+
+.pull-right[
+
+#### Field-Weighted Citation Impact (FWCI)
+
+#### Fractional counting of authors
+
+#### Subject-specific rankings
+
+]
+  
+
+---
+# Uncertainty
+
+&lt;img src="figures/citations.jpg" width="1200" style="display: block; margin: auto;" /&gt;
+
+&lt;!--- plus/minus 10% in citations ---&gt;
+
+Data from Leiden University ranking
+
+DOI: [10.1111/1740-9713.01663](https://rss.onlinelibrary.wiley.com/doi/full/10.1111/1740-9713.01663)
+
+
+---
+# Missing affiliations
+
+
+&lt;template id="5d582317-0b06-445a-836e-cdbf0d920cee"&gt;&lt;style&gt;
+.tabwid table{
+  border-spacing:0px !important;
+  border-collapse:collapse;
+  line-height:1;
+  margin-left:auto;
+  margin-right:auto;
+  border-width: 0;
+  display: table;
+  margin-top: 1.275em;
+  margin-bottom: 1.275em;
+  border-color: transparent;
+}
+.tabwid_left table{
+  margin-left:0;
+}
+.tabwid_right table{
+  margin-right:0;
+}
+.tabwid td {
+    padding: 0;
+}
+.tabwid a {
+  text-decoration: none;
+}
+.tabwid thead {
+    background-color: transparent;
+}
+.tabwid tfoot {
+    background-color: transparent;
+}
+.tabwid table tr {
+background-color: transparent;
+}
+&lt;/style&gt;&lt;div class="tabwid"&gt;&lt;style&gt;.cl-a9adcb88{}.cl-a9a40cce{font-family:'Arial';font-size:18pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-a9a40cd8{font-family:'Arial';font-size:18pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-a9a42038{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-a9a42042{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-a9a42043{margin:0;text-align:center;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-a9a45922{width:82.5pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a9a4592c{width:200.7pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a9a4592d{width:260.6pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a9a45936{width:141.6pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a9a45937{width:70.6pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a9a45938{width:82.5pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a9a45940{width:200.7pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a9a45941{width:141.6pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a9a45942{width:260.6pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a9a4594a{width:70.6pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a9a4594b{width:260.6pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a9a4594c{width:82.5pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a9a4594d{width:70.6pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-a9a45954{width:141.6pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}&lt;/style&gt;&lt;table class='cl-a9adcb88'&gt;&lt;thead&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td class="cl-a9a45940"&gt;&lt;p class="cl-a9a42038"&gt;&lt;span class="cl-a9a40cce"&gt;University&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a4594d"&gt;&lt;p class="cl-a9a42042"&gt;&lt;span class="cl-a9a40cce"&gt;Score&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a4594c"&gt;&lt;p class="cl-a9a42042"&gt;&lt;span class="cl-a9a40cce"&gt;Cluster&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a4594b"&gt;&lt;p class="cl-a9a42038"&gt;&lt;span class="cl-a9a40cce"&gt;Good practice rank (95% CI)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a45954"&gt;&lt;p class="cl-a9a42038"&gt;&lt;span class="cl-a9a40cce"&gt;Standard rank&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td class="cl-a9a4592c"&gt;&lt;p class="cl-a9a42038"&gt;&lt;span class="cl-a9a40cd8"&gt;University of Toronto&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a45937"&gt;&lt;p class="cl-a9a42043"&gt;&lt;span class="cl-a9a40cd8"&gt;82.8&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a45922"&gt;&lt;p class="cl-a9a42043"&gt;&lt;span class="cl-a9a40cd8"&gt;5&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a4592d"&gt;&lt;p class="cl-a9a42043"&gt;&lt;span class="cl-a9a40cd8"&gt;1 (1 to 2)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a45936"&gt;&lt;p class="cl-a9a42043"&gt;&lt;span class="cl-a9a40cd8"&gt;2&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td class="cl-a9a45940"&gt;&lt;p class="cl-a9a42038"&gt;&lt;span class="cl-a9a40cd8"&gt;University of Sydney&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a4594a"&gt;&lt;p class="cl-a9a42043"&gt;&lt;span class="cl-a9a40cd8"&gt;75.8&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a45938"&gt;&lt;p class="cl-a9a42043"&gt;&lt;span class="cl-a9a40cd8"&gt;5&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a45942"&gt;&lt;p class="cl-a9a42043"&gt;&lt;span class="cl-a9a40cd8"&gt;2 (1 to 2)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a45941"&gt;&lt;p class="cl-a9a42043"&gt;&lt;span class="cl-a9a40cd8"&gt;5&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td class="cl-a9a45940"&gt;&lt;p class="cl-a9a42038"&gt;&lt;span class="cl-a9a40cd8"&gt;Missing&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a4594a"&gt;&lt;p class="cl-a9a42043"&gt;&lt;span class="cl-a9a40cd8"&gt;47.3&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a45938"&gt;&lt;p class="cl-a9a42043"&gt;&lt;span class="cl-a9a40cd8"&gt;4&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a45942"&gt;&lt;p class="cl-a9a42043"&gt;&lt;span class="cl-a9a40cd8"&gt;4 (3 to 12)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a45941"&gt;&lt;p class="cl-a9a42043"&gt;&lt;span class="cl-a9a40cd8"&gt;–&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td class="cl-a9a45940"&gt;&lt;p class="cl-a9a42038"&gt;&lt;span class="cl-a9a40cd8"&gt;King’s College London&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a4594a"&gt;&lt;p class="cl-a9a42043"&gt;&lt;span class="cl-a9a40cd8"&gt;46.5&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a45938"&gt;&lt;p class="cl-a9a42043"&gt;&lt;span class="cl-a9a40cd8"&gt;4&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a45942"&gt;&lt;p class="cl-a9a42043"&gt;&lt;span class="cl-a9a40cd8"&gt;4 (3 to 10)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a45941"&gt;&lt;p class="cl-a9a42043"&gt;&lt;span class="cl-a9a40cd8"&gt;16&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td class="cl-a9a45940"&gt;&lt;p class="cl-a9a42038"&gt;&lt;span class="cl-a9a40cd8"&gt;Zhejiang University&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a4594a"&gt;&lt;p class="cl-a9a42043"&gt;&lt;span class="cl-a9a40cd8"&gt;42.0&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a45938"&gt;&lt;p class="cl-a9a42043"&gt;&lt;span class="cl-a9a40cd8"&gt;4&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a45942"&gt;&lt;p class="cl-a9a42043"&gt;&lt;span class="cl-a9a40cd8"&gt;7 (3 to 19)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-a9a45941"&gt;&lt;p class="cl-a9a42043"&gt;&lt;span class="cl-a9a40cd8"&gt;176&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/template&gt;
+&lt;div class="flextable-shadow-host" id="19df99bb-683a-4e54-9651-44bc2665696d"&gt;&lt;/div&gt;
+&lt;script&gt;
+var dest = document.getElementById("19df99bb-683a-4e54-9651-44bc2665696d");
+var template = document.getElementById("5d582317-0b06-445a-836e-cdbf0d920cee");
+var caption = template.content.querySelector("caption");
+if(caption) {
+  caption.style.cssText = "display:block;text-align:center;";
+  var newcapt = document.createElement("p");
+  newcapt.appendChild(caption)
+  dest.parentNode.insertBefore(newcapt, dest.previousSibling);
+}
+var fantome = dest.attachShadow({mode: 'open'});
+var templateContent = template.content;
+fantome.appendChild(templateContent);
+&lt;/script&gt;
+
+DOI: [10.12688/f1000research.18453.2](https://f1000research.com/articles/8-583/v2)
+
+---
+class:inverse
+# Science is not sport
+
+&lt;img src="figures/football_and_table.jpg" width="89%" style="display: block; margin: auto;" /&gt;
+
+Photo by &lt;a href="https://unsplash.com/@jeffreyflin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"&gt;Jeffrey F Lin&lt;/a&gt; on &lt;a href="https://unsplash.com/photos/D4DBJk5UmFo?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;
+  
+  
+---
+background-image: url(figures/australia_university_logo.jpg)
+background-size: contain
+
+&lt;!--- reduce stupid competition and bureaucracy ---&gt;
+&lt;!--- Create one mega-university, the university of australia, university of wales college ... ---&gt;
+
+---
+## Shifting the level of selection in Science
+
+&lt;img src="figures/shifting_teams.jpg" width="63%" style="display: block; margin: auto;" /&gt;
+
+DOI: [10.31222/osf.io/juwck](https://osf.io/preprints/metaarxiv/juwck)
+
+---
+## Legal concerns
+
+
+&lt;template id="2d94d8c7-2e8a-4a9f-8a0c-50e7fcf86cf7"&gt;&lt;style&gt;
+.tabwid table{
+  border-spacing:0px !important;
+  border-collapse:collapse;
+  line-height:1;
+  margin-left:auto;
+  margin-right:auto;
+  border-width: 0;
+  display: table;
+  margin-top: 1.275em;
+  margin-bottom: 1.275em;
+  border-color: transparent;
+}
+.tabwid_left table{
+  margin-left:0;
+}
+.tabwid_right table{
+  margin-right:0;
+}
+.tabwid td {
+    padding: 0;
+}
+.tabwid a {
+  text-decoration: none;
+}
+.tabwid thead {
+    background-color: transparent;
+}
+.tabwid tfoot {
+    background-color: transparent;
+}
+.tabwid table tr {
+background-color: transparent;
+}
+&lt;/style&gt;&lt;div class="tabwid"&gt;&lt;style&gt;.cl-aa0acc3e{}.cl-aa00efac{font-family:'Arial';font-size:18pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-aa00efb6{font-family:'Arial';font-size:18pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-aa0105be{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-aa0105c8{margin:0;text-align:center;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-aa014448{width:106.6pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-aa01445c{width:391.8pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-aa01445d{width:230.6pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-aa01445e{width:391.8pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-aa014466{width:106.6pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-aa014467{width:230.6pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-aa014468{width:106.6pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-aa014469{width:391.8pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-aa014470{width:230.6pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-aa014471{width:106.6pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-aa014472{width:391.8pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-aa01447a{width:230.6pt;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}&lt;/style&gt;&lt;table class='cl-aa0acc3e'&gt;&lt;thead&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td class="cl-aa014472"&gt;&lt;p class="cl-aa0105be"&gt;&lt;span class="cl-aa00efac"&gt;League table metric&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-aa014471"&gt;&lt;p class="cl-aa0105be"&gt;&lt;span class="cl-aa00efac"&gt;Columbia&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-aa01447a"&gt;&lt;p class="cl-aa0105be"&gt;&lt;span class="cl-aa00efac"&gt;Prof Thaddeus` estimate&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td class="cl-aa01445c"&gt;&lt;p class="cl-aa0105be"&gt;&lt;span class="cl-aa00efb6"&gt;Undergraduate classes with under 20 students&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-aa014448"&gt;&lt;p class="cl-aa0105c8"&gt;&lt;span class="cl-aa00efb6"&gt;82.5%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-aa01445d"&gt;&lt;p class="cl-aa0105c8"&gt;&lt;span class="cl-aa00efb6"&gt;62.7% to 66.9%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td class="cl-aa01445e"&gt;&lt;p class="cl-aa0105be"&gt;&lt;span class="cl-aa00efb6"&gt;Full-time faculty with Ph.D or terminal degree&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-aa014466"&gt;&lt;p class="cl-aa0105c8"&gt;&lt;span class="cl-aa00efb6"&gt;100%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-aa014467"&gt;&lt;p class="cl-aa0105c8"&gt;&lt;span class="cl-aa00efb6"&gt;96%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td class="cl-aa01445e"&gt;&lt;p class="cl-aa0105be"&gt;&lt;span class="cl-aa00efb6"&gt;Percent faculty that is full time&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-aa014466"&gt;&lt;p class="cl-aa0105c8"&gt;&lt;span class="cl-aa00efb6"&gt;96.5%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-aa014467"&gt;&lt;p class="cl-aa0105c8"&gt;&lt;span class="cl-aa00efb6"&gt;74.1%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td class="cl-aa01445e"&gt;&lt;p class="cl-aa0105be"&gt;&lt;span class="cl-aa00efb6"&gt;Student-faculty ratio&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-aa014466"&gt;&lt;p class="cl-aa0105c8"&gt;&lt;span class="cl-aa00efb6"&gt;6 to 1&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-aa014467"&gt;&lt;p class="cl-aa0105c8"&gt;&lt;span class="cl-aa00efb6"&gt;11 to 1&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td class="cl-aa014469"&gt;&lt;p class="cl-aa0105be"&gt;&lt;span class="cl-aa00efb6"&gt;Financial resources per student&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-aa014468"&gt;&lt;p class="cl-aa0105c8"&gt;&lt;span class="cl-aa00efb6"&gt;$3.1 billion&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-aa014470"&gt;&lt;p class="cl-aa0105c8"&gt;&lt;span class="cl-aa00efb6"&gt;$289 million&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style="overflow-wrap:break-word;"&gt;&lt;td class="cl-aa01445e"&gt;&lt;p class="cl-aa0105be"&gt;&lt;span class="cl-aa00efb6"&gt;Six-year graduation percentage&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-aa014466"&gt;&lt;p class="cl-aa0105c8"&gt;&lt;span class="cl-aa00efb6"&gt;96%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="cl-aa014467"&gt;&lt;p class="cl-aa0105c8"&gt;&lt;span class="cl-aa00efb6"&gt;92%&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/template&gt;
+&lt;div class="flextable-shadow-host" id="f25f1f81-46c8-41ea-94da-356fb7dcf342"&gt;&lt;/div&gt;
+&lt;script&gt;
+var dest = document.getElementById("f25f1f81-46c8-41ea-94da-356fb7dcf342");
+var template = document.getElementById("2d94d8c7-2e8a-4a9f-8a0c-50e7fcf86cf7");
+var caption = template.content.querySelector("caption");
+if(caption) {
+  caption.style.cssText = "display:block;text-align:center;";
+  var newcapt = document.createElement("p");
+  newcapt.appendChild(caption)
+  dest.parentNode.insertBefore(newcapt, dest.previousSibling);
+}
+var fantome = dest.attachShadow({mode: 'open'});
+var templateContent = template.content;
+fantome.appendChild(templateContent);
+&lt;/script&gt;
+
+
+[Prof Michael Thaddeus](http://www.math.columbia.edu/~thaddeus/ranking/investigation.html)
+
+---
+
+
+&lt;img src="figures/law_schools.jpg" width="77%" style="display: block; margin: auto;" /&gt;
+
+[The Guardian](https://www.theguardian.com/us-news/2022/nov/17/yale-harvard-law-school-us-news-world-report-rankings)
+
+---
+class: center, middle, inverse
+# Discriminatory
+
+&lt;img src="figures/global_south.jpg" width="75%" style="display: block; margin: auto;" /&gt;
+
+[https://drive.google.com/file/d/11WQ1lxR7oVPJ8OEANpGJ3NLVVqtJcFaj/view](Report)
+
+
+---
+class: inverse
+background-image: url(figures/jelena.jpg)
+background-size: contain
+
+---
+class: center, middle
+# Humour
+
+&lt;img src="figures/tweet_work_free_comments.jpg" width="115%" style="display: block; margin: auto;" /&gt;
+
+[tweet](https://twitter.com/aidybarnett/status/1458297944692572160)
+
+
+---
+class: middle, center
+# Randomised experiment
+
+![](figures/unis.gif)
+
+---
+background-image: url(figures/rank.jpg)
+background-size: contain
+
+
+---
+class: inverse
+background-image: url(figures/spike_jones.jpg)
+background-size: contain
+
+---
+class: inverse
+background-image: url(figures/spike_jones_edit.jpg)
+background-size: contain
+
+---
+class: inverse
+background-image: url(figures/aimos_conference_slide.jpg)
+background-size: contain
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
+<script>var slideshow = remark.create({
+"ratio": "16:9",
+"highlightStyle": "dracula",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

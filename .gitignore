@@ -22,3 +22,6 @@ notes.txt
 rsconnect/
 
 .DS_Store
+
+# AGB
+.psd
