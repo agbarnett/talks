@@ -435,6 +435,8 @@ class: inverse
 
 
 ---
-background-image: url(figures/AIMOS_conference_slide2.jpg)
-background-size: cover
+class:middle,center
 
+```{r, out.width='99%'}
+knitr::include_graphics(path='figures/AIMOS_conference_slide2.jpg')
+```
