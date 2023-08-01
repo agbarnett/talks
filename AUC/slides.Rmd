@@ -260,9 +260,9 @@ Pick best model after ...
 
 * Adding or removing predictors
 
-* Remove difficult patients or centres
+* Remove "difficult" patients or centres
 
-* Running different methods (logistic regression, classification tree)
+* Running different methods (e.g., logistic regression, classification tree)
 
 * Trying different random test-validation splits
 
@@ -384,15 +384,14 @@ knitr::include_graphics(path='figures/consort.flow.jpg')
 ---
 # Histogram and residuals
 
-```{r, out.width='74%'}
-# could make wider
+```{r, out.width='78%'}
 knitr::include_graphics(path='figures/histogram_residuals_slide.jpg')
 ```
 
 ---
 ## AUC values from the lower and upper confidence limits
 
-```{r, out.width='74%'}
+```{r, out.width='78%'}
 knitr::include_graphics(path='figures/histogram_residuals_intervals_slide.jpg')
 ```
 
@@ -412,7 +411,7 @@ knitr::include_graphics(path='figures/histogram_just_plos_slide.jpg')
 
 --
 
-### Some publication bias too
+### Likely some publication bias too
 
 --
 
@@ -438,3 +437,4 @@ class: inverse
 ---
 background-image: url(figures/AIMOS_conference_slide2.jpg)
 background-size: cover
+
