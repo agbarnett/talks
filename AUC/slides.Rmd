@@ -65,8 +65,6 @@ class: inverse, left, middle
 background-image: url(figures/AcknowledgementTraditionalOwners.jpg)
 background-size: cover
 
-
-
 ---
 class: inverse, center, middle
 
@@ -435,4 +433,5 @@ class: inverse
 
 
 ---
-background-image: url(figures/aimos_conference_slide2.jpg)
+background-image: url(figures/aimos.jpg)
+background-size: cover
