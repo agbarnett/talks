@@ -113,7 +113,7 @@ ggplot(data = lines, aes(x=x, y=y, col=factor(number)))+
 ```
 
 ---
-## Increasing prevalence over time
+## AUC is being used more often
 
 ```{r, out.width='71%'}
 # from 5_summary.Rmd
@@ -166,6 +166,15 @@ class: inverse
 * ### "Through the SMOTE-Bagged Tree algorithm, the AUC value obtained by our model is 0.80, which proves that our model has a proper prediction ability, and can be used for early breast cancer patients." [PMID31041192](https://pubmed.ncbi.nlm.nih.gov/31041192/)
 
 ---
+class: center, middle
+### Sloppy practice
+
+```{r, out.width='70%'}
+# from main paper of https://pubmed.ncbi.nlm.nih.gov/31041192/
+knitr::include_graphics(path='figures/frontiers.jpg')
+```
+
+---
 class:inverse
 # Likely results for 1,000 patients
 
@@ -191,18 +200,10 @@ ftab
 
 * ### Large follow-up study of over 8,500 men
 
-* ### AUC for test to discriminate any prostate cancer versus no cancer was 0.678 (95% confidence interval 0.666 to 0.689) 
+* ### AUC for test to discriminate any prostate cancer versus no cancer was 0.68 (95% confidence interval 0.67 to 0.69) 
 
 [DOI: 10.1001/jama.294.1.66](https://jamanetwork.com/journals/jama/fullarticle/201171)
 
----
-class: center, middle
-### Sloppy practice
-
-```{r, out.width='70%'}
-# from main paper of https://pubmed.ncbi.nlm.nih.gov/31041192/
-knitr::include_graphics(path='figures/frontiers.jpg')
-```
 
 ---
 ## Qualitative descriptors for AUC cut-offs
@@ -264,6 +265,12 @@ Pick best model after ...
 
 * Trying different random test-validation splits
 
+---
+## How to hack a prediction model
+
+```{r, out.width='200%'}
+knitr::include_graphics(path='figures/stack_overflow.jpg')
+```
 
 ---
 # Validation
@@ -374,10 +381,12 @@ pplot
 ]
 
 .right-column[
-```{r, out.width='53%'}
+```{r, out.width='51%'}
 knitr::include_graphics(path='figures/consort.flow.jpg')
 ```
 ]
+
+306,888 AUC values
 
 ---
 # Histogram and residuals
@@ -422,6 +431,10 @@ class: inverse
 # Actions needed
 
 * ### Automated peer review checks [DOI: 10.1186/s13104-022-06080-6](https://bmcresnotes.biomedcentral.com/articles/10.1186/s13104-022-06080-6)
+
+--
+
+* ### Wider use (enforcement?) of [TRIPOD](https://www.equator-network.org/reporting-guidelines/tripod-statement/): Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis
 
 --
 
