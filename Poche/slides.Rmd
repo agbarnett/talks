@@ -329,7 +329,7 @@ class: inverse
 
 .pull-right[
 
-```{r, out.width='135%'}
+```{r, out.width='165%'}
 knitr::include_graphics(path='figures/jama.jpg')
 ```
 
@@ -512,7 +512,7 @@ class: inverse, center, middle
 ---
 
 ```{r, out.width='79%'}
-knitr::include_graphics(path='figures/NHMRC.jpg')
+knitr::include_graphics(path='figures/nhmrc.jpg')
 ```
 
 ---
