@@ -29,3 +29,4 @@ In date order:
 * `crikey` Critical care Research International: Knowledge, Evidence and beYond (CRIKEY), Gold Coast (March 2023)
 * `more_than_our_rank` [More Than Our Rank Community Call](https://inorms.net/more-than-our-rank-community-calls/) (March 2023)
 * `AUC` Statistical Society of Australia Queensland Branch seminar on "Evidence of statistical 'hacking' in clinical prediction models" (August 2023)
+* `Poche` Poche Centre for Indigenous Health at The University of Queensland (September 2023)
