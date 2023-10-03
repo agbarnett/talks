@@ -1,0 +1,208 @@
+---
+title: NHMRC Investigator Grants - Insights as an applicant and a reviewer
+author: Adrian Barnett
+date: "October 2023"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      highlightStyle: dracula
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "https://platform.twitter.com/widgets.js"
+    seal: false 
+---
+
+```{r setup, include=FALSE}
+## got ? mins ##
+
+# see https://github.com/rstudio-education/arm-workshop-rsc2019/blob/master/static/slides/xaringan.Rmd
+knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE, error=FALSE, comment='', dpi=400, fig.align='center')
+options(htmltools.dir.version = FALSE)
+#xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+library(flextable)
+library(fontawesome) # from github: https://github.com/rstudio/fontawesome
+cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+g.theme = theme_bw() + theme(panel.grid.minor = element_blank())
+```
+
+layout: true
+  
+---
+name: xaringan-title
+class: inverse, left, middle
+
+.pull-left[
+
+# .center[NHMRC Investigator Grants: Insights as an applicant and a reviewer]
+
+## .center[Adrian Barnett, QUT]
+
+### .center[October 2023]
+
+[`r fa(name = "twitter")` @aidybarnett](http://twitter.com/aidybarnett)  
+
+[`r fa(name = "github")` @agbarnett](http://github.com/agbarnett)  
+
+[`r fa(name = "blog")` Median Watch](https://medianwatch.netlify.app)
+
+[`r fa(name = "paper-plane")` a.barnett@qut.edu.au](mailto:a.barnett@qut.edu.au)
+
+]
+
+
+.pull-right[
+
+![](https://media.giphy.com/media/UQPL9VJmTNdTT2fx7n/giphy.gif)
+
+(From HighWireLIVE at giphy)
+
+]
+
+---
+background-image: url(figures/AcknowledgementTraditionalOwners.jpg)
+background-size: cover
+
+---
+## Declarations
+
+* ### Current member of the NHMRC Research Committee
+
+* ### Past and current research on research funding
+
+* ### Previous winner of NHMRC Senior Research Fellowship
+
+--
+
+* ### Seven failures prior to that success and three failures since
+
+---
+## Failure is the norm
+
+```{r, out.width='65%'}
+knitr::include_graphics(path='figures/when_to_quit.jpg')
+```
+
+Twelve failures needed to give a 90% probability that you are in the bottom half of the talent pool
+
+---
+## Noisy system
+
+```{r, out.width='65%'}
+knitr::include_graphics(path='figures/NHMRC-PRAC-Report-23.jpg')
+```
+
+[https://www.nhmrc.gov.au/sites/default/files/documents/attachments/publications/NHMRC-PRAC-Report.pdf]
+
+---
+## Vanilla
+
+```{r, out.width='57%'}
+knitr::include_graphics(path='figures/ice_cream.jpg')
+```
+
+* Photo by <a href="https://unsplash.com/@lamaroscu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lama Roscu</a> on <a href="https://unsplash.com/photos/Wpg3Qm0zaGk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
+---
+class:middle,center
+
+```{r, out.width='85%'}
+knitr::include_graphics(path='figures/novelty.jpg')
+```
+
+
+---
+## Consider creating a group
+
+```{r, out.width='85%'}
+knitr::include_graphics(path='figures/group.jpg')
+```
+
+---
+## Online presence
+
+* Make sure your CV is easily available
+
+* Staff page up to date
+
+* Check Google Scholar, ORCID, etc
+
+* Think about social media, e.g., X and LinkedIn
+
+* Consider timing a Conversation article to coincide with peer review time
+
+---
+## The application
+
+* ### Convince the reader that this is a big problem
+
+* ### Grab their attention early
+
+* ### Start with simplest points and build in complexity
+
+* ### Think about a general reader, not a specialist
+
+* ### Ask colleagues to read your application and be brutal
+
+* ### Cut anything you feel uncertain about
+
+---
+## Miscellaneous tips for the proposal
+
+* Use white space, don't cram it in. Can use figures and bullets to break up dense text.
+
+* Don't squeeze in too much. Focus on the most interesting complete "story" rather than listing everything you want to do. 
+
+* Use acronyms and jargon very sparingly
+
+* Can use colour
+
+* Avoid over-promising and hyperbole
+
+--
+
+* Let reader know early about your expertise
+
+* "References [Bold text is my own work]"
+
+* Include at least one reference from 2023 (same advice for top ten)
+
+--
+
+* It's fine to reference pre-prints
+
+* Could think about adding technical details in a box
+
+* Reach out to important groups and get their input and mention this in the proposal
+
+
+---
+## Miscellaneous tips for leadership and impact
+
+* Extraordinary claims need to be backed up
+
+* If you reference some evidence from a very long paper or report then add the page number where the evidence can be found (e.g., ``My work was discussed in the 2022 WHO report on climate change mitigation (see pages 202-203)'')
+
+* Can add personal quotes, e.g., someone praising your mentoring
+
+* Make sure your top ten papers are easily available, not behind pay-walls (use Incognito window or computer at home to see if access is easy)
+
+* I added citation and Altmetic numbers for all my top ten
+---
+## Reviewer's perspective
+
+* I reviewed 22 
+
+* Very difficult to score applicants
+
+* Top ten papers: Read all abstracts, read two per applicant - the ones that interested me the most
+
+* Other reviewers can be obsessed by author order. May need to say things like: "I mentored my postdoc to be senior author"
+
+* My harshest feedback was for those I thought would get funded, because I wanted them to consider my points before they ran their studies
