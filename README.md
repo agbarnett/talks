@@ -30,3 +30,4 @@ In date order:
 * `more_than_our_rank` [More Than Our Rank Community Call](https://inorms.net/more-than-our-rank-community-calls/) (March 2023)
 * `AUC` Statistical Society of Australia Queensland Branch seminar on "Evidence of statistical 'hacking' in clinical prediction models" (August 2023)
 * `Poche` Poche Centre for Indigenous Health at The University of Queensland (September 2023)
+* `investigator` NHMRC Investigator Grants: Insights as an applicant and a reviewer (October 2023)
