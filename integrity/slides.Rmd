@@ -1,0 +1,197 @@
+---
+title: A discussion on research integrity 
+author: Adrian Barnett
+date: "October 2023"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      highlightStyle: dracula
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "https://platform.twitter.com/widgets.js"
+    seal: false 
+---
+
+```{r setup, include=FALSE}
+## got ? mins ##
+
+# see https://github.com/rstudio-education/arm-workshop-rsc2019/blob/master/static/slides/xaringan.Rmd
+knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE, error=FALSE, comment='', dpi=400, fig.align='center')
+options(htmltools.dir.version = FALSE)
+#xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+library(flextable)
+library(fontawesome) # from github: https://github.com/rstudio/fontawesome
+cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+g.theme = theme_bw() + theme(panel.grid.minor = element_blank())
+```
+
+layout: true
+  
+---
+name: xaringan-title
+class: inverse, left, middle
+
+.pull-left[
+
+# .center[A discussion on research integrity ]
+
+## .center[Adrian Barnett, QUT]
+
+### .center[October 2023]
+
+[`r fa(name = "twitter")` @aidybarnett](http://twitter.com/aidybarnett)  
+
+[`r fa(name = "github")` @agbarnett](http://github.com/agbarnett)  
+
+[`r fa(name = "blog")` Median Watch](https://medianwatch.netlify.app)
+
+[`r fa(name = "paper-plane")` a.barnett@qut.edu.au](mailto:a.barnett@qut.edu.au)
+
+]
+
+
+.pull-right[
+
+![](https://media.giphy.com/media/YEL7FJP6ed008/giphy.gif)
+
+(From giphy)
+
+]
+
+---
+class:center, middle
+```{r, out.width='75%'}
+knitr::include_graphics(path='figures/hong_kong.jpg')
+```
+
+---
+class:center, middle
+```{r, out.width='65%'}
+knitr::include_graphics(path='figures/murdoch.jpg')
+```
+
+(from [ABC news](https://www.abc.net.au/news/2014-12-12/university-of-queensland-professor-on-fraud-charges/5964476))
+
+
+---
+class:inverse
+
+.pull-left[
+```{r, out.width='80%'}
+knitr::include_graphics(path='figures/crime_misconduct.jpg')
+```
+]
+
+.pull-right[
+
+## "Your motive in this offending was to enhance your chances of successfully applying for the funding."
+
+]
+
+
+---
+background-image: url(figures/dora.jpg)
+background-size: cover
+
+---
+background-image: url(figures/coara.jpg)
+background-size: cover
+
+
+---
+class:center, middle
+```{r, out.width='59%'}
+knitr::include_graphics(path='figures/nature.jpg')
+```
+
+---
+
+* Ensure fair assessment procedures and prevent hypercompetition and excessive publication pressure.
+
+* Create clear guidelines for PhD supervision (such as on meeting frequency); set up skills training and mentoring.
+
+* Establish training and confidential counselling for all researchers.
+
+--
+
+* Establish review procedures that accommodate different types of research and disciplines.
+
+* Formalize procedures that protect both whistle-blowers and those accused of misconduct.
+
+* Provide training, incentives and infrastructure to curate and share data according to FAIR principles.
+
+--
+
+* Establish sound rules for transparent working with industry and international partners.
+
+* State conflicts (financial and personal) in research, review and other professional activities.
+
+* Respect guidelines for authorship and ensure openness and clarity in public engagement.
+
+---
+
+```{r, out.width='65%'}
+knitr::include_graphics(path='figures/ria_paper.jpg')
+```
+
+* Most advisors had a very light workload, with an median of just 0.5 days per month.
+
+* 13% of advisors had not received any training
+
+* Some advisors only discovered they were an advisor after our approach
+
+* Most advisors were positive about their ability to help colleagues deal with integrity issues
+
+* Multiple institutions where we found it difficult to find anything about research integrity and other institutions where the contact about research integrity was a generic e-mail or generic online form.
+
+```{r, out.width='65%'}
+knitr::include_graphics(path='figures/coming_soon.jpg')
+```
+
+---
+
+```{r, out.width='65%'}
+knitr::include_graphics(path='figures/advisors_help.jpg')
+```
+
+---
+background-image: url(figures/aric.jpg)
+background-size: cover
+
+---
+background-image: url(figures/conversation.jpg)
+background-size: cover
+
+---
+class:center, middle
+```{r, out.width='65%'}
+knitr::include_graphics(path='figures/nature_us.jpg')
+```
+
+---
+class:center, middle
+```{r, out.width='69%'}
+knitr::include_graphics(path='figures/nature.2012.jpg')
+```
+
+
+---
+background-image: url(figures/maddox.jpg)
+background-size: cover
+
+---
+class:center, middle
+```{r, out.width='65%'}
+knitr::include_graphics(path='figures/retraction_watch.jpg')
+```
+
+---
+background-image: url(figures/pubpeer.jpg)
+background-size: cover
+
