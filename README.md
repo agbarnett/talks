@@ -32,3 +32,4 @@ In date order:
 * `Poche` Poche Centre for Indigenous Health at The University of Queensland (September 2023)
 * `investigator` NHMRC Investigator Grants: Insights as an applicant and a reviewer (October 2023)
 * `integrity` A discussion on research integrity (October 2023)
+* `advisors` National Research Integrity meeting (November 2023)
