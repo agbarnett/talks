@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Bad statistics in medical research</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Adrian Barnett" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+layout: true
+  
+---
+name: xaringan-title
+class: inverse, left, middle
+
+.pull-left[
+
+# .center[Bad statistics in medical research]
+
+## .center[Adrian Barnett, QUT]
+
+### .center[March 2024]
+
+[<svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg> @aidybarnett](https://fediscience.org/@aidybarnett)  
+
+[<svg aria-hidden="true" role="img" viewBox="0 0 496 512" style="height:1em;width:0.97em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg> @agbarnett](http://github.com/agbarnett)  
+
+[<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M192 32c0 17.7 14.3 32 32 32c123.7 0 224 100.3 224 224c0 17.7 14.3 32 32 32s32-14.3 32-32C512 128.9 383.1 0 224 0c-17.7 0-32 14.3-32 32zm0 96c0 17.7 14.3 32 32 32c70.7 0 128 57.3 128 128c0 17.7 14.3 32 32 32s32-14.3 32-32c0-106-86-192-192-192c-17.7 0-32 14.3-32 32zM96 144c0-26.5-21.5-48-48-48S0 117.5 0 144V368c0 79.5 64.5 144 144 144s144-64.5 144-144s-64.5-144-144-144H128v96h16c26.5 0 48 21.5 48 48s-21.5 48-48 48s-48-21.5-48-48V144z"/></svg> Median Watch](https://medianwatch.netlify.app)
+
+[<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376V479.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"/></svg> a.barnett@qut.edu.au](mailto:a.barnett@qut.edu.au)
+
+]
+
+
+.pull-right[
+
+&lt;!--- ![](figures/quality.gif)---&gt;
+
+&lt;img src="figures/nature_cover_statistics.jpg" width="150%" style="display: block; margin: auto;" /&gt;
+
+(Illustration by David Parkins)
+
+]
+
+
+---
+background-image: url(figures/AcknowledgementTraditionalOwners.jpg)
+background-size: cover
+
+
+---
+
+&lt;img src="figures/lancet_paper.jpg" width="63%" style="display: block; margin: auto;" /&gt;
+
+&lt;!--- * Incorrectly used logistic regression instead of survival analysis ---&gt;
+
+* 813 hospitalised, 613 (75%) excluded because they were still hospitalised or not confirmed as infected
+
+--
+
+### Two implications:
+
+* Bad research is not restricted to "low impact" journals
+
+* Has been cited 32,000+ times: Many researchers do not recognise the serious statistical flaw
+
+---
+
+&lt;img src="figures/lancet_impact.jpg" width="69%" style="display: block; margin: auto;" /&gt;
+
+&lt;!--- https://twitter.com/TheLancet/status/1542088311702962177 ---&gt;
+
+
+
+&lt;!--- Emphasis on publishing in top-tier journals is a huge driver of the reproducibility crisis ---&gt;
+---
+
+&lt;img src="figures/scrabble.jpg" width="52%" style="display: block; margin: auto;" /&gt;
+
+From [NPR](https://www.npr.org/sections/thetwo-way/2015/07/21/424980378/winner-of-french-scrabble-title-does-not-speak-french)
+
+---
+class: inverse
+
+&lt;img src="figures/gauss.jfif" width="44%" style="display: block; margin: auto;" /&gt;
+
+(Image from _Wikipedia_)
+
+
+---
+## Marathon times
+
+&lt;img src="figures/marathon_times.png" width="64%" style="display: block; margin: auto;" /&gt;
+
+#### From DOI: [10.1287/mnsc.2015.2417](https://doi.org/10.1287/mnsc.2015.2417)
+
+---
+## Qualitative descriptors for  area under the receiver operating characteristic curve (AUC) cut-offs
+
+### "An AUC value of more than 0.9 was considered outstanding and 0.8-0.9 as excellent." [PMID35537614](https://pubmed.ncbi.nlm.nih.gov/35537614/)
+
+--
+
+### "An AUC of 0.5 suggests no discrimination, 0.7-0.8 is considered acceptable, more than 0.8-0.9 is considered excellent, and more than 0.9 is considered outstanding.'' [PMID34793687](https://pubmed.ncbi.nlm.nih.gov/34793687/)
+
+--
+
+### "Generally speaking, when the AUC value of a model is at the range of 0.7-0.8, the prediction ability of the model is superior. When the AUC value is at the range of 0.8-0.9, the prediction ability of the model is very good.'' [PMID31041192](https://pubmed.ncbi.nlm.nih.gov/31041192/)
+
+---
+class:center,middle
+
+![](https://media.giphy.com/media/RH8Cwr2yWNsmuPCBiO/giphy.gif)
+
+(from Visutrainment on giphy)
+
+---
+# AUC values
+
+&lt;img src="figures/histogram_residuals_slide.jpg" width="78%" style="display: block; margin: auto;" /&gt;
+
+##### From DOI: [10.1186/s12916-023-03048-6](https://doi.org/10.1186/s12916-023-03048-6)
+
+---
+class: inverse
+## How does it happen?
+
+.pull-left[
+
+&lt;img src="figures/retraction_watch1.jpg" width="98%" style="display: block; margin: auto;" /&gt;
+
+From [Retraction Watch](https://retractionwatch.com/2018/03/15/the-1-key-was-not-pressed-hard-enough-did-a-typo-kill-a-cancer-paper/)
+
+
+]
+
+.pull-right[
+
+The sensitivity values were reported as 71% and 60% in the article, but it was later determined that they were 48% and 36%.
+
+]
+
+
+---
+## Stop developing new diagnostic or prognostic models
+
+&lt;img src="figures/Wynants.jpg" width="47%" style="display: block; margin: auto;" /&gt;
+
+DOI: [10.1136/bmj.m1328](https://www.bmj.com/content/369/bmj.m1328)
+
+&lt;!--- Stop developing prediction models (hard), talk about standard text in justification, talk about stochastic variability, rule out tests might still be useful, e.g. Troponin. Appreciate that data changes. Most predictive value comes from a few variables.---&gt;
+
+---
+class:center, inverse, middle
+
+# Medical research funders should no longer fund projects that plan to develop a prediction model unless a qualified statistician is a principal investigator
+
+---
+class: center
+# P-values
+
+&lt;img src="https://imgs.xkcd.com/comics/p_values.png" width="32%" style="display: block; margin: auto;" /&gt;
+
+(From _xkcd_)
+
+---
+
+&lt;img src="figures/gelman_age.png" width="58%" style="display: block; margin: auto;" /&gt;
+
+Hat-tip to [Andrew Gelman](https://statmodeling.stat.columbia.edu/)
+
+
+---
+class:inverse
+## The evidence-base is horribly biased
+
+&lt;img src="figures/Z_plot.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+Z-values extracted from confidence intervals in _Medline_ between 1976 and 2019
+
+---
+## Bad practice in Australia
+
+.pull-left[
+
+In the past three years how often have you: 
+
+* Not attempted to publish a valid "negative" or "neutral" study = 25%
+* Selected the statistical method that provided the desired result = 8% ...
+* ... Rises to 30% when asking about witnessing this approach in others
+
+From NHMRC [2019 Survey of research culture in Australian NHMRC-funded institutions](https://www.nhmrc.gov.au/file/15321/download?token=PivJ5dGE)
+
+]
+
+.pull-right[
+
+&lt;!--- from https://www.craigmarker.com/file-drawer-problem/ ---&gt;
+
+![](figures/filedrawer1-1002x675.jpg)
+
+]
+
+
+---
+
+&lt;!--- registered reports ---&gt;
+
+&lt;img src="figures/pbio.3000246.g001.png" width="61%" style="display: block; margin: auto;" /&gt;
+
+### DOI: [10.1371/journal.pbio.3000246.g001](https://journals.plos.org/plosbiology/article/figure?id=10.1371/journal.pbio.3000246.g001)
+
+---
+# Cut-and-paste methods
+
+&lt;img src="figures/cut_and_paste.jpg" width="74%" style="display: block; margin: auto;" /&gt;
+
+### From DOI: [10.1371/journal.pone.0264360](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0264360)
+
+--
+
+#### Citation: "A P-value of &lt; 0.05 was considered to be statistically significant."
+
+
+---
+class: top, center, inverse
+background-image: url(figures/podium.jpg)
+background-size: cover
+### .left[Worst ever statistical methods section]
+
+--
+
+## .left[t-test]
+
+--
+
+## .right[SPSS]
+
+
+&lt;!--- http://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?ACTRN=12617001415392 ---&gt;
+
+--
+
+## .center[SSPS]
+
+&lt;!--- https://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?id=373697 ---&gt;
+
+
+---
+class: inverse
+
+.pull-left[
+![](https://media.giphy.com/media/IX2sn8cnqDyRq/giphy.gif) 
+]
+
+.pull-right[
+## "Many people think that all you need to do statistics is a computer and appropriate software." 
+
+## Doug Altman
+]
+
+
+---
+
+.pull-left[
+## Slapdash research
+
+]
+
+.pull-right[
+
+&lt;img src="figures/jama.jpg" width="185%" style="display: block; margin: auto;" /&gt;
+
+]
+
+---
+class: center
+# Figures
+
+
+&lt;img src="https://imgs.xkcd.com/comics/scientific_paper_graph_quality.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+
+(From _xkcd_)
+
+---
+class: center, middle
+
+&lt;img src="figures/bad_graph_pair.jpg" width="77%" style="display: block; margin: auto;" /&gt;
+
+&lt;!--- From https://iopscience.iop.org/article/10.1088/1742-6596/2550/1/012013 ---&gt;
+
+---
+class: center, middle
+
+![](figures/awful_plot2.jfif)
+
+---
+class: center, middle
+
+![](figures/awful_plot1.jfif)
+
+
+---
+class: center, middle
+
+&lt;img src="figures/awful_plot3.jfif" width="98%" style="display: block; margin: auto;" /&gt;
+
+---
+class: center, middle
+
+&lt;img src="figures/awful_plot4.jfif" width="88%" style="display: block; margin: auto;" /&gt;
+
+---
+## Stop using pie charts
+
+&lt;img src="figures/pie_charts.jfif" width="62%" style="display: block; margin: auto;" /&gt;
+
+From https://twitter.com/MaxCRoser/status/857389434756505600
+
+
+
+---
+class:center, inverse, middle
+
+.pull-left[
+
+# This is everybody's problem and nobody's problem
+
+]
+
+.pull-right[
+
+### Grayrigg derailment
+
+![](figures/VirginPendolinoDerailment.jpg)
+
+By Lawrence Clift - http://www.lawrencecliftphotography.co.uk/
+
+]
+
+&lt;!--- pathetic amount spent on quality control ---&gt;
+
+---
+class: center, middle
+
+&lt;img src="figures/nature_cover.jpg" width="90%" style="display: block; margin: auto;" /&gt;
+
+&lt;!--- journals too often promote publishing “mansions of straw rather than houses of
+brick.” Bill Kaelin ---&gt;
+
+(Illustration by David Parkins)
+
+---
+# Quality control
+
+.pull-left[
+
+### Randomly audit 100 papers per year from each university &amp; research institute
+
+### Statisticians check the analysis and see if they can reproduce the results
+
+&lt;!--- ### Reviewers read the papers and assess originality, reproducibility and translation into practice ---&gt;
+
+]
+
+.pull-right[
+
+![](figures/battlecreek-coffee-roasters-i22gbC3gFm4-unsplash.jpg)
+
+Photo by &lt;a href="https://unsplash.com/@battlecreekcoffeeroasters?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"&gt;Battlecreek Coffee Roasters&lt;/a&gt; on &lt;a href="https://unsplash.com/photos/i22gbC3gFm4?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"&gt;Unsplash&lt;/a&gt;
+  
+  
+]
+
+DOI: [10.1371/journal.pone.0195613](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0195613)
+
+---
+class:inverse, center
+
+# Statistical robots are coming
+
+![](https://media.giphy.com/media/pIMlKqgdZgvo4/giphy.gif)
+
+
+This is not AI
+
+&lt;!--- given up trying to fix things myself ---&gt;
+
+---
+### Yuhji Saitoh
+
+&lt;img src="figures/saitoh_tables.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+---
+class:center, middle
+&lt;img src="figures/misconduct_montage.jpg" width="65%" style="display: block; margin: auto;" /&gt;
+
+(from [ABC news](https://www.abc.net.au/news/2014-12-12/university-of-queensland-professor-on-fraud-charges/5964476); [RetractionWatch](https://retractionwatch.com/2023/10/02/nobel-prize-winner-gregg-semenza-tallies-tenth-retraction/); [NPR news](https://www.npr.org/2023/07/19/1188828810/stanford-university-president-resigns); [The Guardian](https://www.theguardian.com/education/2023/jun/25/harvard-professor-data-fraud))
+
+---
+class: inverse
+# The continuing scandal of bad medical research
+
+.pull-left[
+
+* 1994: Doug Altman wrote about ‘The scandal of poor medical research’
+
+* 2015: Doug: Wish I'd said 'bad'
+
+* 2022: 1013 out of 1659 at high risk of bias. Estimated cost of bad trials was £726 million to £8 billion, DOI: [10.1186/s13063-022-06415-5](https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-022-06415-5)
+]
+
+.pull-right[
+
+![](figures/Doug_altman.jpeg)
+
+##### Photo by Oxford Clinical Trials Research Unit
+
+]
+
+---
+class: center, middle
+
+&lt;img src="figures/c4r.jpg" width="69%" style="display: block; margin: auto;" /&gt;
+
+
+---
+# Research Integrity Advisors in Australia
+
+* Multiple institutions where we found it difficult to find anything about research integrity and other institutions where the contact about research integrity was a generic e-mail or generic online form.
+
+* 13% of advisors had not received any training
+
+* Some advisors only discovered they were an advisor after our approach
+
+&lt;img src="figures/coming_soon.jpg" width="95%" style="display: block; margin: auto;" /&gt;
+
+##### Paper: [DOI = 10.1080/08989621.2023.2239532](https://www.tandfonline.com/doi/full/10.1080/08989621.2023.2239532)
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
+<script>var slideshow = remark.create({
+"ratio": "16:9",
+"highlightStyle": "dracula",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

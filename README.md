@@ -33,3 +33,4 @@ In date order:
 * `investigator` NHMRC Investigator Grants: Insights as an applicant and a reviewer (October 2023)
 * `integrity` A discussion on research integrity (October 2023)
 * `advisors` National Research Integrity meeting (November 2023)
+* `Genetic` Webinar for Australian Genomics` (March 2024)
