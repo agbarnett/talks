@@ -1,0 +1,230 @@
+---
+title: Alternative funding systems and research prioritisation
+author: Adrian Barnett
+date: "30 April 2024"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      highlightStyle: dracula
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "https://platform.twitter.com/widgets.js"
+    seal: false 
+---
+
+```{r setup, include=FALSE}
+# see https://github.com/rstudio-education/arm-workshop-rsc2019/blob/master/static/slides/xaringan.Rmd
+knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE, error=FALSE, comment='', dpi=400, fig.align='center')
+options(htmltools.dir.version = FALSE)
+#xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+library(fontawesome) # from github: https://github.com/rstudio/fontawesome
+cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+```
+
+layout: true
+  
+---
+name: xaringan-title
+class: inverse, left, middle
+
+.pull-left[
+
+# .center[Alternative funding systems and research prioritisation]
+
+## .center[Adrian Barnett, QUT]
+
+### .center[30 April 2024]
+
+[`r fa(name = "twitter")` @aidybarnett](http://twitter.com/aidybarnett)  
+
+[`r fa(name = "github")` @agbarnett](http://github.com/agbarnett)  
+
+[`r fa(name = "blog")` Median Watch](https://medianwatch.netlify.app)
+
+[`r fa(name = "paper-plane")` a.barnett@qut.edu.au](mailto:a.barnett@qut.edu.au)
+
+]
+
+.pull-right[
+
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXl3eHA1MjFsdnl5ODBsYXZuN3ppbmgwcjJrNDg1ZXV6OHM2ZGwyOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YJjvTqoRFgZaM/giphy.gif)
+
+(from @giphy)
+
+]
+
+---
+class: center, middle
+# What's your favourite shade of blue?
+
+```{r, out.width='60%'}
+# from Make_blues.R
+knitr::include_graphics(path='figures/blues.jpg')
+```
+
+---
+class: inverse, center
+# Equal allocation
+
+```{r, echo=FALSE, out.width="90%"}
+# had to increase size
+knitr::include_graphics("https://media.giphy.com/media/gbErpwcLlizvi/giphy.gif")
+```
+
+---
+class: inverse, center
+# Use a formula
+
+```{r, echo=FALSE, out.width="80%"}
+# had to increase size
+knitr::include_graphics("https://media.giphy.com/media/NbXTwsoD7hvag/giphy.gif")
+```
+(from giphy)
+
+
+---
+class: inverse, center
+# Strong manager method
+
+![](https://media.giphy.com/media/3o6MbhUlBGkAuy5iTK/giphy.gif)
+(from giphy)
+
+
+Used by US Defense Advanced Research Projects Agency and NASA
+
+---
+class: center
+# Peer-to-peer distribution
+
+```{r, out.width='68%'}
+knitr::include_graphics(path='figures/bollen.png')
+```
+
+
+---
+class: center, inverse
+# Standard peer review
+
+![](https://media.giphy.com/media/yoJC2jAty7Bk8yLWsE/giphy.gif)
+(from giphy)
+
+---
+# Noise in peer review #1
+
+```{r, out.width='50%'}
+# from gallo.R
+knitr::include_graphics(path='figures/gallo.jpg')
+```
+
+###### [Gallo et al](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0165147) _PLOS ONE_ 2016
+
+
+---
+# Noise in peer review #2
+
+```{r, out.width='60%'}
+# from gallo.R
+knitr::include_graphics(path='figures/nhmrc.jpg')
+```
+
+###### [NHMRC Report Peer Review Analysis Committee](https://www.nhmrc.gov.au/about-us/leadership-and-governance/committees/peer-review-analysis-committee)
+
+
+---
+class: center
+# Fund people not projects
+
+![](https://media.giphy.com/media/xR3gErsGoJswWVPRTS/giphy.gif)
+(from giphy)
+
+<!--- Judge applications solely on the person --->
+
+MacArthur Fellows programme in the USA
+
+---
+class: center
+# Longer-term contracts
+
+```{r, echo=FALSE, out.width="40%"}
+# had to increase size
+knitr::include_graphics("figures/mater_contracts.jpg")
+```
+
+---
+class: inverse
+# Longer-term contracts
+
+.pull-left[
+
+## Peter Higgs: "I wouldn't be productive enough for today's academic system"
+
+]
+
+```{r, echo=FALSE, out.width="30%"}
+# had to increase size
+knitr::include_graphics("figures/higgs.jpg")
+```
+
+(Bengt Nyman, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons)
+
+---
+class: center
+# Two-stage application process
+
+![](https://media.giphy.com/media/OOTtmh8oXrFK5ccNU7/giphy.gif)
+(from giphy)
+
+Recently used by ARC for Discovery projects.
+
+---
+class: center
+# Random allocation
+
+![](https://media.giphy.com/media/dvgefaMHmaN2g/giphy.gif)
+(from giphy)
+
+Used by New Zealand Health Research Council and The British Academy
+
+---
+class: center
+# Random allocation
+
+```{r, out.width='78%'}
+knitr::include_graphics(path='figures/lottery_paper.png')
+```
+
+63% in favour of using lottery, 25% against
+
+---
+# Did the lottery increase diversity?
+
+![](figures/british_academy.jpg)
+
+---
+class: inverse
+## More "research on research"
+
+
+### "We believe that much more research needs to be done on the nature of research and its application so that data from objective studies can be applied to all aspects of biomedical research. Because the very nature of research on research, particularly if it is prospective, requires long periods of time, we recommend that independent, highly competent groups be established with ample, long term support to conduct and support retrospective and prospective research on the nature of scientific discovery, to analyse the causes of long and short lags between discovery and clinical application and to suggest and test means of decreasing long lags, and to evaluate present and proposed mechanisms for the support of biomedical research and development.'' 
+
+Comroe and Dripps. *Science* "Scientific basis for the support of biomedical science" 1976.
+
+---
+# [James Lind Alliance](https://www.jla.nihr.ac.uk/top-10-priorities/)
+
+```{r, out.width='64%'}
+knitr::include_graphics(path='figures/james_lind.png')
+```
+
+---
+# Research prioritisation in research funding
+
+### What questions about research funding would you like to see answered by research?
+
+![](figures/prioritisation.jpg)
