@@ -69,45 +69,6 @@ knitr::include_graphics(path='figures/blues.jpg')
 ```
 
 ---
-class: inverse, center
-# Equal allocation
-
-```{r, echo=FALSE, out.width="90%"}
-# had to increase size
-knitr::include_graphics("https://media.giphy.com/media/gbErpwcLlizvi/giphy.gif")
-```
-
----
-class: inverse, center
-# Use a formula
-
-```{r, echo=FALSE, out.width="80%"}
-# had to increase size
-knitr::include_graphics("https://media.giphy.com/media/NbXTwsoD7hvag/giphy.gif")
-```
-(from giphy)
-
-
----
-class: inverse, center
-# Strong manager method
-
-![](https://media.giphy.com/media/3o6MbhUlBGkAuy5iTK/giphy.gif)
-(from giphy)
-
-
-Used by US Defense Advanced Research Projects Agency and NASA
-
----
-class: center
-# Peer-to-peer distribution
-
-```{r, out.width='68%'}
-knitr::include_graphics(path='figures/bollen.png')
-```
-
-
----
 class: center, inverse
 # Standard peer review
 
@@ -134,6 +95,44 @@ knitr::include_graphics(path='figures/nhmrc.jpg')
 ```
 
 ###### [NHMRC Report Peer Review Analysis Committee](https://www.nhmrc.gov.au/about-us/leadership-and-governance/committees/peer-review-analysis-committee)
+
+---
+class: inverse, center
+# Equal allocation
+
+```{r, echo=FALSE, out.width="90%"}
+# had to increase size
+knitr::include_graphics("https://media.giphy.com/media/gbErpwcLlizvi/giphy.gif")
+```
+
+---
+class: center
+# Peer-to-peer distribution
+
+```{r, out.width='68%'}
+knitr::include_graphics(path='figures/bollen.png')
+```
+
+---
+class: inverse, center
+# Use a formula
+
+```{r, echo=FALSE, out.width="80%"}
+# had to increase size
+knitr::include_graphics("https://media.giphy.com/media/NbXTwsoD7hvag/giphy.gif")
+```
+(from giphy)
+
+
+---
+class: inverse, center
+# Strong manager method
+
+![](https://media.giphy.com/media/3o6MbhUlBGkAuy5iTK/giphy.gif)
+(from giphy)
+
+
+Used by US Defense Advanced Research Projects Agency and NASA
 
 
 ---
@@ -189,7 +188,7 @@ class: center
 ![](https://media.giphy.com/media/dvgefaMHmaN2g/giphy.gif)
 (from giphy)
 
-Used by New Zealand Health Research Council and The British Academy
+Used by New Zealand Health Research Council, The Wellcome Trust, and The British Academy
 
 ---
 class: center
