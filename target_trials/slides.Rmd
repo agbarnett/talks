@@ -89,7 +89,7 @@ class: middle, center
 ![](figures/target.gif)
 
 
-###### png image from [pngtree.com](https://pngtree.com/freepng/hit-the-target_1304919.html)
+###### target image from [pngtree.com](https://pngtree.com/freepng/hit-the-target_1304919.html)
 
 ---
 # Useful where you cannot randomise
@@ -98,9 +98,15 @@ class: middle, center
 
 * #### Antibiotics or antidepressants during pregnancy
 
-* #### ECMO treatment during the pandemic
+* #### ECMO treatment for hospitalised patients during the pandemic
 
 * #### (Examples from audience)
+
+--
+
+* #### Cannot regain a blinded trial - more suited to pragmatic trials
+
+* #### Cannot examine placebos - these are not given in practice (?)
 
 ---
 # Start with a question
@@ -161,6 +167,8 @@ ftab
 
 .pull-left[
 
+* ### All about randomness
+
 * ### Actual trial: patients could have been in either group (exchangeable)
 
 * ### Target trial: patients are exchangeable at baseline given their covariates
@@ -196,6 +204,8 @@ class:inverse
 * ### Not contactable
 
 * ### All potentially huge sources of bias
+
+* ### Never ever condition on future events
 
 ]
 
@@ -241,7 +251,7 @@ knitr::include_graphics(path='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ
 
 * ### Censor individuals if and when they deviate from their assigned treatment strategy
 
-* ### For example, patient 'randomised' to control develops high cholesterol (censor at that point)
+* ### For example, patient 'randomised' to no treatment develops high cholesterol and is given treatment (censor at that point)
 
 * ### Use inverse-probability weights to adjust for pre- and post-baseline prognostic factors associated with treatment adherence and loss to follow-up
 

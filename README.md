@@ -35,3 +35,4 @@ In date order:
 * `advisors` National Research Integrity meeting (November 2023)
 * `Genetic` Webinar for Australian Genomics (March 2024)
 * `wesley` Alternative funding systems and research prioritisation (April 2024)
+* `ACDS` Assessing research quality and impact – how do different institutions assess these, and what metrics are used to calibrate “success”? (June 2024)
