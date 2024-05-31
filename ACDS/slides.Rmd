@@ -21,6 +21,7 @@ options(htmltools.dir.version = FALSE)
 #xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 library(tidyverse)
 library(dplyr)
+library(flextable)
 library(ggplot2)
 library(knitr)
 library(fontawesome) # from github: https://github.com/rstudio/fontawesome
@@ -53,45 +54,216 @@ class: inverse, left, middle
 
 .pull-right[
 
-![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXl3eHA1MjFsdnl5ODBsYXZuN3ppbmgwcjJrNDg1ZXV6OHM2ZGwyOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YJjvTqoRFgZaM/giphy.gif)
 
-(from @giphy)
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2Fza3VydmllaTNhdmpoN281YndmbjhqOXNsZm0yZ3k1MWZqeGhoNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qkY2Y4BQZ3nlFOF0cb/giphy.gif)
+
+##### (from Netflix on giphy)
+
 
 ]
 
-- "A substantial proportion of respondents (57% of respondents) report using journal reputation and JIF to assess credibility" https://osf.io/preprints/metaarxiv/ht836
+<!--- Aim for 15 minutes --->
 
-Cameron Neylon
+---
+background-image: url(figures/AcknowledgementTraditionalOwners.jpg)
+background-size: cover
 
-Stanford, nobel prize, etc (slide from AusHSI talk)
+---
+class: inverse
+# Moa
 
-Random audits, secret shopper
+<!--- % https://www.bbc.co.uk/sounds/play/b00pfkw3 "Scientists competed to find the tallest species. Why not add a few extra neck bones?" --->
 
-UK shift to including research culture in the REF
+.pull-left[
 
-Image of COARA, DORA and universities resisting?
+```{r, out.width='50%'}
+knitr::include_graphics(path='https://upload.wikimedia.org/wikipedia/commons/a/af/Dinornis_maximus%2C_Natural_History_Museum_%28PV_A_608%29.jpg')
+```
 
-Ian Fraser vs Andrew Wakefield
+###### Natural History Museum, London, CC BY 4.0 <https://creativecommons.org/licenses/by/4.0>, via Wikimedia Commons
 
-Most citations are bulk or fleeting
+]
 
-Fall back on proxies
+.pull-right[
 
-Look at nutritional advice label
+![](https://upload.wikimedia.org/wikipedia/commons/8/87/Dinornithidae_SIZE_01.png)
 
-Lack of action on fraud
+###### Conty, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons
 
-STM
+]
 
-Severe scandal away from losing public trust and hence funding cuts
+---
+## Effects of competition
 
-Spelling errors, tortured phrases. 
+```{r, out.width='72%'}
+knitr::include_graphics(path='figures/Z_plot_slide.png')
+```
 
-JIF becomes a target. Nature scandal, times 2! "Too important not to publish the work"
+##### DOI: [10.1111/stan.12241](https://doi.org/10.1111/stan.12241)
 
-Big fraud and small fraud, willingness to cut results. 
+---
 
-Using randomness, increase fairness
+.left-column[
+# Missing evidence creates harms
+]
+
+.right-column[
+```{r, out.width='88%'}
+knitr::include_graphics(path='figures/bbc_news.jpg')
+```
+]
+
+---
+## Deluge of papers
+
+```{r, out.width='68%'}
+knitr::include_graphics(path='figures/papers_increasing.jpg')
+```
+
+##### DOI: [10.48550/arXiv.2309.15884](https://doi.org/10.48550/arXiv.2309.15884)
+
+---
+# Citations do not measure quality #1
+
+```{r, out.width='68%'}
+knitr::include_graphics(path='figures/citation_cartels.jpg')
+```
+
+##### [Science magazine](https://www.science.org/content/article/citation-cartels-help-some-mathematicians-and-their-universities-climb-rankings)
+
+---
+class: inverse
+# Citations do not measure quality #2
+
+## “Past research has shown that disease X is of growing importance in country Z [1-11]”
+
+---
+# Citations do not measure quality #3
+
+```{r}
+cdata = read.table(header=TRUE, sep='!', text='
+Who!Ian!Andrew
+Topic!HPV vaccine!MMR vaccine
+Journal!Virology!Lancet
+IF!3.7!168.9
+Year!1997!1998
+Citations!575!4555
+Outcomes!"Many lives saved"!"Many lives destroyed"') %>%
+  rename('Ian Frazer' = 'Ian',
+         'Andrew Wakefield' = 'Andrew')
+ftab = flextable(cdata) %>%
+  theme_zebra() %>%
+  fontsize(size = 25, part='all') %>%
+  width(j=2:3, width=3.5) %>%
+  align(j=2:3, align='center', part='all')
+ftab
+```
+
+---
+
+```{r, out.width='69%'}
+knitr::include_graphics(path='figures/lancet_impact.jpg')
+```
+
+<!--- https://twitter.com/TheLancet/status/1542088311702962177 --->
+
+---
+# Citations do not measure quality #4
+
+```{r, out.width='63%'}
+knitr::include_graphics(path='figures/lancet_paper.jpg')
+# DOI:  10.1016/S0140-6736(20)30566-3
+```
+
+<!--- * Incorrectly used logistic regression instead of survival analysis --->
+
+* 813 hospitalised, 613 (75%) excluded because they were still hospitalised or not confirmed as infected
+
+* Has been cited 33,000+ times
+
+---
+
+```{r, out.width='52%'}
+knitr::include_graphics(path='figures/scrabble.jpg')
+```
+
+From [NPR](https://www.npr.org/sections/thetwo-way/2015/07/21/424980378/winner-of-french-scrabble-title-does-not-speak-french)
 
 
-"PLOS began to apply to all its publications via its Open Science Indicators project [28]."Hrynaszkiewicz I, Kiermer V. PLOS Open Science Indicators principles and definitions. Figshare. 2022. doi:10.6084/m9.figshare.21640889.v1
+---
+class: inverse
+# Fraud
+
+.pull-left[
+
+### Thousands of papers with nonsense phrases ('bosom peril' instead of 'breast cancer')
+
+### Paper mills have an estimated annual revenue over $1 billion Euros 
+
+### Journals often take years to retract
+
+### Elisabeth Bik funding by crowd sourcing
+
+### Entire new fields of research being fabricated
+
+]
+
+<!--- For mills: 40. Holst, F. Increasing confidence and trust in research: cracking down on misconduct. IOP Publishing News (2022).--->
+
+.pull-right[
+
+```{r, out.width='69%'}
+knitr::include_graphics(path='https://upload.wikimedia.org/wikipedia/commons/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg')
+```
+
+##### Edvard Munch via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg)
+
+]
+
+---
+class: inverse, center, middle
+
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2l3NGhwOW05ZW04a2VqOGFtN3dzc3l1cjU3eHRkMWppZTc2MTFjNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Kg8pmEGG2Ia2NFVHEV/giphy.gif)
+
+
+---
+class: inverse
+# Robot reviewers
+
+```{r, out.width='62%'}
+knitr::include_graphics(path='https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExODJvb3pzNHFvbTJlZG8wbTJjbHlhMnE1ZjI3a3Bxb3RibWZoNWdhZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CjIYBczW2FeuHs8Yuj/giphy.gif')
+```
+
+##### From GEICO on giphy
+
+---
+background-image: url(figures/nhmrc_consultation.jpg)
+background-size: cover
+
+---
+.pull-left[
+# We need less research, better research, and research done for the right reasons
+
+# Doug Altman, 1995
+]
+
+.pull-right[
+
+![](figures/Doug_altman.jpeg)
+##### Photo by Oxford Clinical Trials Research Unit
+
+]
+
+---
+# Funding pitch
+
+* ### Just 0.1% of the annual scientific research budget on quality control would be AUD $12 million per year
+
+* ### Whole office of detectives and also training for researchers in good scientific practice
+
+* ### Increasing the return on investment for the remaining 99.9%
+
+---
+class: inverse, center, middle
+
+# How are the Australian Council of Deans of Science tackling poor research and promoting research quality?
