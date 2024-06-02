@@ -104,7 +104,7 @@ knitr::include_graphics(path='figures/Z_plot_slide.png')
 ---
 
 .left-column[
-# Missing evidence creates harms
+# Harms of missing evidence 
 ]
 
 .right-column[
@@ -200,9 +200,9 @@ class: inverse
 
 ### Paper mills have an estimated annual revenue over $1 billion Euros 
 
-### Journals often take years to retract
+### Journals often take years to retract obviously fraudulent papers
 
-### Elisabeth Bik funding by crowd sourcing
+### Elisabeth Bik supported by crowd-funding
 
 ### Entire new fields of research being fabricated
 
@@ -221,10 +221,23 @@ knitr::include_graphics(path='https://upload.wikimedia.org/wikipedia/commons/c/c
 ]
 
 ---
-class: inverse, center, middle
+class: inverse, middle
+
+.pull-left[
 
 ![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2l3NGhwOW05ZW04a2VqOGFtN3dzc3l1cjU3eHRkMWppZTc2MTFjNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Kg8pmEGG2Ia2NFVHEV/giphy.gif)
 
+##### from INTO ACTION on giphy
+
+]
+
+.pull-right[
+
+* ## Peer-reviewed preprints
+
+* ## Protocols and other paper trails
+
+]
 
 ---
 class: inverse
@@ -242,7 +255,7 @@ background-size: cover
 
 ---
 .pull-left[
-# We need less research, better research, and research done for the right reasons
+# "We need less research, better research, and research done for the right reasons"
 
 # Doug Altman, 1995
 ]
@@ -255,7 +268,10 @@ background-size: cover
 ]
 
 ---
-# Funding pitch
+class:inverse
+# Funding for quality
+
+.pull-left[
 
 * ### Just 0.1% of the annual scientific research budget on quality control would be AUD $12 million per year
 
@@ -263,7 +279,31 @@ background-size: cover
 
 * ### Increasing the return on investment for the remaining 99.9%
 
----
-class: inverse, center, middle
+]
 
-# How are the Australian Council of Deans of Science tackling poor research and promoting research quality?
+.pull-right[
+
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWo4bDc1NDhicG03bzBlNTVoaXRrMTJwMnhvYzFtb2VpMDJsem9zMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/D3OdaKTGlpTBC/giphy.gif)
+
+##### from giphy
+
+]
+
+---
+class: inverse, middle
+
+.pull-left[
+
+* # Questions
+
+* # Ideas
+
+]
+
+.pull-right[
+
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGN4Z3k1Z3hvbXIzY3J5NmdwOWpicnJldXptdzl4Mzd1cGZiYzc1ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fmYFj3ym5Txvy/giphy.gif)
+
+##### from giphy
+
+]
