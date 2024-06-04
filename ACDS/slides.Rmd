@@ -42,7 +42,7 @@ class: inverse, left, middle
 
 ### .center[7 June 2024]
 
-[`r fa(name = "twitter")` @aidybarnett](http://twitter.com/aidybarnett)  
+[`r fa(name = "mastodon")` @aidybarnett](https://fediscience.org/@aidybarnett)  
 
 [`r fa(name = "github")` @agbarnett](http://github.com/agbarnett)  
 
@@ -132,13 +132,7 @@ knitr::include_graphics(path='figures/citation_cartels.jpg')
 ##### [Science magazine](https://www.science.org/content/article/citation-cartels-help-some-mathematicians-and-their-universities-climb-rankings)
 
 ---
-class: inverse
 # Citations do not measure quality #2
-
-## “Past research has shown that disease X is of growing importance in country Z [1-11]”
-
----
-# Citations do not measure quality #3
 
 ```{r}
 cdata = read.table(header=TRUE, sep='!', text='
@@ -168,7 +162,7 @@ knitr::include_graphics(path='figures/lancet_impact.jpg')
 <!--- https://twitter.com/TheLancet/status/1542088311702962177 --->
 
 ---
-# Citations do not measure quality #4
+# Citations do not measure quality #3
 
 ```{r, out.width='63%'}
 knitr::include_graphics(path='figures/lancet_paper.jpg')
@@ -196,15 +190,15 @@ class: inverse
 
 .pull-left[
 
-### Thousands of papers with nonsense phrases ('bosom peril' instead of 'breast cancer')
-
 ### Paper mills have an estimated annual revenue over $1 billion Euros 
+
+### Over 10,000 papers with nonsense phrases ('bosom peril' instead of 'breast cancer')
+
+### Entire new fields of research being fabricated
 
 ### Journals often take years to retract obviously fraudulent papers
 
 ### Elisabeth Bik supported by crowd-funding
-
-### Entire new fields of research being fabricated
 
 ]
 
@@ -233,9 +227,9 @@ class: inverse, middle
 
 .pull-right[
 
-* ## Peer-reviewed preprints
-
 * ## Protocols and other paper trails
+
+* ## Peer-reviewed preprints
 
 ]
 
