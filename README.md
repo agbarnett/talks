@@ -36,3 +36,4 @@ In date order:
 * `Genetic` Webinar for Australian Genomics (March 2024)
 * `wesley` Alternative funding systems and research prioritisation (April 2024)
 * `ACDS` Assessing research quality and impact – how do different institutions assess these, and what metrics are used to calibrate “success”? (June 2024)
+* `CSH600` Lecture for CSH600 Evidence-Based Clinical Practice (June 2024)
