@@ -1,7 +1,7 @@
 ---
-title: Assessing research quality and impact 
+title: Evidence-Based Clinical Practice 
 author: Adrian Barnett
-date: "7 June 2024"
+date: "June 2024"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -36,11 +36,11 @@ class: inverse, left, middle
 
 .pull-left[
 
-# .center[Assessing research quality and impact]
+# .center[CSH600: Evidence-Based Clinical Practice: Bad science]
 
 ## .center[Adrian Barnett, QUT]
 
-### .center[7 June 2024]
+### .center[June 2024]
 
 [`r fa(name = "mastodon")` @aidybarnett](https://fediscience.org/@aidybarnett)  
 
@@ -59,18 +59,67 @@ class: inverse, left, middle
 
 ##### (from Netflix on giphy)
 
-
 ]
 
-<!--- Aim for 15 minutes --->
+<!--- Aim for ? minutes --->
 
 ---
 background-image: url(figures/AcknowledgementTraditionalOwners.jpg)
 background-size: cover
 
 ---
+.left-column[
+# How science should work
+]
+
+.right-column[
+
+```{r, out.width='55%'}
+knitr::include_graphics(path='figures/scientific-method.jpg')
+```
+
+##### Helmenstine, Anne Marie, Ph.D. "Scientific Method Flow Chart." [ThoughtCo](https://www.thoughtco.com/scientific-method-flow-chart-609104), Apr. 5, 2023.
+
+]
+
+---
+.left-column[
+# How some science actually works
+]
+
+.right-column[
+
+```{r, out.width='105%'}
+knitr::include_graphics(path='figures/Paper_Mills.jpg')
+```
+
+##### From Tricky Goose Training [https://www.trickygoose.training/downloads](https://www.trickygoose.training/downloads)
+
+]
+
+---
+## Tortured phrases
+
+```{r, out.width='65%'}
+knitr::include_graphics(path='figures/figures/tortured_phrases.jpg')
+```
+
+##### From [Nature](https://www.nature.com/articles/d41586-021-02134-0) based on work by [Guillaume Cabanac and colleagues](https://arxiv.org/abs/2107.06751)
+
+---
+## What about peer review?
+
+---
+## Why does this happen?
+
+![](figures/crowing.jpg)
+
+<!--- from https://www.linkedin.com/posts/university-college-london_qswur-activity-7203848706847092736-xV3o?utm_source=share&utm_medium=member_desktop and https://twitter.com/Brain1878/status/1674404395335794689 --->
+
+
+---
 class: inverse
-# Moa
+# Bad scientific practice is nothing new
 
 <!--- % https://www.bbc.co.uk/sounds/play/b00pfkw3 "Scientists competed to find the tallest species. Why not add a few extra neck bones?" --->
 
@@ -123,181 +172,17 @@ knitr::include_graphics(path='figures/papers_increasing.jpg')
 ##### DOI: [10.48550/arXiv.2309.15884](https://doi.org/10.48550/arXiv.2309.15884)
 
 ---
-# Citations do not measure quality #1
-
-```{r, out.width='68%'}
-knitr::include_graphics(path='figures/citation_cartels.jpg')
-```
-
-##### [Science magazine](https://www.science.org/content/article/citation-cartels-help-some-mathematicians-and-their-universities-climb-rankings)
+# 85% waste
 
 ---
-# Citations do not measure quality #2
+## Pandemic, prediction models...
 
-```{r}
-cdata = read.table(header=TRUE, sep='!', text='
-Who!Ian!Andrew
-Topic!HPV vaccine!MMR vaccine
-Journal!Virology!Lancet
-IF!3.7!168.9
-Year!1997!1998
-Citations!575!4555
-Outcomes!"Many lives saved"!"Many lives destroyed"') %>%
-  rename('Ian Frazer' = 'Ian',
-         'Andrew Wakefield' = 'Andrew')
-ftab = flextable(cdata) %>%
-  theme_zebra() %>%
-  fontsize(size = 25, part='all') %>%
-  width(j=2:3, width=3.5) %>%
-  align(j=2:3, align='center', part='all')
-ftab
-```
 
----
-
-```{r, out.width='69%'}
-knitr::include_graphics(path='figures/lancet_impact.jpg')
-```
-
-<!--- https://twitter.com/TheLancet/status/1542088311702962177 --->
-
----
-# Citations do not measure quality #3
-
-```{r, out.width='63%'}
-knitr::include_graphics(path='figures/lancet_paper.jpg')
-# DOI:  10.1016/S0140-6736(20)30566-3
-```
-
-<!--- * Incorrectly used logistic regression instead of survival analysis --->
-
-* 813 hospitalised, 613 (75%) excluded because they were still hospitalised or not confirmed as infected
-
-* Has been cited 33,000+ times
-
----
-
-```{r, out.width='52%'}
-knitr::include_graphics(path='figures/scrabble.jpg')
-```
-
-From [NPR](https://www.npr.org/sections/thetwo-way/2015/07/21/424980378/winner-of-french-scrabble-title-does-not-speak-french)
 
 
 ---
-class: inverse
-# Fraud
+## Bad science
 
-.pull-left[
+Dangers to talking about bad science. 
 
-### Paper mills have an estimated annual revenue over $1 billion Euros 
-
-### Over 10,000 papers with nonsense phrases ('bosom peril' instead of 'breast cancer')
-
-### Entire new fields of research being fabricated
-
-### Journals often take years to retract obviously fraudulent papers
-
-### Elisabeth Bik supported by crowd-funding
-
-]
-
-<!--- For mills: 40. Holst, F. Increasing confidence and trust in research: cracking down on misconduct. IOP Publishing News (2022).--->
-
-.pull-right[
-
-```{r, out.width='69%'}
-knitr::include_graphics(path='https://upload.wikimedia.org/wikipedia/commons/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg')
-```
-
-##### Edvard Munch via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg)
-
-]
-
----
-class: inverse, middle
-
-.pull-left[
-
-![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2l3NGhwOW05ZW04a2VqOGFtN3dzc3l1cjU3eHRkMWppZTc2MTFjNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Kg8pmEGG2Ia2NFVHEV/giphy.gif)
-
-##### from INTO ACTION on giphy
-
-]
-
-.pull-right[
-
-* ## Protocols and other paper trails
-
-* ## Peer-reviewed preprints
-
-]
-
----
-class: inverse
-# Robot reviewers
-
-```{r, out.width='62%'}
-knitr::include_graphics(path='https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExODJvb3pzNHFvbTJlZG8wbTJjbHlhMnE1ZjI3a3Bxb3RibWZoNWdhZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CjIYBczW2FeuHs8Yuj/giphy.gif')
-```
-
-##### From GEICO on giphy
-
----
-background-image: url(figures/nhmrc_consultation.jpg)
-background-size: cover
-
----
-.pull-left[
-# "We need less research, better research, and research done for the right reasons"
-
-# Doug Altman, 1995
-]
-
-.pull-right[
-
-![](figures/Doug_altman.jpeg)
-##### Photo by Oxford Clinical Trials Research Unit
-
-]
-
----
-class:inverse
-# Funding for quality
-
-.pull-left[
-
-* ### Just 0.1% of the annual scientific research budget on quality control would be AUD $12 million per year
-
-* ### Whole office of detectives and also training for researchers in good scientific practice
-
-* ### Increasing the return on investment for the remaining 99.9%
-
-]
-
-.pull-right[
-
-![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWo4bDc1NDhicG03bzBlNTVoaXRrMTJwMnhvYzFtb2VpMDJsem9zMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/D3OdaKTGlpTBC/giphy.gif)
-
-##### from giphy
-
-]
-
----
-class: inverse, middle
-
-.pull-left[
-
-* # Questions
-
-* # Ideas
-
-]
-
-.pull-right[
-
-![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGN4Z3k1Z3hvbXIzY3J5NmdwOWpicnJldXptdzl4Mzd1cGZiYzc1ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fmYFj3ym5Txvy/giphy.gif)
-
-##### from giphy
-
-]
+Exploited by groups with a vested interesting, e.g., climate deniers
