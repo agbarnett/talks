@@ -1,0 +1,8 @@
+---
+## Marathon times
+
+```{r, out.width='64%'}
+knitr::include_graphics(path='figures/marathon_times.png')
+```
+
+#### From DOI: [10.1287/mnsc.2015.2417](https://doi.org/10.1287/mnsc.2015.2417)
