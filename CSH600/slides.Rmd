@@ -287,9 +287,9 @@ knitr::include_graphics(path='figures/tortured_phrases.jpg')
 
 * #### Done by volunteers
 
-* #### Rarely valued by your employer  
+* #### Rarely valued by employers
 
-* #### Rejected papers just move elsewhere
+* #### Rejected papers move on to other journals
 
 ]
 
@@ -384,7 +384,7 @@ knitr::include_graphics(path='figures/james_lind.png')
 ---
 class:inverse
 
-```{r, out.width='55%'}
+```{r, out.width='59%'}
 knitr::include_graphics(path='figures/bik.jpg')
 ```
 
