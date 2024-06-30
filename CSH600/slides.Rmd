@@ -121,7 +121,7 @@ Source: [Institute of Medicine](https://pubmed.ncbi.nlm.nih.gov/24983062/) "Find
 
 ## Journal publications are a key source of evidence
 
-## Abstract from the RECOVERY trial
+## Abstract from the RECOVERY trial (July 2020)
 
 ###### DOI: [10.1056/NEJMoa2021436](https://www.nejm.org/doi/full/10.1056/NEJMoa2021436)
 
@@ -141,7 +141,7 @@ knitr::include_graphics(path='figures/recovery_trial.jpg')
 
 ## "Negative" findings are important
 
-## Abstract from the ORBITA trial
+## Abstract from the ORBITA trial (Nov 2017)
 
 ###### DOI: [10.1016/S0140-6736(17)32714-9](https://pubmed.ncbi.nlm.nih.gov/29103656/)
 
@@ -158,7 +158,7 @@ knitr::include_graphics(path='figures/orbita_trial.jpg')
 ---
 class: center, middle
 
-```{r, out.width='82%'}
+```{r, out.width='83%'}
 knitr::include_graphics(path='figures/pubmed.jpg')
 ```
 
@@ -189,7 +189,7 @@ class: inverse
 
 ### "Significance'' is judged by the p-value
 
-### Arbitrary p-value threshold of 0.05 to sift results into significant or not, which is often misrepresented as important or not
+### Arbitrary p-value threshold of 0.05 to categorise results into significant or not, which is often misrepresented as important or not
 
 --
 
@@ -240,7 +240,6 @@ knitr::include_graphics(path='figures/bbc_news.jpg')
 ]
 
 
-
 ---
 ## Removing outliers
 
@@ -261,7 +260,7 @@ knitr::include_graphics(path='figures/Weiner-1.png')
 
 .right-column[
 
-```{r, out.width='115%'}
+```{r, out.width='120%'}
 knitr::include_graphics(path='figures/Paper_Mills.jpg')
 ```
 
@@ -425,3 +424,5 @@ knitr::include_graphics(path='figures/misconduct_montage.jpg')
 * ### We can do it better
 
 * ### Carefully assess what evidence you read, search for potentially missing evidence
+
+* ### Work carefully and collaboratively, science is not a race
