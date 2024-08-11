@@ -1,0 +1,77 @@
+# Talk for [ISPOR NZ](https://www.ispor.org.nz/) chapter
+
+Title: Does statistical expertise matter?
+
+Abstract: Statistics is a challenging subject that requires training and expertise to do competently. There are common pitfalls and misconceptions that are frequently repeated in published papers. Many journals struggle to find qualified statistical reviews and so bad practice has taken a foothold in some fields, even becoming the new normal. Software is available to help researchers do their own statistics, but no software warns researchers when they use the wrong method or when their research question is flawed. Most researchers publish results without stress-testing their models or checking important assumptions. Statistics as a field is being marginalised by a dwindling critical mass and the growth of data science and machine learning - even though these "new" fields rely heavily on statistics. The lack of qualified statistical help means researchers turn to other fields or the internet for advice, with potentially harmful consequences. The field of sports medicine even invented a totally new way of doing statistics that did not involve statisticians, had little theoretical basis, and has created many false positive findings. Many Australian health and medical ethical committees do not have access to statisticians, but some committees are unworried by this as they can call on epidemiologists, psychologists or clinicians with "a working knowledge" of statistics. I will examine some of the consequences of the waning influence of statistics in research and discuss some potential interventions to raise the profile of statistics. I will discuss some parallels between statistical and economics expertise. 
+
+
+For slides
+
+Intro slide
+
+- Long beat up of how badly statistics are done
+- Consequences of missing expertise
+- What can we do
+
+Conflict of interest
+- I am a statistician. 
+- Am I rent-seeking?
+
+I like working with economists
+- Economics is still not perfect, obsession with p-values. But still at least focused on the practical implications of decisions.
+
+Parallels between statistics and economics
+- Relatively small field with highly specialised skills on a numerate topic
+- We receive lots of "amazing" opportunities to be involved in a research project, sometimes at the last minute
+- We are the first thing cut from the budget
+- At worst, seen as a service role rather than a fellow scientist
+- Can struggle to get funding (everyone struggles). Refining methods is not as sexy as finding cures. 
+
+What is statistics?
+- Give definition
+- Quotes from David S
+- Quotes from Bland and Altman
+
+Terrible graphs
+- Not numbers, symptom of a total lack of skill in understanding and summarising data
+
+Gauss and decimal places
+- Another facile example, but shows lack of thought. Presenting this many decimal places because the computer did.
+
+Finding the best seed.
+- Symptom again of knowing how to turn the handle, but no idea of why you're doing it
+
+Some of Lee's results. 
+
+methods come last, don't read them (nature paper)
+
+Why not p-values
+- show histogram
+
+Paraphrased conversation
+
+Me: "Hello Anon, I've just read the draft paper and there are an enormous amount of p-values in the paper. I'm sure you remember the long conversation we had about why this isn't a useful approach. Can we take them out, especially those don't relate to the main question? And for the main question can we use a mean difference with a confidence interval? I sent you those results."
+
+Anon: "Adrian, thanks again for your help with the analysis. We do understand you point on the p-values. However, the journals and reviewers will expect to see them, hence we need to keep them in for this publication." 
+
+Statoolio
+
+Massive predominance of non-parametric tests
+- you want lumpy data!
+
+Sports science, completely off piste
+
+Journals struggle to find statistical reviewers (Tom's paper)
+
+Defend yourself in court analogy. No judges.
+
+Pharmacy guild of Australia slide. We have no power.
+
+Lack of mathematics training
+
+Interventions:
+- Random audits
+- Compentency requirements, licence to research
+- Robot reviewers
+- More paper trails, more requirements for data and code sharing
+

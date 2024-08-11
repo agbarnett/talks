@@ -1,0 +1,275 @@
+---
+title: "Does statistical expertise matter?"
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: false
+    transition: fade
+    preview-links: auto
+    logo: figures/qut-logo-og-1200.jpg
+    css: styles.css
+    html:
+     include-in-header:
+       meta.html
+---
+
+```{r meta}
+#| include: false
+library(metathis)
+meta() %>%
+  meta_name("github-repo" = "https://github.com/shannonpileggi/introducing-gtreg-rmed-2022") %>% 
+  meta_social(
+    title = "Introducing gtreg: an R package to produce regulatory tables for clinical research",
+    url = "https://shannonpileggi.github.io/introducing-gtreg-rmed-2022/#/title-slide",
+    image = "https://github.com/shannonpileggi/introducing-gtreg-rmed-2022/blob/main/img/gtreg_overview_preview.PNG?raw=true",
+    image_alt = "Flow chart overview of {gtreg} usage and functions.",
+    og_type = "slides",
+    og_author = "Shannon Pileggi",
+    twitter_card_type = "summary_large_image",
+    twitter_creator = "@PipingHotdata",
+    twitter_site = "@PipingHotdata"
+  ) %>% 
+  format() %>% 
+  writeLines("meta.html")
+```
+
+## Outline
+
+TO DO, add AusHSI logo, smaller aside
+
+-   Common ground between statistics and economics
+-   Multiple examples of bad statistics
+-   Consequences of missing expertise
+-   What can we do
+
+## Conflicts of interest
+
+-   I am a statistician
+-   Current member and past president of the Statistical Society of Australia
+-   Current president of Association for Interdisciplinary Meta-research & Open Science (AIMOS)
+
+::: incremental
+-   Am I rent-seeking?
+:::
+
+## I like working with economists
+
+![](figures/nick_graves.jpeg){.absolute top="120" left="20" width="500" height="500"}
+
+![](figures/clarke.jpg){.absolute top="120" right="20" width="342" height="513"}
+
+<!--   Economics is still not perfect, obsession with p-values. But still at least focused on the practical implications of decisions.-->
+
+## Common ground for statistics and economics
+
+::: incremental
+-   Relatively small field with highly specialised skills on a numerate topic
+-   We receive lots of "amazing" opportunities to be involved in research projects, sometimes at the last minute
+-   We are often the first thing cut from the budget
+-   Seen by som as a service role rather than a fellow scientist
+-   Struggle to get funding (everyone struggles)
+:::
+
+## What is statistics?
+
+-   Statistics uses data to inform decision making
+-   Data literacy is a key skill for most researchers
+
+::: incremental
+-   Bland and Altman: "Bad statistics makes bad research, bad research may lead to bad medicine, and bad medicine may cost lives."
+-   David Spiegelhalter: "Why do people find probability so unintuitive and difficult? ...
+- ... Well after years of careful research I have finally concluded that it's because probability actually is unintuitive and difficult."
+:::
+
+<!--- Bland and Altman: http://dx.doi.org/10.1093/ije/17.2.245; David S from: https://www.youtube.com/watch?v=nuSqWRuz-mU--->
+
+## Terrible plots 🤪
+
+![](figures/bar_chart_plos.png){.absolute top="120" left="20" width="720" height="480"}
+
+![](figures/bar_chart_plos_3d.png){.absolute .fragment top="120" right="20" width="720" height="480"}
+
+## Pie charts 🤮
+
+![](figures/bad_pie.jfif){.absolute top="120" left="20" width="720" height="480"}
+
+<!--- 787 x 562 --->
+
+![](figures/bad_pie_3d.jfif){.absolute .fragment top="120" right="20" width="720" height="480"}
+
+<!--- Terrible graphs - Not numbers, symptom of a total lack of skill in understanding and summarising data --->
+
+## {background-color="black"}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+Decimal 
+
+places
+:::
+
+::: {.column width="70%"}
+
+![](figures/gauss.jfif){.absolute top="40" left="190" width="640" height="810"}
+
+![](figures/bad_table.jpg){.absolute .fragment top="70" left="140" width="1244" height="269"}
+:::
+
+::::
+
+<!--- Another facile example, but shows lack of thought. Presenting this many decimal places because the computer did. --->
+
+
+## Best "random" seeds
+
+<!-- Symptom again of knowing how to turn the handle, but no idea of why you're doing it. From https://stats.stackexchange.com/questions/263999/is-random-state-a-parameter-to-tune -->
+
+![](figures/sports_science.jpg){.absolute top="0" left="0" width="925" height="472"}
+
+## Linear regression
+
+- Randomly selected papers from *PLOS ONE* that used linear regression 
+
+- 37% reported checking any linear regression assumptions
+- No authors checked all assumptions
+- Common misconception that the *Y* variable should be checked for normality, with only 5 of the 28 papers correctly checking the residuals
+
+::: aside
+DOI: [10.1101/2024.02.15.24302870](https://www.medrxiv.org/content/10.1101/2024.02.15.24302870v1)
+:::
+
+methods come last, don't read them (nature paper)
+
+## Non-parametric
+
+![](figures/screw_meme.png){.absolute top="0" left="0" width="2121" height="1369"}
+
+## P-values
+
+<!--- 4200 x 2700 --->
+
+![](figures/Z_plot_slide.png){.absolute top="0" left="0" width="1330" height="855"}
+
+## Outranked 
+
+::: incremental
+-   Me: "Hello Anon, I've just read the draft paper and there are an enormous amount of p-values in the paper. I'm sure you remember the long conversation we had about why this isn't a useful approach. Can we take them out, especially those don't relate to the main question? And for the main question can we use a mean difference with a confidence interval? I sent you those results."
+
+-   Anon: "Adrian, thanks again for your help with the analysis. We do understand you point on the p-values. However, the journals and reviewers will expect to see them, hence we need to keep them in for this paper."
+:::
+
+## Shortage of statistical reviewers
+
+- 34% rarely or never use specialized statistical review
+
+- 23% used it for all articles
+
+![](figures/hardwicke.png){.absolute top="230" left="30" width="990" height="420"}
+
+## Statoolio
+
+<!--- 1200 by 469 --->
+
+![](figures/statoolio.jpg){.absolute top="170" left="50" width="1200" height="469"}
+
+## Prediction models
+
+COVID
+
+Only 1/4 published
+
+## Thresholds (again)
+
+## Sports science
+
+
+![](figures/sports_science.jpg){.absolute top="0" left="0" width="1178" height="688"}
+
+<!-- completely off piste -->
+
+
+## Defend yourself in court
+
+![](figures/defend_yourself.jpg){.absolute top="80" left="120" width="728" height="456"}
+
+::: aside
+Image from WikiHow
+:::
+
+## Statistics needs a critical mass
+
+![](figures/pharmacy.png){.absolute top="0" left="0" width="1031" height="858"}
+
+<!-- We have no power. -->
+
+## RTM example
+
+## Immortal time bias
+
+## Common errors
+
+<!-- 1077 x 500; 19 headline errors -->
+![](figures/push_back.png){.absolute top="0" left="0" width="1031" height="858"}
+::: aside
+[Andrew Althouse](https://discourse.datamethods.org/t/reference-collection-to-push-back-against-common-statistical-myths/1787)
+:::
+
+## The problems start early
+
+![](figures/higher_and_intermediate-2022.png){.absolute top="120" left="120" width="794" height="435"}
+
+::: aside
+From AMSI https://amsi.org.au/
+:::
+
+# Interventions {background-color="green" .center}
+
+## Random audits
+
+<!-- 600 x 500 -->
+
+![](figures/audit.jpg){.absolute top="120" left="150" width="600" height="500"}
+
+
+::: aside
+DOI: [10.1371/journal.pone.0195613](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0195613)
+:::
+
+## Ethics
+
+Statisticians on ethics committees
+
+Border guard image (just not listened to elsewhere)
+
+## Compentency requirements
+
+- Licence to research 
+
+## Robot reviewers {background-color="black"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcml6NnozNHdwdXNxb25xN2tldXh5MTNiMnU2NWV5bGx0cG0xcmUzcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pIMlKqgdZgvo4/giphy.gif)
+
+:::
+
+
+::: {.column width="50%"}
+![](figures/example_report.jpg)
+[Automated Screening Working Group](https://scicrunch.org/ASWG)
+:::
+
+## Install pubpeer
+
+![](figures/pubpeer.jpg){.absolute top="0" left="0" width="1841" height="757"}
+
+## More paper trails
+
+- Openly share ethical clearances (DOI: [10.1177/1073110518766028](https://www.cambridge.org/core/journals/journal-of-law-medicine-and-ethics/article/opening-closed-doors-promoting-irb-transparency/6A766FB4F7742F4FDADDACA83AF69176))
+
+- More requirements for data and code sharing
+
+- Researchers ran away when asked for data https://link.springer.com/article/10.1186/s13041-020-0552-2
