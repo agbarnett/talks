@@ -1,52 +1,60 @@
 ---
 title: "Does statistical expertise matter?"
+author: Adrian Barnett<br>30 August 2024
+image: figures/gove.jpg
+institute: Queensland University of Technology
+title-position: 70%
 format:
   revealjs: 
     slide-number: true
+    theme: [moon, custom.scss]
     chalkboard: false
     transition: fade
     preview-links: auto
-    logo: figures/qut-logo-og-1200.jpg
-    css: styles.css
-    html:
-     include-in-header:
-       meta.html
+    logo: figures/logos.jpg
+title-slide-attributes:
+  data-position: relative
+  data-background-image: figures/gove.jpg
+  data-background-size: contain
+  data-background-position: 2% 98%, center
+  data-background-opacity: "0.6"
+  data-padding: 10px 0px 10px 20px
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
-```{r meta}
-#| include: false
-library(metathis)
-meta() %>%
-  meta_name("github-repo" = "https://github.com/shannonpileggi/introducing-gtreg-rmed-2022") %>% 
-  meta_social(
-    title = "Introducing gtreg: an R package to produce regulatory tables for clinical research",
-    url = "https://shannonpileggi.github.io/introducing-gtreg-rmed-2022/#/title-slide",
-    image = "https://github.com/shannonpileggi/introducing-gtreg-rmed-2022/blob/main/img/gtreg_overview_preview.PNG?raw=true",
-    image_alt = "Flow chart overview of {gtreg} usage and functions.",
-    og_type = "slides",
-    og_author = "Shannon Pileggi",
-    twitter_card_type = "summary_large_image",
-    twitter_creator = "@PipingHotdata",
-    twitter_site = "@PipingHotdata"
-  ) %>% 
-  format() %>% 
-  writeLines("meta.html")
-```
+## Outline {background-color="white"}
 
-## Outline
+:::: {.columns}
+::: {.column width="60%"}
 
-TO DO, add AusHSI logo, smaller aside
-
--   Common ground between statistics and economics
+-   Common ground for statistics and economics
 -   Multiple examples of bad statistics
 -   Consequences of missing expertise
--   What can we do
+-   Potential interventions
+
+:::
+
+::: {.column width="40%"}
+
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWR5MWxza3RlMTd1MjlhNmhudmRhazYyM3lyZ3RicXZvaGczc2dzbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vmYEXxc5vq7Zu/giphy.gif)
+
+:::
+
+::::
+
+::: aside
+Animation from [intothecontinuum](https://intothecontinuum.tumblr.com/post/57654628209/each-of-the-white-circles-are-really-just-moving)
+:::
 
 ## Conflicts of interest
 
 -   I am a statistician
--   Current member and past president of the Statistical Society of Australia
--   Current president of Association for Interdisciplinary Meta-research & Open Science (AIMOS)
+-   Current member and past president of the Statistical Society of
+    Australia
+-   Current president of Association for Interdisciplinary Meta-research
+    & Open Science (AIMOS)
 
 ::: incremental
 -   Am I rent-seeking?
@@ -54,19 +62,23 @@ TO DO, add AusHSI logo, smaller aside
 
 ## I like working with economists
 
-![](figures/nick_graves.jpeg){.absolute top="120" left="20" width="500" height="500"}
+![](figures/nick_graves.jpeg){.absolute top="120" left="20" width="500"
+height="500"}
 
-![](figures/clarke.jpg){.absolute top="120" right="20" width="342" height="513"}
+![](figures/clarke.jpg){.absolute top="120" right="20" width="342"
+height="513"}
 
 <!--   Economics is still not perfect, obsession with p-values. But still at least focused on the practical implications of decisions.-->
 
 ## Common ground for statistics and economics
 
 ::: incremental
--   Relatively small field with highly specialised skills on a numerate topic
--   We receive lots of "amazing" opportunities to be involved in research projects, sometimes at the last minute
+-   Relatively small field with highly specialised skills on a numerate
+    topic
+-   We receive lots of "amazing" opportunities to be involved in
+    research projects, sometimes at the last minute
 -   We are often the first thing cut from the budget
--   Seen by som as a service role rather than a fellow scientist
+-   Seen by some as a service role rather than a fellow scientist
 -   Struggle to get funding (everyone struggles)
 :::
 
@@ -76,122 +88,255 @@ TO DO, add AusHSI logo, smaller aside
 -   Data literacy is a key skill for most researchers
 
 ::: incremental
--   Bland and Altman: "Bad statistics makes bad research, bad research may lead to bad medicine, and bad medicine may cost lives."
--   David Spiegelhalter: "Why do people find probability so unintuitive and difficult? ...
-- ... Well after years of careful research I have finally concluded that it's because probability actually is unintuitive and difficult."
+-   Bland and Altman: "Bad statistics makes bad research, bad research
+    may lead to bad medicine, and bad medicine may cost lives."
+-   David Spiegelhalter: "Why do people find probability so unintuitive
+    and difficult? ...
+-   ... Well after years of careful research I have finally concluded
+    that it's because probability actually is unintuitive and
+    difficult."
 :::
 
 <!--- Bland and Altman: http://dx.doi.org/10.1093/ije/17.2.245; David S from: https://www.youtube.com/watch?v=nuSqWRuz-mU--->
 
 ## Terrible plots 🤪
 
-![](figures/bar_chart_plos.png){.absolute top="120" left="20" width="720" height="480"}
+![](figures/bar_chart_plos.png){.absolute top="120" left="20"
+width="720" height="480"}
 
-![](figures/bar_chart_plos_3d.png){.absolute .fragment top="120" right="20" width="720" height="480"}
+![](figures/bar_chart_plos_3d.png){.absolute .fragment top="120"
+right="20" width="720" height="480"}
 
 ## Pie charts 🤮
 
-![](figures/bad_pie.jfif){.absolute top="120" left="20" width="720" height="480"}
+![](figures/bad_pie.jfif){.absolute top="120" left="20" width="720"
+height="480"}
 
 <!--- 787 x 562 --->
 
-![](figures/bad_pie_3d.jfif){.absolute .fragment top="120" right="20" width="720" height="480"}
+![](figures/bad_pie_3d.jfif){.absolute .fragment top="120" right="20"
+width="720" height="480"}
 
-<!--- Terrible graphs - Not numbers, symptom of a total lack of skill in understanding and summarising data --->
+<!--- Terrible graphs - Not numbers, symptom of a total lack of skill in understanding and summarising data -😆-->
 
-## {background-color="black"}
+##  {background-color="black"}
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="30%"}
-Decimal 
+Decimal places
 
-places
+\
+
+\
+
+\
+
+\
+
+\
+
+<sup> Painting by Christian Albrecht Jensen, Public domain, via
+[Wikimedia
+Commons](https://commons.wikimedia.org/wiki/File:Carl_Friedrich_Gauss_1840_by_Jensen.jpg)</sup>
 :::
 
 ::: {.column width="70%"}
+![](figures/gauss.jfif){.absolute top="40" right="30" width="640"
+height="810"}
 
-![](figures/gauss.jfif){.absolute top="40" left="190" width="640" height="810"}
-
-![](figures/bad_table.jpg){.absolute .fragment top="70" left="140" width="1244" height="269"}
+![](figures/bad_table.jpg){.absolute .fragment top="170" left="140"
+width="1244" height="269"}
+:::
 :::
 
-::::
-
 <!--- Another facile example, but shows lack of thought. Presenting this many decimal places because the computer did. --->
-
 
 ## Best "random" seeds
 
 <!-- Symptom again of knowing how to turn the handle, but no idea of why you're doing it. From https://stats.stackexchange.com/questions/263999/is-random-state-a-parameter-to-tune -->
 
-![](figures/sports_science.jpg){.absolute top="0" left="0" width="925" height="472"}
+![](figures/random_seed.png){.absolute top="120" left="40" width="925"
+height="472"}
+
+## Statistical methods section
+
+-   17% used 50 words or fewer
+-   12,675 papers (11%) closely matched to the sentence “a p-value \<
+    0.05 was considered statistically significant”
+-   Some sections just said "t-test" or "SPSS"
+
+::: aside
+DOI:
+[10.1371/journal.pone.0264360](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0264360)
+:::
 
 ## Linear regression
 
-- Randomly selected papers from *PLOS ONE* that used linear regression 
+-   Randomly selected 100 papers from *PLOS ONE* that used linear regression
 
-- 37% reported checking any linear regression assumptions
-- No authors checked all assumptions
-- Common misconception that the *Y* variable should be checked for normality, with only 5 of the 28 papers correctly checking the residuals
+::: incremental
+-   Only 37% reported checking any linear regression assumptions
 
-::: aside
-DOI: [10.1101/2024.02.15.24302870](https://www.medrxiv.org/content/10.1101/2024.02.15.24302870v1)
+-   No authors checked all assumptions
+
+-   Common misconception that the *Y* variable should be checked for
+    normality, with only 5 of the 28 papers correctly checking the
+    residuals
 :::
 
-methods come last, don't read them (nature paper)
+::: aside
+DOI:
+[10.1101/2024.02.15.24302870](https://www.medrxiv.org/content/10.1101/2024.02.15.24302870v1)
+:::
 
-## Non-parametric
+## Lumpy data is good data
 
-![](figures/screw_meme.png){.absolute top="0" left="0" width="2121" height="1369"}
+<!-- from make_lumpy_data.R -->
+![](figures/lumpy.jpg)
 
-## P-values
+
+## Non-parametric {background-color="white"}
+
+![](figures/screw_meme.png){.absolute top="0" left="0" width="2121"
+height="1369"}
+
+## P-values {background-color="white"}
 
 <!--- 4200 x 2700 --->
 
-![](figures/Z_plot_slide.png){.absolute top="0" left="0" width="1330" height="855"}
+![](figures/Z_plot_slide.png){.absolute top="0" left="0" width="1330"
+height="855"}
 
-## Outranked 
+## Outranked
 
 ::: incremental
--   Me: "Hello Anon, I've just read the draft paper and there are an enormous amount of p-values in the paper. I'm sure you remember the long conversation we had about why this isn't a useful approach. Can we take them out, especially those don't relate to the main question? And for the main question can we use a mean difference with a confidence interval? I sent you those results."
+-   Me: "Hello Anon, I've just read the draft paper and there are an
+    enormous amount of p-values. I'm sure you remember the
+    long conversation we had about why this isn't a useful approach. Can
+    we take them out, especially those don't relate to the main
+    question? And for the main question can we use a mean difference
+    with a confidence interval? I sent you those results."
 
--   Anon: "Adrian, thanks again for your help with the analysis. We do understand you point on the p-values. However, the journals and reviewers will expect to see them, hence we need to keep them in for this paper."
+-   Anon: "Adrian, thanks again for your help with the analysis. We do
+    understand you point on the p-values. However, the journals and
+    reviewers will expect to see them, hence we need to keep them in for
+    this paper."
 :::
+
+## RTM example
+
+![](figures/rtm.jpg){.absolute top="0" left="0" width="1736"
+height="702"}
+
+<!-- 10.1093/clinchem/hvae067 -->
+
+## Immortal time bias
+
+![](figures/ellie-cooper--a_M4o2n-0U-unsplash.jpg){.absolute top="60"
+left="40" width="1200" height="800"}
+
+::: aside
+Photo by
+<a href="https://unsplash.com/@elliecooperphotography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ellie
+Cooper</a> on
+<a href="https://unsplash.com/photos/a-man-riding-a-bike-down-a-street-next-to-a-woman--a_M4o2n-0U?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+:::
+
+## Common errors
+
+<!-- 1077 x 500; 19 headline errors -->
+
+![](figures/push_back.png){.absolute top="0" left="0" width="1031"
+height="858"} 
+
+
+
+## Prediction models
+
+::: incremental
+-   *Lancet* paper of in-hospital mortality which excluded 75% of the
+    sample because they were still in hospital (DOI:
+    [10.1016/S0140-6736(20)30566-3](https://www.thelancet.com/article/S0140-6736(20)30566-3/fulltext)).
+    Has over 33,000 citations
+
+-   Over 600 COVID prediction models, almost all have been "useless"
+    ([Living systematic
+    review](https://www.bmj.com/content/378/bmj.o2009))
+
+-   Only 28% of planned clinical prediction models were published after 10
+    years (DOI:
+    [10.1016/j.jclinepi.2024.111433](https://www.sciencedirect.com/science/article/pii/S0895435624001884))
+:::
+
+## Thresholds, again
+
+![](figures/histogram_residuals_slide.jpg){.absolute top="70" left="20"
+width="988" height="556"}
+
+\
+
+::: aside
+DOI:
+[10.1186/s12916-023-03048-6](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-023-03048-6)
+:::
+
+## We got cited!
+
+**Our title: Evidence of questionable research practices in clinical prediction
+models**
+
+The citation: "... characterized by an AUC value according to the ROC curve between
+0.8–0.9; with values that are 0.7 and above, the predictor is deemed
+satisfactory"
+
+<!-- https://www.mdpi.com/2218-273X/14/7/768 -->
+
+## We got cited! {visibility="uncounted"}
+
+**Our title: Evidence of questionable research practices in clinical prediction
+models**
+
+The citation: "... characterized by an AUC value according to the ROC curve between
+0.8–0.9; with values that are 0.7 and above, the predictor is deemed
+satisfactory"
+
+<!-- https://www.mdpi.com/2218-273X/14/7/768 -->
+
+**Our title: An observational analysis of the trope “A p-value of\< 0.05 was
+considered statistically significant” and other cut-and-paste
+statistical methods**
+
+The citation: "A P-value smaller than 0.05 indicates a significant effect of Tp on
+ts"
+
+
+## Sports science
+
+![](figures/sports_science.jpg){.absolute top="0" left="0" width="1178"
+height="688"}
+
+<!-- completely off piste -->
 
 ## Shortage of statistical reviewers
 
-- 34% rarely or never use specialized statistical review
+-   34% rarely or never use specialised statistical review
 
-- 23% used it for all articles
+-   23% used it for all articles
 
-![](figures/hardwicke.png){.absolute top="230" left="30" width="990" height="420"}
+![](figures/hardwicke.png){.absolute top="230" left="30" width="990"
+height="420"}
 
 ## Statoolio
 
 <!--- 1200 by 469 --->
 
-![](figures/statoolio.jpg){.absolute top="170" left="50" width="1200" height="469"}
-
-## Prediction models
-
-COVID
-
-Only 1/4 published
-
-## Thresholds (again)
-
-## Sports science
-
-
-![](figures/sports_science.jpg){.absolute top="0" left="0" width="1178" height="688"}
-
-<!-- completely off piste -->
-
+![](figures/statoolio.jpg){.absolute top="170" left="50" width="1200"
+height="469"}
 
 ## Defend yourself in court
 
-![](figures/defend_yourself.jpg){.absolute top="80" left="120" width="728" height="456"}
+![](figures/defend_yourself.jpg){.absolute top="80" left="120"
+width="728" height="456"}
 
 ::: aside
 Image from WikiHow
@@ -199,77 +344,132 @@ Image from WikiHow
 
 ## Statistics needs a critical mass
 
-![](figures/pharmacy.png){.absolute top="0" left="0" width="1031" height="858"}
+![](figures/pharmacy.png){.absolute top="0" left="0" width="1031"
+height="858"}
 
 <!-- We have no power. -->
 
-## RTM example
-
-## Immortal time bias
-
-## Common errors
-
-<!-- 1077 x 500; 19 headline errors -->
-![](figures/push_back.png){.absolute top="0" left="0" width="1031" height="858"}
-::: aside
-[Andrew Althouse](https://discourse.datamethods.org/t/reference-collection-to-push-back-against-common-statistical-myths/1787)
-:::
-
 ## The problems start early
 
-![](figures/higher_and_intermediate-2022.png){.absolute top="120" left="120" width="794" height="435"}
+![](figures/higher_and_intermediate-2022.png){.absolute top="120"
+left="120" width="794" height="435"}
 
 ::: aside
 From AMSI https://amsi.org.au/
 :::
 
-# Interventions {background-color="green" .center}
+# Interventions {.center background-color="rgb(204, 0, 0)"}
+
+##  {.center background-color="#96C0D3"}
+
+::: columns
+::: {.column width="60%"}
+### Funders should stop funding clinical prediction models unless there is an experienced statistician on the team
+:::
+
+::: {.column width="40%"}
+![](figures/marius-serban-Bsway5_hstw-unsplash.jpg){.absolute top="80"
+right="10" width="363" height="248"}
+:::
+:::
+
+
+\
+
+\
+
+::: aside
+Photo by
+<a href="https://unsplash.com/@twistlemon?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Marius
+Serban</a> on
+<a href="https://unsplash.com/photos/red-and-white-road-signage-near-green-concrete-structure-Bsway5_hstw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+:::
+
+## Training {.center}
+
+![](figures/c4r.jpg)
+
+## Licence to research {.center .middle background-color="black"}
+
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXBmd2ZkaWoxZWg5c2NsY2hwaGd3Zjc3b3phOG5pcDQ1aWQ0eDNvMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ih6GMHNeQtKYyiqCmf/giphy.gif)
+
+::: aside
+tcm.com
+:::
 
 ## Random audits
 
 <!-- 600 x 500 -->
 
-![](figures/audit.jpg){.absolute top="120" left="150" width="600" height="500"}
-
+![](figures/audit.jpg){.absolute top="100" left="150" width="600"
+height="500"}
 
 ::: aside
-DOI: [10.1371/journal.pone.0195613](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0195613)
+DOI:
+[10.1371/journal.pone.0195613](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0195613)
 :::
 
-## Ethics
 
-Statisticians on ethics committees
+## More paper trails {background-color="black"}
 
-Border guard image (just not listened to elsewhere)
+::: columns
+::: {.column width="55%"}
+-   Openly share ethical clearances (DOI:
+    [10.1177/1073110518766028](https://www.cambridge.org/core/journals/journal-of-law-medicine-and-ethics/article/opening-closed-doors-promoting-irb-transparency/6A766FB4F7742F4FDADDACA83AF69176))
 
-## Compentency requirements
+-   Much more data and code sharing
 
-- Licence to research 
+-   Most researchers withdrew their manuscript when asked by the journal
+    editor for the data (DOI:
+    [10.1186/s13041-020-0552-2](https://link.springer.com/article/10.1186/s13041-020-0552-2))
+:::
+
+::: {.column width="45%"}
+![](https://media.giphy.com/media/Izcsdt83EqId7ONhZD/giphy.gif)
+:::
+:::
+
+## Ethics {background-color="rgb(114, 164, 0)"}
+
+::: columns
+::: {.column width="50%"}
+-   Mandate statisticians on ethics committees
+
+-   Only 34% of committees have access to a qualified statistician
+
+- Quote: Most medical practitioners are very good with stats, they are qualified, but would not necessarily be classified as a “qualified statistician”
+:::
+
+::: {.column width="50%"}
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2l3eHowc3d4amg3dGVhczB6b21rNnp0aXJyN29mbHBtaTc4NzZqYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BKnKdJjiJrAGSTGzgM/giphy.gif)
+
+@sesamestreet
+:::
+:::
 
 ## Robot reviewers {background-color="black"}
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
-
 ![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcml6NnozNHdwdXNxb25xN2tldXh5MTNiMnU2NWV5bGx0cG0xcmUzcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pIMlKqgdZgvo4/giphy.gif)
-
 :::
-
 
 ::: {.column width="50%"}
 ![](figures/example_report.jpg)
+:::
+:::
+
+::: aside
 [Automated Screening Working Group](https://scicrunch.org/ASWG)
 :::
 
-## Install pubpeer
+## PubPeer on PubMed
 
-![](figures/pubpeer.jpg){.absolute top="0" left="0" width="1841" height="757"}
+![](figures/pubpeer2.jpg){.absolute top="70" left="30" width="945" height="611"}
 
-## More paper trails
+## AIMOS conference
 
-- Openly share ethical clearances (DOI: [10.1177/1073110518766028](https://www.cambridge.org/core/journals/journal-of-law-medicine-and-ethics/article/opening-closed-doors-promoting-irb-transparency/6A766FB4F7742F4FDADDACA83AF69176))
+<!--- ![](figures/darren.jpg){.absolute top="30" left="80" width="616" height="548"} --->
 
-- More requirements for data and code sharing
+![](figures/aimos_conference.jpg){.absolute top="0" left="0" width="1600" height="900"}
 
-- Researchers ran away when asked for data https://link.springer.com/article/10.1186/s13041-020-0552-2

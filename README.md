@@ -37,3 +37,6 @@ In date order:
 * `wesley` Alternative funding systems and research prioritisation (April 2024)
 * `ACDS` Assessing research quality and impact – how do different institutions assess these, and what metrics are used to calibrate “success”? (June 2024)
 * `CSH600` Lecture for CSH600 Evidence-Based Clinical Practice (June 2024)
+* `ISPOR` Does statistical expertise matter? For [ISPOR](https://www.ispor.org/) (August 2024)
+* `debate` THE GREAT DEBATE: Quantitative research is better than qualitative (September 2024)
+* `school_forum` Do you have to play games to win at publishing? (September 2024)

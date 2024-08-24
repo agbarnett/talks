@@ -1,0 +1,75 @@
+---
+title: "Do you have to play games to win at publishing?"
+author: Adrian Barnett<br>September 2024
+image: figures/gove.jpg
+institute: Queensland University of Technology
+title-position: 70%
+format:
+  revealjs: 
+    slide-number: true
+    theme: [moon, custom.scss]
+    chalkboard: false
+    transition: fade
+    preview-links: auto
+    logo: figures/logos.jpg
+title-slide-attributes:
+  data-position: relative
+  data-background-image: figures/daniel-van-den-berg-29Jx9qyTW14-unsplash.jpg
+  data-background-size: contain
+  data-background-position: center
+  data-background-opacity: "0.7"
+  data-padding: 10px 0px 10px 20px
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+
+  
+  
+## Outline
+
+:::: {.columns}
+::: {.column width="60%"}
+
+-   Common ground for statistics and economics
+-   Multiple examples of bad statistics
+-   Consequences of missing expertise
+-   Potential interventions
+
+:::
+
+::: {.column width="40%"}
+
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWR5MWxza3RlMTd1MjlhNmhudmRhazYyM3lyZ3RicXZvaGczc2dzbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vmYEXxc5vq7Zu/giphy.gif)
+
+:::
+
+::::
+
+::: aside
+Animation from [intothecontinuum](https://intothecontinuum.tumblr.com/post/57654628209/each-of-the-white-circles-are-really-just-moving)
+
+Cover photo by <a href="https://unsplash.com/@danielvandenberg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Daniel van den Berg</a> on <a href="https://unsplash.com/photos/lighted-post-29Jx9qyTW14?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+:::
+
+## Disclaimer {.center}
+
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTM5Y2prdnptYzZjcDVhZXhmaGxuM2h0dzY1bWN0cmJkcWdkdnQxNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ie3U6gTmbY4KTQtOPJ/giphy.gif)
+
+
+::: aside
+from sterossetti on giphy
+:::
+
+## Cover letter {.center background-color="white"}
+
+![](figures/cover_letter.png)
+
+## Overleaf
+
+![](figures/overleaf.jpg)
+
+## Take screen shots
+
+![](figures/overleaf.jpg)

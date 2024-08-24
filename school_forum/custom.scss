@@ -1,0 +1,16 @@
+/*-- scss:defaults --*/
+
+$presentation-heading-color: green;
+$body-color: #f72282;
+
+/*-- scss:rules --*/
+
+.reveal .slide-number {
+  color: $link-color;
+}
+
+.reveal .footer {
+  font-size: 0.35em !important;
+  text-align: right !important;
+}
+
