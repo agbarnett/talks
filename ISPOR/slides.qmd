@@ -310,13 +310,6 @@ The citation: "A P-value smaller than 0.05 indicates a significant effect of Tp 
 ts"
 
 
-## Sports science
-
-![](figures/sports_science.jpg){.absolute top="0" left="0" width="1178"
-height="688"}
-
-<!-- completely off piste -->
-
 ## Shortage of statistical reviewers
 
 -   34% rarely or never use specialised statistical review
@@ -332,6 +325,13 @@ height="420"}
 
 ![](figures/statoolio.jpg){.absolute top="170" left="50" width="1200"
 height="469"}
+
+## Sports science
+
+![](figures/sports_science.jpg){.absolute top="0" left="0" width="1178"
+height="688"}
+
+<!-- completely off piste -->
 
 ## Defend yourself in court
 
@@ -424,6 +424,7 @@ DOI:
     [10.1186/s13041-020-0552-2](https://link.springer.com/article/10.1186/s13041-020-0552-2))
 :::
 
+
 ::: {.column width="45%"}
 ![](https://media.giphy.com/media/Izcsdt83EqId7ONhZD/giphy.gif)
 :::
@@ -433,11 +434,13 @@ DOI:
 
 ::: columns
 ::: {.column width="50%"}
+::: incremental
 -   Mandate statisticians on ethics committees
 
 -   Only 34% of committees have access to a qualified statistician
 
 - Quote: Most medical practitioners are very good with stats, they are qualified, but would not necessarily be classified as a “qualified statistician”
+:::
 :::
 
 ::: {.column width="50%"}
@@ -467,7 +470,7 @@ DOI:
 
 ![](figures/pubpeer2.jpg){.absolute top="70" left="30" width="945" height="611"}
 
-## AIMOS conference
+# AIMOS conference
 
 <!--- ![](figures/darren.jpg){.absolute top="30" left="80" width="616" height="548"} --->
 

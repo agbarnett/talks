@@ -1,5 +1,5 @@
 ---
-title: "Do you have to play games to win at publishing?"
+title: "What would an ideal publishing system look like?"
 author: Adrian Barnett<br>September 2024
 image: figures/gove.jpg
 institute: Queensland University of Technology

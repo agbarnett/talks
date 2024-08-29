@@ -14,7 +14,9 @@ We have amazing new methods that our qualitative colleagues do not. Does it matt
 
 I say that you can't argue with the numbers, and we have lots of numbers. Here's a great example, presenting mean ages to two decimal places. Does it matter than the second decimal place is less than a week and is essentially a random number? Firmly no. Even though these 75 year olds have been on the planet for over 3,900 weeks, these researchers appreciate that every week counts.
 
-One of my favourite quantitative numbers is that for every dollar invested in science we get four dollars in return. Anyone heard of this? What dollar benefits can our qualitative colleagues claim I wonder. Does it matter that this $4 dollar figure was done on the back of envelope and has been criticised by scientists working in research impact and policy makers? Firmly no. You simply can't argue with such a great number and for the sake of science we need to keep using it. 
+And we are simply the best when it comes to the most highly cited papers. Here are the top most five cited papers of all time, each one a quantitative study, none a qualitative study, and there's not one in sight in the top 50. Does it matter that citations are a crude measure of quality that are bland, field-dependent, error-prone, and can be manipulated? Firmly no. Because they are a number and the community agree that citations measures quality, so there. 
+
+And we have the best journals. Here are the top five journals by impact factor. All of them focused on quantitative research, not a qualitative journal in site. In fact the highest impact factor of over 500 contains the impact factor of every journal with the word 'qualitative' in the title for the last x years. So just one journal in one year is more important than the last x years of qual research. And does it matter that the journal impact factor has led to widespread gaming by researchers, editors and publishers, and has forced scientists to focus on work that's more citable regardless of its importance? Firmly, no. Because we have a simple system, you get promoted because you managed to publish in "cell" and you don't get promoted because you published in "cells" with an 's'. Simples. We don't even need to read your papers to see what you did. 
 
 Quantitative researchers are smashing it in predictions models. We now have over 85,000 published prediction models. Soon every disease will have hundreds of prediction models; so the number of models is easily beating the number of diseases, that's progress. Even those diseases that are inherently stochastic and unpredictable, us quantative people do not let that fact get in our way. 
 
@@ -31,5 +33,11 @@ As a statistician I've often found myself in a room just to make up the numbers,
 
 #### Sources
 
+Top 100 papers: https://www.nature.com/news/the-top-100-papers-1.16224
+
 Bar chart: 
 Table: https://academic.oup.com/ageing/article/53/3/afae054/7634257?searchresult=1#447324902
+
+### cut
+
+One of my favourite quantitative numbers is that for every dollar invested in science we get four dollars in return. Anyone heard of this? What dollar benefits can our qualitative colleagues claim I wonder. Does it matter that this $4 dollar figure was done on the back of envelope and has been criticised by scientists working in research impact and policy makers? Firmly no. You simply can't argue with such a great number and for the sake of science we need to keep using it. 

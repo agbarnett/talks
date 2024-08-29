@@ -1,0 +1,48 @@
+---
+title: "Quant is better than qual"
+author: Adrian Barnett<br>September 2024
+image: figures/gove.jpg
+institute: Queensland University of Technology
+title-position: 70%
+format:
+  revealjs: 
+    slide-number: true
+    theme: [moon, custom.scss]
+    chalkboard: false
+    transition: fade
+    preview-links: auto
+    logo: figures/logos.jpg
+title-slide-attributes:
+  data-position: relative
+  data-background-image: figures/daniel-van-den-berg-29Jx9qyTW14-unsplash.jpg
+  data-background-size: contain
+  data-background-position: center
+  data-background-opacity: "0.7"
+  data-padding: 10px 0px 10px 20px
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+
+## Top five most cited papers
+
+- 305,148. Protein measurement with the folin phenol reagent.
+- 213,005. Cleavage of structural proteins during the assembly of the head of bacteriophage T4.
+- 155,530. A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding.
+- 65,335. DNA sequencing with chain-terminating inhibitors.
+- 60,397. Single-step method of RNA isolation by acid guanidinium thiocyanate-phenol-chloroform extraction.
+
+## Top five journals
+
+- 503.1. CA: A Cancer Journal for Clinicians
+- 122.7 Reviews Drug Discovery
+- 98.4. Lancet
+- 96.2. NEJM
+- 93.6. BMJ
+
+
+
+
+
+
