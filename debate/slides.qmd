@@ -1,39 +1,84 @@
 ---
-title: "Quant is better than qual"
-author: Adrian Barnett<br>September 2024
-image: figures/gove.jpg
+title: "Quantitative research is better than qualitative"
+subtitle: "You can't argue with the numbers"
+author: Adrian Barnett
 institute: Queensland University of Technology
 title-position: 70%
 format:
   revealjs: 
-    slide-number: true
+    slide-number: false
     theme: [moon, custom.scss]
     chalkboard: false
     transition: fade
     preview-links: auto
     logo: figures/logos.jpg
 title-slide-attributes:
-  data-position: relative
-  data-background-image: figures/daniel-van-den-berg-29Jx9qyTW14-unsplash.jpg
-  data-background-size: contain
-  data-background-position: center
-  data-background-opacity: "0.7"
-  data-padding: 10px 0px 10px 20px
+  data-background-image: https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMm1hM2VxODYycnJkMnNndnY3bHV2NzZkMTNjc3VkeHg0eGphMXJiaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zPbnEgxsPJOJSD3qfr/giphy.gif
+  data-background-size: 45%
+  data-background-position: 2% 98%, center
+  data-background-opacity: "0.6"
 editor: 
   markdown: 
     wrap: 72
 ---
 
+## P-values {background-color="white"}
 
-## Top five most cited papers
+<!--- 4200 x 2700 --->
 
-- 305,148. Protein measurement with the folin phenol reagent.
-- 213,005. Cleavage of structural proteins during the assembly of the head of bacteriophage T4.
-- 155,530. A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding.
-- 65,335. DNA sequencing with chain-terminating inhibitors.
-- 60,397. Single-step method of RNA isolation by acid guanidinium thiocyanate-phenol-chloroform extraction.
+![](figures/Z_plot_slide.png){.absolute top="-10" left="0" width="1330"
+
+## Utilising graphical illustrations
+
+![](figures/bar_chart_plos.png){.absolute top="120" left="20"
+width="720" height="480"}
+
+![](figures/bar_chart_plos_3d.png){.absolute .fragment top="120"
+right="20" width="720" height="480"}
+
+## Off the charts
+
+![](figures/bad_pie.jfif){.absolute top="120" left="20" width="720"
+height="480"}
+
+<!--- 787 x 562 --->
+
+![](figures/bad_pie_3d.jfif){.absolute .fragment top="120" right="20"
+width="720" height="480"}
+
+## Machine learning {.center background-color="black"}
+
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZno5YXZ6ZGZoMXczdW4xbXd0ODNzM291YzI1c21iYWFhY3h3dzFjciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4H3Ii5eLChYul9p7NL/giphy-downsized-large.gif)
+
+## Numbers on numbers
+
+![](figures/bad_table.jpg)
+
+
+## Top five most cited papers {background-color="rgb(237, 62, 40)"}
+
+::: columns
+::: {.column width="70%"}
+- ###### 305,148. Protein measurement with the folin phenol reagent.
+- ###### 213,005. Cleavage of structural proteins during the assembly of the head of bacteriophage T4.
+- ###### 155,530. A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding.
+- ###### 65,335. DNA sequencing with chain-terminating inhibitors.
+- ###### 60,397. Single-step method of RNA isolation by acid guanidinium thiocyanate-phenol-chloroform extraction.
+
+:::
+
+::: {.column width="30%"}
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHZxa2htbmN4N2RnZGM3aGZhNm56MHJneTE0cTd1azJpaHNwc2ZlMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HBblEmWutaXQY/giphy.gif)
+
+From giphy
+
+:::
+:::
 
 ## Top five journals
+
+::: columns
+::: {.column width="60%"}
 
 - 503.1. CA: A Cancer Journal for Clinicians
 - 122.7 Reviews Drug Discovery
@@ -41,8 +86,37 @@ editor:
 - 96.2. NEJM
 - 93.6. BMJ
 
+:::
+
+::: {.column width="40%"}
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHA1YTE2NjI4YXM3eTJsejZxaG1mZWwxenN0YjRuY3NhN3kzZGxqMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aWRWTF27ilPzy/giphy.gif)
+
+From giphy
+
+:::
+:::
 
 
+## Prediction models
+
+## Statoolio
+
+<!--- 1200 by 469 --->
+
+![](figures/statoolio.jpg){.absolute top="170" left="50" width="1200"
+height="469"}
+
+## JAMA
+
+![](figures/jama2.jpg){.absolute top="20" left="190"}
+
+## Spell cheque
+
+![](figures/smooth_trend_in_rates.jpg){.absolute top="30" left="270"}
+
+## {.center}
+
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDBnaGVlc2JxNnNqdWRnNWRuenJzeml4ZW5hbjdhcGhzM3h3bzViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IdmfEtnMWPzOg/giphy-downsized-large.gif)
 
 
 

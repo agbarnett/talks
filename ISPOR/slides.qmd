@@ -218,7 +218,7 @@ height="855"}
     with a confidence interval? I sent you those results."
 
 -   Anon: "Adrian, thanks again for your help with the analysis. We do
-    understand you point on the p-values. However, the journals and
+    understand your point on the p-values. However, the journals and
     reviewers will expect to see them, hence we need to keep them in for
     this paper."
 :::
@@ -472,7 +472,6 @@ DOI:
 
 # AIMOS conference
 
-<!--- ![](figures/darren.jpg){.absolute top="30" left="80" width="616" height="548"} --->
+![](figures/aimos_conference.jpg){.absolute top="0" left="0" width="1600" height="1800"}
 
-![](figures/aimos_conference.jpg){.absolute top="0" left="0" width="1600" height="900"}
 
