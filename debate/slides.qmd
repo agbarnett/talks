@@ -55,7 +55,7 @@ width="720" height="480"}
 ![](figures/bad_table.jpg)
 
 
-## Top five most cited papers {background-color="rgb(237, 62, 40)"}
+## Top five most cited papers {background-color="rgb(237, 69, 47)"}
 
 ::: columns
 ::: {.column width="70%"}
@@ -97,7 +97,9 @@ From giphy
 :::
 
 
-## Prediction models
+## {.center background-color="rgb(92, 90, 85)"}
+
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGl1MDZoeXVvZHRldGNscHFpa3k1YW9tbHBrMTNvYWljcjV3czd0bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HUplkVCPY7jTW/giphy.gif)
 
 ## Statoolio
 
@@ -116,7 +118,7 @@ height="469"}
 
 ## {.center}
 
-![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDBnaGVlc2JxNnNqdWRnNWRuenJzeml4ZW5hbjdhcGhzM3h3bzViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IdmfEtnMWPzOg/giphy-downsized-large.gif)
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDBnaGVlc2JxNnNqdWRnNWRuenJzeml4ZW5hbjdhcGhzM3h3bzViMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IdmfEtnMWPzOg/giphy-downsized-large.gif){width="140%"}
 
 
 
