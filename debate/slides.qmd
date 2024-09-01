@@ -28,7 +28,7 @@ editor:
 
 ![](figures/Z_plot_slide.png){.absolute top="-10" left="0" width="1330"
 
-## Utilising graphical illustrations
+## Utilising graphical methodologies
 
 ![](figures/bar_chart_plos.png){.absolute top="120" left="20"
 width="720" height="480"}

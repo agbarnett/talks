@@ -24,35 +24,7 @@ editor:
     wrap: 72
 ---
 
-
   
-  
-## Outline
-
-:::: {.columns}
-::: {.column width="60%"}
-
--   Common ground for statistics and economics
--   Multiple examples of bad statistics
--   Consequences of missing expertise
--   Potential interventions
-
-:::
-
-::: {.column width="40%"}
-
-![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWR5MWxza3RlMTd1MjlhNmhudmRhazYyM3lyZ3RicXZvaGczc2dzbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vmYEXxc5vq7Zu/giphy.gif)
-
-:::
-
-::::
-
-::: aside
-Animation from [intothecontinuum](https://intothecontinuum.tumblr.com/post/57654628209/each-of-the-white-circles-are-really-just-moving)
-
-Cover photo by <a href="https://unsplash.com/@danielvandenberg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Daniel van den Berg</a> on <a href="https://unsplash.com/photos/lighted-post-29Jx9qyTW14?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-:::
-
 ## Disclaimer {.center}
 
 ![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTM5Y2prdnptYzZjcDVhZXhmaGxuM2h0dzY1bWN0cmJkcWdkdnQxNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ie3U6gTmbY4KTQtOPJ/giphy.gif)
@@ -62,14 +34,32 @@ Cover photo by <a href="https://unsplash.com/@danielvandenberg?utm_content=credi
 from sterossetti on giphy
 :::
 
-## Cover letter {.center background-color="white"}
+## What value do journals add?
 
-![](figures/cover_letter.png)
+::: incremental
+- Peer review
 
-## Overleaf
+- Corralling interested readers
 
-![](figures/overleaf.jpg)
+- Curating evidence
 
-## Take screen shots
+- Directing future research - Editorials, Commentaries, etc
+:::
 
-![](figures/overleaf.jpg)
+## What do journals take from the system?
+
+::: incremental
+- Billion dollar donation in peer review (DOI: 10.1186/s41073-021-00118-2)
+
+- 8.3 billion dollars in article processing charges between 2019 and 2023 (DOI: 10.48550/arXiv.2407.16551)
+
+- Opportunity costs of review time and charges
+
+- Negative influences on science
+:::
+
+## A world without journals
+
+## Peer review
+
+- Done for free
