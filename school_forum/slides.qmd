@@ -1,8 +1,7 @@
 ---
 title: "What would an ideal publishing system look like?"
 author: Adrian Barnett<br>September 2024
-image: figures/gove.jpg
-institute: Queensland University of Technology
+institute: Photo by <a href="https://unsplash.com/@danifunes?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Daniel Funes Fuentes</a> on <a href="https://unsplash.com/photos/person-planting-on-hanged-pots-TyLw3IQALMs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> 
 title-position: 70%
 format:
   revealjs: 
@@ -14,10 +13,10 @@ format:
     logo: figures/logos.jpg
 title-slide-attributes:
   data-position: relative
-  data-background-image: figures/daniel-van-den-berg-29Jx9qyTW14-unsplash.jpg
+  data-background-image: figures/daniel-funes-fuentes-TyLw3IQALMs-unsplash.jpg
   data-background-size: contain
   data-background-position: center
-  data-background-opacity: "0.7"
+  data-background-opacity: "0.4"
   data-padding: 10px 0px 10px 20px
 editor: 
   markdown: 
@@ -29,25 +28,48 @@ editor:
 
 ![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTM5Y2prdnptYzZjcDVhZXhmaGxuM2h0dzY1bWN0cmJkcWdkdnQxNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ie3U6gTmbY4KTQtOPJ/giphy.gif)
 
-
 ::: aside
 from sterossetti on giphy
 :::
 
 ## What value do journals add?
 
+:::: {.columns}
+
+::: {.column width="60%"}
 ::: incremental
 - Peer review
 
 - Corralling interested readers
 
+- Gain publicity
+
 - Curating evidence
 
 - Directing future research - Editorials, Commentaries, etc
+
+- Advertising conferences, software, etc
+:::
 :::
 
-## What do journals take from the system?
+::: {.column width="40%"}
 
+![](figures/fauzan-ardhi-e-5DieY8snc-unsplash.jpg)
+:::
+
+::::
+
+::: aside
+
+Photo by <a href="https://unsplash.com/@ojanphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Fauzan Ardhi</a> on <a href="https://unsplash.com/photos/design-anthology-book-e-5DieY8snc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+::: 
+
+## What do journals take?
+
+:::: {.columns}
+
+::: {.column width="70%"}
 ::: incremental
 - Billion dollar donation in peer review (DOI: 10.1186/s41073-021-00118-2)
 
@@ -57,9 +79,118 @@ from sterossetti on giphy
 
 - Negative influences on science
 :::
+::: 
 
-## A world without journals
+::: {.column width="30%"}
+![](figures/celyn-kang-e-CrwdBNL7k-unsplash.jpg)
+:::
 
-## Peer review
+:::: 
 
-- Done for free
+::: aside
+Photo by <a href="https://unsplash.com/@celynkang?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Celyn Kang</a> on <a href="https://unsplash.com/photos/a-stack-of-money-sitting-on-top-of-a-white-table-e-CrwdBNL7k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+:::
+
+## Journal numbers
+
+![](figures/trend_numbers.jpg)
+
+## Scrap author-paid fees?
+
+
+```{r}
+library(dplyr)
+library(flextable)
+tab = read.table(header=TRUE, sep='!', text='
+Policy!Recommendation!Notes
+Gold OA!Abandon!Incentivizes the mass production and publication of low-quality science, corrupting the scientific process
+Institutional APC waivers!Treat with caution!Unlikely to reward high-quality journals over low-quality journals. Likely unavailable to researchers at underfunded institutions
+Hybrid OA!Abandon!Likely subject to the same incentives as Gold OA
+Green/Diamond OA!Recommend with reservations!They plausibly create good incentives, but may struggle to be sustained without external support.
+Society journals!Recommend with reservations!Appropriate policies are unclear in detail. Societies need safeguards against corruption and abuse.
+Formal theory of journal policies!Recommend!Must consider dynamic strategies of authors, reviewers, editors and publishers.'
+)
+ftab = flextable(tab) %>%
+  theme_box() %>%
+  autofit() %>%
+  color(j = 1:3, color='yellow', part = "all") %>%
+  fontsize(j = 1:3, size = 16, part = "all")
+ftab
+```
+
+
+:::: aside
+"Author-Paid Publication Fees Corrupt Science and Should Be Abandoned" (DOI: [10.31219/osf.io/3ez9v](https://osf.io/preprints/osf/3ez9v))
+::::
+
+
+## Author order
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+- Should author order matter?
+
+- Authorship is the number one issue for the Australian Research Integrity Committee 
+
+:::
+
+::: {.column width="40%"}
+![](figures/2304.01393v1-1.jpg)
+:::
+
+::::
+
+:::: aside
+DOI: [10.48550/arXiv.2304.01393](https://arxiv.org/abs/2304.01393)
+::::
+
+## Robot reviewers {background-color="black"}
+
+::: columns
+::: {.column width="50%"}
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcml6NnozNHdwdXNxb25xN2tldXh5MTNiMnU2NWV5bGx0cG0xcmUzcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pIMlKqgdZgvo4/giphy.gif)
+:::
+
+::: {.column width="50%"}
+![](figures/example_report.jpg)
+:::
+:::
+
+::: aside
+[Automated Screening Working Group](https://scicrunch.org/ASWG)
+:::
+
+## Ideal system
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+::: incremental
+- Free for researchers and the public to read
+
+- Universal submission system
+
+- Easy post-publication peer review (see [PubPeer](https://pubpeer.com/))
+
+- Links to code, data and other additional material
+
+- Quality rated by individual article rather than the journal
+:::
+
+:::
+
+::: {.column width="40%"}
+![](figures/charles-etoroma-95UF6LXe-Lo-unsplash.jpg)
+:::
+
+::::
+
+:::: aside
+
+Photo by <a href="https://unsplash.com/@charlesetoroma?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Charles Etoroma</a> on <a href="https://unsplash.com/photos/portrait-photography-of-man-95UF6LXe-Lo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+::::  
+  
