@@ -91,9 +91,24 @@ Photo by <a href="https://unsplash.com/@ojanphoto?utm_content=creditCopyText&utm
 Photo by <a href="https://unsplash.com/@celynkang?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Celyn Kang</a> on <a href="https://unsplash.com/photos/a-stack-of-money-sitting-on-top-of-a-white-table-e-CrwdBNL7k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 :::
 
-## Journal numbers
+## Journal history and numbers
 
-![](figures/trend_numbers.jpg)
+<!--- figure from Z:\journals\previous_code\2_survival_models.Rmd --->
+
+![](figures/trend_numbers_wide.jpg){width=48%}
+
+![](figures/journal.pbio.3002234.g001.PNG)
+
+:::: aside
+
+DOI: [10.1371/journal.pbio.3002234](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002234)
+
+::::
+
+
+## 
+
+![](figures/quality.png)
 
 ## Scrap author-paid fees?
 
