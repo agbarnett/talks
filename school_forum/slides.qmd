@@ -77,7 +77,7 @@ Photo by <a href="https://unsplash.com/@ojanphoto?utm_content=creditCopyText&utm
 
 - Opportunity costs of review time and charges
 
-- Negative influences on science
+- Encourage bad practice
 :::
 ::: 
 
@@ -91,7 +91,12 @@ Photo by <a href="https://unsplash.com/@ojanphoto?utm_content=creditCopyText&utm
 Photo by <a href="https://unsplash.com/@celynkang?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Celyn Kang</a> on <a href="https://unsplash.com/photos/a-stack-of-money-sitting-on-top-of-a-white-table-e-CrwdBNL7k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 :::
 
+## Fraud {background-color="white"}
+
+![](figures/fraud.jpg)
+
 ## Journal history and numbers
+
 
 <!--- figure from Z:\journals\previous_code\2_survival_models.Rmd --->
 
@@ -202,6 +207,8 @@ DOI: [10.48550/arXiv.2304.01393](https://arxiv.org/abs/2304.01393)
 :::
 
 ::::
+
+<!-- sierra leone kit -->
 
 :::: aside
 
