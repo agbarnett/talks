@@ -40,3 +40,5 @@ In date order:
 * `ISPOR` Does statistical expertise matter? For [ISPOR](https://www.ispor.org/) (August 2024)
 * `debate` THE GREAT DEBATE: Quantitative research is better than qualitative (September 2024)
 * `school_forum` Do you have to play games to win at publishing? (September 2024)
+* `ethics3` [3rd National HREC Conference](https://healthtranslationqld.org.au/hrec-conference-2024) What is the national prevalence of statisticians as full members of human research ethics committees in Australia? (November 2024)
+* `seeds` Does statistical expertise matter? For SEEDS (October 2024)

@@ -1,0 +1,13 @@
+Title: What is the national prevalence of statisticians as full members of human research ethics committees in Australia?
+
+Team: Adrian Barnett, Taya Collyer, Nicole White
+
+Abstract: Much health and medical research is wasted because of study design and analysis errors. Preventable errors regularly occur when planned studies are not reviewed by a qualified statistician. Badly designed studies waste the time of enrolled patients, and potentially expose them to unnecessary risks. 
+
+We attempted to contact the chair of every Australian HREC registered with the NHMRC to ascertain if a qualified statistician was involved in the review process. We currently have responses from 117 out of 187 committees (63%). Twenty-six percent of committees stated they have a statistician as a full member, but 27% of these members had no formal qualifications in Statistics or their qualifications were unknown. Twenty-seven percent of committees stated they had non-members who can be consulted on statistical issues, but 53% of these non-members had no formal qualifications in Statistics or their qualifications were unknown. Participants frequently commented that statistical expertise could be provided by researchers from other fields, most often Medicine, Epidemiology and Psychology. For example: “A number of committee members have statistical expertise, although they are not statisticians per se.” Some committees saw a statistical member as crucial for ensuring that the proposed study had merit, and some committees had access to multiple qualified statisticians. 
+
+Statistical practice is often poor in published health and medical papers, even for simple study designs. The ongoing shortage of statisticians has contributed to the field being marginalised, with echo-chambers of poor practice developing in some fields. The ethical review process is a key opportunity to improve flawed designs, maximise research impact and reduce research waste. However, our results suggest many Australian HRECs do not have adequate statistical expertise. Worryingly, results indicate that the expertise of a qualified statistician is understood as comparable to people with “some experience in statistics”. This could well be causing harm. As the eminent statisticians Bland and Altman wrote: “Bad statistics makes bad research, bad research may lead to bad medicine, and bad medicine may cost lives”. 
+
+We will discuss some potential ways to improve practice, including methods review panels that are separate to the HREC review, which some Australian HRECs already use. 
+
+Slides are [here](https://agbarnett.github.io/talks/ethics3/slides).

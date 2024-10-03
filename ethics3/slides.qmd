@@ -1,0 +1,31 @@
+---
+title: "What is the national prevalence of statisticians as full members of human research ethics committees in Australia?"
+author: Adrian Barnett, Taya Collyer, Nicole White<br>November 2024
+institute: Photo by <a href="https://unsplash.com/@danifunes?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Daniel Funes Fuentes</a> on <a href="https://unsplash.com/photos/person-planting-on-hanged-pots-TyLw3IQALMs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> 
+title-position: 70%
+format:
+  revealjs: 
+    slide-number: true
+    theme: [moon, custom.scss]
+    chalkboard: false
+    transition: fade
+    preview-links: auto
+    logo: figures/logos.jpg
+title-slide-attributes:
+  data-position: relative
+  data-background-image: figures/daniel-funes-fuentes-TyLw3IQALMs-unsplash.jpg
+  data-background-size: contain
+  data-background-position: center
+  data-background-opacity: "0.4"
+  data-padding: 10px 0px 10px 20px
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+  
+## Conflicts of interest
+
+## Practical strategies
+
+"The theme of this year’s conference is practical strategies. If you could include at the end of your talk a slide to sum up how HREC members can apply the subject area of your talk to when reviewing an ethics application, it would be of great benefit to the audience."
