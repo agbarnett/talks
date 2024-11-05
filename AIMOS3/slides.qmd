@@ -1,0 +1,67 @@
+---
+title: "MetaROR launch"
+author: Adrian Barnett<br>21 November 2024
+institute: Painting by Jean Froissart, Public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jean_Froissart,_Chroniques,_154v,_12148_btv1b8438605hf336,_crop.jpg)
+title-position: 90%
+format:
+ revealjs: 
+  slide-number: false
+  theme: moon
+  chalkboard: false
+  transition: fade
+  preview-links: auto
+  logo: figures/logos.jpg
+title-slide-attributes:
+ data-position: relative
+ data-background-image: figures/1024px-Jean_Froissart.jpg
+ data-background-size: cover
+ data-background-opacity: "0.5"
+editor: 
+ markdown: 
+  wrap: 72
+---
+
+## Taking liberties{background-color='white'}
+
+<!--- massive profits -->
+
+![](figures/2309.15884v2-13.png){width=80% height=80%}
+
+:::: aside
+DOI: [10.48550/arXiv.2309.15884](https://arxiv.org/abs/2309.15884)
+::::
+
+## Taking labour
+
+![](figures/41073_2021_118_Fig1_HTML.png){width=74% height=74%}
+
+:::: aside
+DOI: [10.1186/s41073-021-00118-2](https://researchintegrityjournal.biomedcentral.com/articles/10.1186/s41073-021-00118-2)
+::::
+
+## Take back control
+
+:::: {.columns}
+::: {.column width="50%"}
+
+* 1.2 $\rightarrow$ 1 $\cdot$ 2
+
+* Appendix $\rightarrow$ Supplement
+
+* PLOS ONE $\rightarrow$ _PLOS ONE_
+
+* AG Smith $\rightarrow$ Smith, A. G.
+
+:::
+
+::: {.column width="50%"}
+
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3g3bHJvaGs4ZXR4M3UxNDY0cHhjdGJ1MnVyMWZtMzR0d2tzYm5vOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7hJZcKzjIufeOmqKSj/giphy.gif)
+:::
+
+::::
+
+
+:::: aside
+from giphy
+::::

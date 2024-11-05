@@ -1,0 +1,34 @@
+---
+title: "Conference close"
+author: Adrian Barnett
+institute: Outgoing AIMOS president<br>Photo by <a href="https://unsplash.com/@helloimnik?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nik</a> on <a href="https://unsplash.com/photos/blue-lego-minifig-on-white-surface-fDaUCTp28dA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a><br>
+title-position: 10%
+format:
+ revealjs: 
+  slide-number: true
+  theme: [league]
+  chalkboard: false
+  transition: fade
+  preview-links: auto
+title-slide-attributes:
+ data-position: relative
+ data-background-image: figures/nik-fDaUCTp28dA-unsplash.jpg
+ data-background-size: cover
+ data-background-opacity: "0.5"
+editor: 
+ markdown: 
+  wrap: 72
+---
+
+## <small>.</small>{background-image='figures/sponsors_2024.jpg' background-size='cover'}
+
+## <small>.</small>{background-image='figures/committee_2024.jpg' background-size='contain'}
+
+## <small>.</small>{background-image='figures/Metascience-2025.png' background-size='cover'}
+
+## AIMOS in 2025?
+
+![](figures/map.gif)
+
+
+

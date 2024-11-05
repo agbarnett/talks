@@ -1,0 +1,342 @@
+---
+title: "What should AIMOS do next?"
+author: Adrian Barnett<br>19 November 2024
+institute: Outgoing AIMOS president<br>Photo by <a href="https://unsplash.com/@martzzl?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Marcel Strauß</a> on <a href="https://unsplash.com/photos/black-and-white-staircase-with-stainless-steel-railings-NMGFl05r728?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+title-position: 90%
+format:
+ revealjs: 
+  slide-number: true
+  theme: [sky]
+  chalkboard: false
+  transition: fade
+  preview-links: auto
+title-slide-attributes:
+ data-position: relative
+ data-background-image: figures/marcel-strauss-NMGFl05r728-unsplash.jpg
+ data-background-size: cover
+ data-background-opacity: "0.5"
+editor: 
+ markdown: 
+  wrap: 72
+---
+
+## Our mission
+
+:::: {columns}
+
+::: {.column width="60%"}
+
+### The mission of AIMOS is to improve the quality of scientific research
+:::
+::: {.column width="40%"}
+![](figures/thomas-peham-JW1HKkDhsIU-unsplash.jpg)
+:::
+
+::::
+
+:::: aside
+Photo by <a href="https://unsplash.com/@tompeham?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Thomas Peham</a> on <a href="https://unsplash.com/photos/people-in-river-between-mountain-gorge-JW1HKkDhsIU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+
+## Achievements{background-image='figures/2023_conference.jpg' background-size='cover' background-opacity="0.2"}
+
+* Raised the profile of meta-research and open science
+
+* Fantastic conferences
+
+* Helped research via hackathons, discussions and workshops
+
+* Helped students (top-ups and travel)
+
+* Lobbied government
+
+* Good behind the scenes admin:
+  - Registered charity
+  - Documents on _GitHub_
+
+  
+## Membership numbers over time
+
+![](figures/member_numbers.jpg){width=72% height=72%}
+<!--- from 1_plot_numbers_over_time.R --->
+
+* Most members from conference
+
+## Countries
+
+```{r countries}
+# from membership report
+library(flextable)
+library(dplyr)
+tab = read.table(sep=',', header=TRUE, text='
+Num,top_level_domain,n,country_name                  
+1,.au,74,Australia
+2,.com,41,?
+3,.edu,11,USA?
+4,.nz,7,New Zealand
+5,.ca,4,Canada
+6,.uk,4,United Kingdom') %>%
+  rename('Country' = 'country_name',
+         'Domain' = 'top_level_domain')
+ftab = flextable(tab) %>%
+  theme_box() %>%
+  align(j =1:4, align='left', part='all') %>%
+  fontsize(j=1:4, size=22, part='all') %>%
+  autofit() 
+ftab
+```
+
+* Guesses based on email domain
+
+## Some numbers
+
+::::{columns}
+
+::: {.column width="65%"}
+* Bank balance AUD $xx,xxx
+
+* ~1,000 subscribers on _MailChimp_ list
+
+* 1,434 followers on _X_
+
+* 67 videos on our _YouTube_ channel with 6,397 views
+
+:::
+
+::: {.column width="35%"}
+![](figures/scott-rodgerson-z0MDyylvY1k-unsplash.jpg)
+
+:::
+
+::::
+
+:::: aside
+Photo de <a href="https://unsplash.com/fr/@scottrodgerson?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Scott Rodgerson</a> sur <a href="https://unsplash.com/fr/photos/un-gros-plan-dun-panneau-jaune-et-noir-avec-des-chiffres-z0MDyylvY1k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## What do we want to accomplish in the next two years?
+
+### Potential goals:
+
+* Improving our finances and sustainability
+
+* Increasing membership
+
+* Increasing our profile and influence
+
+* Running an annual conference
+
+
+
+## Constraints
+
+::::{columns}
+::: {.column width="65%"}
+* Reliance on already busy volunteers 
+
+* Limited budget with no further income
+
+* 'A' $\neq$ Australia
+:::
+
+::: {.column width="35%"}
+![](figures/derek-liang-Oy1qB8V6W2Y-unsplash.jpg)
+:::
+
+::::
+
+:::: aside
+Photo by <a href="https://unsplash.com/@derekrliang?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Derek Liang</a> on <a href="https://unsplash.com/photos/brown-fox-sleeping-on-brown-wooden-plank-Oy1qB8V6W2Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+# Potential actions to acheive goals{.center background-color='red'}
+
+## Membership drive
+
+::::{columns}
+
+::: {.column width="65%"}
+
+* Thanks to Aidan and Fallon
+
+* Raise our profile and membership in the global south
+
+* Merch
+
+* Campaign
+
+* Pay what you membership (working well)
+
+:::
+
+::: {.column width="35%"}
+
+![](figures/shane-rounce-DNkoNXQti3c-unsplash.jpg)
+
+:::
+
+::::
+
+:::: aside
+Photo by <a href="https://unsplash.com/@shanerounce?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Shane Rounce</a> on <a href="https://unsplash.com/photos/a-group-of-people-holding-hands-on-top-of-a-tree-DNkoNXQti3c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## Solidify our financial sustainability through sponsorship and/or an award
+
+* Failed with Einstein foundation award
+
+* Direct appeal to government, after the next scandal?
+
+* Partner with nascent Australian Reproducibility Network ([AusRN](https://www.aus-rn.org/)) 
+
+* Likely needs a sub-committee
+
+## Sponsors
+
+::::{columns}
+
+::: {.column width="65%"}
+* This year: Australian Institute of Sport and AusHSI
+
+* Commercial groups working in research integrity and open science
+
+* Institutional sponsorship?
+:::
+
+::: {.column width="35%"}
+![](figures/austin-kehmeier-lyiKExA4zQA-unsplash.jpg)
+:::
+
+::::
+
+:::: aside
+Photo de <a href="https://unsplash.com/fr/@a_kehmeier?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Austin Kehmeier</a> sur <a href="https://unsplash.com/fr/photos/vue-des-mains-de-deux-personnes-lyiKExA4zQA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## Deductible gift recipient status
+
+::::{columns}
+
+::: {.column width="65%"}
+
+* Attract more philanthropists in Australia
+
+* Currently need a special ruling to qualify, but rules may change soon
+
+:::
+
+::: {.column width="35%"}
+
+![](figures/jon-tyson-qAQsVsSxp_w-unsplash.jpg)
+
+:::
+::::
+
+:::: aside
+Photo by <a href="https://unsplash.com/@jontyson?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jon Tyson</a> on <a href="https://unsplash.com/photos/red-love-neon-light-signage-qAQsVsSxp_w?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+
+## Increase/Sustain our involvement with _MetaROR_
+
+::::{columns}
+
+::: {.column width="55%"}
+* Raise our international profile
+
+* Help the field and shape the future
+
+* Become known as innovative
+
+:::
+::: {.column width="45%"}
+
+![](figures/metaror.jpg)
+:::
+::::
+
+## Satellites
+
+::::{columns}
+::: {.column width="65%"}
+* Increase our geographical spread
+
+* Early discussions about satellites in Germany and China
+
+* Expand into under-served areas
+
+* Don't need multiple meta-research societies --- strength in numbers
+:::
+::: {.column width="35%"}
+![](figures/krzysztof-hepner-JYbVQzOt2Vk-unsplash.jpg)
+:::
+::::
+
+:::: aside
+Photo by <a href="https://unsplash.com/@nsx_2000?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Krzysztof Hepner</a> on <a href="https://unsplash.com/photos/grayscale-and-selective-focus-photography-of-table-globe-JYbVQzOt2Vk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## Monthly digest
+
+::::{columns}
+
+::: {.column width="65%"}
+
+* Monthly round up of all things meta-research and open science
+
+* Don't repeat Weekly Reads from _Retraction Watch_
+
+* Could be used by _MetaROR_ web site
+
+* Relies on energy of volunteer(s)
+:::
+
+::: {.column width="35%"}
+![](figures/florian-klauer-mk7D-4UCfmg-unsplash.jpg)
+:::
+::::
+
+:::: aside
+Photo by <a href="https://unsplash.com/@florianklauer?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Florian Klauer</a> on <a href="https://unsplash.com/photos/black-fayorit-typewriter-with-printer-paper-mk7D-4UCfmg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::  
+
+## Wikipedia page
+
+![](figures/wikipedia_cos.png)
+
+<!--- gives us more legitimacy --->
+
+
+## Publish a report
+
+::::{columns}
+
+::: {.column width="55%"}
+* "The state of research quality in Australia"
+
+* Get media attention
+
+* Needs many people hours
+:::
+
+::: {.column width="45%"}
+
+![](figures/reports_climate_council.png)
+
+:::
+
+::::
+
+:::: aside
+Reports from the Climate Council
+::::
+
+
+## Other ideas{background-image='figures/mike-tinnion-3ym6i13Y9LU-unsplash.jpg' background-size='cover'}
+
+:::: aside
+Photo de <a href="https://unsplash.com/fr/@m15ky?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mike Tinnion</a> sur <a href="https://unsplash.com/fr/photos/stylo-retractable-noir-et-argent-sur-livre-vierge-3ym6i13Y9LU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+  
+  

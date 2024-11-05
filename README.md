@@ -42,3 +42,8 @@ In date order:
 * `school_forum` Do you have to play games to win at publishing? (September 2024)
 * `ethics3` [3rd National HREC Conference](https://healthtranslationqld.org.au/hrec-conference-2024) What is the national prevalence of statisticians as full members of human research ethics committees in Australia? (November 2024)
 * `seeds` Does statistical expertise matter? For SEEDS (October 2024)
+* `prioritisation` Research prioritisation on "What questions about research funding would you like to see answered by research?" at AIMOS conference in Canberra (November 2024)
+* `AIMOS2` Discussion: "What should AIMOS do next?" at AIMOS conference in Canberra (November 2024)
+* `AIMOS3` MetaROR launch for the AIMOS conference in Canberra (November 2024)
+* `AIMOS4` Closing slides for the AIMOS conference in Canberra (November 2024)
+* `British_academy` Consenting and recruiting researchers in studies of partial randomisation (December 2024)

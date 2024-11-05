@@ -1,0 +1,687 @@
+---
+title: "<small>What questions about research funding would you like to see answered by research?</small>"
+author: Adrian Barnett<br>18 November 2024
+institute: Queensland University of Technology<br>Photo by <a href="https://unsplash.com/@antenna?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Antenna</a> on <a href="https://unsplash.com/photos/people-meeting-in-room-cw-cj_nFa14?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+title-position: 90%
+format:
+ revealjs: 
+  slide-number: true
+  theme: night
+  chalkboard: false
+  transition: fade
+  preview-links: auto
+  logo: figures/logos.jpg
+title-slide-attributes:
+ data-position: relative
+ data-background-image: figures/antenna-cw-cj_nFa14-unsplash.jpg
+ data-background-size: cover
+ data-background-opacity: "0.4"
+editor: 
+ markdown: 
+  wrap: 72
+---
+
+```{r survey_data, include=FALSE}
+# libraries
+library(flextable)
+library(janitor)
+library(dplyr)
+
+# get the question data, from export_data_not_shiny.R
+directory = 'U:/Research/Projects/ihbi/aushsi/aushsi_barnetta/NHMRC/research_on_research/research_prioritisation/data/'
+f1 = paste(directory, 'questions.RData', sep='')
+f2 = paste(directory, 'votes.RData', sep='')
+load(f1)
+load(f2) # get the voting data
+```
+
+## <small style="color:blue">.</small>{background-image='figures/AcknowledgementTraditionalOwners.jpg' background-size='cover'}
+
+## Plan
+
+:::: {.columns}
+::: {.column width="70%"}
+* Prof Will Bateman, ANU
+
+* Prof James Wilsdon, RoRI
+
+* Priority setting and the James Lind Alliance
+
+* 11am Morning tea
+
+* Questions and votes
+
+* Discuss highly ranked questions
+
+* 12:30pm Lunch
+
+:::
+
+::: {.column width="30%"}
+![](figures/marissa-grootes-ck0i9Dnjtj0-unsplash.jpg)
+:::
+::::
+
+:::: aside
+Photo by <a href="https://unsplash.com/@marissacristina?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Marissa Grootes</a> on <a href="https://unsplash.com/photos/silver-laptop-computer-near-notebook-ck0i9Dnjtj0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+  
+## <small style="color:#0xFF">AusHSI</small>{background-image='figures/AusHSI.png' background-size='cover'}
+
+
+## Plan
+
+:::: {.columns}
+::: {.column width="70%"}
+* Discuss highly ranked questions
+
+* Priority setting
+
+* 3 to 3:30pm End
+
+:::
+
+::: {.column width="30%"}
+![](figures/marissa-grootes-ck0i9Dnjtj0-unsplash.jpg)
+:::
+::::
+
+:::: aside
+Photo by <a href="https://unsplash.com/@marissacristina?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Marissa Grootes</a> on <a href="https://unsplash.com/photos/silver-laptop-computer-near-notebook-ck0i9Dnjtj0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+
+
+## <small style="color:white">.</small>{background-color='white' color='white'}
+
+![](figures/consumer-community-involvement.jpg){.absolute top="0" left="20"}
+
+:::: aside
+
+From [NHMRC statement on consumer and community involvement in health and medical research](https://www.nhmrc.gov.au/about-us/publications/statement-consumer-and-community-involvement-health-and-medical-research)
+
+::::
+
+## Research on research priorities{background-color='white'}
+
+![](figures/lancet_priorities.png){width=800}
+
+:::: aside
+DOI: [10.1016/S0140-6736(13)62229-1](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(13)62229-1/abstract)
+::::
+
+## James Lind Alliance
+
+![](figures/JLA_homepage.png)
+
+## <small>Priority setting partnership stages</small>
+
+![](figures/jla-psp-process-final.jpg){width=95% height=95%}
+
+## Example: Irritable bowel syndrome
+
+::: incremental
+* 8,000 questions submitted by over 2,500 people
+ 
+* Top 24 questions examined in final workshop
+
+1. Are all forms of IBS the same condition, or are there different types of IBS with different causes and needing different treatments?
+
+2. What causes bowel urgency (a sudden urgent need to go to the toilet) in people with IBS? How is this best treated and managed?
+
+:::
+
+<!--- from https://www.jla.nihr.ac.uk/priority-setting-partnerships/irritable-bowel-syndrome#tab-32106 --->
+
+## Aim of today{background-color='#262262'}
+
+:::: {.columns}
+::: {.column width="60%"}
+
+* Different points of view
+
+* Think more widely 
+
+* Exchange experiences
+
+* Create shared decisions
+
+* Genuine consensus (or not!)
+
+:::
+
+::: {.column width="40%"}
+
+
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTNzaDRpbG50aTJyYWJzemN1ZGFlbGo4dzVnOWMyNmdsZnQ5OHdndyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/46zGt1yNeHPGCq315Q/giphy.gif)
+:::
+
+::::
+
+:::: aside
+from giphy
+::::
+
+## Biases
+
+:::: {.columns}
+
+::: {.column width="50%"}
+* I am biased!
+
+* And so are you!
+
+:::
+
+::: {.column width="50%"}
+
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHFta3FzZmwxdHRxbjloeXRpcHpidng1ZTVocmxuMzFxZG56NjlucSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YaXcVXGvBQlEI/giphy.gif)
+
+:::
+::::
+
+:::: aside
+from giphy
+::::
+
+## Willingness to be surprised
+
+![](figures/No-pressure-NSF.jpg)
+
+<!--- this is a complex system --->
+
+:::: aside
+From [Science Magazine](https://www.science.org/content/article/no-pressure-nsf-test-finds-eliminating-deadlines-halves-number-grant-proposals)
+::::
+
+## Willingness to be surprised
+
+* _The Costs of Competition in Distributing Scarce Research Funds_ (2024) [preprint](https://arxiv.org/abs/2403.16934)
+-- "Characterized by nonlinearity and multidimensionality"
+
+* _What do we know about grant peer review in the health sciences?_ (2018) [F1000](https://f1000research.com/articles/6-1335) 
+-- "we need a better understanding of the peer review process"
+
+* _American men of science: A biographical directory_ (1910)
+-- "we are at present almost wantonly ignorant and careless regarding the conditions which favor or hinder scientific work" 
+
+## Publish and promote
+
+::::columns
+
+:::{.column width="40%"}
+
+* I will write up a report and publish on AusHSI web site
+
+:::
+
+:::{.column width="60%"}
+
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzh1YnVtYW5hejkwdXVvbGJvczE4d2p2cnoxZGMxOGd0a3Y0amVzOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HlLWj5e25b5Ky76/giphy.gif)
+:::
+
+::::
+
+:::: aside
+from giphy
+::::
+
+
+## James Lind Alliance principles
+
+:::: {.columns}
+::: {.column width="60%"}
+
+* Equal involvement
+* Inclusivity
+* Transparency
+* A commitment to using and contributing to the evidence base
+
+<!--- from page 9 in guidebook --->
+
+:::
+
+::: {.column width="40%"}
+
+![](figures/James_Lind_by_Chalmers.jpg)
+:::
+
+::::
+
+:::: aside
+By <a href="https://en.wikipedia.org/wiki/en:George_Chalmers_(artist)" class="extiw" title="w:en:George Chalmers (artist)"><span title="Scottish artist (1720-1791)">George Chalmers</span></a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=32922810">Link</a>
+::::
+
+
+## The journey
+
+* "Success isn’t only about getting a priority research topic funded" 
+
+* "Taking part in a James Lind Alliance priority setting partnership can also transform the people, the research culture and the organisations involved"
+
+* “Research is so often about competition, when working together could be so much more effective"
+
+:::: aside
+
+From [James Lind Alliance report](https://www.jla.nihr.ac.uk/news/sally-crowe-and-kristina-staley-reflect-their-recent-evaluation-jla-psps)
+
+::::
+
+## Compromises
+
+:::: {.columns}
+::: {.column width="50%"}
+
+* James Lind Alliance process takes 12 to 18 months to agree the priorities
+
+* My first time running a priority setting process
+
+* Done on the cheap
+
+:::
+
+::: {.column width="50%"}
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWx2NGozMG02Y2JmYXgwODR2NG01NTdqZmRhd2R5OTZjN2J0NW8zNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/I7183SWqDxhkY/giphy.gif)
+
+
+:::
+::::
+
+# Any questions on the process?{.center background-color='#FF4C4C'}
+
+# Our priority setting {.center background-color="#96C0D3"}
+
+* ### Broad question: What questions about research funding would you like to see answered by research? 
+
+## <small>Gathering questions</small>{background-image='figures/submit_questions.jpg' background-size='cover'}
+
+## Who did we reach out to?
+
+* AusHSI and AIMOS newsletters
+
+* Future Campus
+
+* NHMRC
+
+* LinkedIn
+
+* Twitter/X
+
+* METASERV listserv
+
+Stared in April 2024
+
+## Who provided the questions?
+
+23 respondents in total
+
+:::: {.columns}
+::: {.column width="60%"}
+
+#### Respondents' background
+
+```{r table_respondents}
+data = select(long_with_response, response_id, q7, q8) %>%
+  unique() # just one response per person 
+# 
+tab = filter(data, !is.na(q7)) %>% # remove missing
+  tabyl(q7) %>%
+  arrange(desc(n)) %>% # order
+  adorn_totals() %>% # add total
+  mutate(percent = round(percent*100)) %>%
+  rename('Answer' = 'q7') 
+ftab = flextable(tab) %>%
+  theme_box() %>%
+  autofit() %>%
+  fontsize(size=18, part='all') %>%
+  color(part='all', color='white')
+ftab
+```
+
+:::
+
+::: {.column width="40%"}
+
+#### Work in Australia?
+
+```{r inside_australia}
+# 
+tab = filter(data, !is.na(q8)) %>% # remove missing
+  tabyl(q8) %>%
+  mutate(percent = round(percent*100)) %>%
+  rename('Answer' = 'q8') %>%
+  arrange(desc(n))# 
+ftab = flextable(tab) %>%
+  theme_box() %>%
+  autofit()%>%
+  fontsize(size=18, part='all') %>%
+  color(part='all', color='white')
+ftab
+```
+
+:::
+
+::::
+
+## Number of questions
+
+79 questions in total.
+
+Question numbers by respondent category:
+
+```{r}
+freqs = group_by(long_with_response, q7) %>%
+  tally() %>%
+  arrange(desc(n)) %>%
+  rename('who' = 'q7')
+ftab = flextable(freqs) %>%
+  theme_box() %>%
+  autofit()%>%
+  fontsize(size=18, part='all') %>%
+  color(part='all', color='white')
+ftab
+```
+
+
+## Question cleaning
+
+:::: columns
+::: {.column width="75%"}
+
+* Removed a few out of scope questions
+
+* Combined a few similar questions
+
+* Could have edited questions more before voting stage --- making summary / indicative questions
+
+* Could have used PICO format (Population, Intervention, Comparator, Outcome)
+
+:::
+
+::: {.column width="25%"}
+
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHV1a3JuZXByaXNoYnpocmtnZmRuam92NGU1eXFmd2VjOWVsdXhuZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yAOjunY81Trjy/giphy.gif)
+
+:::
+::::
+
+:::: aside
+From giphy
+::::
+
+## Word cloud{background-color='white'}
+
+<!--- from wordcloud.R in shiny folder --->
+
+![](figures/wordcloud.jpg){fig-align="center"}
+
+## <small>Gathering votes</small>{background-image='figures/rank_questions.jpg' background-size='cover'}
+
+## Voting exercise
+
+
+<!--- Started in May 2024 --->
+
+* Randomly ordered the 77 questions
+
+* Chose up to 10 and then rank
+
+<!--- from vote_dates.R --->
+
+![](figures/recruitment.jpg){width=1800}
+
+## Top ten
+
+```{r top_ten}
+tab = slice(ranks, 1:10) # top ten
+ftab = flextable(tab) %>%
+  theme_box() %>%
+  autofit() %>%
+  fontsize(size=16, part='all') %>%
+  color(part='all', color='white')
+ftab
+```
+
+
+## Unanswered questions{background-color='#086d44'}
+
+:::: columns
+::: {.column width="50%"}
+
+Aiming to find unanswered questions or "evidence uncertainties"
+
+:::
+
+::: {.column width="50%"}
+
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3pma2s5cWU5Y3UwOG90a2xuNWtkMG9pNGczOGtzcXpiNGtvN3ZtOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SXS950PdvjSfu9bCpV/giphy-downsized-large.gif)
+:::
+
+::::
+
+:::: aside
+from giphy
+::::
+
+## <small>Avoid already answered questions</small>
+
+![](figures/nejm199207233270406_f1.jpg){.absolute top=65 left=20 width="630" height="540"}
+
+:::: aside
+DOI: [10.1056/NEJM19920723327040](https://www.nejm.org/doi/full/10.1056/NEJM199207233270406)
+::::
+
+## Literature reviews
+
+* Thanks to Sharon Sanders from Bond University
+
+* Aimed to see what evidence was already published
+
+* "Research on research" is a relatively new field with few specific funding schemes - hence not an enormous volume of work for any question
+
+<!--- from JLA Evidence uncertainty if:
+* no up-to-date, reliable systematic reviews of research evidence addressing the uncertainty exist
+* up-to-date systematic reviews of research evidence show that uncertainty exists --->
+
+# Discussion choice
+
+<!--- use voting here with postit notes --->
+
+:::: {columns}
+
+::: {.column width="50%"}
+* Lotteries
+
+* Time spent
+
+* Equal allocation
+:::
+
+::: {.column width="50%"}
+
+* Social costs
+
+* Something else
+
+:::
+
+::::
+
+# Conditional lotteries.{background-image='figures/dylan-nolte-RSsqjpezn6o-unsplash.jpg' background-size='cover'}
+
+
+:::: asid
+Photo by <a href="https://unsplash.com/@dylan_nolte?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">dylan nolte</a> on <a href="https://unsplash.com/photos/ball-with-number-lot-RSsqjpezn6o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## Conditional lotteries
+
+### Two related questions
+
+* Would a lottery be fairer and more efficient without reducing quality?
+
+* How much is enough effort for applying + judging application efforts, before a random lottery-style allocation becomes just as good as further adjudication?
+
+## Bad publicity
+
+![](figures/irish_times_lottery.png){.absolute top="20" right="20"}
+
+:::: aside
+From Irish Times, August 2024
+::::
+
+<!--- from https://www.irishtimes.com/ireland/education/2024/08/29/she-couldnt-have-done-better-leaving-cert-student-with-maximum-points-misses-out-on-college-course-due-to-lottery/ --->
+
+## Political difficulties
+
+* "Some critics have been suggesting that peer review is just too much hard work and perhaps a lottery would be better. Mind you this is a suggestion from economists, so take that any way you want." Warwick Anderson, NHMRC CEO, 2015
+
+* “It would make it look like we don’t know what we’re doing.” Anonymous NHMRC staff member
+
+# Equal allocation 
+
+:::: columns
+
+:::{.column width="72%"}
+
+<small>What if we got rid of competitive funding schemes but provide a set amount of research funds to each eligible researcher. Would the quality of work/innovation be equal or better than the current system (the time and effort saved from writing, submitting, reviewing grants would go towards doing the actual research?</small>
+
+:::
+
+:::{.column width="28%"}
+
+![](figures/henry-be-_y5CCcYWTjU-unsplash.jpg)
+
+:::
+
+::::
+
+:::: aside
+Photo by <a href="https://unsplash.com/@henry_be?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Henry Be</a> on <a href="https://unsplash.com/photos/chocolate-cake-_y5CCcYWTjU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::  
+
+## Fatal flaw?
+
+* "An alternative distribution system that significantly reduces
+bureaucracy is to give every scientist a small amount of base
+funding. However, the problem then becomes how to define
+eligible scientists."
+
+* Could pilot at a university?
+
+:::: aside
+DOI: [10.48550/arXiv.2403.16934](https://arxiv.org/abs/2403.16934)
+::::
+
+## Re-distribute
+
+![](figures/nihms964721f1.jpg){width=70% height=70%}
+
+:::: aside
+[PMC5963719](https://pmc.ncbi.nlm.nih.gov/articles/PMC5963719/)
+::::
+
+
+# Time spent
+
+:::: columns
+
+:::{.column width="60%"}
+
+* How long do researchers spend writing applications and what are the main tasks they spend their time on?
+
+:::
+
+:::{.column width="40%"}
+
+![](figures/heather-zabriskie-yBzrPGLjMQw-unsplash.jpg)
+
+:::
+
+::::
+
+:::: aside
+Photo by <a href="https://unsplash.com/@heatherz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Heather Zabriskie</a> on <a href="https://unsplash.com/photos/vintage-brown-and-white-watch-lot-yBzrPGLjMQw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::   
+
+## Previous work
+
+* 550 years of CI team went into Project Grants
+
+* Retrospective estimate
+  - Recall bias
+  - No detail on tasks
+  
+:::: aside
+DOI: [10.1136/bmjopen-2013-002800](https://bmjopen.bmj.com/content/3/5/e002800)
+::::
+
+# Social
+
+:::: columns
+
+:::{.column width="60%"}
+
+* What are the individual, social and societal consequences/ costs of the current way we select and fund research?
+
+:::
+
+:::{.column width="40%"}
+
+![](figures/luis-villasmil-mlVbMbxfWI4-unsplash.jpg)
+
+:::
+
+::::
+
+:::: aside
+Photo by <a href="https://unsplash.com/@villxsmil?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Luis Villasmil</a> on <a href="https://unsplash.com/photos/people-sitting-on-chair-with-brown-wooden-table-mlVbMbxfWI4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::   
+
+# Distributed peer review
+
+:::: columns
+
+:::{.column width="60%"}
+
+
+* All applicants to the scheme are also reviewers
+
+* Early results from experiment at _Volkswagen Foundation_ with RoRi 
+  - 85% find the distributed peer review process suitable
+  - 77% believe it will identify appropriate reviewers
+  - 74% trust it to be fair and to fund the best research
+
+:::
+
+:::{.column width="40%"}
+
+![](figures/9380772161_f38241e26d_b.jpg)
+:::
+
+::::
+
+:::: aside
+<p class="attribution">"<a rel="noopener noreferrer" href="https://www.flickr.com/photos/46944516@N00/9380772161">Exchanging some opinions</a>" by <a rel="noopener noreferrer" href="https://www.flickr.com/photos/46944516@N00">pedrosimoes7</a> is licensed under <a rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">CC BY 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /></a>.</p>
+::::
+
+# Reflection on process
+
+:::: columns
+
+:::{.column width="50%"}
+
+* Any comments on the priority setting exercise
+
+:::
+
+:::{.column width="50%"}
+
+![](figures/)
+
+:::
+
+:::: aside
+Photo by <a href="https://unsplash.com/@tinabosse8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tina Bosse</a> on <a href="https://unsplash.com/photos/greyscale-photography-of-man-standing-beside-man-sitting-on-mobile-NUK1bgkGcaA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::

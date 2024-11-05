@@ -1,31 +1,78 @@
 ---
-title: "What is the national prevalence of statisticians as full members of human research ethics committees in Australia?"
+title: "<small>What is the national prevalence of statisticians as full members of human research ethics committees in Australia?</small>"
 author: Adrian Barnett, Taya Collyer, Nicole White<br>November 2024
-institute: Photo by <a href="https://unsplash.com/@danifunes?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Daniel Funes Fuentes</a> on <a href="https://unsplash.com/photos/person-planting-on-hanged-pots-TyLw3IQALMs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> 
+institute: Photo by <a href="https://unsplash.com/@pawell?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Pawel Chu</a> on <a href="https://unsplash.com/photos/long-table-with-eiffel-chair-inside-room-ULh0i2txBCY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 title-position: 70%
 format:
   revealjs: 
     slide-number: true
-    theme: [moon, custom.scss]
+    theme: [moon]
     chalkboard: false
     transition: fade
     preview-links: auto
     logo: figures/logos.jpg
 title-slide-attributes:
   data-position: relative
-  data-background-image: figures/daniel-funes-fuentes-TyLw3IQALMs-unsplash.jpg
-  data-background-size: contain
+  data-background-image: figures/pawel-chu-ULh0i2txBCY-unsplash.jpg
+  data-background-size: cover
   data-background-position: center
-  data-background-opacity: "0.4"
-  data-padding: 10px 0px 10px 20px
+  data-background-opacity: "0.45"
 editor: 
   markdown: 
     wrap: 72
 ---
 
+<!--- 15 minutes max, ideally 10 --->
   
 ## Conflicts of interest
 
+We are statisticians and all members of the Statistical Society of Australia.
+
+## Statistics is praticed badly
+
+![](figures/)
+
+## National statement
+
+<!-- to do: highlight new wording -->
+
+applications to human committees should detail how the study is
+“designed or developed using methods appropriate for achieving the aims of the proposal”
+
+Also add declaration of Helsinki change ...
+
+## Interesting change to the Declaration of Helsinki
+
+"Medical research involving human participants must have a scientifically sound and rigorous design and execution that are likely to produce reliable, valid, and valuable knowledge and avoid research waste."
+
+## Design
+
+Tried to contact all human committees in Australia registered with the NHMRC, not animal
+
+Focus on quantitative research using data, not qualitative
+
+## Hard to find
+
+Hard to find contact details, some very old. Some committees seem inactive. 
+
+Flow chart.
+
+## ?
+
+“too much” focus on ethics considerations, such as consenting processes, partly because these can be easier to judge than the science?
+
+## results
+Only 24% of committees had a statistician as a full member.
+• Willingness to take statistical advice from researchers without statistical qualifications.
+• Some committees do not examine methods.
+
+To do: show graph of results with slow release...
+
+# show change in results after confirming quals
+
 ## Practical strategies
 
-"The theme of this year’s conference is practical strategies. If you could include at the end of your talk a slide to sum up how HREC members can apply the subject area of your talk to when reviewing an ethics application, it would be of great benefit to the audience."
+<!-- "The theme of this year’s conference is practical strategies. If you could include at the end of your talk a slide to sum up how HREC members can apply the subject area of your talk to when reviewing an ethics application, it would be of great benefit to the audience." -->
+
+
+
