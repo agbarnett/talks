@@ -94,11 +94,13 @@ ftab
 ::::{columns}
 
 ::: {.column width="65%"}
-* Bank balance AUD $xx,xxx
+* Remaining philanthropic funds
 
 * ~1,000 subscribers on _MailChimp_ list
 
 * 1,434 followers on _X_
+
+* 46 followers on _Mastodon_
 
 * 67 videos on our _YouTube_ channel with 6,397 views
 
@@ -150,7 +152,7 @@ Photo de <a href="https://unsplash.com/fr/@scottrodgerson?utm_content=creditCopy
 Photo by <a href="https://unsplash.com/@derekrliang?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Derek Liang</a> on <a href="https://unsplash.com/photos/brown-fox-sleeping-on-brown-wooden-plank-Oy1qB8V6W2Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 ::::
 
-# Potential actions to acheive goals{.center background-color='red'}
+# Potential actions to achieve goals{.center background-color='red'}
 
 ## Membership drive
 
@@ -197,7 +199,7 @@ Photo by <a href="https://unsplash.com/@shanerounce?utm_content=creditCopyText&u
 ::::{columns}
 
 ::: {.column width="65%"}
-* This year: Australian Institute of Sport and AusHSI
+* This year: ANU Law School, Australian Institute of Sport, and AusHSI
 
 * Commercial groups working in research integrity and open science
 

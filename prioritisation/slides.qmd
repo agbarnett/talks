@@ -117,7 +117,7 @@ DOI: [10.1016/S0140-6736(13)62229-1](https://www.thelancet.com/journals/lancet/a
 
 ## <small>Priority setting partnership stages</small>
 
-![](figures/jla-psp-process-final.jpg){width=95% height=95%}
+![](figures/jla-psp-process-final.jpg){width=85% height=85%}
 
 ## Example: Irritable bowel syndrome
 
@@ -502,7 +502,9 @@ DOI: [10.1056/NEJM19920723327040](https://www.nejm.org/doi/full/10.1056/NEJM1992
 
 * Social costs
 
-* Something else
+* _Late breaker_: Distributed peer review
+
+* Something totally different
 
 :::
 
@@ -639,7 +641,7 @@ DOI: [10.1136/bmjopen-2013-002800](https://bmjopen.bmj.com/content/3/5/e002800)
 Photo by <a href="https://unsplash.com/@villxsmil?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Luis Villasmil</a> on <a href="https://unsplash.com/photos/people-sitting-on-chair-with-brown-wooden-table-mlVbMbxfWI4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 ::::   
 
-# Distributed peer review
+# <medium>Distributed peer review</medium>
 
 :::: columns
 
@@ -648,10 +650,6 @@ Photo by <a href="https://unsplash.com/@villxsmil?utm_content=creditCopyText&utm
 
 * All applicants to the scheme are also reviewers
 
-* Early results from experiment at _Volkswagen Foundation_ with RoRi 
-  - 85% find the distributed peer review process suitable
-  - 77% believe it will identify appropriate reviewers
-  - 74% trust it to be fair and to fund the best research
 
 :::
 
@@ -663,22 +661,37 @@ Photo by <a href="https://unsplash.com/@villxsmil?utm_content=creditCopyText&utm
 ::::
 
 :::: aside
-<p class="attribution">"<a rel="noopener noreferrer" href="https://www.flickr.com/photos/46944516@N00/9380772161">Exchanging some opinions</a>" by <a rel="noopener noreferrer" href="https://www.flickr.com/photos/46944516@N00">pedrosimoes7</a> is licensed under <a rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">CC BY 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /></a>.</p>
+<p class="attribution">Photo by <a rel="noopener noreferrer" href="https://www.flickr.com/photos/46944516@N00">pedrosimoes7</a> licensed under <a rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">CC BY 2.0</a></p>
 ::::
 
-# Reflection on process
+## Early results
+
+::: incremental
+* Early results from experiment at _Volkswagen Foundation_ with _RoRi_:
+  - 85% find the distributed peer review process suitable
+  - 77% believe it will identify appropriate reviewers
+  - 74% trust it to be fair and to fund the best research
+
+* Avoids time and difficulty of finding suitable reviewers
+
+* Prevents free loaders
+:::
+
+# <small>Reflection on priority setting process</small>
 
 :::: columns
 
-:::{.column width="50%"}
+:::{.column width="60%"}
 
-* Any comments on the priority setting exercise
+* Any comments on the priority setting exercise?
+
+* Can send via email: a.barnett@qut.edu.au
 
 :::
 
-:::{.column width="50%"}
+:::{.column width="40%"}
 
-![](figures/)
+![](figures/tina-bosse-NUK1bgkGcaA-unsplash.jpg){width=85% height=85%}
 
 :::
 

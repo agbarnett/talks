@@ -22,46 +22,75 @@ editor:
     wrap: 72
 ---
 
+## Conflicts of interest{background-color='#f0eef3'}
+
 <!--- 15 minutes max, ideally 10 --->
-  
-## Conflicts of interest
 
-We are statisticians and all members of the Statistical Society of Australia.
+::::{.columns}
+:::{.column width="50%"}
 
-## Statistics is praticed badly
+* We are statisticians and all members of the Statistical Society of Australia.
 
-![](figures/)
+:::
 
-## National statement
+:::{.column width="50%"}
+![](figures/13844213823_386392b7d3_k.jpg)
+
+::: 
+
+::::
+
+:::: aside
+Photo by <a href="https://www.flickr.com/photos/stuartchilds/13844213823/in/photostream/">stuart.childs</a> on flickr with CC-BY 2.0
+::::
+
+## Statistics is badly practiced{background-color='white'} 
+
+![](figures/Z_plot_slide.png)
+
+## Statistics is badly practiced{background-color='white'} 
+
+![](figures/Z_plot_slide_with_quote.png)
+
+## Ethical guidance on study designs
 
 <!-- to do: highlight new wording -->
 
-applications to human committees should detail how the study is
-“designed or developed using methods appropriate for achieving the aims of the proposal”
+::: incremental
+* **National statement**: “Research that has merit is: [...] designed or developed using methods appropriate for achieving the aims of the proposal.”
 
-Also add declaration of Helsinki change ...
-
-## Interesting change to the Declaration of Helsinki
-
-"Medical research involving human participants must have a scientifically sound and rigorous design and execution that are likely to produce reliable, valid, and valuable knowledge and avoid research waste."
+* **Declaration of Helsinki**: "Medical research involving human participants must have a scientifically sound and rigorous design and execution that are likely to produce reliable, valid, and valuable knowledge and avoid research waste."
+:::
 
 ## Design
 
-Tried to contact all human committees in Australia registered with the NHMRC, not animal
+* Tried to contact all human committees in Australia registered with the NHMRC, not animal.
 
-Focus on quantitative research using data, not qualitative
+* Focus on quantitative research using data, not qualitative research.
+
+* Published a protocol on _Open Science Framework_.
 
 ## Hard to find
 
-Hard to find contact details, some very old. Some committees seem inactive. 
+::::{.columns}
 
-Flow chart.
+:::{.column width="50%"}
+* Hard to find contact details for many
 
-## ?
+* Some committees appear inactive
+:::
 
-“too much” focus on ethics considerations, such as consenting processes, partly because these can be easier to judge than the science?
+:::{.column width="50%"}
+<!-- Flow chart from 4_consort_flow.R -->
+![](figures/4_consort_flow.jpg){width=85% height=85%}
+:::
+
+::::
+
+
 
 ## results
+
 Only 24% of committees had a statistician as a full member.
 • Willingness to take statistical advice from researchers without statistical qualifications.
 • Some committees do not examine methods.
@@ -75,4 +104,6 @@ To do: show graph of results with slow release...
 <!-- "The theme of this year’s conference is practical strategies. If you could include at the end of your talk a slide to sum up how HREC members can apply the subject area of your talk to when reviewing an ethics application, it would be of great benefit to the audience." -->
 
 
+## ?
 
+“too much” focus on ethics considerations, such as consenting processes, partly because these can be easier to judge than the science?
