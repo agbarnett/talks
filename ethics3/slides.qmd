@@ -64,18 +64,18 @@ Photo by <a href="https://www.flickr.com/photos/stuartchilds/13844213823/in/phot
 
 ## Design
 
-* Tried to contact all human committees in Australia registered with the NHMRC, not animal.
+* Tried to contact all human committees in Australia registered with the NHMRC, not animal
 
-* Focus on quantitative research using data, not qualitative research.
+* Focus on quantitative research using data, not qualitative research
 
-* Published a protocol on _Open Science Framework_.
+* Published a protocol on _Open Science Framework_
 
 ## Hard to find
 
 ::::{.columns}
 
 :::{.column width="50%"}
-* Hard to find contact details for many
+* Hard to find contact details for many HRECs
 
 * Some committees appear inactive
 :::
