@@ -76,7 +76,7 @@ Photo by <a href="https://unsplash.com/@marissacristina?utm_content=creditCopyTe
 ::: {.column width="70%"}
 * Discuss highly ranked questions
 
-* Priority setting
+* Priority setting / voting
 
 * 3 to 3:30pm End
 
@@ -619,7 +619,7 @@ Photo by <a href="https://unsplash.com/@heatherz?utm_content=creditCopyText&utm_
 DOI: [10.1136/bmjopen-2013-002800](https://bmjopen.bmj.com/content/3/5/e002800)
 ::::
 
-# Social
+# Social consequences and costs
 
 :::: columns
 
@@ -676,6 +676,15 @@ Photo by <a href="https://unsplash.com/@villxsmil?utm_content=creditCopyText&utm
 
 * Prevents free loaders
 :::
+
+# Voting
+
+* Drag and drop the research questions into order using this link: 
+
+https://bit.ly/4hGpIpt
+
+
+https://qsurvey.qut.edu.au/jfe/form/SV_b2cS4EaOQPDTzeK
 
 # <small>Reflection on priority setting process</small>
 
