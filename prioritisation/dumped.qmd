@@ -1,0 +1,23 @@
+---
+title: "slides dumped from main presentation"
+format: revealjs
+editor: visual
+---
+
+## Recent suggestion
+
+* "Funders could consent to applicants’ data being used for research purposes when they submit their applications." (2024) [preprint](https://arxiv.org/abs/2403.16934) _The Costs of Competition in Distributing Scarce Research Funds_
+
+## Examples of research that did not need ethical clearance
+
+Papers from 2024 published in the _BMJ_.
+
+* _Association of holidays and the day of the week with suicide risk_. Used daily data from 26 countries. 
+"Ethical clearance not required"
+
+* _Use of progestogens and the risk of intracranial meningioma: national case-control study_. France. 
+"As an authorised permanent user of the SNDS, the author’s team was exempt from approval from the institutional review board."
+
+* _Prenatal opioid exposure and subsequent risk of neuropsychiatric disorders in children: nationwide birth cohort study in South Korea
+_. "We conducted this study using de-identified administrative data that were obtained without prior consent."
+

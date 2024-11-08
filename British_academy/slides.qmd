@@ -1,12 +1,12 @@
 ---
-title: "Consenting and recruiting researchers in studies of partial randomisation"
+title: "<small>Consenting and recruiting researchers in studies of partial randomisation</small>"
 author: Adrian Barnett<br>16 December 2024
 institute: Queensland University of Technology<br>Photo by <a href="https://unsplash.com/@dylan_nolte?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">dylan nolte</a> on <a href="https://unsplash.com/photos/ball-with-number-lot-RSsqjpezn6o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 title-position: 90%
 format:
  revealjs: 
   slide-number: true
-  theme: [moon, custom.scss]
+  theme: night
   chalkboard: false
   transition: fade
   preview-links: auto
@@ -22,80 +22,110 @@ editor:
 ---
 
 
-## . 
+## Bad publicity
 
-:::: {.columns}
-::: {.column width="40%"}
+![](figures/irish_times_lottery.png){.absolute top="20" right="20"}
 
-### Bad publicity
-
-:::
-
-::: {.column width="60%"}
-
-![](figures/irish_times_lottery.png)
-:::
-
+:::: aside
+From Irish Times, August 2024
 ::::
 
-<!--- from https://www.irishtimes.com/ireland/education/2024/08/29/she-couldnt-have-done-better-leaving-cert-student-with-maximum-points-misses-out-on-college-course-due-to-lottery/ --->
+## Potentially controversial 
 
-
-## Could be relatively controversial
-
-::: columns
+:::: columns
 ::: {.column width="50%"}
-Data privacy and consent are crucial to good research
+* Data privacy and consent are crucial to good research
 :::
 
 ::: {.column width="50%"}
 
 ![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXpqbTR4Y2hkOHk4aDl4aDl0NWZ3Y2dxaG95ZHh5cXNrbjR0andiNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sBl8Fowq0ErFC/giphy.gif)
 :::
-:::
-
-:::: aside
-
-From giphy
-
 ::::
 
-## New Zealand Health Research Council Trial
+:::: aside
+From giphy
+::::
 
-* Fellowship funding was NZD $150,000 over 3 years.
 
- 
- 
-## Participant consent in HRC
+## <small>New Zealand Health Research Council Trial</small>
 
-* All applicants were asked if they were willing for our research team to follow their career **if they did not win funding**. 
+:::: {.columns}
+::: {.column width="60%"}
+* Fellowship was NZD $150,000 (£70,000) over 3 years
 
-* Data from applicants **who won funding** were publicly available and hence included. Applicants were informed of this.
+* Two yes/no criteria: 
+  - the research is potentially transformative
+  - the proposal is exploratory but viable
 
-## Disappointing consent results
+* Randomised if most reviewers gave two Yes's
+:::
+  
+::: {.column width="40%"}
+![](figures/casey-horner-75_s8iWHKLs-unsplash.jpg)
+::: 
+  
+::::
+  
+:::: aside
+Photo by <a href="https://unsplash.com/@mischievous_penguins?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Casey Horner</a> on <a href="https://unsplash.com/photos/mountains-covered-with-snow-near-road-75_s8iWHKLs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+  
+## Trial consent
+  
+:::: {.columns}
+::: {.column width="65%"}
+* Consent included in application form
 
-::: incremental
-* Only 66% consented (81 out of 123)
+* Applicants were asked if we could follow their career _if they did not win funding_
 
-Fear: "You asked for too much" - only wanted their grant number. 
+* All applicants _who won funding_ were publicly available and hence included. Applicants were informed of this.
+:::
 
-"Of the 51 offices approached, 30 (59%) agreed to distribute an email invitation to their researchers. " https://bmjopen.bmj.com/content/3/5/e002800
+::: {.column width="35%"}
+![](figures/philipp-wuthrich-2HMrBMbbbYg-unsplash.jpg)
+:::
 
-* Researchers who consented had 52% more publications than those who did not consent (95% credible interval 5 to 121). 
-* Mean years of experience was 17 for those who consented and 14 for those who did not.
+::::
+  
+:::: aside
+Photo by <a href="https://unsplash.com/@phiwut?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Philipp Wüthrich</a> on <a href="https://unsplash.com/photos/person-in-black-jacket-in-selective-focus-photography-2HMrBMbbbYg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## Disappointing consent results{background-color='#cacecd'}
+
+:::: {.columns}
+::: {.column width="65%"}
+
+::: {.incremental}
+* Only 66% consented (81 / 123)
+
+* Consentors had 52% more publications (95% credible interval 5% to 121%)
+
+* Mean years of experience was 17 versus 14
 
 * Reduces statistical power and generalisability
 :::
+:::
+
+<!-- results from 10.1093/scipol/scae045 -->
+
+::: {.column width="35%"}
+![](figures/k8-t5BeMDWl28Q-unsplash.jpg)  
+:::
+
+::::
 
 :::: aside
-DOI: [10.1093/scipol/scae045](https://academic.oup.com/spp/advance-article/doi/10.1093/scipol/scae045/7729313)
+Photo by <a href="https://unsplash.com/@_k8_?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">K8</a> on <a href="https://unsplash.com/photos/white-ceramic-mug-with-black-liquid-t5BeMDWl28Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 ::::
+
 
 ## Complex cohort
  
-![](figures/consort.flow.jpg) 
- 
-## No consent 
+![](figures/consort-flow.jpg) 
+
+## Trials without consent 
 
 :::: {.columns}
 ::: {.column width="40%"}
@@ -107,83 +137,66 @@ DOI: [10.1093/scipol/scae045](https://academic.oup.com/spp/advance-article/doi/1
 ::: {.column width="60%"}
 
 ![](figures/Universal-basic-income-seems-to-improve-employment-and-well-being-New-Scientist.png)
+
 :::
-
 ::::
-
 
 :::: aside
 From [New Scientist](https://www.newscientist.com/article/2242937-universal-basic-income-seems-to-improve-employment-and-well-being/)
 ::::
 
-## Quality improvement in Canada
+## Quality assurance in Australia
+
+* <small>"consider [...] whether the people involved [...] will be exposed to any risk, burden, inconvenience or possible breach of their privacy"</small>
+
+* <small>"participants in QA/evaluation are afforded appropriate protections and respect"</small>
+
+*	<small>"QA and/or evaluation is undertaken to generate outcomes that are used to assess and/or improve service provision"</small>
+
+*	<small>"those who undertake QA and/or evaluation adhere to relevant ethical principles and state, territory and Commonwealth legislation"</small>
+
+:::: aside
+[NHMRC web site](https://www.nhmrc.gov.au/about-us/resources/ethical-considerations-quality-assurance-and-evaluation-activities)
+::::
+
+## Quality assurance in Canada
 
 ::: incremental
-* Title: What Factors are Important to the Success of Resubmitted Grant Applications in Health Research? A Retrospective Study of Over 20,000 Applications to the Canadian Institutes of Health Research
+* <small>_Title_: What Factors are Important to the Success of Resubmitted Grant Applications in Health Research? A Retrospective Study of Over 20,000 Applications to the Canadian Institutes of Health Research</small>
 
-* "Our study included an objective of quality assurance and quality improvement of CIHR’s programs and thus fell under Article 2.5 of Tri-Council Policy Statement."
+* <small>"Our study included an objective of quality assurance and quality improvement of CIHR’s programs and thus fell under Article 2.5 of Tri-Council Policy Statement."</small>
 
-* Section 2.5: "Quality assurance and quality improvement studies, program evaluation activities, and performance reviews, or testing within normal educational requirements when used exclusively for assessment, management or improvement purposes, do not constitute research for the purposes of this Policy, and do not fall within the scope of REB review."
+* <small>Section 2.5: "Quality assurance and quality improvement studies, program evaluation activities, and performance reviews, or testing within normal educational requirements when used exclusively for assessment, management or improvement purposes, do not constitute research for the purposes of this Policy, and do not fall within the scope of REB review."</small>
 :::
 
 :::: aside
 DOI: [10.1101/2024.05.29.24308137v1](https://www.medrxiv.org/content/10.1101/2024.05.29.24308137v1)
 ::::
 
-## Quality improvement in Australia
-
-* "consider [...] whether the people involved [...] will be exposed to
-any risk, burden, inconvenience or possible breach of their privacy"
-
-* participants in QA/evaluation are afforded appropriate protections and respect
-
-*	QA and/or evaluation is undertaken to generate outcomes that are used to assess and/or improve service provision
-
-*	 those who undertake QA and/or evaluation adhere to relevant ethical principles and state, territory and Commonwealth legislation
-
-:::: aside
-
-[NHMRC web site](https://www.nhmrc.gov.au/about-us/resources/ethical-considerations-quality-assurance-and-evaluation-activities)
-
-::::
-
 ## BMJ policy on meta-research
 
-"We are constantly trying to find ways of improving our peer review system and continually monitor processes and methods by including article submissions and reviewers’ reports in our research. If you do not want your paper or review entered into our peer review research programme, please let us know by emailing papersadmin@bmj.com."
-
-"Legitimate interests
-Your personal data will also be processed because it is necessary for BMJ Group's
-legitimate interests or the legitimate interests of a third party. This will always be
-weighed against your rights, interests and expectations. Examples of where we
-process data for purposes that fall under legitimate interests include:
-[...]
-● contacting authors and reviewers (and instructing researchers to do the same)
-for development, monitoring and quality improvement of our processes;"
+* "We are constantly trying to find ways of improving our peer review system and continually monitor processes and methods by including article submissions and reviewers’ reports in our research. If you do not want your paper or review entered into our peer review research programme, please let us know by emailing papersadmin@bmj.com"
 
 * "The BMJ is committed to improving the evidence base around the publishing process"
-
-* "Some publishers are concerned about data protection and privacy issues, others are just secretive"
-
-* Authors must opt out of their papers being included in research 
 
 :::: aside
 DOI: [10.1136/bmj.m661](https://www.bmj.com/content/368/bmj.m661.long)
 ::::
 
-##
+## Question
 
+:::: {.columns}
+::: {.column width="40%"}
+Do studies of funding outcomes need individual consent?
+:::
 
-"Funders could consent to applicants’ data being used for research purposes when they submit their applications." (2024) [preprint](https://arxiv.org/abs/2403.16934) _The Costs of Competition in Distributing Scarce Research Funds_
+:::: {.columns}
+::: {.column width="40%"}
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDFmODVkOHFubTdqMjY2dTc5dDFlYmxhZmNpZXg5ejcxcGEwM3k0biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uKCrc7PFxJ9Xyya7DR/giphy.gif)
+:::
 
-## Examples of research that did not need ethical clearance
+::::
 
-Papers from 2024 published in the _BMJ_.
-
-* _Association of holidays and the day of the week with suicide risk_. Used daily data from 26 countries. 
-"Ethical clearance not required"
-
-* _Use of progestogens and the risk of intracranial meningioma: national case-control study_. France. 
-"As an authorised permanent user of the SNDS, the author’s team was exempt from approval from the institutional review board."
-
-* _Prenatal opioid exposure and subsequent risk of neuropsychiatric disorders in children: nationwide birth cohort study in South Korea
-_. "We conducted this study using de-identified administrative data that were obtained without prior consent."
+:::: aside
+from giphy
+::::
