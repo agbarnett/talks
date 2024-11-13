@@ -70,7 +70,7 @@ Photo by <a href="https://unsplash.com/@marissacristina?utm_content=creditCopyTe
 ## <small style="color:#0xFF">AusHSI</small>{background-image='figures/AusHSI.png' background-size='cover'}
 
 
-## Plan
+## Plan (continued)
 
 :::: {.columns}
 ::: {.column width="70%"}
@@ -98,9 +98,7 @@ Photo by <a href="https://unsplash.com/@marissacristina?utm_content=creditCopyTe
 ![](figures/consumer-community-involvement.jpg){.absolute top="0" left="20"}
 
 :::: aside
-
-From [NHMRC statement on consumer and community involvement in health and medical research](https://www.nhmrc.gov.au/about-us/publications/statement-consumer-and-community-involvement-health-and-medical-research)
-
+<style="color:white">From</style> [NHMRC statement on consumer and community involvement in health and medical research](https://www.nhmrc.gov.au/about-us/publications/statement-consumer-and-community-involvement-health-and-medical-research)
 ::::
 
 ## Research on research priorities{background-color='white'}
@@ -117,7 +115,7 @@ DOI: [10.1016/S0140-6736(13)62229-1](https://www.thelancet.com/journals/lancet/a
 
 ## <small>Priority setting partnership stages</small>
 
-![](figures/jla-psp-process-final.jpg){width=85% height=85%}
+![](figures/jla-psp-process-final.jpg){width=75% height=75%}
 
 ## Example: Irritable bowel syndrome
 
@@ -185,26 +183,6 @@ from giphy
 from giphy
 ::::
 
-## Willingness to be surprised
-
-![](figures/No-pressure-NSF.jpg)
-
-<!--- this is a complex system --->
-
-:::: aside
-From [Science Magazine](https://www.science.org/content/article/no-pressure-nsf-test-finds-eliminating-deadlines-halves-number-grant-proposals)
-::::
-
-## Willingness to be surprised
-
-* _The Costs of Competition in Distributing Scarce Research Funds_ (2024) [preprint](https://arxiv.org/abs/2403.16934)
--- "Characterized by nonlinearity and multidimensionality"
-
-* _What do we know about grant peer review in the health sciences?_ (2018) [F1000](https://f1000research.com/articles/6-1335) 
--- "we need a better understanding of the peer review process"
-
-* _American men of science: A biographical directory_ (1910)
--- "we are at present almost wantonly ignorant and careless regarding the conditions which favor or hinder scientific work" 
 
 ## Publish and promote
 
@@ -289,6 +267,67 @@ From [James Lind Alliance report](https://www.jla.nihr.ac.uk/news/sally-crowe-an
 ::::
 
 # Any questions on the process?{.center background-color='#FF4C4C'}
+
+# Research on research funding{.center background-color='#b277f7'}
+
+## Willingness to be surprised
+
+![](figures/No-pressure-NSF.jpg)
+
+<!--- this is a complex system --->
+
+:::: aside
+From [Science Magazine](https://www.science.org/content/article/no-pressure-nsf-test-finds-eliminating-deadlines-halves-number-grant-proposals)
+::::
+
+## Willingness to be surprised
+
+* _The Costs of Competition in Distributing Scarce Research Funds_ (2024) [preprint](https://arxiv.org/abs/2403.16934)
+-- "Characterized by nonlinearity and multidimensionality"
+
+* _What do we know about grant peer review in the health sciences?_ (2018) [F1000](https://f1000research.com/articles/6-1335) 
+-- "we need a better understanding of the peer review process"
+
+* _American men of science: A biographical directory_ (1910)
+-- "we are at present almost wantonly ignorant and careless regarding the conditions which favor or hinder scientific work" 
+
+## "Easy" research
+
+```{r model_diagram1}
+source('model_diagram_easy.R')
+plotmat(M, pos = pos, name = labels, lwd = 1, shadow.size=0, curve=0, arr.pos = 0.45,
+        box.lwd = 2, cex.txt = 1, box.size = frame$box.size, box.col=frame$box.col,
+        box.type = frame$box.type, box.prop = frame$box.prop, txt.col = 'black', lcol='grey88')
+text(0.5, 0.65, 'Days', col='white')
+```
+
+## Funding research
+
+```{r model_diagram2}
+source('model_diagram_hard.R')
+plotmat(M, pos = pos, name = labels, lwd = 1, shadow.size=0, curve=0, arr.pos = 0.5,
+        box.lwd = 2, cex.txt = 1, box.size = frame$box.size, box.col=frame$box.col,
+        box.type = frame$box.type, box.prop = frame$box.prop, txt.col = 'black', lcol='grey88')
+text(0.5, 0.63, 'Years', col='white')
+```
+
+## PICO{.center}
+
+```{r pico_table}
+tab = read.table(header=TRUE, sep=',', text='
+PICO,Antibiotic,Funding
+Population,Patients with infection,Researchers
+Intervention,Antibiotic,System change
+Control,No antibiotic,System as usual
+Outcome,Side effects,Impact
+')
+ftab = flextable(tab) %>%
+  theme_box() %>%
+  fontsize(size=20, part='all') %>%
+  autofit() %>%
+  color(part='all', color='white')
+ftab
+```
 
 # Our priority setting {.center background-color="#96C0D3"}
 
@@ -410,7 +449,7 @@ ftab
 From giphy
 ::::
 
-## Word cloud{background-color='white'}
+## <small>Word cloud of submitted questions</small>{background-color='white'}
 
 <!--- from wordcloud.R in shiny folder --->
 
@@ -425,7 +464,7 @@ From giphy
 
 * Randomly ordered the 77 questions
 
-* Chose up to 10 and then rank
+* Respondents chose up to 10, and then ranked them
 
 <!--- from vote_dates.R --->
 
@@ -619,7 +658,7 @@ Photo by <a href="https://unsplash.com/@heatherz?utm_content=creditCopyText&utm_
 DOI: [10.1136/bmjopen-2013-002800](https://bmjopen.bmj.com/content/3/5/e002800)
 ::::
 
-# Social consequences and costs
+# <small>Social consequences and costs</small>
 
 :::: columns
 

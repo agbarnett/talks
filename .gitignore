@@ -26,3 +26,5 @@ rsconnect/
 # AGB
 .psd
 **/slides_files/
+/**/slides_files/
+/AIMOS4/slides_files/

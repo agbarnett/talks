@@ -16,7 +16,7 @@ title-slide-attributes:
   data-background-image: figures/pawel-chu-ULh0i2txBCY-unsplash.jpg
   data-background-size: cover
   data-background-position: center
-  data-background-opacity: "0.45"
+  data-background-opacity: "0.35"
 editor: 
   markdown: 
     wrap: 72
@@ -29,7 +29,7 @@ editor:
 ::::{.columns}
 :::{.column width="50%"}
 
-* We are statisticians and all members of the Statistical Society of Australia.
+* We are statisticians and all members of the Statistical Society of Australia
 
 :::
 
@@ -62,7 +62,7 @@ Photo by <a href="https://www.flickr.com/photos/stuartchilds/13844213823/in/phot
 * **Declaration of Helsinki**: "Medical research involving human participants must have a scientifically sound and rigorous design and execution that are likely to produce reliable, valid, and valuable knowledge and avoid research waste."
 :::
 
-## Our study design
+## Our study design{background-color='#2e1612'}
 
 ::::{.columns}
 :::{.column width="60%"}
@@ -81,11 +81,11 @@ Photo by <a href="https://www.flickr.com/photos/stuartchilds/13844213823/in/phot
 ::::
 
 :::: aside
-<p class="attribution">"<a rel="noopener noreferrer" href="https://www.flickr.com/photos/63126465@N00/208778609">My Nielsen Questionnaire</a>" by <a rel="noopener noreferrer" href="https://www.flickr.com/photos/63126465@N00">Joe Gratz</a> is licensed under <a rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/2.0/?ref=openverse">CC BY-NC 2.0</a>.</p>
+<p class="attribution"><a rel="noopener noreferrer" href="https://www.flickr.com/photos/63126465@N00/208778609">Photo</a> by <a rel="noopener noreferrer" href="https://www.flickr.com/photos/63126465@N00">Joe Gratz</a> is licensed under <a rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/2.0/?ref=openverse">CC BY-NC 2.0</a></p>
 ::::
 
 
-## Our study design
+## Our study design{background-color='#2e1612'}
 
 ::::{.columns}
 :::{.column width="60%"}
@@ -138,7 +138,7 @@ Photo by <a href="https://www.flickr.com/photos/stuartchilds/13844213823/in/phot
 
 ## National scrutiny{background-color='white'}
 
-* Estimated number of applications in 2023 that included quantitative data and/or analysis by whether the committee had access to a qualified statistician.
+* Applications in 2023 that included quantitative data and/or analysis by whether the committee had access to a qualified statistician
 
 ![](figures/4_numbers_plus.jpg)
 
@@ -218,7 +218,7 @@ Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_content=creditCopyTex
 
 <!-- From: 10.1186/s13063-022-06415-5 -->
 
-* Get access to **qualified** statistical expertise
+* Recognise there is a competence issue with statistical practice in Australia
 
 * Pay all members
 ::: 
@@ -232,9 +232,6 @@ Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_content=creditCopyTex
 <!-- “too much” focus on ethics considerations, such as consenting processes, partly because these can be easier to judge than the science? -->
 
 :::: aside
-<p class="attribution">"<a rel="noopener noreferrer" href="https://www.flickr.com/photos/69416124@N00/162798520">Strategy</a>" by <a rel="noopener noreferrer" href="https://www.flickr.com/photos/69416124@N00">Waponi</a> is licensed under <a rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">CC BY 2.0</a>.</p>
+<p class="attribution"><a rel="noopener noreferrer" href="https://www.flickr.com/photos/69416124@N00/162798520">Photo</a> by <a rel="noopener noreferrer" href="https://www.flickr.com/photos/69416124@N00">Waponi</a> is licensed under <a rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">CC BY 2.0</a></p>
 ::::
-
-
-
 
