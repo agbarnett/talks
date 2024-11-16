@@ -45,5 +45,11 @@ M[2, 7] = "' '" # Institution to impact
 M[1, 7] = "' '" # Institution to funding
 
 ## make figure 
+jpeg('figures/model_hard.jpg', width=6, height=4.75, units='in', res=400, quality=100, bg='transparent')
 par(mai=c(0,0.04,0.04,0.04), bg='transparent')
+plotmat(M, pos = pos, name = labels, lwd = 1, shadow.size=0, curve=0, arr.pos = 0.5,
+        box.lwd = 2, cex.txt = 1, box.size = frame$box.size, box.col=frame$box.col,
+        box.type = frame$box.type, box.prop = frame$box.prop, txt.col = 'black', lcol='grey88')
+text(0.5, 0.63, 'Years', col='white')
+dev.off()
 

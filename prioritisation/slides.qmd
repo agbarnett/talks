@@ -115,7 +115,7 @@ DOI: [10.1016/S0140-6736(13)62229-1](https://www.thelancet.com/journals/lancet/a
 
 ## <small>Priority setting partnership stages</small>
 
-![](figures/jla-psp-process-final.jpg){width=75% height=75%}
+![](figures/jla-psp-process-final.jpg){width=70% height=70%}
 
 ## Example: Irritable bowel syndrome
 
@@ -291,25 +291,15 @@ From [Science Magazine](https://www.science.org/content/article/no-pressure-nsf-
 * _American men of science: A biographical directory_ (1910)
 -- "we are at present almost wantonly ignorant and careless regarding the conditions which favor or hinder scientific work" 
 
-## "Easy" research
+## "Easy" research{background-color='white'}
 
-```{r model_diagram1}
-source('model_diagram_easy.R')
-plotmat(M, pos = pos, name = labels, lwd = 1, shadow.size=0, curve=0, arr.pos = 0.45,
-        box.lwd = 2, cex.txt = 1, box.size = frame$box.size, box.col=frame$box.col,
-        box.type = frame$box.type, box.prop = frame$box.prop, txt.col = 'black', lcol='grey88')
-text(0.5, 0.65, 'Days', col='white')
-```
+<!--- from 'model_diagram_easy.R' --->
+![](figures/model_easy.jpg)
 
-## Funding research
+## Funding research{background-color='white'}
 
-```{r model_diagram2}
-source('model_diagram_hard.R')
-plotmat(M, pos = pos, name = labels, lwd = 1, shadow.size=0, curve=0, arr.pos = 0.5,
-        box.lwd = 2, cex.txt = 1, box.size = frame$box.size, box.col=frame$box.col,
-        box.type = frame$box.type, box.prop = frame$box.prop, txt.col = 'black', lcol='grey88')
-text(0.5, 0.63, 'Years', col='white')
-```
+<!--- # from model_diagram_hard.R --->
+![](figures/model_hard.jpg)
 
 ## PICO{.center}
 
@@ -513,7 +503,7 @@ DOI: [10.1056/NEJM19920723327040](https://www.nejm.org/doi/full/10.1056/NEJM1992
 
 ## Literature reviews
 
-* Thanks to Sharon Sanders from Bond University
+* Huge thanks to Sharon Sanders from Bond University
 
 * Aimed to see what evidence was already published
 
@@ -718,10 +708,11 @@ Photo by <a href="https://unsplash.com/@villxsmil?utm_content=creditCopyText&utm
 
 # Voting
 
-* Drag and drop the research questions into order using this link: 
+* Drag and drop the research questions into your preferred order using this link: 
 
 https://bit.ly/4hGpIpt
 
+_or_
 
 https://qsurvey.qut.edu.au/jfe/form/SV_b2cS4EaOQPDTzeK
 
