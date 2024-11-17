@@ -44,5 +44,5 @@ par(mai=c(0,0.04,0.04,0.04), bg='transparent')
 plotmat(M, pos = pos, name = labels, lwd = 1, shadow.size=0, curve=0, arr.pos = 0.45,
         box.lwd = 2, cex.txt = 1, box.size = frame$box.size, box.col=frame$box.col,
         box.type = frame$box.type, box.prop = frame$box.prop, txt.col = 'black', lcol='grey88')
-text(0.5, 0.65, 'Days', col='white')
+text(0.5, 0.65, 'Days', col='black')
 dev.off()
