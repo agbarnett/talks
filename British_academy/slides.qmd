@@ -21,13 +21,30 @@ editor:
   wrap: 72
 ---
 
-
 ## Bad publicity
 
 ![](figures/irish_times_lottery.png){.absolute top="20" right="20"}
 
 :::: aside
 From Irish Times, August 2024
+::::
+
+---
+
+## Cynicism
+
+:::: columns
+::: {.column width="50%"}
+* "Yeah, as if it was random"
+:::
+
+::: {.column width="50%"}
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTl6cjFpbnBiczY1eGxzdzBxMm1tMXd1MjNyZGxmcHB0eGhrazh6cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CggoHW4h87Ktq/giphy.gif)
+:::
+::::
+
+:::: aside
+From giphy
 ::::
 
 ## Potentially controversial 
