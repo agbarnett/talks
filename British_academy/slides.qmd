@@ -20,6 +20,7 @@ editor:
  markdown: 
   wrap: 72
 ---
+# Three quick asides{.center slideNumber='false'}
 
 ## Bad publicity
 
@@ -31,7 +32,7 @@ From Irish Times, August 2024
 
 ---
 
-## Cynicism
+## Cynicism{background-color='#5a5153'}
 
 :::: columns
 ::: {.column width="50%"}
@@ -46,6 +47,33 @@ From Irish Times, August 2024
 :::: aside
 From giphy
 ::::
+
+---
+## <small>Priority setting on research funding</small>{background-color='#dcdfd8'}
+
+:::: columns
+::: {.column width="63%"}
+
+#### Top 2 questions:
+
+* Would a lottery be fairer and more efficient without reducing quality?
+
+* How much is enough effort for applying + judging application efforts, before a random lottery-style allocation becomes just as good as further adjudication?
+
+:::
+
+::: {.column width="37%"}
+![](figures/arnold-antoo-diWpdk2ZCK8-unsplash.jpg)
+:::
+
+::::
+
+
+:::: aside
+Photo by <a href="https://unsplash.com/@arnold_antoo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Arnold Antoo</a> on <a href="https://unsplash.com/photos/brown-wooden-barrels-on-white-surface-diWpdk2ZCK8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+# Back to ethics{.center data-hide-slide-number="true"}
 
 ## Potentially controversial 
 
