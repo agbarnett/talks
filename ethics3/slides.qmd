@@ -142,7 +142,7 @@ Photo by <a href="https://www.flickr.com/photos/stuartchilds/13844213823/in/phot
 
 ![](figures/4_numbers_plus.jpg)
 
-## Quotes
+## Quotes 1
 
 ::::{.columns}
 
@@ -171,7 +171,7 @@ Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_content=creditCopyTex
 ::::
 
 
-## Quotes{background-color='grey'}
+## Quotes 2{background-color='grey'}
 
 ::::{.columns}
 
@@ -233,5 +233,29 @@ Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_content=creditCopyTex
 
 :::: aside
 <p class="attribution"><a rel="noopener noreferrer" href="https://www.flickr.com/photos/69416124@N00/162798520">Photo</a> by <a rel="noopener noreferrer" href="https://www.flickr.com/photos/69416124@N00">Waponi</a> is licensed under <a rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">CC BY 2.0</a></p>
+::::
+
+## Call for participants{background-color='#0e1726'}
+
+::::{.columns}
+
+:::{.column width="55%"}
+* Survey of attitudes to different approaches to responding to fraud
+
+* Dorothy Bishop from Oxford
+
+* [https://shorturl.at/WJqfY](https://shorturl.at/WJqfY)
+:::
+
+:::{.column width="45%"}
+
+![](figures/mingrui-he-kU1erKq92rk-unsplash.jpg){width=80%}
+
+:::
+
+::::
+
+:::: aside
+Photo by <a href="https://unsplash.com/@alan_____he?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mingrui He</a> on <a href="https://unsplash.com/photos/a-building-that-has-a-lot-of-stars-in-the-sky-kU1erKq92rk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 ::::
 
