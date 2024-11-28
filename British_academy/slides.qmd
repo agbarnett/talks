@@ -20,7 +20,7 @@ editor:
  markdown: 
   wrap: 72
 ---
-# Three quick asides{.center slideNumber='false'}
+# Three quick asides{.center slide-number='false'}
 
 ## Bad publicity
 

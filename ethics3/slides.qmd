@@ -214,9 +214,9 @@ Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_content=creditCopyTex
 
 <!-- * Committees claiming to examine study design should provide the name(s) of the statistician(s) and their qualifications -->
 
-* Trials only approved if the trial team contains methodological and statistical expertise
+* Trials only approved if the trial team contains methodological and statistical expertise ([Pirosca et al, 2022](https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-022-06415-5))
 
-<!-- From: 10.1186/s13063-022-06415-5 -->
+<!-- From: 10.1186/s13063-022-06415-5; . Extend this to clinical prediction models. -->
 
 * Recognise there is a competence issue with statistical practice in Australia
 
