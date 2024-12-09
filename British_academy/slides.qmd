@@ -147,7 +147,7 @@ Photo by <a href="https://unsplash.com/@phiwut?utm_content=creditCopyText&utm_me
 
 * Consentors had 52% more publications (95% credible interval 5% to 121%)
 
-* Mean years of experience was 17 versus 14
+* Consentors mean years of experience was 17 versus 14
 
 * Reduces statistical power and generalisability
 :::
@@ -166,7 +166,7 @@ Photo by <a href="https://unsplash.com/@_k8_?utm_content=creditCopyText&utm_medi
 ::::
 
 
-## Complex cohort
+## Complex cohort{background-color='white'}
  
 ![](figures/consort-flow.jpg) 
 
