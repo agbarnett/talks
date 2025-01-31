@@ -47,3 +47,4 @@ In date order:
 * `AIMOS3` MetaROR launch for the AIMOS conference in Canberra (November 2024)
 * `AIMOS4` Closing slides for the AIMOS conference in Canberra (November 2024)
 * `British_academy` Consenting and recruiting researchers in studies of partial randomisation (December 2024)
+* `cre` Open Science talk for the Medicines Intelligence CRE (February 2025)

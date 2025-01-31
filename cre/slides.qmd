@@ -1,0 +1,250 @@
+---
+title: "MI-CRE: Open Science"
+author: Adrian Barnett<br>6 February 2025
+institute: Queensland University of Technology<br><br>Photo by <a href="https://unsplash.com/@fabulu75?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Fabrice Villard</a> on <a href="https://unsplash.com/photos/withered-tree-surrounded-with-snow-during-daytime-Du41jIaI5Ww?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+title-position: 40%
+format:
+ revealjs: 
+  slide-number: true
+  theme: [dark]
+  chalkboard: false
+  transition: fade
+  preview-links: auto
+  logo: figures/logos.jpg
+title-slide-attributes:
+ data-position: relative
+ data-background-image: figures/fabrice-villard-Du41jIaI5Ww-unsplash.jpg
+ data-background-size: cover
+ data-background-opacity: "0.5"
+editor: 
+ markdown: 
+  wrap: 72
+---
+
+# Why do open science?{.center}
+
+<!--- Some alternative reasons --->
+
+![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGtpMTJ1MHh2YTN1NW56Z3kzY2ttYnRsZHMzNXczdzNpcng3d3F4cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/T5P7bGGVbunmM/giphy.gif)
+
+::: {.incremental}
+* Disclaimer: Not a systematic or thorough examination of open science
+:::
+
+## <small>1. Because it's how we were all first taught science</small>
+
+```{r, out.width='85%'}
+knitr::include_graphics(path='figures/youtube_science.jpg')
+```
+
+:::: aside
+From: [Free School](https://www.youtube.com/watch?v=qAJ8IF4HI20)
+::::
+
+## Almost everyone is hacking{background-color="white"}
+
+```{r, out.width='75%'}
+knitr::include_graphics(path='figures/Z_plot_slide.png')
+```
+
+:::: aside
+<p style="color:black">DOI: [10.1111/stan.12241](https://onlinelibrary.wiley.com/doi/full/10.1111/stan.12241) </p>
+::::
+
+## 2. For your metrics
+
+![](figures/s_index_challenge.png)
+
+:::: aside
+From [NIH](https://www.challenge.gov/?challenge=nih-data-sharing-index-s-index-challenge)
+::::
+
+## <small style="color:white">.</small>{background-image='figures/adrian_talks_wide.jpg' background-size='contain' background-color="white"}
+
+
+## 3. To thwart frauds
+
+:::: columns
+::: {.column width="45%"}
+* Differentiate your work from fake science
+:::
+
+::: {.column width="55%"}
+![](figures/mills_nature.png)
+:::
+::::
+
+
+:::: aside
+DOI: [10.1038/d41586-025-00212-1](https://www.nature.com/articles/d41586-025-00212-1)
+::::
+
+## Paper trails
+
+:::: columns
+::: {.column width="50%"}
+* Ethics approval
+* Protocol
+* Analysis plan
+* Pre-registration
+* Data and code
+* Plain language summary
+:::
+
+::: {.column width="50%"}
+
+```{r, fig.width=5, fig.height=5, background='transparent'}
+par(mai=c(0, 0.55, 0, 0.55), bg='transparent') #  bottom, left, top and right 
+N = 12
+colour = rainbow(N)
+x = cos(1:N*2*pi/N)
+plot(x, 1:N, type='n', axes=FALSE, xlab='', ylab='')
+for(k in 1:N){
+  text(x[k], k, 'I woz here', col=colour[k], xpd=TRUE, cex = 1.8)
+}
+```
+
+:::
+::::
+
+## 
+
+:::: columns
+::: {.column width="60%"}
+
+
+#### "The authors of research papers have no obligation to share their data and code, and I have no obligation to believe anything they write.'' Andrew Gelman 
+
+:::
+
+::: {.column width="40%"}
+
+![](https://upload.wikimedia.org/wikipedia/commons/a/a5/Andrew_Gelman_2012.jpg)
+
+:::
+::::
+
+<!--- https://statmodeling.stat.columbia.edu/2023/09/10/the-authors-of-research-papers-have-no-obligation-to-share-their-data-and-code-and-i-have-no-obligation-to-believe-anything-they-write/ --->
+
+:::: aside
+Photo by Schutz from Wikipedia (Creative Commons)
+::::
+
+## 4. To help yourself: finding stuff{background-color="white"}
+
+![](figures/github_search.png)
+
+
+
+## 5. To help yourself: getting published
+
+
+:::: columns
+::: {.column width="55%"}
+
+![](figures/osf_preprints.png)
+
+:::
+
+::: {.column width="45%"}
+
+* <small>"I have just read the paper that you and several others have produced as a preprint. Do you have a publisher for it yet? I am editor in chief of ..."</small>
+
+* <small>"I noticed your paper on OSF Preprints [...].  Congratulations on an interesting and informative study. If the paper has not already been accepted elsewhere, we would be pleased to consider it at ... "</small>
+
+:::
+::::
+
+
+## <small style="color:#5d3d34">.</small>{background-image='figures/metaror.png' background-size='cover'}
+
+<!--- plug for metaror --->
+
+## 6. Multiple other reasons to make results open
+
+:::: columns
+::: {.column width="75%"}
+
+* More citations
+
+* More media coverage
+
+* More control over appearance and content
+
+* Better engagement with journalists and the public
+
+* Fulfil funder mandates
+:::
+
+::: {.column width="25%"}
+
+![](figures/google_mandate.png)
+:::
+::::
+
+:::: aside
+DOI: [10.7554/eLife.16800](https://elifesciences.org/articles/16800)
+::::
+
+## Your code is your science
+
+"As code is now an inextricable part of science it should be supported by competent Software Engineering, analogously to statistical claims being properly supported by competent statistics.
+
+If and when code avoids adequate scrutiny, science becomes unreliable and unverifiable because results — text, data, graphs, images, etc — depend on untrustworthy code."
+
+:::: aside
+DOI: [10.1093/comjnl/bxad067](https://academic.oup.com/comjnl/article/67/4/1381/7235536)
+::::
+
+## Scrutiny is a good thing{background-color='#fefe76'}
+
+![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHJicnZ2ajdjZ2k1YTMyMGplZnBlajc3Y2o2ajBqazBuazNmZGMxMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uB9rh22TTr82ilZ4Hm/giphy.gif)
+
+:::: aside
+<p style="color:black">from giphy</p> 
+::::
+
+# Why not share?{.center background-color='#251610'}
+
+![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHdheWhqaHN4bnpzdWUya2VydzU0aWNvNWF4emJvMGg1N2xwaTZsYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FFnPGM7MzFUpu9nAnc/giphy.gif)
+
+:::: aside
+from giphy
+::::
+
+## Confidential data
+
+* Not all data has to be shared
+
+::: {.incremental}
+* Need to consider how de-identified data could be linked to re-identify it
+
+* Consider synthetic data or controlled access (e.g., via [HeSANDA](https://ardc.edu.au/program/health-studies-australian-national-data-asset/))
+
+* However, current data sharing rates are just 2% and even very low risk data sets are not being shared
+:::
+
+:::: aside
+DOI: [10.1136/bmj-2023-075767](https://www.bmj.com/content/382/bmj-2023-075767)
+::::
+
+## Isn't open science just extra work?
+
+* Horrible and worldwide prioritisation of **quantity** over **quality**
+
+::: {.incremental}
+
+* Making your work open is an important part of research quality 
+
+* I don't see this as extra work, I see this **as part of the work**
+
+:::
+
+## Questions / Discussion{background-color="#7bc3cb"}
+
+
+![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGUyaW45MGViMTY0cnM0cjBoMjIxeDYwOGF3ZDltNHJ2YjZkNG02cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TlK63EpCInakTekBS0g/giphy.gif)
+
+:::: aside 
+from giphy
+::::
