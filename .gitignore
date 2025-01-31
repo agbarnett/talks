@@ -23,8 +23,5 @@ rsconnect/
 
 .DS_Store
 
-# AGB
+# AGB, can't remove slides_files
 .psd
-**/slides_files/
-/**/slides_files/
-/AIMOS4/slides_files/
