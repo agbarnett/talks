@@ -1,0 +1,70 @@
+---
+title: "Statistical thinking"
+author: Adrian Barnett<br>14 May 2025
+institute: Queensland University of Technology<br><br>Photo by <a href="https://unsplash.com/@bendavisual?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Benjamin Davies</a> on <a href="https://unsplash.com/photos/man-on-grass-field-looking-at-sky-JrZ1yE1PjQ0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+title-position: 90%
+format:
+ revealjs: 
+  slide-number: true
+  theme: night
+  chalkboard: false
+  transition: fade
+  preview-links: auto
+  logo: figures/logos.jpg
+title-slide-attributes:
+ data-position: relative
+ data-background-image: figures/benjamin-davies-JrZ1yE1PjQ0-unsplash.jpg
+ data-background-size: cover
+ data-background-opacity: "0.4"
+editor: 
+ markdown: 
+  wrap: 72
+---
+
+## Questions welcome{background-image='figures/camylla-battani-AoqgGAqrLpU-unsplash.jpg', background-opacity=0.4, background-size='cover'}
+
+:::: aside
+Photo by <a href="https://unsplash.com/@camylla93?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Camylla Battani</a> on <a href="https://unsplash.com/photos/short-coated-brown-dog-AoqgGAqrLpU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## My stats background{background-color='#6c98bf'}
+
+:::: columns
+::: {.column width="50%"}
+
+* University College London 1991--94
+* SmithKline Beecham 1994--96
+* Medical Research Council 1996--99
+* PhD time series 1999--2002
+* University of Queensland 2001--2007
+* Queensland University of Technology 2007--censored
+:::
+
+::: {.column width="50%"}
+![](https://upload.wikimedia.org/wikipedia/commons/3/38/Wilkins_Building_2%2C_UCL%2C_London_-_Diliff_%28cropped%29.jpg)
+:::
+::::
+
+:::: aside
+<a href="https://commons.wikimedia.org/wiki/File:Wilkins_Building_2,_UCL,_London_-_Diliff_(cropped).jpg">Diliff</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+::::
+
+## Simple is elegant
+
+* "There are only a handful of ways to do a study properly but a thousand ways to do it wrong", David Sackett
+
+* "You cannot fix with analysis what you bungle by design", from _Planning Research on Higher Education_ by Light, Singer and Willett
+
+
+## Ten simple rules for good research practice
+
+![](figures/journal.pcbi.1010139.g001.png)
+
+DOI: [10.1371/journal.pcbi.1010139](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010139)
+
+## Outliers
+
+* Don't automatically delete outliers that don't fit the data
+
+* Look out for outliers and influential variables
+

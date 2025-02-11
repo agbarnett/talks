@@ -28,7 +28,7 @@ editor:
 ![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGtpMTJ1MHh2YTN1NW56Z3kzY2ttYnRsZHMzNXczdzNpcng3d3F4cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/T5P7bGGVbunmM/giphy.gif)
 
 ::: {.incremental}
-* Disclaimer: Not a systematic or thorough examination of open science
+* Disclaimer: This is not a systematic or thorough examination of open science
 :::
 
 ## <small>1. Because it's how we were all first taught science</small>
