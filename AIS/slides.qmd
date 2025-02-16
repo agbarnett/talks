@@ -21,16 +21,41 @@ editor:
   wrap: 72
 ---
 
-## Questions welcome{background-image='figures/camylla-battani-AoqgGAqrLpU-unsplash.jpg', background-opacity=0.4, background-size='cover'}
+
+## Questions welcome{background-image='figures/camylla-battani-AoqgGAqrLpU-unsplash.jpg' background-opacity=0.4 background-size='cover'}
 
 :::: aside
 Photo by <a href="https://unsplash.com/@camylla93?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Camylla Battani</a> on <a href="https://unsplash.com/photos/short-coated-brown-dog-AoqgGAqrLpU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 ::::
 
-## My stats background{background-color='#6c98bf'}
+## Basics{background-color='#d4cebe'}
+
+:::: columns
+::: {.column width="60%"}
+* Can't teach you statistics in a day
+* We have some tutorials
+* These slides are openly available online and have links to papers mentioned 
+<small>
+[https://agbarnett.github.io/talks/AIS/slides](https://agbarnett.github.io/talks/AIS/slides)
+</small>
+
+:::
+
+::: {.column width="40%"}
+![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXR5bjVzMnd2amtsYWJkMmkwZGo4dnZ6Z3R0ZmlsZXgzOHA4ZWI3YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l378AEZceMwWboAQE/giphy.gif)
+:::
+::::
+
+:::: aside
+from giphy
+::::
+
+
+## My statistics background{background-color='#6c98bf'}
 
 :::: columns
 ::: {.column width="50%"}
+<small>
 
 * University College London 1991--94
 * SmithKline Beecham 1994--96
@@ -38,6 +63,9 @@ Photo by <a href="https://unsplash.com/@camylla93?utm_content=creditCopyText&utm
 * PhD time series 1999--2002
 * University of Queensland 2001--2007
 * Queensland University of Technology 2007--censored
+* President Statistical Society of Australia 2018--2020
+
+</small>
 :::
 
 ::: {.column width="50%"}
@@ -49,18 +77,190 @@ Photo by <a href="https://unsplash.com/@camylla93?utm_content=creditCopyText&utm
 <a href="https://commons.wikimedia.org/wiki/File:Wilkins_Building_2,_UCL,_London_-_Diliff_(cropped).jpg">Diliff</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
 ::::
 
+## Statistical thinking{background-color='#e6effb'}
+
+:::: columns
+::: {.column width="50%"}
+* Use your brain
+
+* Avoid statistical recipes
+
+* Avoid bright-line thinking
+
+* Stress test your models
+
+* Be prepared to be wrong
+:::
+
+::: {.column width="50%"}
+![](figures/clique-images-hSB2HmJYaTo-unsplash.jpg){width=330px}
+:::
+::::
+
+:::: aside
+Photo by <a href="https://unsplash.com/@cliqueimages?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clique Images</a> on <a href="https://unsplash.com/photos/person-climbing-concrete-stairs-hSB2HmJYaTo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## <small>What are we trying to achieve with research?</small>{background-color='#d8c9ba'}
+
+![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjd5NHFuemxjd2JmazlhNGFvN3R2MzltMmR4YXFjdGphczJidGZ2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kCSWo63O0gjvLVyKNL/giphy.gif)
+
+## What is statistics?
+
+-   Statistics uses data to inform decision making
+-   Data literacy is a key skill for most researchers
+
+::: incremental
+-   Bland and Altman: "Bad statistics makes bad research, bad research
+    may lead to bad medicine, and bad medicine may cost lives."
+-   David Spiegelhalter: "Why do people find probability so unintuitive
+    and difficult? ...
+-   ... Well after years of careful research I have finally concluded
+    that it's because probability actually is unintuitive and
+    difficult."
+:::
+
+<!--- Bland and Altman: http://dx.doi.org/10.1093/ije/17.2.245; David S from: https://www.youtube.com/watch?v=nuSqWRuz-mU--->
+
+
 ## Simple is elegant
 
 * "There are only a handful of ways to do a study properly but a thousand ways to do it wrong", David Sackett
 
 * "You cannot fix with analysis what you bungle by design", from _Planning Research on Higher Education_ by Light, Singer and Willett
 
+* More effort in the design can often mean less work for the statistics
 
-## Ten simple rules for good research practice
+## <small>Ten simple rules for good research practice</small>{background-color='white'}
 
-![](figures/journal.pcbi.1010139.g001.png)
+<!--- my version with spelling error fixed --->
 
-DOI: [10.1371/journal.pcbi.1010139](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010139)
+![](figures/journal.pcbi.1010139.jpg){width=610px}
+
+:::: aside
+<p style="color:black">DOI:  [10.1371/journal.pcbi.1010139](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010139)</p>
+::::
+
+## We have a problem
+
+"Statistical errors are common in many biomedical fields.1–5 We believe the nature and impact of these errors to be great enough in sports science and medicine to warrant special attention"
+
+DOI: [10.1136/bjsports-2020-102607](https://bjsm.bmj.com/content/55/2/118.long)
+
+Add z-score plot. Do i have it for sports science?
+
+## Evidence pyramid{background-color='white'}
+
+![](figures/levels-of-evidence.svg){width=540}
+
+:::: aside
+<p style="color:black">From [OpenMD](https://openmd.com/guide/levels-of-evidence)</p>
+::::
+
+## Evidence jumble{background-color='white'}
+
+![](figures/evidence_jumble.png){width=500}
+
+
+## Mistakes
+
+A big mistake at any stage at the process will undermine all your science
+
+The worst errors are those that are undetected
+
+## Red cards{background-color='#5d8630'}
+
+![](figures/bayo.png)
+
+## Researchers' choices{background-color='white'}
+
+![](https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/ampa/2018/ampa_1_3/2515245917747646/20181024/images/large/10.1177_2515245917747646-fig2.jpeg)
+
+:::: aside
+<p color='black'>DOI: [10.1177/2515245917747646](https://journals.sagepub.com/doi/10.1177/2515245917747646)</p>
+::::
+
+
+## Spend time on your data
+
+
+* Excel is useful, but there are many common mistakes
+*	Be consistent in naming variables and categories, e.g., never: "Male", "male" and "m" in same variable
+* Write dates as YYYY-MM-DD, e.g, 2018-10-16
+* Don't put multiple variables in one cell, e.g., never ``Injury - morning''
+* Never store information in cell colours 
+* One rectangular data set per Excel sheet	
+* <small>**Please please please** read and keep this paper:  Karl W. Broman & Kara H. Woo (2018) [Data Organization in Spreadsheets](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989), _The American Statistician_, **72**:1, 2--10</small>
+
+
+## Myth-busting #1 -- Normality
+
+### YOU WANT LUMPY DATA!
+
+# Plots
+
+## Use plots 
+
+A good graph is a great way to show your data
+
+Not all evidence is about hypothesis tests
+
+<!--- add great example --->
+
+## Terrible plots 🤪
+
+![](figures/bar_chart_plos.png){.absolute top="120" left="20"
+width="720" height="480"}
+
+![](figures/bar_chart_plos_3d.png){.absolute .fragment top="120"
+right="20" width="720" height="480"}
+
+## Pie charts 🤮
+
+![](figures/bad_pie.jfif){.absolute top="120" left="20" width="720"
+height="480"}
+
+<!--- 787 x 562 --->
+
+![](figures/bad_pie_3d.jfif){.absolute .fragment top="120" right="20"
+width="720" height="480"}
+
+## Start at zero{background-color='white'}
+
+![](figures/vc_pay.png)
+
+:::: aside
+From the [Australia Institute](https://australiainstitute.org.au/post/the-high-pay-for-vice-chancellors-does-not-deliver-better-outcomes-for-students/)
+::::
+
+## Don't start at zero{background-color='white'}
+
+![](figures/vc_scatter.png)
+
+:::: aside
+From the [Australia Institute](https://australiainstitute.org.au/post/the-high-pay-for-vice-chancellors-does-not-deliver-better-outcomes-for-students/)
+::::
+
+## Pie charts
+
+Never use them again.
+
+## Decimal places
+
+<!-- Show that you get it. -->
+
+##  {background-color="black"}
+
+::: {.column width="70%"}
+![](figures/gauss.jfif){.absolute top="40" right="30" width="600"
+height="770"}
+:::
+
+:::: aside
+Painting by Christian Albrecht<br> Jensen, Public domain, via<br>
+[Wikimedia
+Commons](https://commons.wikimedia.org/wiki/File:Carl_Friedrich_Gauss_1840_by_Jensen.jpg)
+::::
 
 ## Outliers
 
@@ -68,3 +268,112 @@ DOI: [10.1371/journal.pcbi.1010139](https://journals.plos.org/ploscompbiol/artic
 
 * Look out for outliers and influential variables
 
+## Influential observation example{background-color='white'}
+
+![](figures/full-ijspp.2024-0089figuref2.jpg)
+
+<!--- from https://journals.humankinetics.com/view/journals/ijspp/20/1/article-p142.xml?content=fulltext --->
+
+## Influential observation example{background-color='white'}
+
+![](figures/full-ijspp.2024-0089figuref2-highlight.jpg)
+
+## Influential observation example - with {background-color='#F0FFF0'}
+
+![](figures/scatter_in.jpg)
+
+<!--- from leave_one_out.R --->
+
+## Influential observation example - without {background-color='#F0FFF0'}
+
+![](figures/scatter_out.jpg)
+
+## <small>Outliers and influential observations</small>
+
+* If all your results rely on one person/observation, then your results are likely not generalisable. This must be acknowledged in any outputs.
+
+::: {.incremental}
+* "A systematic literature search of 4,622 articles in [...] sport science found that only 9.05% (99% CI: 4.87%-14.99%) reported employing outlier detection practices" DOI: [10.1080/02640414.2024.2443313](https://www.tandfonline.com/doi/full/10.1080/02640414.2024.2443313)
+
+* "29 of 100 papers published in Science, Nature and PNAS [...] stated significances (or their absence) are based on the presence of a single influential data point." DOI: [10.1101/2024.10.30.621016v1](https://www.biorxiv.org/content/10.1101/2024.10.30.621016v1.abstract)
+
+:::
+
+## Technical stuff{background-color='#291b0d'}
+
+:::: columns
+::: {.column width="50%"}
+* Use the following statistics to look for outliers and influential observations:
+  - Residuals (should always check)
+  - Cook's distance
+  - DFBETA
+:::
+
+::: {.column width="50%"}
+![](figures/ying-ge--Yo1cWJVKFY-unsplash.jpg){width=330px}
+:::
+::::
+
+:::: aside
+Photo by <a href="https://unsplash.com/@yingzge?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ying Ge</a> on <a href="https://unsplash.com/photos/woman-in-green-shirt-sitting-on-books--Yo1cWJVKFY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## Outliers quote{background-color='#c5c5c5'}
+
+:::: columns
+::: {.column width="55%"}
+* The most exciting phrase to hear in science, the one that heralds new discoveries, is not “Eureka” but “That’s funny”, Isaac Asimov
+
+* "Outliers were removed when the residual had a Studentized residual < -4 or > 4"
+:::
+
+::: {.column width="45%"}
+![](https://upload.wikimedia.org/wikipedia/commons/3/34/Isaac.Asimov01.jpg){width=320px}
+:::
+::::
+
+:::: aside
+<a href="https://commons.wikimedia.org/wiki/File:Isaac.Asimov01.jpg">Phillip Leonian [1] from New York World-Telegram &amp; Sun.[2]</a>, Public domain, via Wikimedia Commons
+::::
+
+
+# Causal analysis
+
+## Causal pathways
+
+Use your knowledge
+
+Draw the associations
+
+## Can be complex
+
+![](figures/complex_dag.jpg)
+
+:::: aside
+DOI: [10.1186/1471-2288-8-70](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/1471-2288-8-70)
+::::
+
+
+## Software{background-color='#525252'}
+
+:::: columns
+::: {.column width="55%"}
+Good software is like a good pair of boots. It helps, but it doesn't suddenly make you an elite player.
+:::
+
+::: {.column width="45%"}
+
+![](figures/braden-hopkins-2-7vd8dvyoI-unsplash.jpg)
+:::
+::::
+
+:::: aside
+Photo by <a href="https://unsplash.com/@bradenh13?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Braden Hopkins</a> on <a href="https://unsplash.com/photos/brown-and-white-textile-on-white-metal-frame-2-7vd8dvyoI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+
+## Pre-registration
+
+ANZCTR [https://www.anzctr.org.au/](https://www.anzctr.org.au/)
+
+As predicted [https://aspredicted.org/](https://aspredicted.org/)

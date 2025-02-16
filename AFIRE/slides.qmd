@@ -1,0 +1,261 @@
+---
+title: "<small>Partial Randomisation at The British Academy</small>"
+author: Adrian Barnett<br>13 March 2025
+institute: Queensland University of Technology<br><br>Photo by <a href="https://unsplash.com/@chinitogaray?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alejandro Garay</a> on <a href="https://unsplash.com/photos/white-and-blue-round-ornament-1RxbuMvugxk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+title-position: 90%
+format:
+ revealjs: 
+  slide-number: true
+  theme: night
+  chalkboard: false
+  transition: fade
+  preview-links: auto
+  logo: figures/logos.jpg
+title-slide-attributes:
+ data-position: relative
+ data-background-image: figures/alejandro-garay-1RxbuMvugxk-unsplash.jpg
+ data-background-size: cover
+ data-background-opacity: "0.4"
+editor: 
+ markdown: 
+  wrap: 72
+---
+
+## When the reasons run out{background-color='#be9d58'}
+
+:::: columns
+::: {.column width="60%"}
+* Football matches (England, Africa Cup of Nations, The Netherlands)
+
+* Places on medical degrees (Sweden, The Netherlands)
+
+* Military conscription (USA, Australia)
+
+* Athenian democracy 
+:::
+
+::: {.column width="40%"}
+
+![](https://upload.wikimedia.org/wikipedia/commons/2/2b/AGMA_Kleroterion.jpg)
+
+Kleroterion
+
+:::
+::::
+
+:::: aside
+<a href="https://commons.wikimedia.org/wiki/File:AGMA_Kleroterion.jpg">Marsyas</a>, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, via Wikimedia Commons
+::::
+
+## <small>Perfect ranking is impossible part 1</small>{background-color='white'}
+
+![](https://iiif.elifesciences.org/lax/13323%2Felife-13323-fig1-v1.tif/full/,1500/0/default.jpg){width=500}
+
+:::: aside
+<p style="color:black">DOI: [10.7554/eLife.13323](https://elifesciences.org/articles/13323)</p>
+::::
+
+## <small>Perfect ranking is impossible part 2</small>
+
+:::: columns
+::: {.column width="55%"}
+* Luck of the draw of the reviewers
+
+* Australian data:
+  - 9% grant proposals were always funded
+  - 29% sometimes funded
+  - 61% never funded
+:::
+
+::: {.column width="45%"}
+
+![](figures/hush-naidoo-jade-photography-ax_jJpHdYjI-unsplash.jpg){width=330}
+
+:::
+
+::::
+
+:::: aside
+DOI: [10.1136/bmj.d4797](https://www.bmj.com/content/343/bmj.d4797)
+
+Photo by <a href="https://unsplash.com/@hush52?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Hush Naidoo Jade Photography</a> on <a href="https://unsplash.com/photos/stainless-steel-round-table-on-brown-wooden-table-ax_jJpHdYjI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      
+::::
+
+## <small>New Zealand Health Research Council</small>{background-color='#7fb0e8'}
+
+:::: {.columns}
+::: {.column width="60%"}
+* Fellowship was NZD $150,000 (£70,000) over 3 years
+
+* Two yes/no criteria: 
+  - the research is potentially transformative
+  - the proposal is exploratory but viable
+
+* Randomised if most reviewers gave two Yes's
+:::
+  
+::: {.column width="40%"}
+![](figures/casey-horner-75_s8iWHKLs-unsplash.jpg)
+::: 
+  
+::::
+  
+:::: aside
+Photo by <a href="https://unsplash.com/@mischievous_penguins?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Casey Horner</a> on <a href="https://unsplash.com/photos/mountains-covered-with-snow-near-road-75_s8iWHKLs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## Survey of applicants{background-color='#f9f9f9'}
+
+:::: {.columns}
+::: {.column width="60%"}
+
+<small>
+
+* Randomisation is an acceptable method, with 63% in favour and 25% against
+
+::: incremental
+* Researchers wanted ineligible applications to be excluded and outstanding applications funded, so the remaining applications were truly equal
+
+* Greater support for randomisation amongst those that won funding at random
+:::
+
+</small>
+
+:::
+::: {.column width="40%"}
+
+![](figures/thom-milkovic-FTNGfpYCpGM-unsplash.jpg){width=330}
+:::
+
+::::
+
+:::: Aside
+<small>Photo by <a href="https://unsplash.com/@thommilkovic?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Thom Milkovic</a> on <a href="https://unsplash.com/photos/person-using-black-typewriter-FTNGfpYCpGM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>; DOI: [10.1186/s41073-019-0089-z](https://researchintegrityjournal.biomedcentral.com/articles/10.1186/s41073-019-0089-z) </small>
+::::
+
+---
+## <small>Priority setting on research funding</small>{background-color='#dcdfd8'}
+
+:::: columns
+::: {.column width="67%"}
+
+#### <small>Top 2 questions:</small>
+
+* Would a lottery be fairer and more efficient without reducing quality?
+
+* How much is enough effort for applying + judging application efforts, before a random lottery-style allocation becomes just as good as further adjudication?
+
+:::
+
+::: {.column width="33%"}
+![](figures/arnold-antoo-diWpdk2ZCK8-unsplash.jpg)
+:::
+
+::::
+
+:::: aside
+DOI: [10.17605/OSF.IO/MTWRQ](https://osf.io/mtwrq/); Photo by <a href="https://unsplash.com/@arnold_antoo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Arnold Antoo</a> on <a href="https://unsplash.com/photos/brown-wooden-barrels-on-white-surface-diWpdk2ZCK8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+
+## Arguments against using a modified lottery{background-color='#0c506f'}
+
+:::: columns
+::: {.column width="50%"}
+* Rewards less deserving and/or less enthusiastic
+
+* Encourages less talented to apply
+
+* Applicants put in less effort
+:::
+
+::: {.column width="50%"}
+![](https://media.giphy.com/media/LOEI8jsNKPmzdJYvhJ/giphy.gif)
+:::
+:::: 
+
+:::: aside
+from giphy.com
+::::
+
+
+
+## Potential benefits
+
+:::: columns
+::: {.column width="65%"}
+<small>
+
+* Reduces cronyism (and perception of cronyism)
+
+::: incremental
+* Increases diversity in applicants and winners
+
+* Reduces application and review costs
+
+* Acknowledges that science is unpredictable
+
+* Reduces stigma of failure
+
+* Might reduce "Matthew effect"
+
+* Applicants might try more innovative ideas
+
+* Creates an ideal randomised trial of funding
+:::
+
+</small>
+:::
+
+::: {.column width="35%"}
+
+![](https://media.giphy.com/media/lbrzkRK0DxSEg/giphy.gif)
+
+:::
+
+::::
+
+:::: aside
+from giphy.com
+::::
+
+## Lotteries create ideal trials{background-color='white'}
+
+<small>"Having a doctor in the family raises preventive health investments throughout the life cycle, improves physical health, and prolongs life."</small>
+
+![](figures/doctor_family.jpg){width=610}
+
+:::: aside
+<p style="color:black">DOI: [10.1257/app.20200405](https://www.aeaweb.org/articles?id=10.1257/app.20200405)</p>
+::::
+
+
+## Bad publicity{background-color='white'}
+
+![](figures/irish_times_lottery.png){.absolute top="20" right="20"}
+
+:::: aside
+<p style="color:black">From Irish Times, August 2024</p>
+::::
+
+## Ticket?{background-image='figures/dylan-mullins-Ubhjpv7q0Pk-unsplash.jpg' background-size='contain' background-position='right'}
+
+:::: aside
+Photo by <a href="https://unsplash.com/@dylanmullins?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Dylan Mullins</a> on <a href="https://unsplash.com/photos/woman-in-blue-jumpshorts-beside-assorted-ticket-wall-graffiti-Ubhjpv7q0Pk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## Summary{background-image='figures/florian-schmetz-fbCtFV3FkfE-unsplash.jpg' background-size='cover' background-opacity=0.4}
+
+::: incremental
+* Complex systems may feel thorough, but they are costly and potentially amplify biases
+
+* There will never be a perfect system for the incredibly difficult task of accurately allocating research funding
+
+* Lotteries can be the most scientific approach
+:::
+
+:::: aside
+Photo by <a href="https://unsplash.com/@floschmaezz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Florian Schmetz</a> on <a href="https://unsplash.com/photos/white-and-brown-concrete-house-fbCtFV3FkfE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+      
