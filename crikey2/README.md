@@ -1,6 +1,6 @@
 # Second Crikey summit, Critical care Research International, February 2025, Gold Coast
 
-Title: Research fraud is not rare and could be harming patients.
+Title: Research Fraud and How to Stop it in its Tracks
 
 Abstract: 
 

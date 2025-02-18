@@ -1,6 +1,6 @@
 ---
 title: "<small>Partial Randomisation at The British Academy</small>"
-author: Adrian Barnett<br>13 March 2025
+author: Adrian Barnett<br>19 February 2025
 institute: Queensland University of Technology<br><br>Photo by <a href="https://unsplash.com/@chinitogaray?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alejandro Garay</a> on <a href="https://unsplash.com/photos/white-and-blue-round-ornament-1RxbuMvugxk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 title-position: 90%
 format:
@@ -25,7 +25,7 @@ editor:
 
 :::: columns
 ::: {.column width="60%"}
-* Football matches (England, Africa Cup of Nations, The Netherlands)
+* Football matches (England, Africa Cup of Nations)
 
 * Places on medical degrees (Sweden, The Netherlands)
 
@@ -248,7 +248,7 @@ Photo by <a href="https://unsplash.com/@dylanmullins?utm_content=creditCopyText&
 ## Summary{background-image='figures/florian-schmetz-fbCtFV3FkfE-unsplash.jpg' background-size='cover' background-opacity=0.4}
 
 ::: incremental
-* Complex systems may feel thorough, but they are costly and potentially amplify biases
+* Complex application systems may feel thorough, but they are costly and potentially amplify biases
 
 * There will never be a perfect system for the incredibly difficult task of accurately allocating research funding
 

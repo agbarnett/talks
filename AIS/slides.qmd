@@ -105,6 +105,16 @@ Photo by <a href="https://unsplash.com/@cliqueimages?utm_content=creditCopyText&
 
 ![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjd5NHFuemxjd2JmazlhNGFvN3R2MzltMmR4YXFjdGphczJidGZ2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kCSWo63O0gjvLVyKNL/giphy.gif)
 
+## Dogma
+
+Why do people fall back on dogma and recipes
+
+Because they don't know what they are doing
+
+We can demonstrate some tests are better
+
+Small cell sizes, t-test is better than Fisher.
+
 ## What is statistics?
 
 -   Statistics uses data to inform decision making
@@ -149,6 +159,16 @@ DOI: [10.1136/bjsports-2020-102607](https://bjsm.bmj.com/content/55/2/118.long)
 
 Add z-score plot. Do i have it for sports science?
 
+## Episcope
+
+```{r}
+source('mistake_diagram.R')
+```
+
+Need license for episcope, so use own version
+
+From x
+
 ## Evidence pyramid{background-color='white'}
 
 ![](figures/levels-of-evidence.svg){width=540}
@@ -161,6 +181,7 @@ Add z-score plot. Do i have it for sports science?
 
 ![](figures/evidence_jumble.png){width=500}
 
+* The quality of the study matters way more than the design
 
 ## Mistakes
 
@@ -199,6 +220,16 @@ The worst errors are those that are undetected
 
 # Plots
 
+"give the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space", Tufte, _The Visual Display of Quantitative
+Information_
+
+## White space dogma
+
+Add lancet picture, talk again about difference between the original distribution and the mean. Find a similar picture from sports science.
+
+Sample to get normality. Make a video
+
+
 ## Use plots 
 
 A good graph is a great way to show your data
@@ -230,20 +261,48 @@ width="720" height="480"}
 ![](figures/vc_pay.png)
 
 :::: aside
-From the [Australia Institute](https://australiainstitute.org.au/post/the-high-pay-for-vice-chancellors-does-not-deliver-better-outcomes-for-students/)
+<p style="color:black">From the [Australia Institute](https://australiainstitute.org.au/post/the-high-pay-for-vice-chancellors-does-not-deliver-better-outcomes-for-students/)</p>
 ::::
 
 ## Don't start at zero{background-color='white'}
 
-![](figures/vc_scatter.png)
+![](figures/vc_scatter.png){width=450}
 
 :::: aside
-From the [Australia Institute](https://australiainstitute.org.au/post/the-high-pay-for-vice-chancellors-does-not-deliver-better-outcomes-for-students/)
+<p style="color:black">From the [Australia Institute](https://australiainstitute.org.au/post/the-high-pay-for-vice-chancellors-does-not-deliver-better-outcomes-for-students/)</p>
 ::::
 
-## Pie charts
+## Misleading
 
-Never use them again.
+Add plot
+
+## Physician age
+
+Add two versions of the same plot
+
+## Pie charts are terrible{background-color='white'}
+
+![](figures/pie_charts.jfif){width=300}
+
+:::: aside
+<p style="color:black">From Wikimedia Commons by [Schutz](https://commons.wikimedia.org/wiki/User:Schutz)<p>
+::::
+
+## Bar charts ...{background-color='white'}
+
+ ... should never be used for continuous data
+
+![](figures/pbio.1002128.g001.png)
+
+:::: aside
+<p style="color:black">DOI: [10.1371/journal.pbio.1002128](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128)<p>
+::::
+
+## Use box plots instead
+
+## marathon times
+
+## Show tables reducing clutter
 
 ## Decimal places
 
@@ -345,12 +404,12 @@ Use your knowledge
 
 Draw the associations
 
-## Can be complex
+## Can be complex{background-color='white'}
 
 ![](figures/complex_dag.jpg)
 
 :::: aside
-DOI: [10.1186/1471-2288-8-70](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/1471-2288-8-70)
+<p style="color:black">DOI: [10.1186/1471-2288-8-70](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/1471-2288-8-70)</p>
 ::::
 
 
@@ -358,7 +417,16 @@ DOI: [10.1186/1471-2288-8-70](https://bmcmedresmethodol.biomedcentral.com/articl
 
 :::: columns
 ::: {.column width="55%"}
-Good software is like a good pair of boots. It helps, but it doesn't suddenly make you an elite player.
+* Correlation is not causation
+
+* Elite players have nice kit
+
+* Having nice kit does not make you an elite player
+
+::: incremenal
+* Great software does not make you a data ninja
+:::
+
 :::
 
 ::: {.column width="45%"}
@@ -377,3 +445,7 @@ Photo by <a href="https://unsplash.com/@bradenh13?utm_content=creditCopyText&utm
 ANZCTR [https://www.anzctr.org.au/](https://www.anzctr.org.au/)
 
 As predicted [https://aspredicted.org/](https://aspredicted.org/)
+
+## Further reading
+
+![](figures/davidBook.jpg)
