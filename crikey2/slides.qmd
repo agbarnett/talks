@@ -35,3 +35,68 @@ By anonymous/unknown - NYPL,<br>Public Domain, https://commons.wikimedia.org/w/<
 
 
 ## <small style="color:white">.</small>{background-color='white' background-image='figures/lesne_ashe.png' background-size='contain' background-position='center'}
+
+
+## <x-small style="color:transparent">.</x-small>{background-image='figures/protest_nih.jpg' background-size='cover'}
+
+:::: aside
+From @everthingsjake.bsky.social, 20 Feb 2025
+::::
+
+## <x-small style="color:transparent">.</x-small>{background-image='figures/stapel.jpg' background-size='cover'}
+
+
+
+## <x-small style="color:transparent">.</x-small>{background-color='#182518'}
+
+![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDlzZGlmaWlpeXA4cWF5cTN1bGNnbGFiazl3c29yamx2aHNpaTVhcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EKDGlXqALQUOQ/giphy.gif)
+
+
+## <small style="color:#87CEEB">Fund whistleblowers and data detectives</small>{background-image='figures/Lance_Armstrong_zoom.jpg' background-size='contain'}
+
+## <small style="color:transparent">.</small>{background-color='white'}
+
+![](figures/bar_graph_fraud.png)
+
+## <x-small style="color:transparent">.</x-small>{background-image='figures/nature_cover.jpg' background-size='contain' background-position='right'}
+
+:::: aside
+By David Perkins
+::::
+
+
+## <xx-small style="color:transparent">.</xx-small>{background-image='figures/Authorship-for-sale.jpg' background-size='contain' background-position='right'}
+
+:::: aside
+From author-for-sale.bsky.social
+::::
+
+## <xx-small style="color:transparent">.</xx-small>{background-image='figures/alex_boiler.jpg' background-size='contain'}
+
+:::: aside
+<p style="color:#FFFF00">From ABC news, supplied; Boiler photo courtesy of J Fraser</p>
+::::
+
+
+## <small style="color:#473023">.</small>{background-color='#473023'}
+
+:::: columns
+::: {.column width="50%"}
+
+Matthew Schrag
+:::
+
+::: {.column width="40%"}
+![](figures/Matthew-Schrag.webp)
+:::
+
+::::
+
+:::: aside
+Image from schraglab.com
+::::
+
+<!--- “You can cheat to get a paper. You can cheat to get a degree. 
+
+You can’t cheat to cure a disease. Biology doesn’t care.” --->
+

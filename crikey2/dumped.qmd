@@ -1,0 +1,1 @@
+## <small style="color:white">.</small>{background-image='figures/katie-sandlin.png' background-size='contain' background-color='white'}

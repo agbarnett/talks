@@ -25,9 +25,7 @@ editor:
 
 :::: columns
 ::: {.column width="60%"}
-* Olympic tickets
-
-* Football matches (England, Africa Cup of Nations, The Netherlands)
+* Football matches (England)
 
 * Places on medical degrees (Sweden, The Netherlands)
 
@@ -81,7 +79,7 @@ Kleroterion
 ::: {.column width="55%"}
 * Luck of the draw of the reviewers
 
-* Australian data from the NHMRC
+* Australian data:
   - 9% grant proposals were always funded
   - 29% sometimes funded
   - 61% never funded
@@ -101,6 +99,7 @@ DOI: [10.1136/bmj.d4797](https://www.bmj.com/content/343/bmj.d4797)
 Photo by <a href="https://unsplash.com/@hush52?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Hush Naidoo Jade Photography</a> on <a href="https://unsplash.com/photos/stainless-steel-round-table-on-brown-wooden-table-ax_jJpHdYjI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
       
 ::::
+
 
 ## Katalin Karikó
 
@@ -183,7 +182,8 @@ Thanks to Tom Stafford at RoRI for this list
 ::::
 
 
-## <small>New Zealand Health Research Council</small>
+## <small>New Zealand Health Research Council</small>{background-color='#7fb0e8'}
+
 
 :::: {.columns}
 ::: {.column width="60%"}
@@ -206,13 +206,14 @@ Thanks to Tom Stafford at RoRI for this list
 Photo by <a href="https://unsplash.com/@mischievous_penguins?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Casey Horner</a> on <a href="https://unsplash.com/photos/mountains-covered-with-snow-near-road-75_s8iWHKLs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 ::::
 
-## Attitudes of applicants
+## Survey of applicants{background-color='#f9f9f9'}
 
-<!--- could add image --->
+:::: {.columns}
+::: {.column width="60%"}
 
-* Survey of New Zealand researchers who had experienced randomisation
+<small>
 
-* Randomisation is an acceptable method for allocating Explorer Grant funds with 63% in favour and 25% against
+* Randomisation is an acceptable method, with 63% in favour and 25% against
 
 ::: incremental
 * Researchers wanted ineligible applications to be excluded and outstanding applications funded, so the remaining applications were truly equal
@@ -220,11 +221,20 @@ Photo by <a href="https://unsplash.com/@mischievous_penguins?utm_content=creditC
 * Greater support for randomisation amongst those that won funding at random
 :::
 
-:::: Aside
-DOI: [10.1186/s41073-019-0089-z](https://researchintegrityjournal.biomedcentral.com/articles/10.1186/s41073-019-0089-z) 
+</small>
+
+:::
+::: {.column width="40%"}
+
+![](figures/thom-milkovic-FTNGfpYCpGM-unsplash.jpg){width=330}
+:::
+
 ::::
 
----
+:::: Aside
+<small>Photo by <a href="https://unsplash.com/@thommilkovic?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Thom Milkovic</a> on <a href="https://unsplash.com/photos/person-using-black-typewriter-FTNGfpYCpGM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>; DOI: [10.1186/s41073-019-0089-z](https://researchintegrityjournal.biomedcentral.com/articles/10.1186/s41073-019-0089-z) </small>
+::::
+
 ## <small>Priority setting on research funding</small>{background-color='#dcdfd8'}
 
 :::: columns
@@ -312,34 +322,36 @@ from giphy.com
 from giphy.com
 ::::
 
-## Lotteries create perfect trials{background-color='white'}
+## Lotteries create ideal trials{background-color='white'}
 
 <small>"Having a doctor in the family raises preventive health investments throughout the life cycle, improves physical health, and prolongs life."</small>
 
-![](figures/doctor_family.jpg){width=550}
+![](figures/doctor_family.jpg){width=610}
 
 :::: aside
 <p style="color:black">DOI: [10.1257/app.20200405](https://www.aeaweb.org/articles?id=10.1257/app.20200405)</p>
 ::::
 
 
-## Bad publicity
+## Bad publicity{background-color='white'}
 
 ![](figures/irish_times_lottery.png){.absolute top="20" right="20"}
 
 :::: aside
-From Irish Times, August 2024
+<p style="color:black">From Irish Times, August 2024</p>
 ::::
 
-## <small style="color:#c9b49f">.</small>{background-image='figures/florian-schmetz-fbCtFV3FkfE-unsplash.jpg' background-size='cover' background-opacity=0.4}
 
-* The current complex systems are creating costs and potentially amplifying biases
+## Summary{background-image='figures/florian-schmetz-fbCtFV3FkfE-unsplash.jpg' background-size='cover' background-opacity=0.4}
 
-* There will never be a perfect system for the complex question of accurately allocating research funding
+::: incremental
+* Complex application systems may feel thorough, but they are costly and potentially amplify biases
 
-* Lotteries are the most scientific approach
+* There will never be a perfect system for the incredibly difficult task of accurately allocating research funding
+
+* Lotteries can be the most scientific approach
+:::
 
 :::: aside
 Photo by <a href="https://unsplash.com/@floschmaezz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Florian Schmetz</a> on <a href="https://unsplash.com/photos/white-and-brown-concrete-house-fbCtFV3FkfE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 ::::
-      
