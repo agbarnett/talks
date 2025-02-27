@@ -68,7 +68,9 @@ By David Perkins
 ## <xx-small style="color:transparent">.</xx-small>{background-image='figures/Authorship-for-sale.jpg' background-size='contain' background-position='right'}
 
 :::: aside
-From author-for-sale.bsky.social
+From author-for
+
+-sale.bsky.social
 ::::
 
 ## <xx-small style="color:transparent">.</xx-small>{background-image='figures/alex_boiler.jpg' background-size='contain'}
