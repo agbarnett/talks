@@ -31,7 +31,7 @@ editor:
 
 * Military conscription (USA, Australia)
 
-* Athenian democracy 
+* Athenian democracy
 :::
 
 ::: {.column width="40%"}
