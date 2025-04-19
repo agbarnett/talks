@@ -1,0 +1,20 @@
+:::: columns
+::: {.column width="40%"}
+:::
+  
+::: {.column width="60%"}
+:::
+::::
+
+  
+:::: aside
+::::
+  
+  
+<p style="color:black"></p>
+  
+  
+  {background-color='white'}
+
+
+<p style="font-size:80%"></p>

@@ -10,7 +10,7 @@
 <link href="slides_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.57">
 
-  <meta name="author" content="Adrian Barnett 14 May 2025">
+  <meta name="author" content="Adrian Barnett 13 May 2025">
   <title>Statistical thinking</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -325,16 +325,16 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="figures/benjamin-davies-JrZ1yE1PjQ0-unsplash.jpg" data-background-opacity="0.4" data-background-size="cover" data-position="relative" class="quarto-title-block center">
+<section id="title-slide" data-background-image="figures/mick-haupt-kgRBoAKq-4E-unsplash.jpg" data-background-opacity="0.4" data-background-size="cover" data-position="relative" class="quarto-title-block center">
   <h1 class="title">Statistical thinking</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Adrian Barnett<br>14 May 2025 
+Adrian Barnett<br>13 May 2025 
 </div>
         <p class="quarto-title-affiliation">
-            Queensland University of Technology<br><br>Photo by <a href="https://unsplash.com/@bendavisual?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Benjamin Davies</a> on <a href="https://unsplash.com/photos/man-on-grass-field-looking-at-sky-JrZ1yE1PjQ0?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a>
+            Queensland University of Technology<br><br>Photo by <a href="https://unsplash.com/@rocinante_11?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Mick Haupt</a> on <a href="https://unsplash.com/photos/white-red-green-and-yellow-multi-color-heart-print-textile-kgRBoAKq-4E?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a>
           </p>
     </div>
 </div>
@@ -351,9 +351,9 @@ Adrian Barnett<br>14 May 2025
 <div class="columns">
 <div class="column" style="width:60%;">
 <ul>
-<li>Can’t teach you statistics in a day</li>
+<li>I can’t teach you statistics in a day</li>
 <li>We have some tutorials</li>
-<li>These slides are openly available online and have links to papers mentioned <small> <a href="https://agbarnett.github.io/talks/AIS/slides">https://agbarnett.github.io/talks/AIS/slides</a> </small></li>
+<li>These slides are available online and have links to papers mentioned <small> <a href="https://agbarnett.github.io/talks/AIS/slides">https://agbarnett.github.io/talks/AIS/slides</a> </small></li>
 </ul>
 </div><div class="column" style="width:40%;">
 <p><img data-src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXR5bjVzMnd2amtsYWJkMmkwZGo4dnZ6Z3R0ZmlsZXgzOHA4ZWI3YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l378AEZceMwWboAQE/giphy.gif"></p>
@@ -402,10 +402,17 @@ Adrian Barnett<br>14 May 2025
 <aside><div>
 <p>Photo by <a href="https://unsplash.com/@cliqueimages?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Clique Images</a> on <a href="https://unsplash.com/photos/person-climbing-concrete-stairs-hSB2HmJYaTo?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a></p>
 </div></aside></section>
-<section id="what-are-we-trying-to-achieve-with-research" class="slide level2" data-background-color="#d8c9ba">
-<h2><small>What are we trying to achieve with research?</small></h2>
+<section id="group-question-what-are-we-trying-to-achieve-with-research" class="slide level2" data-background-color="#d8c9ba">
+<h2><small>Group question: what are we trying to achieve with research?</small></h2>
 
 <img data-src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjd5NHFuemxjd2JmazlhNGFvN3R2MzltMmR4YXFjdGphczJidGZ2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kCSWo63O0gjvLVyKNL/giphy.gif" class="r-stretch"></section>
+<section id="dogma" class="slide level2">
+<h2>Dogma</h2>
+<p>Why do people fall back on dogma and recipes</p>
+<p>Because they don’t know what they are doing</p>
+<p>We can demonstrate some tests are better</p>
+<p>Small cell sizes, t-test is better than Fisher.</p>
+</section>
 <section id="what-is-statistics" class="slide level2">
 <h2>What is statistics?</h2>
 <ul>
@@ -423,11 +430,13 @@ Adrian Barnett<br>14 May 2025
 </section>
 <section id="simple-is-elegant" class="slide level2">
 <h2>Simple is elegant</h2>
+<div>
 <ul>
-<li><p>“There are only a handful of ways to do a study properly but a thousand ways to do it wrong”, David Sackett</p></li>
-<li><p>“You cannot fix with analysis what you bungle by design”, from <em>Planning Research on Higher Education</em> by Light, Singer and Willett</p></li>
-<li><p>More effort in the design can often mean less work for the statistics</p></li>
+<li class="fragment"><p>“There are only a handful of ways to do a study properly but a thousand ways to do it wrong”, David Sackett</p></li>
+<li class="fragment"><p>“You cannot fix with analysis what you bungle by design”, from <em>Planning Research on Higher Education</em> by Light, Singer and Willett</p></li>
+<li class="fragment"><p>More effort in the design and data collection will generally mean less work for the statistics</p></li>
 </ul>
+</div>
 </section>
 <section id="ten-simple-rules-for-good-research-practice" class="slide level2" data-background-color="white">
 <h2><small>Ten simple rules for good research practice</small></h2>
@@ -439,19 +448,30 @@ Adrian Barnett<br>14 May 2025
 DOI: <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010139">10.1371/journal.pcbi.1010139</a>
 </p>
 </div></aside></section>
-<section id="we-have-a-problem" class="slide level2">
-<h2>We have a problem</h2>
-<p>“Statistical errors are common in many biomedical fields.1–5 We believe the nature and impact of these errors to be great enough in sports science and medicine to warrant special attention”</p>
+<section id="specific-problem-in-sports-science" class="slide level2">
+<h2>Specific problem in sports science</h2>
+<p>“Statistical errors are common in many biomedical fields. We believe the nature and impact of these errors to be great enough in sports science and medicine to warrant special attention”</p>
 <p>DOI: <a href="https://bjsm.bmj.com/content/55/2/118.long">10.1136/bjsports-2020-102607</a></p>
-<p>Add z-score plot. Do i have it for sports science?</p>
 </section>
-<section id="episcope" class="slide level2">
-<h2>Episcope</h2>
-<p>Need license for episcope, so use own version</p>
-<p>From x</p>
+<section id="section" class="slide level2" data-background-image="figures/Recommendations-for-conducting-AIS-supported-research-2022_08-1.png" data-background-size="contain" data-background-position="center">
+<h2><xx-small style="color:transparent">.</xx-small></h2>
 </section>
-<section id="evidence-pyramid" class="slide level2" data-background-color="white">
-<h2>Evidence pyramid</h2>
+<section id="serious-problem" class="slide level2">
+<h2>Serious problem</h2>
+<p><img data-src="figures/Z_plot_slide.png" width="800"></p>
+
+<aside><div>
+<p>DOI: <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/stan.12241">10.1111/stan.12241</a></p>
+</div></aside></section>
+<section id="also-a-serious-in-sports-science" class="slide level2">
+<h2>Also a serious in sports science</h2>
+<p><img data-src="figures/z_values.png" width="800"></p>
+
+<aside><div>
+<p>DOI: <a href="https://www.sciencedirect.com/science/article/pii/S1440244023000403">10.1016/j.jsams.2023.03.002</a></p>
+</div></aside></section>
+<section id="evidence-pyramid-ideal" class="slide level2" data-background-color="white">
+<h2>Evidence pyramid (ideal)</h2>
 <p><img data-src="figures/levels-of-evidence.svg" width="540"></p>
 
 <aside><div>
@@ -459,8 +479,8 @@ DOI: <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.
 From <a href="https://openmd.com/guide/levels-of-evidence">OpenMD</a>
 </p>
 </div></aside></section>
-<section id="evidence-jumble" class="slide level2" data-background-color="white">
-<h2>Evidence jumble</h2>
+<section id="evidence-jumble-reality" class="slide level2" data-background-color="white">
+<h2>Evidence jumble (reality)</h2>
 
 <img data-src="figures/evidence_jumble.png" width="500" class="r-stretch"><ul>
 <li>The quality of the study matters way more than the design</li>
@@ -468,9 +488,441 @@ From <a href="https://openmd.com/guide/levels-of-evidence">OpenMD</a>
 </section>
 <section id="mistakes" class="slide level2">
 <h2>Mistakes</h2>
-<p>A big mistake at any stage at the process will undermine all your science</p>
+<p>A big mistake at any stage at the research process will undermine all your science</p>
 <p>The worst errors are those that are undetected</p>
 </section>
+<section>
+<section id="data-collection" class="title-slide slide level1 center" data-background-color="#56869f">
+<h1>Data collection</h1>
+<p><img data-src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjMwYWYwbHpsYTBqY3l2cmdqM3Q0emZiYThsZHg5bXA3b2VuMm8zbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JWuBH9rCO2uZuHBFpm/giphy.gif"></p>
+
+<aside><div>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;from Giflytics on giphy</p>
+</div></aside></section>
+<section id="blinding" class="slide level2">
+<h2>Blinding</h2>
+<p><img data-src="figures/electoral_commission.png"></p>
+
+<aside><div>
+<p>Picture from Guardian</p>
+</div></aside></section>
+<section id="spend-time-on-your-data" class="slide level2">
+<h2>Spend time on your data</h2>
+<ul>
+<li>Excel is useful, but there are many common mistakes</li>
+<li>Be consistent in naming variables and categories, e.g., never: “Male”, “male” and “m” in same variable</li>
+<li>Write dates as YYYY-MM-DD, e.g, 2018-10-16</li>
+<li>Don’t put multiple variables in one cell, e.g., never “Injury - morning”</li>
+<li>Never record information in cell colours</li>
+<li>One rectangular data set per Excel sheet<br>
+</li>
+<li><small><strong>Please please please</strong> read and keep this paper: Karl W. Broman &amp; Kara H. Woo (2018) <a href="https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989">Data Organization in Spreadsheets</a>, <em>The American Statistician</em>, <strong>72</strong>:1, 2–10</small></li>
+</ul>
+</section>
+<section id="blinding-1" class="slide level2">
+<h2>Blinding</h2>
+<ul>
+<li><p>Large and common source of bias</p></li>
+<li></li>
+</ul>
+</section></section>
+<section>
+<section id="p-values" class="title-slide slide level1 center" data-background-color="#a6a88c">
+<h1>P-values</h1>
+<p><img data-src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExenFrcHNrZXBtOWp5cDdyZHZ1dG1va3RlMDJ1N3RtaGh0aGRyZm9oZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jRbNikCK14sog/giphy.gif"></p>
+
+<aside><div>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From Diego Farao on giphy</p>
+</div></aside></section>
+<section id="multiple-testing-on-steroids" class="slide level2" data-background-color="white">
+<h2>Multiple testing on steroids</h2>
+<p><img data-src="figures/clutter_abstract.png" width="999"></p>
+
+<aside><div>
+<p style="color:black">
+DOI: <a href="https://pubmed.ncbi.nlm.nih.gov/39733433">10.31557/APJCP.2024.25.12.4397</a>
+</p>
+</div></aside></section>
+<section id="coin-tossing-a-simple-experiment" class="slide level2">
+<h2><small>Coin tossing (a simple experiment)</small></h2>
+<div class="columns">
+<div class="column" style="width:65%;">
+<p font-size:11px="">
+</p><ul>
+<li><p>We want to know if a coin is fair</p></li>
+<li><p>Simple experiment of tossing it 10 times (should be a sufficient sample size)</p></li>
+<li><p>What would we expect to see if the coin was fair?</p></li>
+</ul>
+<p></p>
+</div><div class="column" style="width:35%;">
+<p><img data-src="figures/coin_toss.jpg"></p>
+</div></div>
+<!--- image is Beth --->
+</section>
+<section id="coin-tossing-a-simple-experiment-1" class="slide level2" data-visibility="uncounted">
+<h2><small>Coin tossing (a simple experiment)</small></h2>
+<div class="columns">
+<div class="column" style="width:65%;">
+<p font-size:11px="">
+</p><ul>
+<li><p>We want to know if a coin is fair</p></li>
+<li><p>Simple experiment of tossing it 10 times (should be a sufficient sample size)</p></li>
+<li><p>What would we expect to see if the coin was fair?</p></li>
+<li><p>Null <strong>hypothesis</strong>,</p>
+<ul>
+<li>H<span class="math inline">\(_0\)</span>: the coin is fair</li>
+<li>H<span class="math inline">\(_1\)</span>: the coin is not fair</li>
+</ul>
+<p>or in stats language</p>
+<ul>
+<li><p>H<span class="math inline">\(_0\)</span>: Probability(heads) = 0.5</p></li>
+<li><p>H<span class="math inline">\(_1\)</span>: Probability(heads) <span class="math inline">\(\neq\)</span> 0.5</p></li>
+</ul></li>
+</ul>
+<p></p>
+</div><div class="column" style="width:35%;">
+<p><img data-src="figures/coin_toss.jpg"></p>
+</div></div>
+<!--- image is Beth --->
+</section>
+<section id="simulated-data-using-a-fair-coin" class="slide level2" data-background-color="white">
+<h2>Simulated data using a fair coin</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>The number of heads in 10 tosses from 1,000 experiments</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="figures/coin_bar.png" width="530"></p>
+</div></div>
+</section>
+<section id="simulated-data-using-a-fair-coin-1" class="slide level2" data-background-color="white">
+<h2>Simulated data using a fair coin</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>Rare to get 10 heads: 2 in 1000 times, probability = 0.002</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="figures/coin_bar_colour.png" width="530"></p>
+</div></div>
+</section>
+<section id="simulated-data-using-a-fair-coin-2" class="slide level2" data-background-color="white" data-visibility="uncounted">
+<h2>Simulated data using a fair coin</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>Quite rare to get 9 or more heads: 13 in 1000 times, p = 0.013</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="figures/coin_bar_colour2.png" width="530"></p>
+</div></div>
+</section>
+<section id="simulated-data-using-a-fair-coin-3" class="slide level2" data-background-color="white" data-visibility="uncounted">
+<h2>Simulated data using a fair coin</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>Numbers often in the range 4 to 6: 493 out of 1000, p = 0.493 <span class="math inline">\(\approx\)</span> 0.5</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="figures/coin_bar_colour3.png" width="530"></p>
+</div></div>
+</section>
+<section id="testing-a-new-coin-running-a-new-study" class="slide level2">
+<h2>Testing a new coin (running a new study)</h2>
+<p><small></small></p><small>
+<ul>
+<li>Run a new experiment with our coin of unknown fairness</li>
+<li>Compare new results with the <strong>distribution</strong> from a fair coin</li>
+<li>If we observed 10 heads we would be inclined to think it wasn’t fair</li>
+</ul>
+</small><p><small></small></p>
+</section>
+<section id="testing-a-new-coin-running-a-new-study-1" class="slide level2" data-visibility="uncounted">
+<h2>Testing a new coin (running a new study)</h2>
+<p><small></small></p><small>
+<ul>
+<li>Run a new experiment with our coin of unknown fairness</li>
+<li>Compare new results with the <strong>distribution</strong> from a fair coin</li>
+<li>If we observed 10 heads we would be inclined to think it wasn’t fair</li>
+<li>Based on our fair coin distribution this would only happen 2 in 1000 times (probability = 0.002)</li>
+<li><em>p</em>-value is the probability of observing equally extreme data <em>if</em> the null hypothesis is true</li>
+<li><em>p</em>-value is a <strong>surprise value</strong></li>
+<li>If we saw such an extreme result we’d probably want to take a good look at the coin, or ask who ran the experiment (do we trust the data?)</li>
+</ul>
+</small><p><small></small></p>
+</section>
+<section id="the-context-of-the-experiment" class="slide level2" data-background-color="#b59769">
+<h2>The context of the experiment</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><small></small></p><small>
+<ul>
+<li><p>A tea-drinker claims to be able to tell whether the tea or milk was poured into the cup first</p></li>
+<li><p>A music expert claims to be able to distinguish a page of Haydn score from a page of Mozart</p></li>
+<li><p>A drunken friend says he can predict the outcome of a fair coin</p></li>
+<li><p>Which ones (if any) do you think are likely?</p></li>
+</ul>
+</small><p><small></small></p>
+</div><div class="column" style="width:40%;">
+<p><img data-src="figures/sanju-pandita-xcVkgD7bcLA-unsplash.jpg"></p>
+</div></div>
+
+<aside><div>
+<p>Example from Berger, “Statistical Decision Theory and Bayesian Analysis”</p>
+<p>Photo by <a href="https://unsplash.com/@spxclicks?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Sanju Pandita</a> on <a href="https://unsplash.com/photos/a-teapot-pouring-tea-into-a-cup-xcVkgD7bcLA?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a></p>
+</div></aside></section>
+<section id="the-context-of-the-experiment-1" class="slide level2">
+<h2>The context of the experiment</h2>
+<ul>
+<li>In ten trials of each experiment the correct guess is made every time</li>
+<li>Each experiment has the same <em>p</em>-value (0.002 from our simulations)</li>
+<li>Are we convinced that the music expert has a talent?</li>
+<li>Do we really think the drunk friend is psychic?</li>
+</ul>
+</section>
+<section id="the-context-of-the-experiment-2" class="slide level2" data-visibility="uncounted">
+<h2>The context of the experiment</h2>
+<ul>
+<li>In ten trials of each experiment the correct guess is made every time</li>
+<li>Each experiment has the same <em>p</em>-value (0.002 from our simulations)</li>
+<li>Are we convinced that the music expert has a talent?</li>
+<li>Do we really think the drunk friend is psychic?</li>
+<li>We don’t treat the evidence equally for each trial</li>
+<li>Instead we judge the evidence based on context and our prior experience</li>
+<li><em>p</em>-values must be seen in context (part of the story)</li>
+</ul>
+</section>
+<section id="p-value-0.05-rightarrow-statistical-significance" class="slide level2">
+<h2><em>p</em>-value <span class="math inline">\(&lt;\)</span> 0.05 <span class="math inline">\(\Rightarrow\)</span> statistical significance</h2>
+<p><small></small></p><small>
+<ul>
+<li><p>There’s a generally accepted rule that a <em>p</em>-value <span class="math inline">\(&lt;\)</span> 0.05 is statistically significant, whilst any <em>p</em>-value <span class="math inline">\(\geq 0.05\)</span> is not</p></li>
+<li><p>Means there’s a 0.05 (1 in 20) chance of rejecting the null hypothesis when it’s true</p></li>
+<li><p><strong>Historical hangover</strong> from early work by Roland Fisher in 1926:</p></li>
+</ul>
+<p>“If one in twenty does not seem high enough odds, we may, if we prefer it, draw the line at one in fifty or one in a hundred. Personally, the writer prefers to set a low standard of significance at the 5 per cent point, and ignore entirely all results which fails to reach this level. A scientific fact should be regarded as experimentally established only if a properly designed experiment rarely fails to give this level of significance.”</p>
+</small><p><small></small></p>
+</section>
+<section id="p-value-0.05-rightarrow-statistical-significance-1" class="slide level2">
+<h2><em>p</em>-value <span class="math inline">\(&lt;\)</span> 0.05 <span class="math inline">\(\Rightarrow\)</span> statistical significance</h2>
+<p><small></small></p><small>
+<ul>
+<li>Means that studies with a <em>p</em>-value of 0.0499999 are “accepted”, whilst those with a <em>p</em>-value of 0.0500000 are not, but
+<ul>
+<li>this is only being a tiny jump in evidence</li>
+<li>and is a jump that is not itself statistically significant! E.g., in study with an outcome of body mass index it might be the difference between one subject cutting their toenails or not!</li>
+</ul></li>
+</ul>
+</small><p><small></small></p>
+</section>
+<section id="p-value-0.05-rightarrow-statistical-significance-2" class="slide level2" data-visibility="uncounted">
+<h2><em>p</em>-value <span class="math inline">\(&lt;\)</span> 0.05 <span class="math inline">\(\Rightarrow\)</span> statistical significance</h2>
+<p><small></small></p><small>
+<ul>
+<li><p>Means that studies with a <em>p</em>-value of 0.0499999 are “accepted”, whilst those with a <em>p</em>-value of 0.0500000 are not, but</p>
+<ul>
+<li>this is only being a tiny jump in evidence</li>
+<li>and is a jump that is not itself statistically significant! E.g., in study with an outcome of body mass index it might be the difference between one subject cutting their toenails or not!</li>
+</ul></li>
+<li><p>Lazy decision rule and should be avoided</p></li>
+<li><p>A <em>p</em>-value of 0.06 is substantially different than a <em>p</em>-value of 0.99</p></li>
+<li><p>Always write the <em>p</em>-value as a number, <strong>never</strong> write “Non significant” or “p <span class="math inline">\(&gt;\)</span> 0.05” for a <em>p</em>-value above 0.05</p></li>
+</ul>
+</small><p><small></small></p>
+</section>
+<section id="over-testing" class="slide level2" data-background-color="white">
+<h2>Over-testing</h2>
+<p><img data-src="figures/rjsp_a_1899610_f0001_b.png"></p>
+
+<aside><div>
+<p>“a = Significant difference from U12 age-group”</p>
+<p>DOI: <a href="https://www.tandfonline.com/doi/full/10.1080/02640414.2021.1899610">10.1080/02640414.2021.1899610</a></p>
+</div></aside></section>
+<section id="judge-p-values-on-a-sliding-scale-and-in-context" class="slide level2">
+<h2><small>Judge <em>p</em>-values on a sliding scale and in context</small></h2>
+<p><img data-src="figures/sterne_pvalues.jpg" width="910"></p>
+
+<aside><div>
+<p>DOI: <a href="https://www.bmj.com/content/322/7280/226.1">10.1136/bmj.322.7280.226</a></p>
+</div></aside></section>
+<section id="what-is-the-ultimate-decision" class="slide level2" data-background-color="#d3b61c">
+<h2>What is the ultimate decision?</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p style="font-size:80%">
+• Previous experiments on coin tossing and tea drinking are small and contained
+</p>
+<p style="font-size:80%">
+• We are usually interested in big hypothesis, e.g.:
+</p>
+<p style="font-size:75%">
+&nbsp;&nbsp;-Is a low-carb, high-fat diet effective for athletes?
+</p>
+<p style="font-size:75%">
+&nbsp;&nbsp;-Can genetic testing predict talent?
+</p>
+</div><div class="column" style="width:40%;">
+<p><img data-src="figures/mark-konig-1CLBm-lnx40-unsplash.jpg"></p>
+</div></div>
+<!--- questions from https://simplifaster.com/articles/unanswered-questions-sports-science-part-two/--->
+
+<aside><div>
+<p>Photo by <a href="https://unsplash.com/@markkoenig?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Mark König</a> on <a href="https://unsplash.com/photos/blue-and-white-quote-board-1CLBm-lnx40?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a></p>
+</div></aside></section>
+<section id="what-is-the-ultimate-decision-1" class="slide level2" data-background-color="#d3b61c" data-visibility="uncounted">
+<h2>What is the ultimate decision?</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p style="font-size:80%">
+• Previous experiments on coin tossing and tea drinking are small and contained
+</p>
+<p style="font-size:80%">
+• We are usually interested in big hypothesis, e.g.:
+</p>
+<p style="font-size:75%">
+&nbsp;&nbsp;-Is a low-carb, high-fat diet effective for athletes?
+</p>
+<p style="font-size:75%">
+&nbsp;&nbsp;-Can genetic testing predict talent?
+</p>
+<p style="font-size:80%">
+• We rarely make a decision about such hypotheses based on one study
+</p>
+<p style="font-size:80%">
+• <em>p</em>-values are usually part of the evidence (or story)
+</p>
+</div><div class="column" style="width:40%;">
+<p><img data-src="figures/mark-konig-1CLBm-lnx40-unsplash.jpg"></p>
+</div></div>
+
+<aside><div>
+<p>Photo by <a href="https://unsplash.com/@markkoenig?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Mark König</a> on <a href="https://unsplash.com/photos/blue-and-white-quote-board-1CLBm-lnx40?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a></p>
+</div></aside></section>
+<section id="accumulating-evidence" class="slide level2" data-background-color="white">
+<h2>Accumulating evidence</h2>
+<p><small>Cumulative meta‐analysis of physical activity effect on long‐term behaviour change</small></p>
+<p><img data-src="figures/OBR-19-1164-g003.jpg" width="560"></p>
+
+<aside><div>
+<p style="color:black">
+DOI: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6099338">10.1111/obr.12690</a>
+</p>
+</div></aside></section>
+<section id="the-bias-for-significance" class="slide level2">
+<h2>The bias for “significance”</h2>
+<p><small></small></p><small>
+<ul>
+<li>RCT of a fabricated journal manuscript with two versions:
+<ul>
+<li>One with statistically significant results (P = 0.003)</li>
+<li>One with no difference (P = 0.18)</li>
+</ul></li>
+<li>Sample size of 210 peer reviewers</li>
+</ul>
+</small><p><small></small></p>
+
+<aside><div>
+<p>DOI: <a href="https://pubmed.ncbi.nlm.nih.gov/21098355/">10.1001/archinternmed.2010.406</a></p>
+</div></aside></section>
+<section id="the-bias-for-significance-1" class="slide level2" data-visibility="uncounted">
+<h2>The bias for “significance”</h2>
+<p><small></small></p><small>
+<ul>
+<li><p>RCT of a fabricated journal manuscript with two versions:</p>
+<ul>
+<li>One with statistically significant results (P = 0.003)</li>
+<li>One with no difference (P = 0.18)</li>
+</ul></li>
+<li><p>Sample size of 210 peer reviewers</p></li>
+<li><p>Reviewers given the positive version were more likely to:</p>
+<ul>
+<li>Recommend publication (97% vs 80%, P <span class="math inline">\(&lt;\)</span> 0.001)</li>
+<li>Detect errors (0.9 vs 0.4, P <span class="math inline">\(&lt;\)</span> 0.001)</li>
+<li>Award higher scores to the <em>identical</em> methods section (8.2 vs 7.5, P = 0.005)</li>
+</ul></li>
+</ul>
+</small><p><small></small></p>
+
+<aside><div>
+<p>DOI: <a href="https://pubmed.ncbi.nlm.nih.gov/21098355/">10.1001/archinternmed.2010.406</a></p>
+</div></aside></section></section>
+<section>
+<section id="confidence-intervals" class="title-slide slide level1 center" data-background-color="#d7bde2">
+<h1>Confidence intervals</h1>
+
+</section>
+<section id="confidence-intervals-1" class="slide level2" data-background-color="white">
+<h2>Confidence intervals</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p>A 95% confidence interval will reach the same conclusions as a two-sided 5% <em>p</em>-value</p></li>
+<li><p>Picture shows confidence intervals (horizontal lines), means (black dots), and null hypothesis of no change (horizontal dotted line)</p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="figures/ci_plots.png"></p>
+</div></div>
+</section>
+<section id="confidence-intervals-2" class="slide level2">
+<h2>Confidence intervals</h2>
+<ul>
+<li>The important number for confidence intervals is usually zero</li>
+<li>E.g., “The new treatment reduced the number of hospital infections by 12 per 1000 admissions (95% CI: -6, 30)”</li>
+<li>So at the lowest end the new treatment actually increased the number of infections by 6 per 1000 admissions</li>
+<li>Confidence intervals <strong>are better</strong> than <em>p</em>-values because they contain more information and they test the null hypothesis</li>
+<li>For rate ratios or odds ratios the null hypothesis is at one, e.g., “The rate of death was 2.0 in the treatment group (95% CI: 1.2, 3.0)” — which would mean a statistically significant increase in deaths</li>
+</ul>
+</section>
+<section id="overlapping-intervals" class="slide level2" data-background-color="white">
+<h2>Overlapping intervals</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<ul>
+<li>Be careful about judging statistical significance between two groups from confidence intervals</li>
+<li>Picture assumes equal standard errors (confidence interval widths) — even harder to judge if this isn’t true</li>
+<li>(Previous graph compared CI with a fixed point)</li>
+</ul>
+</div><div class="column" style="width:45%;">
+<p><img data-src="figures/overlapping_ci.png"></p>
+</div></div>
+<!--- from confidence.intervals.R --->
+</section>
+<section id="ring-toss" class="slide level2" data-background-color="#634522">
+<h2>Ring toss</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p>Calculating a confidence interval is like throwing a ring toss</p></li>
+<li><p>A larger ring is more likely to include the target</p></li>
+<li><p>Rings either include or exclude the target</p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="figures/ring_toss.jpg"></p>
+</div></div>
+
+<aside><div>
+<p>Photo by <a href="https://www.flickr.com/photos/mikecogh/15948532925/in/photostream/">Michael Coghlan</a> CC BY-SA 2.0</p>
+</div></aside></section></section>
+<section>
+<section id="causal-analysis" class="title-slide slide level1 center" data-background-color="#811331">
+<h1>Causal analysis</h1>
+<ul>
+<li><p>“What causes what?” is a common question in research</p></li>
+<li><p>Not purely statistical</p></li>
+<li><p>Use your expertise</p></li>
+</ul>
+</section>
+<section id="effect-of-warming-up-on-the-risk-of-injury" class="slide level2" data-background-color="white">
+<h2><small>Effect of warming up on the risk of injury</small></h2>
+<p><img data-src="figures/complex_dag.jpg"></p>
+
+<aside><div>
+<p style="color:black">
+DOI: <a href="https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/1471-2288-8-70">10.1186/1471-2288-8-70</a>
+</p>
+</div></aside></section>
 <section id="red-cards" class="slide level2" data-background-color="#5d8630">
 <h2>Red cards</h2>
 
@@ -480,38 +932,84 @@ From <a href="https://openmd.com/guide/levels-of-evidence">OpenMD</a>
 <p><img data-src="https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/ampa/2018/ampa_1_3/2515245917747646/20181024/images/large/10.1177_2515245917747646-fig2.jpeg"></p>
 
 <aside><div>
-<p color="black">
+<p style="color:black">
 DOI: <a href="https://journals.sagepub.com/doi/10.1177/2515245917747646">10.1177/2515245917747646</a>
 </p>
 </div></aside></section>
-<section id="spend-time-on-your-data" class="slide level2">
-<h2>Spend time on your data</h2>
+<section id="confounders" class="slide level2" data-background-color="white">
+<h2>Confounders</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
 <ul>
-<li>Excel is useful, but there are many common mistakes</li>
-<li>Be consistent in naming variables and categories, e.g., never: “Male”, “male” and “m” in same variable</li>
-<li>Write dates as YYYY-MM-DD, e.g, 2018-10-16</li>
-<li>Don’t put multiple variables in one cell, e.g., never ``Injury - morning’’</li>
-<li>Never store information in cell colours</li>
-<li>One rectangular data set per Excel sheet<br>
-</li>
-<li><small><strong>Please please please</strong> read and keep this paper: Karl W. Broman &amp; Kara H. Woo (2018) <a href="https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989">Data Organization in Spreadsheets</a>, <em>The American Statistician</em>, <strong>72</strong>:1, 2–10</small></li>
+<li><p>Often wrongly defined in papers</p></li>
+<li><p>Must effect both the outcome and the intervention</p></li>
+<li><p>Confounder must occur before the intervention</p></li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="figures/99_confounders1.jpg"></p>
+</div></div>
+<!--- from 99_draw_confounder --->
+</section>
+<section id="causal-pathway" class="slide level2" data-background-color="white">
+<h2>Causal pathway</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>Don’t adjust for variables on the causal pathway</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="figures/99_confounders2.jpg"></p>
+</div></div>
+</section>
+<section id="dont-use-the-future" class="slide level2" data-background-color="white">
+<h2>Don’t use the future</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>Don’t adjust for variables that happen after the outcome</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="figures/99_confounders3.jpg"></p>
+</div></div>
+</section>
+<section id="tutorial" class="slide level2">
+<h2>Tutorial</h2>
+<ul>
+<li><p>Research question: Are football referees more likely to give red cards to dark-skin-toned players than to light-skin-toned players?</p></li>
+<li><p>What is the PICO: Population, Intervention, Control, Outcome?</p></li>
+<li><p>Draw a causal diagram</p></li>
 </ul>
 </section>
 <section id="myth-busting-1-normality" class="slide level2">
 <h2>Myth-busting #1 – Normality</h2>
 <h3 id="you-want-lumpy-data">YOU WANT LUMPY DATA!</h3>
-</section>
+</section></section>
 <section>
-<section id="plots" class="title-slide slide level1 center">
+<section id="plots" class="title-slide slide level1 center" data-background-color="pink">
 <h1>Plots</h1>
+<ul>
+<li><p>A good graph is a great way to show your findings</p></li>
+<li><p>Not all evidence is about hypothesis tests</p></li>
+<li><p>“Give the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space”, Tufte, <em>The Visual Display of Quantitative Information</em></p></li>
+</ul>
+</section>
+<section id="marathon-times" class="slide level2" data-background-color="white">
+<h2>Marathon times</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="figures/marathon_times.png" style="width:64.0%"></p>
+</figure>
+</div>
+</div>
+</div>
 
-</section>
-<section id="use-plots" class="slide level2">
-<h2>Use plots</h2>
-<p>A good graph is a great way to show your data</p>
-<p>Not all evidence is about hypothesis tests</p>
-<!--- add great example --->
-</section>
+<aside><div>
+<p style="color:black">
+DOI: <a href="https://doi.org/10.1287/mnsc.2015.2417">10.1287/mnsc.2015.2417</a>
+</p>
+</div></aside></section>
 <section id="terrible-plots" class="slide level2">
 <h2>Terrible plots 🤪</h2>
 <p><img data-src="figures/bar_chart_plos.png" class="absolute" style="top: 120px; left: 20px; width: 720px; height: 480px; "></p>
@@ -523,8 +1021,13 @@ DOI: <a href="https://journals.sagepub.com/doi/10.1177/2515245917747646">10.1177
 <!--- 787 x 562 --->
 <p><img data-src="figures/bad_pie_3d.jfif" class="absolute fragment" style="top: 120px; right: 20px; width: 720px; height: 480px; "></p>
 </section>
-<section id="start-at-zero" class="slide level2" data-background-color="white">
-<h2>Start at zero</h2>
+<section id="white-space-dogma" class="slide level2">
+<h2>White space dogma</h2>
+<p>Add lancet picture, talk again about difference between the original distribution and the mean. Find a similar picture from sports science.</p>
+<p>Sample to get normality. Make a video</p>
+</section>
+<section id="always-start-at-zero" class="slide level2" data-background-color="white">
+<h2>Always start at zero</h2>
 <p><img data-src="figures/vc_pay.png"></p>
 
 <aside><div>
@@ -532,45 +1035,217 @@ DOI: <a href="https://journals.sagepub.com/doi/10.1177/2515245917747646">10.1177
 From the <a href="https://australiainstitute.org.au/post/the-high-pay-for-vice-chancellors-does-not-deliver-better-outcomes-for-students/">Australia Institute</a>
 </p>
 </div></aside></section>
-<section id="dont-start-at-zero" class="slide level2" data-background-color="white">
-<h2>Don’t start at zero</h2>
-<p><img data-src="figures/vc_scatter.png" width="400"></p>
+<section id="dont-always-start-at-zero" class="slide level2" data-background-color="white">
+<h2>Don’t always start at zero</h2>
+<p><img data-src="figures/vc_scatter.png" width="450"></p>
 
 <aside><div>
 <p style="color:black">
 From the <a href="https://australiainstitute.org.au/post/the-high-pay-for-vice-chancellors-does-not-deliver-better-outcomes-for-students/">Australia Institute</a>
 </p>
 </div></aside></section>
-<section id="pie-charts-are-terrible" class="slide level2">
+<section id="misleading" class="slide level2">
+<h2>Misleading</h2>
+<p>Add plot</p>
+</section>
+<section id="physician-age" class="slide level2">
+<h2>Physician age</h2>
+<p>Add two versions of the same plot</p>
+</section>
+<section id="pie-charts-are-terrible" class="slide level2" data-background-color="white">
 <h2>Pie charts are terrible</h2>
-<p><img data-src="figures/pie_charts.jfif"></p>
+<p><img data-src="figures/pie_charts.jfif" width="700"></p>
 
 <aside><div>
-<p>From Wikimedia Commons by <a href="https://commons.wikimedia.org/wiki/User:Schutz">Schutz</a></p>
+<p style="color:black">
+From Wikimedia Commons by <a href="https://commons.wikimedia.org/wiki/User:Schutz">Schutz</a>
+</p>
 </div></aside></section>
-<section id="bar-charts" class="slide level2" data-background-color="white">
-<h2>Bar charts …</h2>
-<ul>
-<li>… should never be used for continuous data</li>
-</ul>
+<section id="bar-charts-1" class="slide level2" data-background-color="white">
+<h2>Bar charts #1 …</h2>
+<p>… should never be used for continuous data</p>
 <p><img data-src="figures/pbio.1002128.g001.png"></p>
 
 <aside><div>
-<p>DOI: <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128">10.1371/journal.pbio.1002128</a></p>
+<p style="color:black">
+DOI: <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128">10.1371/journal.pbio.1002128</a>
+</p>
 </div></aside></section>
-<section id="decimal-places" class="slide level2">
-<h2>Decimal places</h2>
-<!-- Show that you get it. -->
+<section id="bar-charts-2" class="slide level2" data-background-color="white">
+<h2>Bar charts #2 …</h2>
+<p>… should never be used when change is important</p>
+<p><img data-src="figures/pbio.1002128.g002.png" width="580"></p>
+
+<aside><div>
+<p style="color:black">
+DOI: <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128">10.1371/journal.pbio.1002128</a>
+</p>
+</div></aside></section>
+<section id="example" class="slide level2" data-background-color="white">
+<h2>Example</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><small>Exercise induced plasma volume expansion lowers cardiovascular strain during 15-km cycling time-trial in acute normobaric hypoxia</small></p>
+<p><small>DOI: <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0297553">10.1371/journal. pone.0297553</a></small></p>
+</div><div class="column" style="width:60%;">
+<p><img data-src="figures/journal.pone.0297553.g002.PNG"></p>
+</div></div>
+<!--- asterisks look like outliers --->
 </section>
-<section id="section" class="slide level2" data-background-color="black">
-<h2></h2>
+<section id="alternative-plot" class="slide level2" data-background-color="white">
+<h2>Alternative plot</h2>
+<!--- from 99_slides_boxplots.R -->
+
+<img data-src="figures/99_box_example.jpg" class="r-stretch"></section>
+<section id="join-individuals" class="slide level2" data-background-color="white">
+<h2>Join individuals</h2>
+<!--- from 99_slides_boxplots.R -->
+
+<img data-src="figures/99_box_example_joined.jpg" class="r-stretch"></section></section>
+<section>
+<section id="tables" class="title-slide slide level1 center" data-background-color="#87CEEB">
+<h1>Tables</h1>
+<p>Tables are another useful way to display results, but are also often done badly</p>
+</section>
+<section id="number-overload" class="slide level2" data-background-color="white">
+<h2><small>Number overload</small></h2>
+<!--- Who ran the most on average -->
+<div class="columns">
+<div class="column" style="width:30%;">
+<p><small>Inter- and intra-microcycle external load analysis in female professional soccer players: A playing position approach</small></p>
+<p><small>DOI: <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0264908">10.1371/journal. pone.0264908</a></small></p>
+</div><div class="column" style="width:70%;">
+<p><img data-src="figures/journal.pone.0264908.t004.PNG" width="580"></p>
+</div></div>
+</section>
+<section id="plot-instead-of-table" class="slide level2" data-background-color="white">
+<h2>Plot instead of table</h2>
+<!--- from 99_table.R --->
+
+<img data-src="figures/99_table_plotted.jpg" class="r-stretch"></section>
+<section id="scaling-metres" class="slide level2">
+<h2>Scaling (metres)</h2>
+<!--- from 99_table --->
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Microcycle</th>
+<th style="text-align: left;">Position</th>
+<th style="text-align: left;">Total Distance</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">M1</td>
+<td style="text-align: left;">Central defender</td>
+<td style="text-align: left;">22524</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">M1</td>
+<td style="text-align: left;">Fullback</td>
+<td style="text-align: left;">22496</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">M1</td>
+<td style="text-align: left;">Central midfielder</td>
+<td style="text-align: left;">23555</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">M1</td>
+<td style="text-align: left;">Forwards</td>
+<td style="text-align: left;">19112</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">M2</td>
+<td style="text-align: left;">Central defender</td>
+<td style="text-align: left;">24108</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">M2</td>
+<td style="text-align: left;">Fullback</td>
+<td style="text-align: left;">23725</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">M2</td>
+<td style="text-align: left;">Central midfielder</td>
+<td style="text-align: left;">22510</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">M2</td>
+<td style="text-align: left;">Forwards</td>
+<td style="text-align: left;">28250</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="scaling-kilometres" class="slide level2">
+<h2>Scaling (kilometres)</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Microcycle</th>
+<th style="text-align: left;">Position</th>
+<th style="text-align: left;">Total Distance</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">M1</td>
+<td style="text-align: left;">Central defender</td>
+<td style="text-align: left;">22.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">M1</td>
+<td style="text-align: left;">Fullback</td>
+<td style="text-align: left;">22.5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">M1</td>
+<td style="text-align: left;">Central midfielder</td>
+<td style="text-align: left;">23.6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">M1</td>
+<td style="text-align: left;">Forwards</td>
+<td style="text-align: left;">19.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">M2</td>
+<td style="text-align: left;">Central defender</td>
+<td style="text-align: left;">24.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">M2</td>
+<td style="text-align: left;">Fullback</td>
+<td style="text-align: left;">23.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">M2</td>
+<td style="text-align: left;">Central midfielder</td>
+<td style="text-align: left;">22.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">M2</td>
+<td style="text-align: left;">Forwards</td>
+<td style="text-align: left;">28.2</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="decimal-places" class="slide level2">
+<h2><xx-small style="color:transparent">Decimal places</xx-small></h2>
+<!-- Show that you get it. -->
+<div class="columns">
 <div class="column" style="width:70%;">
 <p><img data-src="figures/gauss.jfif" class="absolute" style="top: 40px; right: 30px; width: 600px; height: 770px; "></p>
-</div><aside><div>
+</div></div>
+
+<aside><div>
 <p>Painting by Christian Albrecht<br> Jensen, Public domain, via<br> <a href="https://commons.wikimedia.org/wiki/File:Carl_Friedrich_Gauss_1840_by_Jensen.jpg">Wikimedia Commons</a></p>
-</div></aside></section>
-<section id="outliers" class="slide level2">
-<h2>Outliers</h2>
+</div></aside></section></section>
+<section>
+<section id="outliers" class="title-slide slide level1 center" data-background-color="#fad7a0">
+<h1>Outliers</h1>
 <ul>
 <li><p>Don’t automatically delete outliers that don’t fit the data</p></li>
 <li><p>Look out for outliers and influential variables</p></li>
@@ -596,11 +1271,9 @@ From the <a href="https://australiainstitute.org.au/post/the-high-pay-for-vice-c
 <img data-src="figures/scatter_out.jpg" class="r-stretch"></section>
 <section id="outliers-and-influential-observations" class="slide level2">
 <h2><small>Outliers and influential observations</small></h2>
-<ul>
-<li>If all your results rely on one person/observation, then your results are likely not generalisable. This must be acknowledged in any outputs.</li>
-</ul>
 <div>
 <ul>
+<li class="fragment"><p>If all your results rely on one person/observation, then your results are likely not generalisable. This must be acknowledged in your write-up.</p></li>
 <li class="fragment"><p>“A systematic literature search of 4,622 articles in […] sport science found that only 9.05% (99% CI: 4.87%-14.99%) reported employing outlier detection practices” DOI: <a href="https://www.tandfonline.com/doi/full/10.1080/02640414.2024.2443313">10.1080/02640414.2024.2443313</a></p></li>
 <li class="fragment"><p>“29 of 100 papers published in Science, Nature and PNAS […] stated significances (or their absence) are based on the presence of a single influential data point.” DOI: <a href="https://www.biorxiv.org/content/10.1101/2024.10.30.621016v1.abstract">10.1101/2024.10.30.621016v1</a></p></li>
 </ul>
@@ -625,8 +1298,8 @@ From the <a href="https://australiainstitute.org.au/post/the-high-pay-for-vice-c
 <aside><div>
 <p>Photo by <a href="https://unsplash.com/@yingzge?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Ying Ge</a> on <a href="https://unsplash.com/photos/woman-in-green-shirt-sitting-on-books--Yo1cWJVKFY?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a></p>
 </div></aside></section>
-<section id="outliers-quote" class="slide level2" data-background-color="#c5c5c5">
-<h2>Outliers quote</h2>
+<section id="embrace-outliers" class="slide level2" data-background-color="#c5c5c5">
+<h2>Embrace outliers</h2>
 <div class="columns">
 <div class="column" style="width:55%;">
 <ul>
@@ -638,24 +1311,7 @@ From the <a href="https://australiainstitute.org.au/post/the-high-pay-for-vice-c
 </div></div>
 
 <aside><div>
-<p><a href="https://commons.wikimedia.org/wiki/File:Isaac.Asimov01.jpg">Phillip Leonian [1] from New York World-Telegram &amp; Sun.[2]</a>, Public domain, via Wikimedia Commons</p>
-</div></aside></section></section>
-<section>
-<section id="causal-analysis" class="title-slide slide level1 center">
-<h1>Causal analysis</h1>
-
-</section>
-<section id="causal-pathways" class="slide level2">
-<h2>Causal pathways</h2>
-<p>Use your knowledge</p>
-<p>Draw the associations</p>
-</section>
-<section id="can-be-complex" class="slide level2">
-<h2>Can be complex</h2>
-<p><img data-src="figures/complex_dag.jpg"></p>
-
-<aside><div>
-<p>DOI: <a href="https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/1471-2288-8-70">10.1186/1471-2288-8-70</a></p>
+<p>Image: <a href="https://commons.wikimedia.org/wiki/File:Isaac.Asimov01.jpg">Phillip Leonian [1] from New York World-Telegram &amp; Sun.[2]</a>, Public domain, via Wikimedia Commons</p>
 </div></aside></section>
 <section id="software" class="slide level2" data-background-color="#525252">
 <h2>Software</h2>
@@ -665,8 +1321,12 @@ From the <a href="https://australiainstitute.org.au/post/the-high-pay-for-vice-c
 <li><p>Correlation is not causation</p></li>
 <li><p>Elite players have nice kit</p></li>
 <li><p>Having nice kit does not make you an elite player</p></li>
-<li><p>Great software does not make you a data ninja</p></li>
 </ul>
+<div>
+<ul>
+<li class="fragment">Great software does not make you a data ninja</li>
+</ul>
+</div>
 </div><div class="column" style="width:45%;">
 <p><img data-src="figures/braden-hopkins-2-7vd8dvyoI-unsplash.jpg"></p>
 </div></div>
@@ -678,6 +1338,10 @@ From the <a href="https://australiainstitute.org.au/post/the-high-pay-for-vice-c
 <h2>Pre-registration</h2>
 <p>ANZCTR <a href="https://www.anzctr.org.au/">https://www.anzctr.org.au/</a></p>
 <p>As predicted <a href="https://aspredicted.org/">https://aspredicted.org/</a></p>
+</section>
+<section id="further-reading" class="slide level2">
+<h2>Further reading</h2>
+<p><img data-src="figures/davidBook.jpg" width="360"></p>
 <div class="quarto-auto-generated-content">
 <p><img src="figures/logos.jpg" class="slide-logo"></p>
 <div class="footer footer-default">
