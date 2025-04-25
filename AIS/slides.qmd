@@ -55,17 +55,21 @@ from giphy
 
 :::: columns
 ::: {.column width="50%"}
-<small>
 
-* University College London 1991--94
-* SmithKline Beecham 1994--96
-* Medical Research Council 1996--99
-* PhD time series 1999--2002
-* University of Queensland 2001--2007
-* Queensland University of Technology 2007--censored
-* President Statistical Society of Australia 2018--2020
+<p style="font-size:75%">• University College London 1991--94</p>
 
-</small>
+<p style="font-size:75%">• SmithKline Beecham 1994--96</p>
+
+<p style="font-size:75%">• Medical Research Council 1996--99</p>
+
+<p style="font-size:75%">• PhD time series 1999--2002</p>
+
+<p style="font-size:75%">• University of Queensland 2001--2007</p>
+
+<p style="font-size:75%">• Queensland University of Technology 2007--censored</p>
+
+<p style="font-size:75%">• President Statistical Society of Australia 2018--2020</p>
+
 :::
 
 ::: {.column width="50%"}
@@ -80,19 +84,19 @@ from giphy
 ## Statistical thinking{background-color='#e6effb'}
 
 :::: columns
-::: {.column width="50%"}
+::: {.column width="60%"}
 * Use your brain
 
 * Avoid statistical recipes
 
 * Avoid bright-line thinking
 
-* Stress test your models
+* Stress test your models; "If at first you succeed, try, try and try again." Andrew Leigh
 
-* Be prepared to be wrong
+* Be prepared to be wrong (DOI: [10.1038/s41562-021-01203-8](https://pubmed.ncbi.nlm.nih.gov/34711978/))
 :::
 
-::: {.column width="50%"}
+::: {.column width="40%"}
 ![](figures/clique-images-hSB2HmJYaTo-unsplash.jpg){width=330px}
 :::
 ::::
@@ -104,16 +108,6 @@ Photo by <a href="https://unsplash.com/@cliqueimages?utm_content=creditCopyText&
 ## <small>Group question: what are we trying to achieve with research?</small>{background-color='#d8c9ba'}
 
 ![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjd5NHFuemxjd2JmazlhNGFvN3R2MzltMmR4YXFjdGphczJidGZ2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kCSWo63O0gjvLVyKNL/giphy.gif)
-
-## Dogma
-
-Why do people fall back on dogma and recipes
-
-Because they don't know what they are doing
-
-We can demonstrate some tests are better
-
-Small cell sizes, t-test is better than Fisher.
 
 ## What is statistics?
 
@@ -133,7 +127,7 @@ Small cell sizes, t-test is better than Fisher.
 <!--- Bland and Altman: http://dx.doi.org/10.1093/ije/17.2.245; David S from: https://www.youtube.com/watch?v=nuSqWRuz-mU--->
 
 
-## Simple is elegant
+## Spend time on study design
 
 ::: incremental
 * "There are only a handful of ways to do a study properly but a thousand ways to do it wrong", David Sackett
@@ -153,13 +147,21 @@ Small cell sizes, t-test is better than Fisher.
 <p style="color:black">DOI:  [10.1371/journal.pcbi.1010139](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010139)</p>
 ::::
 
-## Specific problem in sports science
+## Evidence pyramid{background-color='white'}
 
-"Statistical errors are common in many biomedical fields. We believe the nature and impact of these errors to be great enough in sports science and medicine to warrant special attention"
+![](figures/levels-of-evidence.svg){width=580}
 
-DOI: [10.1136/bjsports-2020-102607](https://bjsm.bmj.com/content/55/2/118.long)
+:::: aside
+<p style="color:black">From [OpenMD](https://openmd.com/guide/levels-of-evidence)</p>
+::::
 
-## <xx-small style="color:transparent">.</xx-small>{background-image='figures/Recommendations-for-conducting-AIS-supported-research-2022_08-1.png' background-size='contain' background-position='center'}
+## Reality: Evidence jumble{background-color='white'}
+
+![](figures/evidence_jumble.png){width=500}
+
+* The quality of the study matters more than the design
+
+## <xx-small style="color:transparent">AIS guideance</xx-small>{background-image='figures/Recommendations-for-conducting-AIS-supported-research-2022_08-1.png' background-size='contain' background-position='center' background-color='white'}
 
 ## Serious problem 
 
@@ -169,34 +171,145 @@ DOI: [10.1136/bjsports-2020-102607](https://bjsm.bmj.com/content/55/2/118.long)
 DOI: [10.1111/stan.12241](https://onlinelibrary.wiley.com/doi/full/10.1111/stan.12241)
 ::::
 
+## Also a problem in sports science{background-color='white'}
 
-## Also a serious in sports science
-
-![](figures/z_values.png){width=800}
-
-:::: aside
-DOI: [10.1016/j.jsams.2023.03.002](https://www.sciencedirect.com/science/article/pii/S1440244023000403)
-::::
-
-## Evidence pyramid (ideal){background-color='white'}
-
-![](figures/levels-of-evidence.svg){width=540}
+![](figures/z_values.png){width=820}
 
 :::: aside
-<p style="color:black">From [OpenMD](https://openmd.com/guide/levels-of-evidence)</p>
+<p style="color:black">DOI: [10.1016/j.jsams.2023.03.002](https://www.sciencedirect.com/science/article/pii/S1440244023000403)</p>
 ::::
 
-## Evidence jumble (reality){background-color='white'}
+## Specific problem in sports science
 
-![](figures/evidence_jumble.png){width=500}
+"Statistical errors are common in many biomedical fields. We believe the nature and impact of these errors to be great enough in sports science and medicine to warrant special attention."
 
-* The quality of the study matters way more than the design
+:::: aside
+DOI: [10.1136/bjsports-2020-102607](https://bjsm.bmj.com/content/55/2/118.long)
+::::
 
-## Mistakes
+## Current state of research
 
-A big mistake at any stage at the research process will undermine all your science
+<p style="font-size:66%">Correctable weaknesses in the design, conduct, and analysis of biomedical and public health research studies can produce misleading results and waste valuable resources. Small effects can be difficult to distinguish from bias introduced by study design and analyses. An absence of detailed written protocols and poor documentation of research is common. Information obtained might not be useful or important, and statistical precision or power is often too low or used in a misleading way. Insufficient consideration might be given to both previous and continuing studies. Arbitrary choice of analyses and an overemphasis on random extremes might affect the reported findings. Several problems relate to the research workforce, including failure to involve experienced statisticians and methodologists, failure to train clinical researchers and laboratory scientists in research methods and design, and the involvement of stakeholders with conflicts of interest. Inadequate emphasis is placed on recording of research decisions and on reproducibility of research. Finally, reward systems incentivise quantity more than quality, and novelty more than reliability.</p>
 
-The worst errors are those that are undetected
+:::: aside
+DOI: [10.1016/S0140-6736(13)62227-8](https://pubmed.ncbi.nlm.nih.gov/24411645/)
+::::
+
+
+# Normality
+
+<!--- from 99_animate_normal.R --->
+
+![](figures/99_animation_normal.gif)
+
+## YOU WANT LUMPY DATA!{background-image='figures/jason-rosewell-ASKeuOZqhYU-unsplash.jpg' background-opacity=0.8 background-size='cover'}
+
+:::: aside
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Photo by <a href="https://unsplash.com/@jasonrosewell?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jason Rosewell</a> on <a href="https://unsplash.com/photos/boy-singing-on-microphone-with-pop-filter-ASKeuOZqhYU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## Normal dogma{background-color='white'}
+
+```{r}
+library(ggplot2)
+library(dplyr)
+TeachingDemos::char2seed('wigan')
+mean1 = 28
+mean2 = 20
+random1 = data.frame(distance = rnorm(n=350, mean = mean1, sd=3.5), group = 1)
+random2 = data.frame(distance = rnorm(n=350, mean = mean2, sd=3.5), group = 2)
+random = bind_rows(random1, random2)
+# normality test
+sw = shapiro.test(random$distance)
+label = paste('Shapiro-Wilk p-value = ', format.pval(sw$p.value, eps=0.001, digits=2), sep='')
+test = data.frame(x = (mean1+mean2)/2, y = 5, label = label)
+# plot
+hplot = ggplot(data = random, aes(x = distance))+
+  geom_histogram()+
+  geom_text(data = test, aes(x=x, y=y, label=label), size = 6, alpha=0.8, col='white')+
+  theme_bw()+
+  xlab('Distance (km)')+
+  ylab('Count')+
+  theme(panel.grid.minor = element_blank(),
+        text = element_text(size=16))
+hplot
+```
+
+## Normal dogma{background-color='white' visibility="uncounted"}
+
+```{r}
+# arrow and text
+text = data.frame(group = 1, x = (mean1+mean2)/2, y = 51, label = 'Difference')
+arrow = data.frame(group=1, x1 = mean1, x2 = mean2, y1 = 50, y2 = 50)
+#
+colours = c('skyblue','darkorange2')
+hplot = ggplot(data = random, aes(x = distance, fill=factor(group)))+
+  geom_histogram()+
+  scale_fill_manual(NULL, values=colours)+
+  geom_segment(data = arrow, aes(x = x1, y = y1, xend = x2, yend = y2),
+               arrow = arrow(ends = 'both', length = unit(0.03, "npc")))+
+  geom_text(data = text, aes(x=x, y=y, label=label))+
+  theme_bw()+
+  xlab('Distance (km)')+
+  ylab('Count')+
+  theme(panel.grid.minor = element_blank(),
+        legend.position='none',
+        text = element_text(size=16))
+hplot
+```
+
+## Normal dogma{background-color='white' visibility="uncounted"}
+
+```{r residuals}
+random= mutate(random,
+               residual = ifelse(group == 2, distance - mean2, distance - mean1))
+#
+# normality test
+sw = shapiro.test(random$residual)
+label = paste('Shapiro-Wilk p-value = ', format.pval(sw$p.value, eps=0.001, digits=2), sep='')
+test = data.frame(group=1, x = 0, y = 5, label = label)
+#
+hplot = ggplot(data = random, aes(x = residual, fill=factor(group)))+
+  geom_histogram(alpha=0.4)+
+  geom_text(data = test, aes(x=x, y=y, label=label), size=6, col='white')+
+  scale_fill_manual(NULL, values=colours)+
+  theme_bw()+
+  xlab('Residual')+
+  ylab('Count')+
+  theme(panel.grid.minor = element_blank(),
+        legend.position='none',
+        text = element_text(size=16))
+hplot
+```
+
+## Even binary data{background-color='white'}
+
+<!--- from 99_animate_clt.R --->
+
+![](figures/99_animation_clt.gif)
+
+## Central limit theorem
+
+:::: columns
+::: {.column width="40%"}
+Pierre-Simon Laplace, 1749--1827
+:::
+  
+::: {.column width="60%"}
+![](figures/Pierre-Simon_de_Laplace_by_Johann_Ernst_Heinsius_(1775).jpg){width=370}
+:::
+::::
+  
+:::: aside
+::::
+
+:::: aside
+By Johann Ernst Heinsius - <a rel="nofollow" class="external free" href="https://www.pinterest.ru/pin/167759154858564779/">https://www.pinterest.ru/pin/167759154858564779/</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=96124181">Link</a>
+::::
+
+## <small style="color:transparent">Non-parametric</small>{background-image='figures/screw_meme.png' background-size='contain' background-color='white'}
+
+  
 
 # Data collection{background-color='#56869f'}
 
@@ -211,10 +324,86 @@ The worst errors are those that are undetected
 ![](figures/electoral_commission.png)
 
 :::: aside
-Picture from Guardian
+Picture from _The Guardian_
 ::::
 
+## Easiest people to fool{background-color='#43aecc'}
+
+<p style="font-size:90%">"[How scientists fool themselves – and how they can stop](https://www.nature.com/articles/526182a)"</p>
+
+![](figures/blinding_nature.png){width=500}
+
+:::: aside
+Illustration by Dale Edwin Murray
+::::
+
+## Collect subjective data blind{background-color='#628e4f'}
+
+![](figures/journal.pone.0284702.g004.PNG)
+
+:::: aside
+DOI: [10.1371/journal.pone.0284702](https://doi.org/10.1371/journal.pone.0284702)
+::::
+
+## Biases creep in
+
+<p style="font-size:85%">• Participant says they don't feel well</p>
+
+<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the intervention group, you tell them to come back tomorrow</p>
+
+<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the control group, you say nothing</p>
+
+<p style="font-size:85%">• Participant doesn't hear the starting whistle</p>
+
+<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the intervention group, you give them another chance</p>
+
+<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the control group, you say "hard cheese"</p>
+
+
+## Biases creep in{visibility='uncounted'}
+
+<p style="font-size:85%">• Participant says they don't feel well</p>
+
+<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the intervention group, you tell them to come back tomorrow</p>
+
+<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the control group, you say nothing</p>
+
+<p style="font-size:85%">• Participant doesn't hear the starting whistle</p>
+
+<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the intervention group, you give them another chance</p>
+
+<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the control group, you say "hard cheese"</p>
+
+<p style="font-size:85%">• Animal studies that used randomisation and blinding were far more likely to have a positive result, odds ratio = 5.2 (95% CI: 2.0 to 13.5)</p>
+
+:::: aside
+DOI: [10.1111/j.1553-2712.2003.tb00056.x](https://onlinelibrary.wiley.com/doi/10.1111/j.1553-2712.2003.tb00056.x)
+::::
+
+## Many biases
+
+**Confirmation bias**: our prior beliefs can influence every stage of scientific research ([course on this by C4R](https://www.c4r.io/units-meeting/confirmation-bias)) 
+
+**Expectation bias**: people's expectations about the experiment can influence the results, e.g., telling an athlete, "This next test is really easy."
+
+## Many biases{visibility='uncounted'}
+
+**Confirmation bias**: our prior beliefs can influence every stage of scientific research ([course on this by C4R](https://www.c4r.io/units-meeting/confirmation-bias)) 
+
+**Expectation bias**: people's expectations about the experiment can influence the results, e.g., telling an athlete, "This next test is really easy."
+
+Long list of biases [here](https://en.wikipedia.org/wiki/List_of_cognitive_biases) -- we are all prone to bias, we need to actively work against biases when conducting research
+
+## Many parts of research are a slog{background-image='figures/ntfc.jpg' background-opacity=0.8 background-size='contain'}
+
+
 ## Spend time on your data
+
+* Excel is useful, but there are many common mistakes
+*	Be consistent in naming variables and categories, e.g., never: "Male", "male" and "m" in same variable
+* Write dates as YYYY-MM-DD, e.g, 2018-10-16
+
+## Spend time on your data{visibility='uncounted'}
 
 * Excel is useful, but there are many common mistakes
 *	Be consistent in naming variables and categories, e.g., never: "Male", "male" and "m" in same variable
@@ -224,11 +413,124 @@ Picture from Guardian
 * One rectangular data set per Excel sheet	
 * <small>**Please please please** read and keep this paper:  Karl W. Broman & Kara H. Woo (2018) [Data Organization in Spreadsheets](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989), _The American Statistician_, **72**:1, 2--10</small>
 
-## Blinding
+## Don't throw away data
 
-* Large and common source of bias
+:::: columns
+::: {.column width="70%"}
+* Common error to collect detailed data and then throw it away at the analysis stage
 
-* 
+* E.g., ``physical activity was classified into three groups based on the WHO physical activity guidelines''
+
+* Lose information and statistical power
+
+* Known as "[dichotomania](https://www.fharrell.com/post/errmed/#catg)"
+:::
+  
+::: {.column width="30%"}
+![](figures/andrea-de-santis-tB9tN000TSU-unsplash.jpg)
+:::
+::::
+
+
+<!--- from https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0158245 --->
+
+::::aside
+Photo by <a href="https://unsplash.com/@santesson89?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Andrea De Santis</a> on <a href="https://unsplash.com/photos/black-and-white-trash-bin-tB9tN000TSU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::      
+
+
+## <small>Don't categorise continuous data</small>{background-color='white'}
+
+<!--- from 99_dichotomania.R -->
+
+![](figures/99_non_linear.jpg)
+
+## Avoid aggregating{background-color='#cd2626'}
+
+<!--- from 99_aggregate.R -->
+
+![](figures/99_aggregate.jpg)
+
+
+## Don't aggregate{background-color='white'}
+
+<!--- linear regression from 99_aggregate.R -->
+
+:::: columns
+::: {.column width="60%"}
+
+* Linear regression of change in average time per 10 years
+  + Mean = 11.0 mins, standard error mean = 0.04 mins **using all data**
+  + Mean = 8.4 mins, standard error mean = 1.21 mins **using yearly averages**
+
+* Huge benefit to standard error (accuracy)
+:::
+  
+::: {.column width="40%"}
+![](figures/99_marathon3_scatter.jpg)
+:::
+::::
+  
+:::: aside
+::::
+
+
+
+# Randomising{background-image='figures/clay-banks-kBaf0DwBPbE-unsplash.jpg' background-opacity=0.8 background-size='cover'}
+
+Statistical bleach
+
+<br><br><br><br><p style="font-size:80%">Photo by <a href="https://unsplash.com/@claybanks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clay Banks</a> on <a href="https://unsplash.com/photos/blue-and-white-clorox-plastic-bottle-kBaf0DwBPbE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+
+## Randomise everything!
+
+* Randomisation isn't always about intervention versus control
+ 
+* We could randomise:
+ 
+  + The order of questions in a questionnaire
+ 
+  + The order of observations (e.g., study of reaction time with warm-up or warm-up plus weights)
+
+
+## Randomise everything!{visibility='uncounted'}
+
+* Randomisation isn't always about intervention versus control
+ 
+* We could randomise:
+ 
+  + The order of questions in a questionnaire
+ 
+  + The order of observations (e.g., study of reaction time with warm-up or warm-up plus weights)
+
+* Avoid trends over time or other patterns looking like real differences
+
+## Another slide to come
+
+# Tutorial{background-image='figures/feliphe-schiarolli-hes6nUC1MVc-unsplash.jpg' background-opacity=0.4 background-size='cover' visibility="uncounted"} 
+
+<br><br><br><p style="font-size:80%">Photo by <a href="https://unsplash.com/@flpschi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Feliphe Schiarolli</a> on <a href="https://unsplash.com/photos/photography-of-school-room-hes6nUC1MVc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+
+
+## Biases tutorial
+
+:::: columns
+::: {.column width="60%"}
+* A company has hired you to run an experiment of its new wristband that it claims helps any athlete throw further
+
+* It's made clear that your bonus will depend on how good their product looks
+
+* Design an experiment that maximises your bonus
+:::
+
+::: {.column width="40%"}
+![](figures/klim-musalimov-jZ8nYnIN-Gg-unsplash.jpg)
+:::
+::::
+
+::::aside
+Photo by <a href="https://unsplash.com/@klim11?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Klim Musalimov</a> on <a href="https://unsplash.com/photos/a-hand-holding-an-object-in-his-hand-jZ8nYnIN-Gg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
 
 # P-values{background-color='#a6a88c'}
 
@@ -238,28 +540,19 @@ Picture from Guardian
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From Diego Farao on giphy
 ::::
 
-## Multiple testing on steroids{background-color='white'}
-
-![](figures/clutter_abstract.png){width=999}
-
-:::: aside
-<p style="color:black">DOI: [10.31557/APJCP.2024.25.12.4397](https://pubmed.ncbi.nlm.nih.gov/39733433)</p>
-::::
 
 
 ## <small>Coin tossing (a simple experiment)</small>
 
 :::: columns
 ::: {.column width="65%"}
-<p font-size:11px>
 
-* We want to know if a coin is fair
+<p style="font-size:80%">• We want to know if a coin is fair</p>
 
-* Simple experiment of tossing it 10 times (should be a sufficient sample size)
+<p style="font-size:80%">• Simple experiment of tossing it 10 times (should be a sufficient sample size)</p>
 
-* What would we expect to see if the coin was fair?
+<p style="font-size:80%">• What would we expect to see if the coin was fair?</p>
 
-</p>
 :::
   
 ::: {.column width="35%"}
@@ -273,25 +566,25 @@ Picture from Guardian
 
 :::: columns
 ::: {.column width="65%"}
-<p font-size:11px>
 
-* We want to know if a coin is fair
+<p style="font-size:80%">• We want to know if a coin is fair</p>
 
-* Simple experiment of tossing it 10 times (should be a sufficient sample size)
+<p style="font-size:80%">• Simple experiment of tossing it 10 times (should be a sufficient sample size)</p>
 
-* What would we expect to see if the coin was fair?
+<p style="font-size:80%">• What would we expect to see if the coin was fair?</p>
 
-* Null **hypothesis**,
-    + H$_0$: the coin is fair
-    + H$_1$: the coin is not fair
+<p style="font-size:80%">• Null **hypothesis**:</p>
+    
+<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- H$_0$: the coin is fair</p>
+    
+<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- H$_1$: the coin is not fair</p>
 
-  or in stats language
+<p style="font-size:80%">or in stats language</p>
 
-    + H$_0$: Probability(heads) = 0.5
+<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- H$_0$: Probability(heads) = 0.5</p>
 
-    + H$_1$: Probability(heads) $\neq$ 0.5
+<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- H$_1$: Probability(heads) $\neq$ 0.5</p>
 
-</p>
 :::
   
 ::: {.column width="35%"}
@@ -357,44 +650,41 @@ Picture from Guardian
 
 ## Testing a new coin (running a new study)
 
-<small>
+<p style="font-size:80%">• Run a new experiment with our coin of unknown fairness</p>
 
-* Run a new experiment with our coin of unknown fairness
-* Compare new results with the **distribution** from a fair coin
-* If we observed 10 heads we would be inclined to think it wasn't fair
+<p style="font-size:80%">• Compare new results with the **distribution** from a fair coin</p>
 
-</small>
+<p style="font-size:80%">• If we observed 10 heads we would be inclined to think it wasn't fair</p>
 
 ## Testing a new coin (running a new study){visibility="uncounted"}
 
-<small>
+<p style="font-size:80%">• Run a new experiment with our coin of unknown fairness</p>
 
-* Run a new experiment with our coin of unknown fairness
-* Compare new results with the **distribution** from a fair coin
-* If we observed 10 heads we would be inclined to think it wasn't fair
-* Based on our fair coin distribution this would only happen 2 in 1000 times (probability = 0.002)
-*  _p_-value is the probability of observing equally extreme data _if_ the null hypothesis is true
-* _p_-value is a **surprise value**
-* If we saw such an extreme result we'd probably want to take a good look at the coin, or ask who ran the experiment (do we trust the data?)
+<p style="font-size:80%">• Compare new results with the **distribution** from a fair coin</p>
 
-</small>
+<p style="font-size:80%">• If we observed 10 heads we would be inclined to think it wasn't fair</p>
+
+<p style="font-size:80%">• Based on our fair coin distribution this would only happen 2 in 1000 times (probability = 0.002)</p>
+
+<p style="font-size:80%">• _p_-value is the probability of observing equally extreme data _if_ the null hypothesis is true</p>
+
+<p style="font-size:80%">• _p_-value is a **surprise value**</p>
+
+<p style="font-size:80%">• If we saw such an extreme result we'd probably want to take a good look at the coin, or ask who ran the experiment (do we trust the data?)</p>
+
 
 ## The context of the experiment{background-color='#b59769'}
 
 :::: columns
 ::: {.column width="60%"}
-<small>
 
-* A tea-drinker claims to be able to tell whether the tea or milk
-was poured into the cup first
+<p style="font-size:80%">• A tea-drinker claims to be able to tell whether the tea or milk was poured into the cup first</p>
 
-* A music expert claims to be able to distinguish a page of Haydn score from a page of Mozart
+<p style="font-size:80%">• A music expert claims to be able to distinguish a page of Haydn score from a page of Mozart</p>
 
-* A drunken friend says he can predict the outcome of a fair coin
+<p style="font-size:80%">• A drunken friend says he can predict the outcome of a fair coin</p>
 
-* Which ones (if any) do you think are likely?
-
-</small>
+<p style="font-size:80%">• Which ones (if any) do you think are likely?</p>
 
 :::
   
@@ -430,47 +720,43 @@ Photo by <a href="https://unsplash.com/@spxclicks?utm_content=creditCopyText&utm
 
 ## _p_-value $<$ 0.05 $\Rightarrow$ statistical significance
 
-<small>
+<p style="font-size:80%">• There's a generally accepted rule that a _p_-value $<$ 0.05 is statistically significant, whilst any _p_-value $\geq 0.05$ is not</p>
 
-* There's a generally accepted rule that a _p_-value $<$ 0.05 is statistically significant, whilst any _p_-value $\geq 0.05$ is not
+<p style="font-size:80%">• Means there's a 0.05 (1 in 20) chance of rejecting the null hypothesis when it's true</p>
 
-* Means there's a 0.05 (1 in 20) chance of rejecting the null hypothesis when it's true
+## _p_-value $<$ 0.05 $\Rightarrow$ statistical significance{visibility='uncounted'}
 
-* **Historical hangover** from early work by Roland Fisher in 1926:
+<p style="font-size:80%">• There's a generally accepted rule that a _p_-value $<$ 0.05 is statistically significant, whilst any _p_-value $\geq 0.05$ is not</p>
 
-"If one in twenty does not seem high enough odds, we may, if we
-prefer it, draw the line at one in fifty or one in a hundred. Personally,
+<p style="font-size:80%">• Means there's a 0.05 (1 in 20) chance of rejecting the null hypothesis when it's true</p>
+
+<p style="font-size:80%">• **Historical hangover** from early work by Roland Fisher in 1926:</p>
+
+<p style="font-size:80%">"If one in twenty does not seem high enough odds, we may, if we prefer it, draw the line at one in fifty or one in a hundred. Personally,
 the writer prefers to set a low standard of significance at the 5 per cent
 point, and ignore entirely all results which fails to reach this level. A
 scientific fact should be regarded as experimentally established only if a
 properly designed experiment rarely fails to give this level of
-significance."
+significance."</p>
 
-</small>
 
 ## _p_-value $<$ 0.05 $\Rightarrow$ statistical significance
 
-<small>
-
-* Means that studies with a _p_-value of 0.0499999 are "accepted", whilst those with a _p_-value of 0.0500000 are not, but
-    + this is only being a tiny jump in evidence
-    + and is a jump that is not itself statistically significant! E.g., in study with an outcome of body mass index it might be the difference between one subject cutting their toenails or not!
-
-</small>
+<p style="font-size:80%">• Means that studies with a _p_-value of 0.0499999 are "accepted", whilst those with a _p_-value of 0.0500000 are not, but</p>
+<p style="font-size:75%">&nbsp;&nbsp;&nbsp;- this is only being a tiny jump in evidence</p>
+<p style="font-size:75%">&nbsp;&nbsp;&nbsp;- and is a jump that is not itself statistically significant! E.g., in study with an outcome of body mass index it might be the difference between one subject cutting their toenails or not!</p>
 
 ## _p_-value $<$ 0.05 $\Rightarrow$ statistical significance{visibility="uncounted"}
 
-<small>
+<p style="font-size:80%">• Means that studies with a _p_-value of 0.0499999 are "accepted", whilst those with a _p_-value of 0.0500000 are not, but</p>
+<p style="font-size:75%">&nbsp;&nbsp;&nbsp;-this is only being a tiny jump in evidence</p>
+<p style="font-size:75%">&nbsp;&nbsp;&nbsp;-and is a jump that is not itself statistically significant! E.g., in study with an outcome of body mass index it might be the difference between one subject cutting their toenails or not!</p>
 
-* Means that studies with a _p_-value of 0.0499999 are "accepted", whilst those with a _p_-value of 0.0500000 are not, but
-    + this is only being a tiny jump in evidence
-    + and is a jump that is not itself statistically significant! E.g., in study with an outcome of body mass index it might be the difference between one subject cutting their toenails or not!
+<p style="font-size:80%">• Lazy decision rule and should be avoided</p>
 
-* Lazy decision rule and should be avoided
+<p style="font-size:80%">• A _p_-value of 0.06 is substantially different than a _p_-value of 0.99</p>
 
-* A _p_-value of 0.06 is substantially different than a _p_-value of 0.99
-
-* Always write the _p_-value as a number, **never** write "Non significant" or "p $>$ 0.05" for a _p_-value above 0.05
+<p style="font-size:80%">• Always write the _p_-value as a number, **never** write "Non significant" or "p $>$ 0.05" for a _p_-value above 0.05</p>
 
 </small>
 
@@ -479,9 +765,17 @@ significance."
 ![](figures/rjsp_a_1899610_f0001_b.png)
 
 :::: aside
-"a = Significant difference from U12 age-group"
+<p style="color:black">"a = Significant difference from U12 age-group"</p>
 
-DOI: [10.1080/02640414.2021.1899610](https://www.tandfonline.com/doi/full/10.1080/02640414.2021.1899610)
+<p style="color:black">DOI: [10.1080/02640414.2021.1899610](https://www.tandfonline.com/doi/full/10.1080/02640414.2021.1899610)</p>
+::::
+
+## Multiple testing on steroids{background-color='white'}
+
+![](figures/clutter_abstract.png){width=999}
+
+:::: aside
+<p style="color:black">DOI: [10.31557/APJCP.2024.25.12.4397](https://pubmed.ncbi.nlm.nih.gov/39733433)</p>
 ::::
 
 ## <small>Judge _p_-values on a sliding scale and in context</small>
@@ -503,9 +797,9 @@ DOI: [10.1136/bmj.322.7280.226](https://www.bmj.com/content/322/7280/226.1)
 
 <p style="font-size:80%">• We are usually interested in big hypothesis, e.g.:</p>
 
-<p style="font-size:75%">&nbsp;&nbsp;-Is a low-carb, high-fat diet effective for athletes?</p>
+<p style="font-size:75%">&nbsp;&nbsp;- Is a low-carb, high-fat diet effective for athletes?</p>
 
-<p style="font-size:75%">&nbsp;&nbsp;-Can genetic testing predict talent?</p>
+<p style="font-size:75%">&nbsp;&nbsp;- Can genetic testing predict talent?</p>
 
 
 :::
@@ -535,7 +829,7 @@ Photo by <a href="https://unsplash.com/@markkoenig?utm_content=creditCopyText&ut
 
 <p style="font-size:75%">&nbsp;&nbsp;-Can genetic testing predict talent?</p>
 
-<p style="font-size:80%">• We rarely make a decision about such hypotheses based on one study</p>
+<p style="font-size:80%">• We rarely make a decision about a hypothesis based on one study</p>
 
 <p style="font-size:80%">• _p_-values are usually part of the evidence (or story)</p>
 
@@ -552,7 +846,7 @@ Photo by <a href="https://unsplash.com/@markkoenig?utm_content=creditCopyText&ut
 
 ## Accumulating evidence{background-color='white'}
 	
-<small>Cumulative meta‐analysis of  physical activity effect on long‐term behaviour change</small>
+<small>Cumulative meta‐analysis of physical activity effect on long‐term behaviour change</small>
 
 ![](figures/OBR-19-1164-g003.jpg){width=560}
 
@@ -562,15 +856,11 @@ Photo by <a href="https://unsplash.com/@markkoenig?utm_content=creditCopyText&ut
 
 ## The bias for "significance"
 
-<small>
+<p style="font-size:80%">• RCT of a fabricated journal manuscript with two versions:</p>
+<p style="font-size:75%">&nbsp;&nbsp;&nbsp;&nbsp;-One with statistically significant results (P = 0.003)</p>
+<p style="font-size:75%">&nbsp;&nbsp;&nbsp;&nbsp;-One with no difference (P = 0.18)</p>
 
-*  RCT of a fabricated journal manuscript with two versions:
-    +  One with statistically significant results (P = 0.003)
-    +  One with no difference (P = 0.18)
-
-* Sample size of 210 peer reviewers
-
-</small>
+<p style="font-size:80%">• Sample size of 210 peer reviewers</p>
 
 :::: aside
 DOI: [10.1001/archinternmed.2010.406](https://pubmed.ncbi.nlm.nih.gov/21098355/)
@@ -579,24 +869,39 @@ DOI: [10.1001/archinternmed.2010.406](https://pubmed.ncbi.nlm.nih.gov/21098355/)
 
 ## The bias for "significance"{visibility="uncounted"}
 
-<small>
+<p style="font-size:80%">• RCT of a fabricated journal manuscript with two versions:</p>
+<p style="font-size:75%">&nbsp;&nbsp;&nbsp;&nbsp;-One with statistically significant results (P = 0.003)</p>
+<p style="font-size:75%">&nbsp;&nbsp;&nbsp;&nbsp;-One with no difference (P = 0.18)</p>
 
-*  RCT of a fabricated journal manuscript with two versions:
-    +  One with statistically significant results (P = 0.003)
-    +  One with no difference (P = 0.18)
+<p style="font-size:80%">• Sample size of 210 peer reviewers</p>
 
-* Sample size of 210 peer reviewers
+<p style="font-size:80%">• Reviewers given the positive version were more likely to:</p>
+<p style="font-size:75%">&nbsp;&nbsp;&nbsp;&nbsp;- Recommend publication (97% vs 80%, P $<$ 0.001)</p>
+<p style="font-size:75%">&nbsp;&nbsp;&nbsp;&nbsp;- Detect errors (0.9 vs 0.4, P $<$ 0.001)</p>
+<p style="font-size:75%">&nbsp;&nbsp;&nbsp;&nbsp;- Award higher scores to the _identical_ methods section (8.2 vs 7.5, P = 0.005)</p>
 
-*  Reviewers given the positive version were more likely to:
-    + Recommend publication (97% vs 80%, P $<$ 0.001)
-    + Detect errors (0.9 vs 0.4, P $<$ 0.001)
-    + Award higher scores to the _identical_ methods section (8.2 vs 7.5, P = 0.005)
-
-</small>
 
 :::: aside
 DOI: [10.1001/archinternmed.2010.406](https://pubmed.ncbi.nlm.nih.gov/21098355/)
 ::::
+
+# Tutorial{background-image='figures/feliphe-schiarolli-hes6nUC1MVc-unsplash.jpg' background-opacity=0.4 background-size='cover' visibility="uncounted"} 
+
+<br><br><br><p style="font-size:80%">Photo by <a href="https://unsplash.com/@flpschi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Feliphe Schiarolli</a> on <a href="https://unsplash.com/photos/photography-of-school-room-hes6nUC1MVc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+
+
+## <small>P-values tutorial</small>
+
+* An observational study of 19,000+ people compared people who downloaded the _Pokémon Go_ app with people who downloaded cooking apps and examined their physical activity for the next seven days
+
+* People who downloaded _Pokémon Go_:
+   + more often met the physical activity guidelines: 22.4% versus 20.4% (p $<$ 0.002)
+   + had improved quality of life: 0.86 versus 0.84 on the 0-to-1 scale
+(p $<$ 0.001)
+
+* Do you think the results are real? Are they important? Is there anything wrong with the study design?
+
+<!--- - difference in statistical and practical significance; in cycling a tiny effect is the difference between gold and nothing --->
 
 
 # Confidence intervals{background-color='#d7bde2'}
@@ -618,25 +923,40 @@ DOI: [10.1001/archinternmed.2010.406](https://pubmed.ncbi.nlm.nih.gov/21098355/)
 
 ## Confidence intervals
 
-* The important number for confidence intervals is usually zero
-* E.g., "The new treatment reduced the number of hospital infections by 12 per 1000 admissions (95% CI: -6, 30)"
-* So at the lowest end the new treatment actually increased the number of infections by 6 per 1000 admissions
-* Confidence intervals **are better** than _p_-values because they contain more information and they test the null hypothesis
-* For rate ratios or odds ratios the null hypothesis is at one, e.g., "The rate of death was 2.0 in the treatment group (95% CI: 1.2, 3.0)" --- which would mean a statistically significant increase in deaths
+<p style="font-size:80%">• The important number for confidence intervals is usually zero</p>
+
+<p style="font-size:80%">• E.g., "The new training schedule increased total distance by 1&nbsp;km (95% CI: --1&nbsp;km, 3&nbsp;km)"</p>
+
+<p style="font-size:80%">• So at the lowest end the new schedule actually decreased the total distance by 1&nbsp;km</p>
+
+## Confidence intervals{visibility='uncounted'}
+
+<p style="font-size:80%">• The important number for confidence intervals is usually zero</p>
+
+<p style="font-size:80%">• E.g., "The new training schedule increased total distance by 1&nbsp;km (95% CI: --1&nbsp;km, 3)"</p>
+
+<p style="font-size:80%">• So at the lowest end the new schedule actually decreased the total distance by 1&nbsp;km</p>
+
+<p style="font-size:80%">• Confidence intervals **are better** than _p_-values because they contain more information and they test the null hypothesis</p>
+
+<p style="font-size:80%">• For rate ratios or odds ratios the null hypothesis is at one, e.g., "The new training schedule increased the number of injuries by 2.0 compared with the existing schedule (95% CI: 1.2, 3.0)" --- which would mean a statistically significant increase in injuries</p>
 
 
 ## Overlapping intervals{background-color='white'}
 
 :::: columns
-::: {.column width="55%"}
+::: {.column width="60%"}
 * Be careful about judging statistical significance between two groups from confidence intervals
 * Picture assumes equal standard errors (confidence interval widths) --- even harder to judge if this isn't true
-* (Previous graph compared CI with a fixed point)
 :::
   
-::: {.column width="45%"}
+::: {.column width="40%"}
 ![](figures/overlapping_ci.png)
 :::
+::::
+
+:::: aside
+<p style="color:black">DOI: [10.1002/sim.3471](https://onlinelibrary.wiley.com/doi/10.1002/sim.3471)</p>
 ::::
 
 <!--- from confidence.intervals.R --->
@@ -660,6 +980,48 @@ DOI: [10.1001/archinternmed.2010.406](https://pubmed.ncbi.nlm.nih.gov/21098355/)
 :::: aside
 Photo by [Michael Coghlan](https://www.flickr.com/photos/mikecogh/15948532925/in/photostream/) CC BY-SA 2.0
 ::::
+
+# Within person change
+
+## Change from baseline
+
+:::: columns
+::: {.column width="50%"}
+* Common design in sports science to examine change over time, often change from baseline
+
+* Makes sense to remove this source of variance (difference)
+:::
+  
+::: {.column width="50%"}
+![](figures/99_animation_change.gif)
+<!--- from 99_animate_change.R --->
+:::
+::::
+
+## Ideal analysis
+
+<!--- see https://www.fharrell.com/post/errmed/#change--->
+
+* Ideal analysis is to use follow-up time as the dependent variable and the baseline as an independent variable (known as "Analysis of covariance")
+
+* Best not to use change as the dependent variable
+
+* Works best when dependent variable is continuous, so be careful with ordinal variables, e.g., pain score of 1 to 5
+
+## Quincunx{background-color='#E0E0E0'}
+
+![](figures/99_animation_rtm1.gif)
+
+## Quincunx{background-color='#E0E0E0' visibility = 'uncounted'}
+
+![](figures/99_animation_rtm2.gif)
+
+## Regression to the mean{background-color='#E0E0E0'}
+
+* Be very careful of designs that select athletes based on bad or good baseline scores
+
+![](figures/99_animation_rtm3.gif)
+
 
 # Causal analysis{background-color='#811331'}
 
@@ -733,17 +1095,20 @@ Photo by [Michael Coghlan](https://www.flickr.com/photos/mikecogh/15948532925/in
 :::
 ::::
 
-## Tutorial
+# Tutorial{background-image='figures/feliphe-schiarolli-hes6nUC1MVc-unsplash.jpg' background-opacity=0.4 background-size='cover' visibility="uncounted"} 
+
+<br><br><br><p style="font-size:80%">Photo by <a href="https://unsplash.com/@flpschi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Feliphe Schiarolli</a> on <a href="https://unsplash.com/photos/photography-of-school-room-hes6nUC1MVc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+
+## Causal diagrams tutorial
 
 * Research question: Are football referees more likely to give red cards to dark-skin-toned players than to light-skin-toned players?
 
 * What is the PICO: Population, Intervention, Control, Outcome?
 
+* Potential variables: skin tone, sent off (yes/no), player position, match result, referee, league, game date, ... you can add more
+
 * Draw a causal diagram
 
-## Myth-busting #1 -- Normality
-
-### YOU WANT LUMPY DATA!
 
 # Plots{background-color='pink'}
 
@@ -751,12 +1116,12 @@ Photo by [Michael Coghlan](https://www.flickr.com/photos/mikecogh/15948532925/in
 
 * Not all evidence is about hypothesis tests
 
-* "Give the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space", Tufte, _The Visual Display of Quantitative
-Information_
+* "Give the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space", Tufte, _[The Visual Display of Quantitative
+Information](https://www.edwardtufte.com/book/the-visual-display-of-quantitative-information/)_
 
 ## Marathon times{background-color='white'}
 
-```{r, out.width='64%'}
+```{r, out.width='68%'}
 knitr::include_graphics(path='figures/marathon_times.png')
 ```
 
@@ -782,12 +1147,6 @@ height="480"}
 ![](figures/bad_pie_3d.jfif){.absolute .fragment top="120" right="20"
 width="720" height="480"}
 
-## White space dogma
-
-Add lancet picture, talk again about difference between the original distribution and the mean. Find a similar picture from sports science.
-
-Sample to get normality. Make a video
-
 
 ## Always start at zero{background-color='white'}
 
@@ -805,15 +1164,47 @@ Sample to get normality. Make a video
 <p style="color:black">From the [Australia Institute](https://australiainstitute.org.au/post/the-high-pay-for-vice-chancellors-does-not-deliver-better-outcomes-for-students/)</p>
 ::::
 
-## Misleading
+## White space dogma{background-color='white'}
 
-Add plot
+![](figures/lancet_graph.jpg)
 
-## Physician age
+## <small>Marathon times with white space</small>{background-color='white'}
 
-Add two versions of the same plot
+<!--- from 99_plot_marathon_times.R -->
 
-## Pie charts are terrible{background-color='white'}
+![](figures/99_marathon1.jpg){width=550}
+
+## <small>Marathon times without white space</small>{background-color='white'}
+
+<!--- from 99_plot_marathon_times.R -->
+
+![](figures/99_marathon2.jpg){width=550}
+
+## <small>Scatter plot with white space</small>{background-color='white'}
+
+<!--- from 99_plot_marathon_times.R -->
+
+![](figures/99_marathon1_scatter.jpg)
+
+## <small>Scatter plot without white space</small>{background-color='white'}
+
+<!--- from 99_plot_marathon_times.R -->
+
+![](figures/99_marathon2_scatter.jpg)
+
+## Marathon times{background-color='white' visibility='uncounted'}
+
+<!--- from 99_plot_marathon_times.R -->
+
+![](figures/99_marathon3_scatter.jpg)
+
+<!--- about a minute per year --->
+
+## There are no rules{background-color='white'}
+
+![](figures/HZe4vKy.png)
+
+## Never ever use pie charts{background-color='white'}
 
 ![](figures/pie_charts.jfif){width=700}
 
@@ -836,7 +1227,7 @@ Add two versions of the same plot
 
  ... should never be used when change is important
 
-![](figures/pbio.1002128.g002.png){width=580}
+![](figures/pbio.1002128.g002.png){width=610}
 
 :::: aside
 <p style="color:black">DOI: [10.1371/journal.pbio.1002128](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128)</p>
@@ -1025,6 +1416,13 @@ Image: <a href="https://commons.wikimedia.org/wiki/File:Isaac.Asimov01.jpg">Phil
 ::::
 
 
+# Other stuff
+
+![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzR0OXk3dGRrbXBrcDh1bnhzZHZrMzk4d2xyanB6eWZ3aXBxbjl5ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8lGQNlZqYBP86D4Cep/giphy.gif)
+
+::::aside
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From Reuben Armstrong on giphy
+::::
 
 
 ## Software{background-color='#525252'}
@@ -1054,12 +1452,47 @@ Photo by <a href="https://unsplash.com/@bradenh13?utm_content=creditCopyText&utm
 ::::
 
 
+## Install _PubPeer_
+
+![](figures/pubpeer2.jpg){.absolute top="70" left="30" width="945" height="611"}
+
 ## Pre-registration
 
 ANZCTR [https://www.anzctr.org.au/](https://www.anzctr.org.au/)
 
 As predicted [https://aspredicted.org/](https://aspredicted.org/)
 
+Open Science Framework [https://osf.io/](https://osf.io/)
+
+## <small>Papers I cite a lot in my statistical reviews</small>
+
+* Don't categorise continuous data, DOI: [10.1097/00001648-199507000-00025]()
+
+* Don't worry about the normal assumption, DOI: [10.1146/annurev.publhealth.23.100901.140546]()
+
+* Be very careful with matching, DOI: [10.1007/s10654-017-0325-0](https://doi.org/10.1007/s10654-017-0325-0)
+
+* Time-dependence, DOI: [10.1016/j.jclinepi.2012.04.008]()
+
+* Decimal places, DOI: [10.1136/archdischild-2014-307149](https://adc.bmj.com/content/100/7/608)
+
+* Confidence intervals, DOI: [10.1002/sim.3471](https://onlinelibrary.wiley.com/doi/10.1002/sim.3471)
+
 ## Further reading
 
+:::: columns
+::: {.column width="50%"}
 ![](figures/davidBook.jpg){width=360}
+:::
+  
+::: {.column width="50%"}
+
+![](figures/harrell_book.png)
+
+<p style="font-size:80%">Available free [here](https://hbiostat.org/bbr/)</p>
+:::
+::::
+  
+
+
+

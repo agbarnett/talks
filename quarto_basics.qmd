@@ -5,16 +5,15 @@
 ::: {.column width="60%"}
 :::
 ::::
-
   
 :::: aside
 ::::
   
-  
 <p style="color:black"></p>
   
-  
-  {background-color='white'}
-
-
 <p style="font-size:80%"></p>
+  
+{background-color='white' visibility="uncounted"}
+
+
+{background-image='figures/x.jpg' background-opacity=0.4 background-size='cover'}
