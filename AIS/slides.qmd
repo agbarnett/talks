@@ -147,6 +147,10 @@ Photo by <a href="https://unsplash.com/@cliqueimages?utm_content=creditCopyText&
 <p style="color:black">DOI:  [10.1371/journal.pcbi.1010139](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010139)</p>
 ::::
 
+## Many parts of research are a slog{background-image='figures/ntfc.jpg' background-opacity=0.8 background-size='contain'}
+
+## <xx-small style="color:transparent">AIS guideance</xx-small>{background-image='figures/Recommendations-for-conducting-AIS-supported-research-2022_08-1.png' background-size='contain' background-position='center' background-color='white'}
+
 ## Evidence pyramid{background-color='white'}
 
 ![](figures/levels-of-evidence.svg){width=580}
@@ -161,7 +165,6 @@ Photo by <a href="https://unsplash.com/@cliqueimages?utm_content=creditCopyText&
 
 * The quality of the study matters more than the design
 
-## <xx-small style="color:transparent">AIS guideance</xx-small>{background-image='figures/Recommendations-for-conducting-AIS-supported-research-2022_08-1.png' background-size='contain' background-position='center' background-color='white'}
 
 ## Serious problem 
 
@@ -394,8 +397,6 @@ DOI: [10.1111/j.1553-2712.2003.tb00056.x](https://onlinelibrary.wiley.com/doi/10
 
 Long list of biases [here](https://en.wikipedia.org/wiki/List_of_cognitive_biases) -- we are all prone to bias, we need to actively work against biases when conducting research
 
-## Many parts of research are a slog{background-image='figures/ntfc.jpg' background-opacity=0.8 background-size='contain'}
-
 
 ## Spend time on your data
 
@@ -474,7 +475,13 @@ Photo by <a href="https://unsplash.com/@santesson89?utm_content=creditCopyText&u
 :::: aside
 ::::
 
+## Sometimes throw away data{background-color='white'}
 
+![](figures/journal.pone.0268171.g012.PNG)
+
+:::: aside
+<p style="color:black">DOI: [10.1371/journal.pone.0268171](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0268171)</p>
+::::
 
 # Randomising{background-image='figures/clay-banks-kBaf0DwBPbE-unsplash.jpg' background-opacity=0.8 background-size='cover'}
 
@@ -505,7 +512,11 @@ Statistical bleach
 
 * Avoid trends over time or other patterns looking like real differences
 
-## Another slide to come
+## Randomising creates balance{background-color='#E5E5E5'}
+
+<!--- from 99_animate_randomisation.R --->
+
+![](figures/99_animation_random1.gif)
 
 # Tutorial{background-image='figures/feliphe-schiarolli-hes6nUC1MVc-unsplash.jpg' background-opacity=0.4 background-size='cover' visibility="uncounted"} 
 
@@ -825,9 +836,9 @@ Photo by <a href="https://unsplash.com/@markkoenig?utm_content=creditCopyText&ut
 
 <p style="font-size:80%">• We are usually interested in big hypothesis, e.g.:</p>
 
-<p style="font-size:75%">&nbsp;&nbsp;-Is a low-carb, high-fat diet effective for athletes?</p>
+<p style="font-size:75%">&nbsp;&nbsp;- Is a low-carb, high-fat diet effective for athletes?</p>
 
-<p style="font-size:75%">&nbsp;&nbsp;-Can genetic testing predict talent?</p>
+<p style="font-size:75%">&nbsp;&nbsp;- Can genetic testing predict talent?</p>
 
 <p style="font-size:80%">• We rarely make a decision about a hypothesis based on one study</p>
 
@@ -892,14 +903,13 @@ DOI: [10.1001/archinternmed.2010.406](https://pubmed.ncbi.nlm.nih.gov/21098355/)
 
 ## <small>P-values tutorial</small>
 
-* An observational study of 19,000+ people compared people who downloaded the _Pokémon Go_ app with people who downloaded cooking apps and examined their physical activity for the next seven days
+<p style="font-size:80%">• An observational study of 19,000+ people compared people who downloaded the _Pokémon Go_ app with people who downloaded cooking apps and examined their physical activity for the next seven days</p>
 
-* People who downloaded _Pokémon Go_:
-   + more often met the physical activity guidelines: 22.4% versus 20.4% (p $<$ 0.002)
-   + had improved quality of life: 0.86 versus 0.84 on the 0-to-1 scale
-(p $<$ 0.001)
+<p style="font-size:80%">• People who downloaded _Pokémon Go_:
+<p style="font-size:75%">&nbsp;&nbsp;&nbsp;&nbsp;- more often met the physical activity guidelines: 22.4% versus 20.4% (p $<$ 0.002)</p>
+<p style="font-size:75%">&nbsp;&nbsp;&nbsp;&nbsp;- had improved quality of life: 0.86 versus 0.84 (p $<$ 0.001) on a 0-to-1 scale (dead to best health ever)</p>
 
-* Do you think the results are real? Are they important? Is there anything wrong with the study design?
+<p style="font-size:80%">•  Do you think the results are real? Are they important? Is there anything wrong with the study design?</p>
 
 <!--- - difference in statistical and practical significance; in cycling a tiny effect is the difference between gold and nothing --->
 
@@ -1002,17 +1012,17 @@ Photo by [Michael Coghlan](https://www.flickr.com/photos/mikecogh/15948532925/in
 
 <!--- see https://www.fharrell.com/post/errmed/#change--->
 
-* Ideal analysis is to use follow-up time as the dependent variable and the baseline as an independent variable (known as "Analysis of covariance")
+* Use follow-up time as the dependent variable and the baseline as an independent variable (known as "Analysis of covariance")
 
-* Best not to use change as the dependent variable
+* Don't use change (follow-up minus baseline) as the dependent variable
 
-* Works best when dependent variable is continuous, so be careful with ordinal variables, e.g., pain score of 1 to 5
+* Works best when dependent variable is continuous, so be careful with ordinal variables, e.g., ordinal pain score of 1, 2, 3, 4 or 5
 
 ## Quincunx{background-color='#E0E0E0'}
 
 ![](figures/99_animation_rtm1.gif)
 
-## Quincunx{background-color='#E0E0E0' visibility = 'uncounted'}
+## Quincunx{background-color='#E0E0E0' visibility='uncounted'}
 
 ![](figures/99_animation_rtm2.gif)
 
@@ -1150,7 +1160,7 @@ width="720" height="480"}
 
 ## Always start at zero{background-color='white'}
 
-![](figures/vc_pay.png)
+![](figures/vc_pay.png){width=500}
 
 :::: aside
 <p style="color:black">From the [Australia Institute](https://australiainstitute.org.au/post/the-high-pay-for-vice-chancellors-does-not-deliver-better-outcomes-for-students/)</p>
@@ -1158,7 +1168,7 @@ width="720" height="480"}
 
 ## Don't always start at zero{background-color='white'}
 
-![](figures/vc_scatter.png){width=450}
+![](figures/vc_scatter.png){width=500}
 
 :::: aside
 <p style="color:black">From the [Australia Institute](https://australiainstitute.org.au/post/the-high-pay-for-vice-chancellors-does-not-deliver-better-outcomes-for-students/)</p>
@@ -1456,7 +1466,7 @@ Photo by <a href="https://unsplash.com/@bradenh13?utm_content=creditCopyText&utm
 
 ![](figures/pubpeer2.jpg){.absolute top="70" left="30" width="945" height="611"}
 
-## Pre-registration
+## Pre-register
 
 ANZCTR [https://www.anzctr.org.au/](https://www.anzctr.org.au/)
 
