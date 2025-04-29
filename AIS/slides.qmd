@@ -21,6 +21,7 @@ editor:
   wrap: 72
 ---
 
+# Background
 
 ## Questions welcome{background-image='figures/camylla-battani-AoqgGAqrLpU-unsplash.jpg' background-opacity=0.4 background-size='cover'}
 
@@ -151,6 +152,49 @@ Photo by <a href="https://unsplash.com/@cliqueimages?utm_content=creditCopyText&
 
 ## <xx-small style="color:transparent">AIS guideance</xx-small>{background-image='figures/Recommendations-for-conducting-AIS-supported-research-2022_08-1.png' background-size='contain' background-position='center' background-color='white'}
 
+## PICO
+
+:::: columns
+::: {.column width="55%"}
+* Study population “P” 
+* Intervention “I”
+* Comparison or control “C” 
+* Measuring the Outcome “O” 
+:::
+  
+::: {.column width="45%"}
+![](figures/paul-hanaoka-4nabmlliGdU-unsplash.jpg){width=420}
+:::
+::::
+
+
+:::: aside
+Photo by <a href="https://unsplash.com/@plhnk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Paul Hanaoka</a> on <a href="https://unsplash.com/photos/assorted-color-textiles-4nabmlliGdU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## PICO{visibility='uncounted'}
+
+:::: columns
+::: {.column width="55%"}
+* Study population “P” 
+* Intervention “I”
+* Comparison or control “C” 
+* Measuring the Outcome “O” 
+* Qualitative: SPIDER (Sample, Phenomenon of Interest, Design, Evaluation, Research type)
+:::
+  
+::: {.column width="45%"}
+![](figures/paul-hanaoka-4nabmlliGdU-unsplash.jpg){width=420}
+:::
+::::
+
+
+:::: aside
+Photo by <a href="https://unsplash.com/@plhnk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Paul Hanaoka</a> on <a href="https://unsplash.com/photos/assorted-color-textiles-4nabmlliGdU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+      
+
 ## Evidence pyramid{background-color='white'}
 
 ![](figures/levels-of-evidence.svg){width=580}
@@ -197,6 +241,26 @@ DOI: [10.1136/bjsports-2020-102607](https://bjsm.bmj.com/content/55/2/118.long)
 :::: aside
 DOI: [10.1016/S0140-6736(13)62227-8](https://pubmed.ncbi.nlm.nih.gov/24411645/)
 ::::
+
+## Artificial intelligence{background-color='#d1ccc9'}
+
+:::: columns
+::: {.column width="50%"}
+* Stochastic parrot
+* Being used by lazy researchers
+* Being used by fraudsters
+:::
+  
+::: {.column width="50%"}
+![](figures/samuel-regan-asante-WrCFJbQeGd4-unsplash.jpg)
+:::
+::::
+
+
+:::: aside
+Photo by <a href="https://unsplash.com/@reganography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Samuel Regan-Asante</a> on <a href="https://unsplash.com/photos/a-trash-can-filled-with-plastic-bottles-and-other-trash-WrCFJbQeGd4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
 
 
 # Normality
@@ -289,7 +353,18 @@ hplot
 
 <!--- from 99_animate_clt.R --->
 
+:::: columns
+::: {.column width="50%"}
+* Original data is binary (zero or one)
+
+* Animation shows the distribution of the mean for an increasing sample size
+:::
+  
+::: {.column width="50%"}
 ![](figures/99_animation_clt.gif)
+:::
+::::
+
 
 ## Central limit theorem
 
@@ -477,11 +552,16 @@ Photo by <a href="https://unsplash.com/@santesson89?utm_content=creditCopyText&u
 
 ## Sometimes throw away data{background-color='white'}
 
-![](figures/journal.pone.0268171.g012.PNG)
-
-:::: aside
-<p style="color:black">DOI: [10.1371/journal.pone.0268171](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0268171)</p>
+:::: columns
+::: {.column width="50%"}
+![](figures/journal.pone.0268171.g012.PNG){width=500}
+:::
+  
+::: {.column width="50%"}
+<small style="color:black">DOI: [10.1371/journal.pone.0268171](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0268171)</small>
+:::
 ::::
+
 
 # Randomising{background-image='figures/clay-banks-kBaf0DwBPbE-unsplash.jpg' background-opacity=0.8 background-size='cover'}
 
@@ -517,6 +597,16 @@ Statistical bleach
 <!--- from 99_animate_randomisation.R --->
 
 ![](figures/99_animation_random1.gif)
+
+## N-of-1 trials
+
+* Rare for any intervention to work for everyone
+
+* Genetics, sex, age, sport, experience, etc
+
+* If there are competing interventions that athletes are willing to try ...
+
+* ... then randomise!
 
 # Tutorial{background-image='figures/feliphe-schiarolli-hes6nUC1MVc-unsplash.jpg' background-opacity=0.4 background-size='cover' visibility="uncounted"} 
 
@@ -754,14 +844,14 @@ significance."</p>
 ## _p_-value $<$ 0.05 $\Rightarrow$ statistical significance
 
 <p style="font-size:80%">• Means that studies with a _p_-value of 0.0499999 are "accepted", whilst those with a _p_-value of 0.0500000 are not, but</p>
-<p style="font-size:75%">&nbsp;&nbsp;&nbsp;- this is only being a tiny jump in evidence</p>
+<p style="font-size:75%">&nbsp;&nbsp;&nbsp;- this is only a tiny jump in evidence</p>
 <p style="font-size:75%">&nbsp;&nbsp;&nbsp;- and is a jump that is not itself statistically significant! E.g., in study with an outcome of body mass index it might be the difference between one subject cutting their toenails or not!</p>
 
 ## _p_-value $<$ 0.05 $\Rightarrow$ statistical significance{visibility="uncounted"}
 
 <p style="font-size:80%">• Means that studies with a _p_-value of 0.0499999 are "accepted", whilst those with a _p_-value of 0.0500000 are not, but</p>
-<p style="font-size:75%">&nbsp;&nbsp;&nbsp;-this is only being a tiny jump in evidence</p>
-<p style="font-size:75%">&nbsp;&nbsp;&nbsp;-and is a jump that is not itself statistically significant! E.g., in study with an outcome of body mass index it might be the difference between one subject cutting their toenails or not!</p>
+<p style="font-size:75%">&nbsp;&nbsp;&nbsp;- this is only a tiny jump in evidence</p>
+<p style="font-size:75%">&nbsp;&nbsp;&nbsp;- and is a jump that is not itself statistically significant! E.g., in study with an outcome of body mass index it might be the difference between one subject cutting their toenails or not!</p>
 
 <p style="font-size:80%">• Lazy decision rule and should be avoided</p>
 
@@ -784,6 +874,8 @@ significance."</p>
 ## Multiple testing on steroids{background-color='white'}
 
 ![](figures/clutter_abstract.png){width=999}
+
+* 2 p-values for every 3 words!
 
 :::: aside
 <p style="color:black">DOI: [10.31557/APJCP.2024.25.12.4397](https://pubmed.ncbi.nlm.nih.gov/39733433)</p>
@@ -901,18 +993,21 @@ DOI: [10.1001/archinternmed.2010.406](https://pubmed.ncbi.nlm.nih.gov/21098355/)
 <br><br><br><p style="font-size:80%">Photo by <a href="https://unsplash.com/@flpschi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Feliphe Schiarolli</a> on <a href="https://unsplash.com/photos/photography-of-school-room-hes6nUC1MVc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
 
 
-## <small>P-values tutorial</small>
+## <small>P-values tutorial</small>{background-image='figures/28778853958_ee01e20c3b_k.jpg' background-opacity=0.2 background-size='contain'}
 
-<p style="font-size:80%">• An observational study of 19,000+ people compared people who downloaded the _Pokémon Go_ app with people who downloaded cooking apps and examined their physical activity for the next seven days</p>
+<p style="font-size:82%">• An observational study of 19,000+ people compared people who downloaded the _Pokémon Go_ app with people who downloaded cooking apps and examined their physical activity for the next seven days</p>
 
-<p style="font-size:80%">• People who downloaded _Pokémon Go_:
-<p style="font-size:75%">&nbsp;&nbsp;&nbsp;&nbsp;- more often met the physical activity guidelines: 22.4% versus 20.4% (p $<$ 0.002)</p>
-<p style="font-size:75%">&nbsp;&nbsp;&nbsp;&nbsp;- had improved quality of life: 0.86 versus 0.84 (p $<$ 0.001) on a 0-to-1 scale (dead to best health ever)</p>
+<p style="font-size:82%">• People who downloaded _Pokémon Go_:
+<p style="font-size:75%">&nbsp;&nbsp;&nbsp;&nbsp;- more often met the physical activity guidelines: 22.4% versus 20.4% (p&nbsp;$<$&nbsp;0.002)</p>
+<p style="font-size:75%">&nbsp;&nbsp;&nbsp;&nbsp;- had improved quality of life: 0.86 versus 0.84 (p $<$ 0.001) on a 0-to-1 scale (0 = dead, 1 = perfect health)</p>
 
-<p style="font-size:80%">•  Do you think the results are real? Are they important? Is there anything wrong with the study design?</p>
+<p style="font-size:82%">•  Do you think the results are real? Are they important? Is there anything wrong with the study design?</p>
 
 <!--- - difference in statistical and practical significance; in cycling a tiny effect is the difference between gold and nothing --->
 
+:::: aside
+Photo by Adam Purves (S3ISOR)
+::::
 
 # Confidence intervals{background-color='#d7bde2'}
 
@@ -943,7 +1038,7 @@ DOI: [10.1001/archinternmed.2010.406](https://pubmed.ncbi.nlm.nih.gov/21098355/)
 
 <p style="font-size:80%">• The important number for confidence intervals is usually zero</p>
 
-<p style="font-size:80%">• E.g., "The new training schedule increased total distance by 1&nbsp;km (95% CI: --1&nbsp;km, 3)"</p>
+<p style="font-size:80%">• E.g., "The new training schedule increased total distance by 1&nbsp;km (95% CI: --1&nbsp;km, 3&nbsp;km)"</p>
 
 <p style="font-size:80%">• So at the lowest end the new schedule actually decreased the total distance by 1&nbsp;km</p>
 
@@ -1037,7 +1132,7 @@ Photo by [Michael Coghlan](https://www.flickr.com/photos/mikecogh/15948532925/in
 
 * "What causes what?" is a common question in research
 
-* Not purely statistical
+* Not a purely statistical question
 
 * Use your expertise
 
@@ -1068,13 +1163,33 @@ Photo by [Michael Coghlan](https://www.flickr.com/photos/mikecogh/15948532925/in
 ::: {.column width="40%"}
 * Often wrongly defined in papers
 
-* Must effect both the outcome and the intervention
+* Must effect **both** the outcome and the intervention
 
 * Confounder must occur before the intervention
 :::
   
 ::: {.column width="60%"}
 ![](figures/99_confounders1.jpg)
+:::
+::::
+
+<!--- from 99_draw_confounder --->
+
+
+
+## Strong predictors{background-color='white'}
+
+
+:::: columns
+::: {.column width="40%"}
+* Strong predictors are associated with the outcome but not the intervention
+
+* Useful to know, but not necessary to answer the research question
+
+:::
+  
+::: {.column width="60%"}
+![](figures/99_confounders1b.jpg)
 :::
 ::::
 
@@ -1210,7 +1325,7 @@ width="720" height="480"}
 
 <!--- about a minute per year --->
 
-## There are no rules{background-color='white'}
+## Rules can be broken{background-color='white'}
 
 ![](figures/HZe4vKy.png)
 
@@ -1363,7 +1478,7 @@ Commons](https://commons.wikimedia.org/wiki/File:Carl_Friedrich_Gauss_1840_by_Je
 
 <!--- from https://journals.humankinetics.com/view/journals/ijspp/20/1/article-p142.xml?content=fulltext --->
 
-## Influential observation example{background-color='white'}
+## Influential observation example{background-color='white' visibility='uncounted'}
 
 ![](figures/full-ijspp.2024-0089figuref2-highlight.jpg)
 
@@ -1435,6 +1550,26 @@ Image: <a href="https://commons.wikimedia.org/wiki/File:Isaac.Asimov01.jpg">Phil
 ::::
 
 
+## Qualitative research{background-color='#9ba19f'}
+
+:::: columns
+::: {.column width="50%"}
+* High quality qualitative research is often extremely valuable
+
+* Research prioritisation is worthwhile
+:::
+  
+::: {.column width="50%"}
+![](figures/rinke-dohmen-xv7rif9Vebc-unsplash.jpg){width=500}
+:::
+::::
+
+
+:::: aside
+Photo by <a href="https://unsplash.com/@rinked?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Rinke Dohmen</a> on <a href="https://unsplash.com/photos/man-in-black-crew-neck-t-shirt-and-black-shorts-xv7rif9Vebc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+      
+
 ## Software{background-color='#525252'}
 
 :::: columns
@@ -1459,6 +1594,22 @@ Image: <a href="https://commons.wikimedia.org/wiki/File:Isaac.Asimov01.jpg">Phil
 
 :::: aside
 Photo by <a href="https://unsplash.com/@bradenh13?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Braden Hopkins</a> on <a href="https://unsplash.com/photos/brown-and-white-textile-on-white-metal-frame-2-7vd8dvyoI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## Reproducible code{background-color='white'}
+
+:::: columns
+::: {.column width="50%"}
+* Book by _The Turing Way_ [here](https://book.the-turing-way.org/reproducible-research/reproducible-research)
+
+* Free course from Utrecht University [here](https://utrechtuniversity.github.io/workshop-computational-reproducibility/)
+:::
+  
+::: {.column width="50%"}
+![](figures/reproducibility-777036fab1e40af050e31be650a2905a.jpg)
+
+<small> Figure from _The Turing Way_</small>
+:::
 ::::
 
 
@@ -1504,5 +1655,11 @@ Open Science Framework [https://osf.io/](https://osf.io/)
 ::::
   
 
+## Phew!{background-color='white'}
 
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXlmNWwzc2RiZzEyc2R3dDM3dDF1eDZwMnF0endjdjlzMnRyMHRtdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rt91ojZ9EB8clgWHFj/giphy.gif)
+
+:::: aside
+<p style="color:black">from Olympics on giphy</p>
+::::
 

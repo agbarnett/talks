@@ -2,4 +2,4 @@
 
 Title: Statistical thinking
 
-Slides are [here](https://agbarnett.github.io/talks/ais/slides).
+Slides are [here](https://agbarnett.github.io/talks/AIS/slides).
