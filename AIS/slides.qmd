@@ -21,7 +21,9 @@ editor:
   wrap: 72
 ---
 
-# Background
+# Background{data-visibility='hidden'}
+
+<!--- this slide is just for table of contents -->
 
 ## Questions welcome{background-image='figures/camylla-battani-AoqgGAqrLpU-unsplash.jpg' background-opacity=0.4 background-size='cover'}
 
@@ -106,6 +108,25 @@ from giphy
 Photo by <a href="https://unsplash.com/@cliqueimages?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clique Images</a> on <a href="https://unsplash.com/photos/person-climbing-concrete-stairs-hSB2HmJYaTo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 ::::
 
+## Statistical thinking{background-color='#5a8aa1'}
+
+:::: columns
+::: {.column width="60%"}
+* Christopher Tong: "Statistical Inference Enables Bad Science; Statistical Thinking Enables Good Science"
+
+* "formal, probability-based statistical inference should play no role in most scientific research, which is inherently exploratory"
+:::
+  
+::: {.column width="40%"}
+![](figures/dmitrii-vaccinium-9qsK2QHidmg-unsplash.jpg)
+:::
+::::
+
+:::: aside
+DOI: [10.1080/00031305.2018.1518264](https://www.tandfonline.com/doi/full/10.1080/00031305.2018.1518264); Photo by <a href="https://unsplash.com/@vaccinium?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Dmitrii Vaccinium</a> on <a href="https://unsplash.com/photos/man-riding-bike-on-cliff-at-daytime-9qsK2QHidmg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+
 ## <small>Group question: what are we trying to achieve with research?</small>{background-color='#d8c9ba'}
 
 ![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjd5NHFuemxjd2JmazlhNGFvN3R2MzltMmR4YXFjdGphczJidGZ2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kCSWo63O0gjvLVyKNL/giphy.gif)
@@ -128,6 +149,12 @@ Photo by <a href="https://unsplash.com/@cliqueimages?utm_content=creditCopyText&
 <!--- Bland and Altman: http://dx.doi.org/10.1093/ije/17.2.245; David S from: https://www.youtube.com/watch?v=nuSqWRuz-mU--->
 
 
+## Mistakes
+
+* Error in my most highly cited paper on regression to the mean
+
+* Error in one of my most influential papers: total time that researchers spend applying for funding should be 604 years not 551 years
+
 ## Spend time on study design
 
 ::: incremental
@@ -148,18 +175,15 @@ Photo by <a href="https://unsplash.com/@cliqueimages?utm_content=creditCopyText&
 <p style="color:black">DOI:  [10.1371/journal.pcbi.1010139](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010139)</p>
 ::::
 
-## Many parts of research are a slog{background-image='figures/ntfc.jpg' background-opacity=0.8 background-size='contain'}
-
-## <xx-small style="color:transparent">AIS guideance</xx-small>{background-image='figures/Recommendations-for-conducting-AIS-supported-research-2022_08-1.png' background-size='contain' background-position='center' background-color='white'}
-
-## PICO
+## PICOT
 
 :::: columns
 ::: {.column width="55%"}
 * Study population “P” 
 * Intervention “I”
 * Comparison or control “C” 
-* Measuring the Outcome “O” 
+* Outcome “O” 
+* Time "T"
 :::
   
 ::: {.column width="45%"}
@@ -172,14 +196,15 @@ Photo by <a href="https://unsplash.com/@cliqueimages?utm_content=creditCopyText&
 Photo by <a href="https://unsplash.com/@plhnk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Paul Hanaoka</a> on <a href="https://unsplash.com/photos/assorted-color-textiles-4nabmlliGdU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 ::::
 
-## PICO{visibility='uncounted'}
+## PICOT{visibility='uncounted'}
 
 :::: columns
 ::: {.column width="55%"}
 * Study population “P” 
 * Intervention “I”
 * Comparison or control “C” 
-* Measuring the Outcome “O” 
+* Outcome “O” 
+* Time "T"
 * Qualitative: SPIDER (Sample, Phenomenon of Interest, Design, Evaluation, Research type)
 :::
   
@@ -188,12 +213,16 @@ Photo by <a href="https://unsplash.com/@plhnk?utm_content=creditCopyText&utm_med
 :::
 ::::
 
-
 :::: aside
 Photo by <a href="https://unsplash.com/@plhnk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Paul Hanaoka</a> on <a href="https://unsplash.com/photos/assorted-color-textiles-4nabmlliGdU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 ::::
 
-      
+## <p style="color:transparent">Reporting guidelines</p>{background-image='figures/PRESENT_reporting_guidelines.png' background-opacity=1 background-size='contain' background-color='white'}
+
+
+## Many parts of research are a slog{background-image='figures/ntfc.jpg' background-opacity=0.8 background-size='contain'}
+
+## <xx-small style="color:transparent">AIS guideance</xx-small>{background-image='figures/Recommendations-for-conducting-AIS-supported-research-2022_08-1.png' background-size='contain' background-position='center' background-color='white'}
 
 ## Evidence pyramid{background-color='white'}
 
@@ -208,6 +237,42 @@ Photo by <a href="https://unsplash.com/@plhnk?utm_content=creditCopyText&utm_med
 ![](figures/evidence_jumble.png){width=500}
 
 * The quality of the study matters more than the design
+
+## Current state of research
+
+<p style="font-size:66%">Correctable weaknesses in the design, conduct, and analysis of biomedical and public health research studies can produce misleading results and waste valuable resources. Small effects can be difficult to distinguish from bias introduced by study design and analyses. An absence of detailed written protocols and poor documentation of research is common. Information obtained might not be useful or important, and statistical precision or power is often too low or used in a misleading way. Insufficient consideration might be given to both previous and continuing studies. Arbitrary choice of analyses and an overemphasis on random extremes might affect the reported findings. Several problems relate to the research workforce, including failure to involve experienced statisticians and methodologists, failure to train clinical researchers and laboratory scientists in research methods and design, and the involvement of stakeholders with conflicts of interest. Inadequate emphasis is placed on recording of research decisions and on reproducibility of research. Finally, reward systems incentivise quantity more than quality, and novelty more than reliability.</p>
+
+:::: aside
+DOI: [10.1016/S0140-6736(13)62227-8](https://pubmed.ncbi.nlm.nih.gov/24411645/)
+::::
+
+## Declaration of Helsinki
+
+* Updated in 2024
+
+<p style="font-size:80%">"Medical research involving human participants must have a scientifically sound and rigorous design and execution that are likely to produce reliable, valid, and valuable knowledge and avoid research waste. The research must conform to generally accepted scientific principles, be based on a thorough knowledge of the scientific literature, other relevant sources of information, and adequate laboratory and, as appropriate, animal experimentation."</p>
+
+<p style="font-size:80%">"Scientific integrity is essential in the conduct of medical research involving human participants. Involved individuals, teams, and organizations must never engage in research misconduct."</p>
+
+
+## When science gets competitive
+
+<!--- % https://www.bbc.co.uk/sounds/play/b00pfkw3 "Scientists competed to find the tallest species. Why not add a few extra neck bones?" --->
+
+:::: columns
+::: {.column width="50%"}
+![](https://upload.wikimedia.org/wikipedia/commons/a/af/Dinornis_maximus%2C_Natural_History_Museum_%28PV_A_608%29.jpg){height=450}
+
+
+<small>Natural History Museum, London, CC BY 4.0 <https://creativecommons.org/licenses/by/4.0>, via Wikimedia Commons</small>
+:::
+  
+::: {.column width="50%"}
+![](https://upload.wikimedia.org/wikipedia/commons/8/87/Dinornithidae_SIZE_01.png)
+
+<small>Conty, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons</small>
+:::
+::::
 
 
 ## Serious problem 
@@ -234,13 +299,9 @@ DOI: [10.1111/stan.12241](https://onlinelibrary.wiley.com/doi/full/10.1111/stan.
 DOI: [10.1136/bjsports-2020-102607](https://bjsm.bmj.com/content/55/2/118.long)
 ::::
 
-## Current state of research
+## <small>Questionable research practices</small>{background-color='white'}
 
-<p style="font-size:66%">Correctable weaknesses in the design, conduct, and analysis of biomedical and public health research studies can produce misleading results and waste valuable resources. Small effects can be difficult to distinguish from bias introduced by study design and analyses. An absence of detailed written protocols and poor documentation of research is common. Information obtained might not be useful or important, and statistical precision or power is often too low or used in a misleading way. Insufficient consideration might be given to both previous and continuing studies. Arbitrary choice of analyses and an overemphasis on random extremes might affect the reported findings. Several problems relate to the research workforce, including failure to involve experienced statisticians and methodologists, failure to train clinical researchers and laboratory scientists in research methods and design, and the involvement of stakeholders with conflicts of interest. Inadequate emphasis is placed on recording of research decisions and on reproducibility of research. Finally, reward systems incentivise quantity more than quality, and novelty more than reliability.</p>
-
-:::: aside
-DOI: [10.1016/S0140-6736(13)62227-8](https://pubmed.ncbi.nlm.nih.gov/24411645/)
-::::
+![](figures/journal.pone.0304342.g002.PNG){width=500}
 
 ## Artificial intelligence{background-color='#d1ccc9'}
 
@@ -260,7 +321,6 @@ DOI: [10.1016/S0140-6736(13)62227-8](https://pubmed.ncbi.nlm.nih.gov/24411645/)
 :::: aside
 Photo by <a href="https://unsplash.com/@reganography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Samuel Regan-Asante</a> on <a href="https://unsplash.com/photos/a-trash-can-filled-with-plastic-bottles-and-other-trash-WrCFJbQeGd4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 ::::
-
 
 
 # Normality
@@ -388,6 +448,19 @@ By Johann Ernst Heinsius - <a rel="nofollow" class="external free" href="https:/
 ## <small style="color:transparent">Non-parametric</small>{background-image='figures/screw_meme.png' background-size='contain' background-color='white'}
 
   
+## <xx-small style="color:transparent">Recipe</xx-small>
+
+:::: columns
+::: {.column width="40%"}
+Statistics by recipe
+:::
+  
+::: {.column width="60%"}
+![](figures/sats-e1557157102677.jpg)
+:::
+::::
+
+
 
 # Data collection{background-color='#56869f'}
 
@@ -562,6 +635,9 @@ Photo by <a href="https://unsplash.com/@santesson89?utm_content=creditCopyText&u
 :::
 ::::
 
+# Tea break{background-image='figures/oriento-MCN7xTTeAkw-unsplash.jpg' background-opacity=0.9 background-size='cover' visibility='uncounted'}
+
+<br><br><br><p style="font-size:80%">Photo by <a href="https://unsplash.com/@oriento?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">五玄土 ORIENTO</a> on <a href="https://unsplash.com/photos/clear-drinking-glass-with-liquid-on-gray-surface-MCN7xTTeAkw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
 
 # Randomising{background-image='figures/clay-banks-kBaf0DwBPbE-unsplash.jpg' background-opacity=0.8 background-size='cover'}
 
@@ -607,6 +683,8 @@ Statistical bleach
 * If there are competing interventions that athletes are willing to try ...
 
 * ... then randomise!
+
+* Beware of placebo effects
 
 # Tutorial{background-image='figures/feliphe-schiarolli-hes6nUC1MVc-unsplash.jpg' background-opacity=0.4 background-size='cover' visibility="uncounted"} 
 
@@ -988,6 +1066,58 @@ DOI: [10.1001/archinternmed.2010.406](https://pubmed.ncbi.nlm.nih.gov/21098355/)
 DOI: [10.1001/archinternmed.2010.406](https://pubmed.ncbi.nlm.nih.gov/21098355/)
 ::::
 
+## Spin a result
+
+![](https://imgs.xkcd.com/comics/p_values.png)
+
+:::: aside
+From xkcd
+::::
+
+## Practical significance
+
+* With a big enough sample size, almost any comparison will be statistically significant
+
+* The size of the difference matters the most
+
+* 0.19% difference in 2011 _Tour de France_ time was the difference between 1st and 10th place
+
+
+<!--- from https://link.springer.com/article/10.1007/s40279-025-02227-0 --->
+
+## Practical significance{visibility='uncounted'}
+
+* With a big enough sample size, almost any comparison will be statistically significant
+
+* The size of the difference matters the most
+
+* 0.19% difference in 2011 _Tour de France_ time was the difference between 1st and 10th place
+
+* 1% improvement in muscle mass might be statistically significant but practically useless
+
+* Pre-specify the important difference
+
+
+## Archie Cochrane's bias removal
+
+:::: columns
+::: {.column width="50%"}
+![](figures/archie.png)
+
+<small>Photo from Cardiff University Library, Cochrane Archive, University Hospital Llandough</small>
+
+<small>Story from: Cochrane, A. L. (2009) One Man's Medicine: An Autobiography of Professor Archie Cochrane. Cardiff: Cardiff University</small>
+:::
+  
+::: {.column width="50%"}
+![](figures/ante-samarzija-F7m3QZJ_4mg-unsplash.jpg){width=350}
+
+<small>Photo by <a href="https://unsplash.com/@antesamarzija?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ante Samarzija</a> on <a href="https://unsplash.com/photos/white-hospital-bed-in-a-room-F7m3QZJ_4mg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
+
+:::
+::::
+
+
 # Tutorial{background-image='figures/feliphe-schiarolli-hes6nUC1MVc-unsplash.jpg' background-opacity=0.4 background-size='cover' visibility="uncounted"} 
 
 <br><br><br><p style="font-size:80%">Photo by <a href="https://unsplash.com/@flpschi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Feliphe Schiarolli</a> on <a href="https://unsplash.com/photos/photography-of-school-room-hes6nUC1MVc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
@@ -1113,6 +1243,22 @@ Photo by [Michael Coghlan](https://www.flickr.com/photos/mikecogh/15948532925/in
 
 * Works best when dependent variable is continuous, so be careful with ordinal variables, e.g., ordinal pain score of 1, 2, 3, 4 or 5
 
+## Cross-over{background-color='#ffefdb'}
+
+:::: columns
+::: {.column width="50%"}
+* Participants are their own controls
+
+* Everyone gets both treatments
+:::
+  
+::: {.column width="50%"}
+![](figures/99_crossover.jpg){width=400}
+:::
+::::
+
+
+
 ## Quincunx{background-color='#E0E0E0'}
 
 ![](figures/99_animation_rtm1.gif)
@@ -1161,7 +1307,7 @@ Photo by [Michael Coghlan](https://www.flickr.com/photos/mikecogh/15948532925/in
 
 :::: columns
 ::: {.column width="40%"}
-* Often wrongly defined in papers
+* Often wrongly defined
 
 * Must effect **both** the outcome and the intervention
 
@@ -1233,6 +1379,12 @@ Photo by [Michael Coghlan](https://www.flickr.com/photos/mikecogh/15948532925/in
 * Potential variables: skin tone, sent off (yes/no), player position, match result, referee, league, game date, ... you can add more
 
 * Draw a causal diagram
+
+# Lunch{background-image='figures/spencer-davis-vJsj-hgOEG0-unsplash.jpg' background-opacity=0.9 background-size='cover' visibility='uncounted'}
+
+<br><br><br><p style="font-size:80%">Photo by <a href="https://unsplash.com/@spencerdavis?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Spencer Davis</a> on <a href="https://unsplash.com/photos/a-group-of-people-sitting-around-a-table-with-food-vJsj-hgOEG0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+</p>
+
 
 
 # Plots{background-color='pink'}
@@ -1387,6 +1539,16 @@ pone.0297553](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.
 <!--- from 99_slides_boxplots.R -->
 ![](figures/99_box_example_joined.jpg)
 
+# Tutorial{background-image='figures/feliphe-schiarolli-hes6nUC1MVc-unsplash.jpg' background-opacity=0.4 background-size='cover' visibility="uncounted"} 
+
+<br><br><br><p style="font-size:80%">Photo by <a href="https://unsplash.com/@flpschi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Feliphe Schiarolli</a> on <a href="https://unsplash.com/photos/photography-of-school-room-hes6nUC1MVc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+
+## <small style="color:transparent">Plots tutorial</small>{background-image='figures/graph_tutorial.jpg' background-opacity=1 background-size='contain' visibility="uncounted"} 
+
+<!--- figures from https://journals.plos.org/plosone/article/figures?id=10.1371/journal.pone.0201435, 
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0292012#abstract0
+https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002295
+--->
 
 # Tables{background-color='#87CEEB'}
 
