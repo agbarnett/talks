@@ -1,0 +1,153 @@
+---
+title: "Survey results"
+author: Adrian Barnett<br>21 May 2025
+institute: Queensland University of Technology<br>Photo by <a href="https://unsplash.com/@arthurbizkit?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Arthur Mazi</a> on <a href="https://unsplash.com/photos/green-grass-field-under-white-clouds-during-daytime-foht4Nc494I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+title-position: 90%
+format:
+ revealjs: 
+  slide-number: false
+  theme: night
+  chalkboard: false
+  transition: fade
+  preview-links: auto
+  logo: figures/logos.jpg
+title-slide-attributes:
+ data-position: relative
+ data-background-image: figures/arthur-mazi-foht4Nc494I-unsplash.jpg
+ data-background-size: cover
+ data-background-opacity: "0.5"
+editor: 
+ markdown: 
+  wrap: 72
+---
+
+## Suitable{background-color='white'}
+
+<!--- all survey results from 0_report_survey_from_qualtrics.R --->
+
+<small>Which of the following are suitable for applicants to be awarded via a lottery in Australia</small>
+
+![](figures/0_suitable.jpg)
+
+## Benefits{background-color='white'}
+
+<small>What are the biggest potential benefits of lotteries? (tick up to 2)</small>
+
+![](figures/0_benefits.jpg){width=520}
+
+## Drawbacks{background-color='white'}
+
+<small>What are the biggest potential drawbacks of lotteries? (tick up to 2)</small>
+
+![](figures/0_drawbacks.jpg){width=520}
+
+## <small>Other points</small>
+
+<p style="font-size:80%">**Benefits**</p>
+
+<p style="font-size:70%">• Prevents use of trivial differences within margin of error when determining outcomes</p>
+
+<p style="font-size:80%">**Drawbacks**</p>
+
+<p style="font-size:70%">• removes ability to balance selection across diverse candidates, fields, regions, institutions, etc</p>
+<p style="font-size:70%">• Potential for "prestige" associated with winning to be reduced</p>
+<p style="font-size:70%">• 1 - On the model mooted, some highly meritorious applicants will miss out. 2 - Missed opportunity to use the 'roughly equal' pool to advance other goals e.g. gender equity or left-field projects.</p>
+<p style="font-size:70%">• The difficulty of getting people to understand the benefits</p>
+<p style="font-size:70%">• Its a question of where the pre-lottery selection process is productive for other reasons and where the lottery is positioned.  Inevitably there will be a pre-qualification assessment, the question is where this finishes and where the lottery begins.</p>
+
+## <small>Hopes for the day #1</small>
+
+<p style="font-size:75%">• Just to learn and have input to something that I would like to see implemented and tested</p>
+<p style="font-size:75%">• A better understanding of why some people think "random = fair" and whether they are in fact right about that (because I am unsure)</p>
+<p style="font-size:75%">• Interactions with policy makers and like minded researchers. Hopefully commitments from ARC and others to explore further</p>
+<p style="font-size:75%">• Information about where lotteries have been used in the past; interesting discussions on the advantages and disadvantages of lotteries; insights into how lotteries might be applied to reduce burden on applicants and assessors in large competitive grant schemes</p>
+<p style="font-size:75%">• Better understanding of nuances within various positions - and maybe even some sort of policy consensus we could all live with, to take forward with advocacy!</p>
+<p style="font-size:75%">• Increased understanding of thinking and use of lottery systems in grantmaking</p>
+
+## <small>Hopes for the day #2</small>
+
+<p style="font-size:75%">• Keen to see the diversity of opportunities for lotteries</p>
+<p style="font-size:75%">• Socialising with bright people interested in RCTs.</p>
+<p style="font-size:75%">• To learn more about examples and case studies where lotteries have been implemented, and how the outcomes from these compared to a traditional peer-review allocation. Gain a better understanding of how+when lotteries can be used and what processes should be implemented to ensure high-quality outcomes.</p>
+<p style="font-size:75%">• Better understanding of when I should be pushing for a lottery/RCT based evaluation strategy. I have a reasonable idea of how to do one but have no real sense of the actual benefits and costs to expect and am therefore cautious about pushing to spend government money on one.</p>
+<p style="font-size:75%">• To learn from everyone</p>
+
+## <small>Hopes for the day #3</small>
+<p style="font-size:75%">• Information on established lottery schemes - ideally any evidence of benefits, but also how other institutions have addressed drawbacks/pushback - and some thinking about how they could translate to an Australian context.</p>
+<p style="font-size:75%">• A clearer idea of the potential for lotteries as well as a clear articulation of risks.</p>
+
+# Research grants at The British Academy{background-image='figures/BA_building.jpeg' background-opacity=0.7 background-size='cover' background-color='transparent'}
+
+Adrian Barnett (QUT), Rhys Llewellyn Thomas (Oxford)<br>Philip Clarke (Oxford), Ken Emond (British Academy)
+
+## BA/Leverhulme Small Research Grants
+* Awards £10k for up to 24 months
+* Commonly for pilot studies/small-scale projects
+* Worldwide in scope, international partners
+* High priority in the British Academy's portfolio
+* Wide outreach: around 100 institutes represented
+
+## Why use a lottery?
+
+* People “self-disqualifying” under the old system as they were not confident of winning funding and perceived a bias if they were not from an “elite” institution.
+
+* A more efficient process
+
+## Peer review process
+
+* Internal eligibility check by BA staff
+* Eligible applications assigned to relevant subject specialists
+* Applications assessed through normal peer review process to determine whether pass quality
+threshold or not
+
+* Applicants given feedback 
+
+## Quality threshold:
+
+* Five criteria:
+  + Quality and interest of research proposal
+  + Ability of applicant to make a success of proposal
+  + Feasibility of methodology
+  + Feasibility of timescale
+  + Appropriateness of costs requested
+
+* All 5 answers must be "yes" to pass the threshold and be entered into the lottery
+
+## Change in application numbers
+
+
+
+## Change in diversity{background-color='white'}
+
+![](figures/proportion_asian_figure.png)
+
+## Bad publicity{background-color='white'}
+
+![](figures/irish_times_lottery.png){.absolute top="20" right="20"}
+
+:::: aside
+<p style="color:black">From Irish Times, August 2024</p>
+::::
+
+## Is "Lottery" a problem?
+
+Alternative wordings:
+
+:::: columns
+::: {.column width="50%"}
+* Lottery
+
+* Random draw
+
+* Randomisation
+:::
+  
+::: {.column width="50%"}
+* Sortition
+
+* Ballot - secret voting
+
+* Conclave
+:::
+::::
+

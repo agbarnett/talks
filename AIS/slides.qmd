@@ -118,7 +118,7 @@ Photo by <a href="https://unsplash.com/@cliqueimages?utm_content=creditCopyText&
 :::
   
 ::: {.column width="40%"}
-![](figures/dmitrii-vaccinium-9qsK2QHidmg-unsplash.jpg)
+![](figures/dmitrii-vaccinium-9qsK2QHidmg-unsplash.jpg){width=450}
 :::
 ::::
 
@@ -151,7 +151,7 @@ DOI: [10.1080/00031305.2018.1518264](https://www.tandfonline.com/doi/full/10.108
 
 ## Mistakes
 
-* Error in my most highly cited paper on regression to the mean
+* Calculation error in my most highly cited paper on regression to the mean
 
 * Error in one of my most influential papers: total time that researchers spend applying for funding should be 604 years not 551 years
 
@@ -178,7 +178,7 @@ DOI: [10.1080/00031305.2018.1518264](https://www.tandfonline.com/doi/full/10.108
 ## PICOT
 
 :::: columns
-::: {.column width="55%"}
+::: {.column width="65%"}
 * Study population “P” 
 * Intervention “I”
 * Comparison or control “C” 
@@ -186,7 +186,7 @@ DOI: [10.1080/00031305.2018.1518264](https://www.tandfonline.com/doi/full/10.108
 * Time "T"
 :::
   
-::: {.column width="45%"}
+::: {.column width="35%"}
 ![](figures/paul-hanaoka-4nabmlliGdU-unsplash.jpg){width=420}
 :::
 ::::
@@ -199,7 +199,7 @@ Photo by <a href="https://unsplash.com/@plhnk?utm_content=creditCopyText&utm_med
 ## PICOT{visibility='uncounted'}
 
 :::: columns
-::: {.column width="55%"}
+::: {.column width="65%"}
 * Study population “P” 
 * Intervention “I”
 * Comparison or control “C” 
@@ -208,7 +208,7 @@ Photo by <a href="https://unsplash.com/@plhnk?utm_content=creditCopyText&utm_med
 * Qualitative: SPIDER (Sample, Phenomenon of Interest, Design, Evaluation, Research type)
 :::
   
-::: {.column width="45%"}
+::: {.column width="35%"}
 ![](figures/paul-hanaoka-4nabmlliGdU-unsplash.jpg){width=420}
 :::
 ::::
@@ -246,7 +246,15 @@ Photo by <a href="https://unsplash.com/@plhnk?utm_content=creditCopyText&utm_med
 DOI: [10.1016/S0140-6736(13)62227-8](https://pubmed.ncbi.nlm.nih.gov/24411645/)
 ::::
 
+
 ## Declaration of Helsinki
+
+* Updated in 2024
+
+<p style="font-size:80%">"Medical research involving human participants must have a scientifically sound and rigorous design and execution that are likely to produce reliable, valid, and valuable knowledge and avoid research waste. The research must conform to generally accepted scientific principles, be based on a thorough knowledge of the scientific literature, other relevant sources of information, and adequate laboratory and, as appropriate, animal experimentation."</p>
+
+
+## Declaration of Helsinki{visibility='uncounted'}
 
 * Updated in 2024
 
@@ -301,7 +309,7 @@ DOI: [10.1136/bjsports-2020-102607](https://bjsm.bmj.com/content/55/2/118.long)
 
 ## <small>Questionable research practices</small>{background-color='white'}
 
-![](figures/journal.pone.0304342.g002.PNG){width=500}
+![](figures/journal.pone.0304342.g002.PNG){width=520}
 
 ## Artificial intelligence{background-color='#d1ccc9'}
 
@@ -448,15 +456,15 @@ By Johann Ernst Heinsius - <a rel="nofollow" class="external free" href="https:/
 ## <small style="color:transparent">Non-parametric</small>{background-image='figures/screw_meme.png' background-size='contain' background-color='white'}
 
   
-## <xx-small style="color:transparent">Recipe</xx-small>
+## <xx-small style="color:transparent">Recipe</xx-small>{background-color='white'}
 
 :::: columns
-::: {.column width="40%"}
+::: {.column width="30%"}
 Statistics by recipe
 :::
   
-::: {.column width="60%"}
-![](figures/sats-e1557157102677.jpg)
+::: {.column width="70%"}
+![](figures/sats-e1557157102677.jpg){width=500 .absolute top="20" right="20"}
 :::
 ::::
 
@@ -525,7 +533,7 @@ DOI: [10.1371/journal.pone.0284702](https://doi.org/10.1371/journal.pone.0284702
 
 <p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the control group, you say "hard cheese"</p>
 
-<p style="font-size:85%">• Animal studies that used randomisation and blinding were far more likely to have a positive result, odds ratio = 5.2 (95% CI: 2.0 to 13.5)</p>
+<p style="font-size:85%">• Animal studies that did not use randomisation and blinding were far more likely to have a positive result, odds ratio = 5.2 (95% CI: 2.0 to 13.5)</p>
 
 :::: aside
 DOI: [10.1111/j.1553-2712.2003.tb00056.x](https://onlinelibrary.wiley.com/doi/10.1111/j.1553-2712.2003.tb00056.x)
@@ -568,7 +576,7 @@ Long list of biases [here](https://en.wikipedia.org/wiki/List_of_cognitive_biase
 ::: {.column width="70%"}
 * Common error to collect detailed data and then throw it away at the analysis stage
 
-* E.g., ``physical activity was classified into three groups based on the WHO physical activity guidelines''
+* E.g., "physical activity was classified into three groups based on the WHO physical activity guidelines"
 
 * Lose information and statistical power
 
@@ -678,7 +686,7 @@ Statistical bleach
 
 * Rare for any intervention to work for everyone
 
-* Genetics, sex, age, sport, experience, etc
+* Differences due to genetics, sex, age, sport, experience, etc
 
 * If there are competing interventions that athletes are willing to try ...
 
@@ -953,7 +961,7 @@ significance."</p>
 
 ![](figures/clutter_abstract.png){width=999}
 
-* 2 p-values for every 3 words!
+* Two p-values for every three words!
 
 :::: aside
 <p style="color:black">DOI: [10.31557/APJCP.2024.25.12.4397](https://pubmed.ncbi.nlm.nih.gov/39733433)</p>
@@ -1027,7 +1035,7 @@ Photo by <a href="https://unsplash.com/@markkoenig?utm_content=creditCopyText&ut
 
 ## Accumulating evidence{background-color='white'}
 	
-<small>Cumulative meta‐analysis of physical activity effect on long‐term behaviour change</small>
+<small>Cumulative meta‐analysis of interventions targeted at increasing physical activity in healthy adults</small>
 
 ![](figures/OBR-19-1164-g003.jpg){width=560}
 
@@ -1066,12 +1074,12 @@ DOI: [10.1001/archinternmed.2010.406](https://pubmed.ncbi.nlm.nih.gov/21098355/)
 DOI: [10.1001/archinternmed.2010.406](https://pubmed.ncbi.nlm.nih.gov/21098355/)
 ::::
 
-## Spin a result
+## Spin a result{background-color='white'}
 
-![](https://imgs.xkcd.com/comics/p_values.png)
+![](https://imgs.xkcd.com/comics/p_values.png){width=500}
 
 :::: aside
-From xkcd
+<p style="color:black">From [xkcd](https://xkcd.com/1478/)</p>
 ::::
 
 ## Practical significance
@@ -1123,7 +1131,7 @@ From xkcd
 <br><br><br><p style="font-size:80%">Photo by <a href="https://unsplash.com/@flpschi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Feliphe Schiarolli</a> on <a href="https://unsplash.com/photos/photography-of-school-room-hes6nUC1MVc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
 
 
-## <small>P-values tutorial</small>{background-image='figures/28778853958_ee01e20c3b_k.jpg' background-opacity=0.2 background-size='contain'}
+## <small>P-values tutorial</small>{background-image='figures/28778853958_ee01e20c3b_k.jpg' background-opacity=0.25 background-size='contain'}
 
 <p style="font-size:82%">• An observational study of 19,000+ people compared people who downloaded the _Pokémon Go_ app with people who downloaded cooking apps and examined their physical activity for the next seven days</p>
 
@@ -1253,7 +1261,7 @@ Photo by [Michael Coghlan](https://www.flickr.com/photos/mikecogh/15948532925/in
 :::
   
 ::: {.column width="50%"}
-![](figures/99_crossover.jpg){width=400}
+![](figures/99_crossover.jpg){width=450}
 :::
 ::::
 
@@ -1376,7 +1384,7 @@ Photo by [Michael Coghlan](https://www.flickr.com/photos/mikecogh/15948532925/in
 
 * What is the PICO: Population, Intervention, Control, Outcome?
 
-* Potential variables: skin tone, sent off (yes/no), player position, match result, referee, league, game date, ... you can add more
+* Potential variables: skin tone, sent off (yes/no), player position, team won/lost, referee, league, game date, ... you can add more
 
 * Draw a causal diagram
 
@@ -1427,7 +1435,7 @@ width="720" height="480"}
 
 ## Always start at zero{background-color='white'}
 
-![](figures/vc_pay.png){width=500}
+![](figures/vc_pay.png){width=550}
 
 :::: aside
 <p style="color:black">From the [Australia Institute](https://australiainstitute.org.au/post/the-high-pay-for-vice-chancellors-does-not-deliver-better-outcomes-for-students/)</p>

@@ -51,4 +51,5 @@ In date order:
 * `AFIRE` Partial Randomisation at The British Academy for AFIRE (February 2025)
 * `DORA` DORA Asia pacific funder group on lotteries for funding (March 2025)
 * `AIS` Statistical Thinking for the Australian Institute of Sport (May 2025)
+* `lottery_workshop` Using lotteries in Australia to increase fairness and assess policy impacts when allocating scarce resources (May 2025)
 * `fraud` How fraud is undermining scientific research, Duke-NUS (July 2025)
