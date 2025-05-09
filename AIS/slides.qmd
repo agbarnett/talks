@@ -1710,6 +1710,16 @@ Photo by <a href="https://unsplash.com/@yingzge?utm_content=creditCopyText&utm_m
 Image: <a href="https://commons.wikimedia.org/wiki/File:Isaac.Asimov01.jpg">Phillip Leonian [1] from New York World-Telegram &amp; Sun.[2]</a>, Public domain, via Wikimedia Commons
 ::::
 
+# Surveys
+
+## Question wording matters
+
+* How happy are you with your training program?
+  + Extremely happy
+  + Happy
+  + Unhappy
+
+* 
 
 # Other stuff
 
