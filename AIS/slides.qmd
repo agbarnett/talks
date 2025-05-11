@@ -108,25 +108,6 @@ from giphy
 Photo by <a href="https://unsplash.com/@cliqueimages?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clique Images</a> on <a href="https://unsplash.com/photos/person-climbing-concrete-stairs-hSB2HmJYaTo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 ::::
 
-## Statistical thinking{background-color='#5a8aa1'}
-
-:::: columns
-::: {.column width="60%"}
-* Christopher Tong: "Statistical Inference Enables Bad Science; Statistical Thinking Enables Good Science"
-
-* "formal, probability-based statistical inference should play no role in most scientific research, which is inherently exploratory"
-:::
-  
-::: {.column width="40%"}
-![](figures/dmitrii-vaccinium-9qsK2QHidmg-unsplash.jpg){width=450}
-:::
-::::
-
-:::: aside
-DOI: [10.1080/00031305.2018.1518264](https://www.tandfonline.com/doi/full/10.1080/00031305.2018.1518264); Photo by <a href="https://unsplash.com/@vaccinium?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Dmitrii Vaccinium</a> on <a href="https://unsplash.com/photos/man-riding-bike-on-cliff-at-daytime-9qsK2QHidmg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-::::
-
-
 ## <small>Group question: what are we trying to achieve with research?</small>{background-color='#d8c9ba'}
 
 ![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjd5NHFuemxjd2JmazlhNGFvN3R2MzltMmR4YXFjdGphczJidGZ2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kCSWo63O0gjvLVyKNL/giphy.gif)
@@ -187,7 +168,7 @@ DOI: [10.1080/00031305.2018.1518264](https://www.tandfonline.com/doi/full/10.108
 :::
   
 ::: {.column width="35%"}
-![](figures/paul-hanaoka-4nabmlliGdU-unsplash.jpg){width=420}
+![](figures/paul-hanaoka-4nabmlliGdU-unsplash.jpg){width=430}
 :::
 ::::
 
@@ -206,18 +187,20 @@ Photo by <a href="https://unsplash.com/@plhnk?utm_content=creditCopyText&utm_med
 * Outcome “O” 
 * Time "T"
 * Qualitative: SPIDER (Sample, Phenomenon of Interest, Design, Evaluation, Research type)
+
 :::
   
 ::: {.column width="35%"}
-![](figures/paul-hanaoka-4nabmlliGdU-unsplash.jpg){width=420}
+![](figures/paul-hanaoka-4nabmlliGdU-unsplash.jpg){width=430}
 :::
+
 ::::
 
 :::: aside
 Photo by <a href="https://unsplash.com/@plhnk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Paul Hanaoka</a> on <a href="https://unsplash.com/photos/assorted-color-textiles-4nabmlliGdU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 ::::
 
-## <p style="color:transparent">Reporting guidelines</p>{background-image='figures/PRESENT_reporting_guidelines.png' background-opacity=1 background-size='contain' background-color='white'}
+## <small style="color:transparent">Reporting guidelines</small>{background-image='figures/PRESENT_reporting_guidelines.png' background-opacity=1 background-size='contain' background-color='white'}
 
 
 ## Many parts of research are a slog{background-image='figures/ntfc.jpg' background-opacity=0.8 background-size='contain'}
@@ -460,7 +443,7 @@ By Johann Ernst Heinsius - <a rel="nofollow" class="external free" href="https:/
 
 :::: columns
 ::: {.column width="30%"}
-Statistics by recipe
+## Statistics by recipe
 :::
   
 ::: {.column width="70%"}
@@ -947,26 +930,6 @@ significance."</p>
 
 </small>
 
-## Over-testing{background-color='white'}
-
-![](figures/rjsp_a_1899610_f0001_b.png)
-
-:::: aside
-<p style="color:black">"a = Significant difference from U12 age-group"</p>
-
-<p style="color:black">DOI: [10.1080/02640414.2021.1899610](https://www.tandfonline.com/doi/full/10.1080/02640414.2021.1899610)</p>
-::::
-
-## Multiple testing on steroids{background-color='white'}
-
-![](figures/clutter_abstract.png){width=999}
-
-* Two p-values for every three words!
-
-:::: aside
-<p style="color:black">DOI: [10.31557/APJCP.2024.25.12.4397](https://pubmed.ncbi.nlm.nih.gov/39733433)</p>
-::::
-
 ## <small>Judge _p_-values on a sliding scale and in context</small>
 
 ![](figures/sterne_pvalues.jpg){width=910}
@@ -1056,6 +1019,45 @@ DOI: [10.1001/archinternmed.2010.406](https://pubmed.ncbi.nlm.nih.gov/21098355/)
 ::::
 
 
+## Over-testing{background-color='white'}
+
+![](figures/rjsp_a_1899610_f0001_b.png)
+
+:::: aside
+<p style="color:black">"a = Significant difference from U12 age-group"</p>
+
+<p style="color:black">DOI: [10.1080/02640414.2021.1899610](https://www.tandfonline.com/doi/full/10.1080/02640414.2021.1899610)</p>
+::::
+
+## Multiple testing on steroids{background-color='white'}
+
+![](figures/clutter_abstract.png){width=999}
+
+* Two p-values for every three words!
+
+:::: aside
+<p style="color:black">DOI: [10.31557/APJCP.2024.25.12.4397](https://pubmed.ncbi.nlm.nih.gov/39733433)</p>
+::::
+
+## Statistical thinking{background-color='#5a8aa1'}
+
+:::: columns
+::: {.column width="60%"}
+* Christopher Tong: "Statistical Inference Enables Bad Science; Statistical Thinking Enables Good Science"
+
+* "Formal, probability-based statistical inference should play no role in most scientific research, which is inherently exploratory"
+:::
+  
+::: {.column width="40%"}
+![](figures/dmitrii-vaccinium-9qsK2QHidmg-unsplash.jpg){width=420}
+:::
+::::
+
+:::: aside
+DOI: [10.1080/00031305.2018.1518264](https://www.tandfonline.com/doi/full/10.1080/00031305.2018.1518264); Photo by <a href="https://unsplash.com/@vaccinium?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Dmitrii Vaccinium</a> on <a href="https://unsplash.com/photos/man-riding-bike-on-cliff-at-daytime-9qsK2QHidmg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+
 ## The bias for "significance"{visibility="uncounted"}
 
 <p style="font-size:80%">• RCT of a fabricated journal manuscript with two versions:</p>
@@ -1076,7 +1078,7 @@ DOI: [10.1001/archinternmed.2010.406](https://pubmed.ncbi.nlm.nih.gov/21098355/)
 
 ## Spin a result{background-color='white'}
 
-![](https://imgs.xkcd.com/comics/p_values.png){width=500}
+![](https://imgs.xkcd.com/comics/p_values.png){width=400}
 
 :::: aside
 <p style="color:black">From [xkcd](https://xkcd.com/1478/)</p>
@@ -1099,7 +1101,7 @@ DOI: [10.1001/archinternmed.2010.406](https://pubmed.ncbi.nlm.nih.gov/21098355/)
 
 * The size of the difference matters the most
 
-* 0.19% difference in 2011 _Tour de France_ time was the difference between 1st and 10th place
+* 0.19% difference in 2011 _Tour de France_ total time was the difference between 1st and 10th place
 
 * 1% improvement in muscle mass might be statistically significant but practically useless
 
@@ -1449,9 +1451,9 @@ width="720" height="480"}
 <p style="color:black">From the [Australia Institute](https://australiainstitute.org.au/post/the-high-pay-for-vice-chancellors-does-not-deliver-better-outcomes-for-students/)</p>
 ::::
 
-## White space dogma{background-color='white'}
+## White space<br>dogma{background-color='white'}
 
-![](figures/lancet_graph.jpg)
+![](figures/lancet_graph.jpg){.absoloute top="20" right="20"}
 
 ## <small>Marathon times with white space</small>{background-color='white'}
 
@@ -1510,7 +1512,7 @@ width="720" height="480"}
 
 ## Bar charts #2 ... {background-color='white'}
 
- ... should never be used when change is important
+ ... never use when within-person change is important
 
 ![](figures/pbio.1002128.g002.png){width=610}
 
@@ -1698,6 +1700,25 @@ Photo by <a href="https://unsplash.com/@yingzge?utm_content=creditCopyText&utm_m
 ::: {.column width="55%"}
 * The most exciting phrase to hear in science, the one that heralds new discoveries, is not “Eureka” but “That’s funny”, Isaac Asimov
 
+
+:::
+
+::: {.column width="45%"}
+![](https://upload.wikimedia.org/wikipedia/commons/3/34/Isaac.Asimov01.jpg){width=320px}
+:::
+::::
+
+:::: aside
+Image: <a href="https://commons.wikimedia.org/wiki/File:Isaac.Asimov01.jpg">Phillip Leonian [1] from New York World-Telegram &amp; Sun.[2]</a>, Public domain, via Wikimedia Commons
+::::
+
+
+## Embrace outliers{background-color='#c5c5c5'}
+
+:::: columns
+::: {.column width="55%"}
+* The most exciting phrase to hear in science, the one that heralds new discoveries, is not “Eureka” but “That’s funny”, Isaac Asimov
+
 * "Outliers were removed when the residual had a Studentized residual < -4 or > 4"
 :::
 
@@ -1710,16 +1731,25 @@ Photo by <a href="https://unsplash.com/@yingzge?utm_content=creditCopyText&utm_m
 Image: <a href="https://commons.wikimedia.org/wiki/File:Isaac.Asimov01.jpg">Phillip Leonian [1] from New York World-Telegram &amp; Sun.[2]</a>, Public domain, via Wikimedia Commons
 ::::
 
-# Surveys
+# Surveys{background-image='figures/welcome-uWh-hYisqAw-unsplash.jpg' background-opacity=0.4 background-size='cover'}
 
-## Question wording matters
+<br><br><br><p style="font-size:80%">Photo by <a href="https://unsplash.com/@________________1a?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Welcome</a> on <a href="https://unsplash.com/photos/pink-blue-and-green-pens-uWh-hYisqAw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
 
-* How happy are you with your training program?
+## Avoid long<br>surveys
+
+![](figures/journal.pone.0258123.s002-2.png){.absolute top="20" right="20" width='600'}
+
+## Question wording
+
+* How do your rate your training program?
   + Extremely happy
   + Happy
   + Unhappy
 
-* 
+* How difficult was the new training program?
+  + Difficult
+  + Neither easy nor difficult
+  + Easy
 
 # Other stuff
 
@@ -1815,7 +1845,7 @@ Open Science Framework [https://osf.io/](https://osf.io/)
 
 * Time-dependence, DOI: [10.1016/j.jclinepi.2012.04.008]()
 
-* Decimal places, DOI: [10.1136/archdischild-2014-307149](https://adc.bmj.com/content/100/7/608)
+* Guideance for decimal places, DOI: [10.1136/archdischild-2014-307149](https://adc.bmj.com/content/100/7/608)
 
 * Confidence intervals, DOI: [10.1002/sim.3471](https://onlinelibrary.wiley.com/doi/10.1002/sim.3471)
 

@@ -18,6 +18,7 @@ title-slide-attributes:
  data-background-opacity: "0.5"
 editor: 
  markdown: 
+  emoji: true
   wrap: 72
 ---
 
@@ -85,25 +86,44 @@ editor:
 
 Adrian Barnett (QUT), Rhys Llewellyn Thomas (Oxford)<br>Philip Clarke (Oxford), Ken Emond (British Academy)
 
-## BA/Leverhulme Small Research Grants
-* Awards £10k for up to 24 months
-* Often for pilot studies/small-scale projects
-* Worldwide in scope, international partners
-* High priority in the British Academy's portfolio
-* Wide outreach: around 100 institutes represented
+## <small>BA/Leverhulme Small Research Grants</small>
 
-## Why use a lottery?
+* Total budget around £1.3 million per round
+* Awards £10k for up to 24 months
+* Often for pilot studies and small-scale projects
+* Worldwide in scope, international partners
+
+## <small>BA/Leverhulme Small Research Grants</small>
+
+* Total budget around £1.3 million per round
+* Awards £10k for up to 24 months
+* Often for pilot studies and small-scale projects
+* Worldwide in scope, international partners
+* High priority in the British Academy's portfolio -- running for over 50 years
+* Wide outreach: around 100 institutes represented
+* 600 applications per round with around 300 suitable for funding with around 150 awarded
+
+## Why switch to lottery?
 
 * People “self-disqualifying” under the old system as they were not confident of winning funding and perceived a bias if they were not from an “elite” institution
 
-* A more efficient process; spending time picking apart candidates separated by wafer-thin differences
+
+
+## Why switch to lottery?
+
+* People “self-disqualifying” under the old system as they were not confident of winning funding and perceived a bias if they were not from an “elite” institution
+
+* Spending time picking apart candidates separated by wafer-thin differences - concerns about efficiency
+
+* Small grants are for innovative and/or first opportunities
+
+
 
 ## Peer review process
 
-* Internal eligibility check by BA staff
+* Internal eligibility check by _British Academy_ staff
 * Eligible applications assigned to relevant subject specialists
-* Applications assessed through normal peer review process to determine whether pass quality
-threshold or not
+* Applications assessed via peer review process to determine if they passed quality threshold 
 
 * Applicants given feedback 
 
@@ -126,21 +146,35 @@ threshold or not
 
 Average of 516 more applicants per round (95% CI: 143 to 889) 
 
+## Numbers
+
+* 60% passed the initial quality threshold 
+
+* Success rate continues to be between 20 to 30%
+
+* First time awards for some smaller institutions
+
 ## Change in diversity{background-color='white'}
 
 <!--- from Rhys --->
 
-![](figures/proportion_asian_figure.png){width=560}
+![](figures/proportion_asian_figure.png){width=640}
 
 Asian and Asian British applicants increased by 4.3% (95% CI: 2.0 to 6.6%)
 
-## BA summary
+## British Academy summary{background-image='figures/reuben-juarez-C4sxVxcXEQg-unsplash.jpg' background-opacity=0.3 background-size='cover'}
 
 * "Very encouraging" outcomes; decided to extend the trial for three more years
 
-Expanding into another scheme
+* Little negative feedback from applicants and reviewers
 
-Quotes from press release
+* "Playing our part towards a fairer and more inclusive research culture"
+
+<!--- quote from https://blogs.lse.ac.uk/impactofsocialsciences/2025/04/16/how-randomisation-has-changed-the-british-academys-approach-to-research-funding/--->
+
+::::aside
+Photo by <a href="https://unsplash.com/@sunnystate?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Reuben Juarez</a> on <a href="https://unsplash.com/photos/to-be-continued-sigange-C4sxVxcXEQg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
 
 ## Random observations on standard peer review and lotteries{background-color='#938079'}
 
@@ -149,9 +183,9 @@ Quotes from press release
 
 <br><br><br><p style="font-size:80%">From giphy</p>
 
-## Bias{background-color='white'}
+## Status bias{background-color='white'}
 
-![](figures/nobel_edited.jpg)
+![](figures/nobel_edited.jpg){width=550}
 
 <small style="color:black">DOI: [10.1073/pnas.2205779119](https://www.pnas.org/doi/10.1073/pnas.2205779119)</small>
 
@@ -171,7 +205,7 @@ Quotes from press release
 
 ```{r}
 #| fig-width: 5
-#| fig-height: 4.3
+#| fig-height: 4.4
 
 library(ggplot2)
 library(dplyr)
@@ -212,7 +246,7 @@ plot
 ![](figures/99_animation_rtm1.gif)
 
 
-## Alterations{background-color='#475f6d'}
+## Lottery alterations{background-color='#475f6d'}
 
 :::: columns
 ::: {.column width="60%"}
@@ -232,24 +266,24 @@ plot
 Pablo RM from Madrid, Spain, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons
 ::::
 
-## Lottery first
+## Lottery first{background-color='#dcdcdc'}
 
 :::: columns
-::: {.column width="55%"}
-* Have to win the lottery just to apply
+::: {.column width="50%"}
+* Lottery for right to apply
 
 * Greatly reduces application costs
 
 * Used by agencies in Germany and Denmark
 :::
   
-::: {.column width="45%"}
-![](figures/karin-zabret-W7vc1_6dQZE-unsplash.jpg)
+::: {.column width="50%"}
+![](figures/P215_APPROACHING_THE_FOWL_WITH_STALKING-HORSE.jpg)
 :::
 ::::
 
 ::::aside
-Photo by <a href="https://unsplash.com/@karinzabret?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Karin Zabret</a> on <a href="https://unsplash.com/photos/a-brown-horse-standing-in-the-dark-with-a-saddle-W7vc1_6dQZE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Image from the <a href="//commons.wikimedia.org/wiki/Commons:British_Library/Mechanical_Curator_collection" title="Commons:British Library/Mechanical Curator collection">Mechanical Curator collection</a>
 ::::
 
 
@@ -261,6 +295,60 @@ Photo by <a href="https://unsplash.com/@karinzabret?utm_content=creditCopyText&u
 <p style="color:black">From Irish Times, August 2024</p>
 ::::
 
+## Bad publicity{background-color='white'}
+
+:::: columns
+::: {.column width="55%"}
+<p style="font-size:80%">• Sarah says that a lottery is unfair. “It is cruel to leave young people’s futures to chance."</p>
+
+<p style="font-size:80%">• “I thought I had done enough – I couldn’t actually do any more.”</p>
+
+<p style="font-size:80%">• "It feels like merit is being thrown out the window.”</p>
+
+<p style="font-size:80%">• “The [admissions system] is simple, crude and inadequate,” Director of the National Association of Principals and Deputies</p>
+:::
+  
+::: {.column width="45%"}
+:::
+::::
+
+![](figures/irish_times_lottery.png){.absolute top="20" right="20"}
+
+:::: aside
+<p style="color:black">From Irish Times, August 2024</p>
+::::
+
+## <small>Colleges and government respond</small>
+
+* Colleges have blamed inflated Leaving Cert grades for making it difficult to differentiate between candidates on top grades for high-demand courses
+
+* ~1,000 students (1.6%) achieved maximum points in 2024, compared with ~200 (0.4%) in 2019
+
+## <small>Colleges and government respond</small>
+
+* Colleges have blamed inflated Leaving Cert grades for making it difficult to differentiate between candidates on top grades for high-demand courses
+
+* ~1,000 students (1.6%) achieved maximum points in 2024, compared with ~200 (0.4%) in 2019
+
+* Minister for Higher Education: “Random selection provides an unbiased method to distinguish between applicants who are otherwise equally qualified for a place in a course”
+
+* Used for entry to more than 20 college courses
+
+## <small>Unsympathetic public</small>
+
+<p style="font-size:89%">• "She would have been offered a place in a university she just didn't get UCD. Bigger disappointments in life."</p>
+
+<p style="font-size:89%">• "This story yet again 🤪 🤪"</p>
+
+## <small>Unsympathetic public</small>
+
+<p style="font-size:89%">• "She would have been offered a place in a university she just didn't get UCD. Bigger disappointments in life."</p>
+
+<p style="font-size:89%">• "This story yet again 🤪 🤪"</p>
+
+<p style="font-size:89%">• "Worked in hospital long time, full now of girls getting into medicine with 625 in leaving cert. Its by and large a memory test and full of middle class girls doing grinds, doing nothing else with their lives, mammy and daddy pushing, for the money money money into medicine. Is terrible and wrong, people from poorer backgrounds could make far far better doctors but no chance."</p>
+
+
 ## Is "Lottery" a problem?{background-image='figures/coronel-g-g453jQQnJ-U-unsplash.jpg' background-opacity=0.4 background-size='cover'}
 
 :::: columns
@@ -269,13 +357,21 @@ Photo by <a href="https://unsplash.com/@karinzabret?utm_content=creditCopyText&u
 
 * Random draw
 
-* Randomisation
+* Lucky dip
+
+* Blinding
+
+* Crannchur (Gaelic)
 :::
   
 ::: {.column width="50%"}
-* Sortition
+* Fair go
 
-* Ballot (secret voting)
+* Sortitus (Latin)
+
+* Ballot
+
+* Tombola
 
 * Conclave
 :::
