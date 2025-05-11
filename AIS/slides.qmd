@@ -1416,9 +1416,7 @@ Information](https://www.edwardtufte.com/book/the-visual-display-of-quantitative
 
 ## Marathon times{background-color='white'}
 
-```{r, out.width='68%'}
-knitr::include_graphics(path='figures/marathon_times.png')
-```
+![](figures/marathon_times.png)
 
 :::: aside
 <p style="color:black">DOI: [10.1287/mnsc.2015.2417](https://doi.org/10.1287/mnsc.2015.2417)</p>

@@ -1,6 +1,6 @@
 ---
 title: "Survey results"
-author: Adrian Barnett<br>21 May 2025
+author: Adrian Barnett<br>12 May 2025
 institute: Queensland University of Technology<br>Photo by <a href="https://unsplash.com/@arthurbizkit?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Arthur Mazi</a> on <a href="https://unsplash.com/photos/green-grass-field-under-white-clouds-during-daytime-foht4Nc494I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 title-position: 90%
 format:
@@ -148,7 +148,7 @@ Average of 516 more applicants per round (95% CI: 143 to 889)
 
 ## Numbers
 
-* 60% passed the initial quality threshold 
+* 60% passed the quality threshold 
 
 * Success rate continues to be between 20 to 30%
 
