@@ -481,6 +481,26 @@ Picture from _The Guardian_
 Illustration by Dale Edwin Murray
 ::::
 
+## Archie Cochrane's bias removal
+
+:::: columns
+::: {.column width="50%"}
+![](figures/archie.png)
+
+<small>Photo from Cardiff University Library, Cochrane Archive, University Hospital Llandough</small>
+
+<small>Story from: Cochrane, A. L. (2009) One Man's Medicine: An Autobiography of Professor Archie Cochrane. Cardiff: Cardiff University</small>
+:::
+  
+::: {.column width="50%"}
+![](figures/ante-samarzija-F7m3QZJ_4mg-unsplash.jpg){width=350}
+
+<small>Photo by <a href="https://unsplash.com/@antesamarzija?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ante Samarzija</a> on <a href="https://unsplash.com/photos/white-hospital-bed-in-a-room-F7m3QZJ_4mg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
+
+:::
+::::
+
+
 ## Collect subjective data blind{background-color='#628e4f'}
 
 ![](figures/journal.pone.0284702.g004.PNG)
@@ -1116,26 +1136,6 @@ DOI: [10.1080/00031305.2018.1518264](https://www.tandfonline.com/doi/full/10.108
 * Pre-specify the important difference
 
 
-## Archie Cochrane's bias removal
-
-:::: columns
-::: {.column width="50%"}
-![](figures/archie.png)
-
-<small>Photo from Cardiff University Library, Cochrane Archive, University Hospital Llandough</small>
-
-<small>Story from: Cochrane, A. L. (2009) One Man's Medicine: An Autobiography of Professor Archie Cochrane. Cardiff: Cardiff University</small>
-:::
-  
-::: {.column width="50%"}
-![](figures/ante-samarzija-F7m3QZJ_4mg-unsplash.jpg){width=350}
-
-<small>Photo by <a href="https://unsplash.com/@antesamarzija?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ante Samarzija</a> on <a href="https://unsplash.com/photos/white-hospital-bed-in-a-room-F7m3QZJ_4mg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
-
-:::
-::::
-
-
 # Tutorial{background-image='figures/feliphe-schiarolli-hes6nUC1MVc-unsplash.jpg' background-opacity=0.4 background-size='cover' visibility="uncounted"} 
 
 <br><br><br><p style="font-size:80%">Photo by <a href="https://unsplash.com/@flpschi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Feliphe Schiarolli</a> on <a href="https://unsplash.com/photos/photography-of-school-room-hes6nUC1MVc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
@@ -1314,7 +1314,7 @@ Photo by [Michael Coghlan](https://www.flickr.com/photos/mikecogh/15948532925/in
 
 ## Researchers' choices{background-color='white'}
 
-![](https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/ampa/2018/ampa_1_3/2515245917747646/20181024/images/large/10.1177_2515245917747646-fig2.jpeg)
+![](figures/10.1177_2515245917747646-fig2.jpg)
 
 :::: aside
 <p style="color:black">DOI: [10.1177/2515245917747646](https://journals.sagepub.com/doi/10.1177/2515245917747646)</p>
