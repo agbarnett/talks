@@ -49,6 +49,7 @@ In date order:
 * `British_academy` Consenting and recruiting researchers in studies of partial randomisation (December 2024)
 * `cre` Open Science talk for the Medicines Intelligence CRE (February 2025)
 * `AFIRE` Partial Randomisation at The British Academy for AFIRE (February 2025)
+* `crikey2` Research Fraud and How to Stop it in its Tracks. 2nd CRIKEY conference (February 2025)
 * `DORA` DORA Asia pacific funder group on lotteries for funding (March 2025)
 * `AIS` Statistical Thinking for the Australian Institute of Sport (May 2025)
 * `lottery_workshop` Using lotteries in Australia to increase fairness and assess policy impacts when allocating scarce resources (May 2025)

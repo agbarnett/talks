@@ -1,0 +1,348 @@
+---
+title: "How fraud is undermining scientific research"
+author: Adrian Barnett<br>7 July 2025
+institute: Queensland University of Technology<br>Photo by <a href="https://unsplash.com/@americanjael?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">American Jael</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-large-alligators-eye-9wDv8WUwFvg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+format:
+ revealjs: 
+  slide-number: true
+  theme: night
+  chalkboard: false
+  transition: fade
+  preview-links: auto
+  logo: figures/logos.jpg
+title-slide-attributes:
+ title-position: 20%
+ data-position: relative
+ data-background-image: figures/american-jael-9wDv8WUwFvg-unsplash.jpg
+ data-background-size: cover
+ data-background-opacity: "0.6"
+editor: 
+ markdown: 
+  emoji: true
+  wrap: 72
+---
+
+
+## <xx-small style="color:transparent">Papers for sale</xx-small>{background-image='figures/Authorship-for-sale.png' background-size='contain' background-position='left'}
+
+:::: columns
+::: {.column width="60%"}
+:::
+
+::: {.column width="40%"}
+<br><br><br><br><br><p style="font-size:65%">From author-for</p>
+
+<p style="font-size:65%">-sale.bsky.social</p>
+:::
+::::
+
+## Q: Why? A #1: Pressure{background-color='#bdcdde'}
+
+<!--- from https://www.nature.com/articles/d41586-025-01824-3 --->
+
+:::: columns
+::: {.column width="60%"}
+
+<p style="font-size:75%">• “To be promoted, he needed to publish at least ten more papers, in journals in the top half of those ranked by the Web of Science, a citation index. And to meet this demanding requirement, he’d turned to paper mills.”</p>
+
+<p style="font-size:50%">From _[Authorship for sale: Nature investigates how paper mills work](https://www.nature.com/articles/d41586-025-01824-3)_</p>
+
+:::
+
+::: {.column width="40%"}
+:::
+::::
+
+## Q: Why? A #1: Pressure{background-color='#bdcdde' visibility="uncounted"}
+
+<!--- from https://www.nature.com/articles/d41586-025-01824-3 --->
+
+:::: columns
+::: {.column width="60%"}
+
+<p style="font-size:75%">• “To be promoted, he needed to publish at least ten more papers, in journals in the top half of those ranked by the Web of Science, a citation index. And to meet this demanding requirement, he’d turned to paper mills.”</p>
+
+<p style="font-size:75%">• “[The] struggle to balance research, clinical duties and personal life is one of the key factors driving some of them towards the services provided by paper mills.”</p>
+
+<p style="font-size:50%">From _[Authorship for sale: Nature investigates how paper mills work](https://www.nature.com/articles/d41586-025-01824-3)_</p>
+
+:::
+
+::: {.column width="40%"}
+:::
+::::
+
+## Q: Why? A #1: Pressure{background-color='#bdcdde' visibility="uncounted"}
+
+<!--- from https://www.nature.com/articles/d41586-025-01824-3 --->
+
+:::: columns
+::: {.column width="60%"}
+
+<p style="font-size:75%">• “To be promoted, he needed to publish at least ten more papers, in journals in the top half of those ranked by the Web of Science, a citation index. And to meet this demanding requirement, he’d turned to paper mills.”</p>
+
+<p style="font-size:75%">• “[The] struggle to balance research, clinical duties and personal life is one of the key factors driving some of them towards the services provided by paper mills.”</p>
+
+<p style="font-size:50%">From _[Authorship for sale: Nature investigates how paper mills work](https://www.nature.com/articles/d41586-025-01824-3)_</p>
+
+:::
+
+::: {.column width="40%"}
+![](figures/chegg.png)
+:::
+::::
+
+## Q: Why? A #2: Competition
+
+<!--- % https://www.bbc.co.uk/sounds/play/b00pfkw3 "Scientists competed to find the tallest species. Why not add a few extra neck bones?" --->
+
+:::: columns
+::: {.column width="50%"}
+![](https://upload.wikimedia.org/wikipedia/commons/a/af/Dinornis_maximus%2C_Natural_History_Museum_%28PV_A_608%29.jpg){height=450}
+
+
+<small>Natural History Museum, London, CC BY 4.0 <https://creativecommons.org/licenses/by/4.0>, via Wikimedia Commons</small>
+:::
+  
+::: {.column width="50%"}
+![](https://upload.wikimedia.org/wikipedia/commons/8/87/Dinornithidae_SIZE_01.png)
+
+<small>Conty, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons</small>
+:::
+::::
+
+## Q: Why? A #3: Money{background-color='white'}
+
+![](figures/qss_a_00327_f002.png){width=790}
+
+::::aside
+<p style="color:black">DOI: [10.1162/qss_a_00327](https://doi.org/10.1162/qss_a_00327)</p>
+::::
+
+
+## Two kinds of cheater{background-color='#30261d'}
+
+:::: columns
+::: {.column width="50%"}
+Out-and-out cheats = fake the entire fossil
+
+Bespoke cheats = add a few neck bones
+:::
+
+::: {.column width="50%"}
+![](https://upload.wikimedia.org/wikipedia/commons/a/ae/Piltdown_gang_%28dark%29.jpg)
+:::
+::::
+
+::::aside
+Portrait painted by John Cooke in 1915, public domain art
+::::
+
+
+## 2.5 kinds of cheater{background-color='#30261d'}
+
+:::: columns
+::: {.column width="50%"}
+Out-and-out cheats = fake the entire fossil
+
+Bespoke cheats = add a few neck bones
+
+Fossil mining = genuine fossils carelessly ripped from the ground
+:::
+
+::: {.column width="50%"}
+![](https://upload.wikimedia.org/wikipedia/commons/a/ae/Piltdown_gang_%28dark%29.jpg)
+:::
+::::
+
+::::aside
+Portrait painted by John Cooke in 1915, public domain art
+::::
+
+## <small style="color:transparent">Removing neck bones</small>{background-color='white' background-image='figures/Z_plot_slide.png' background-size='contain'}
+
+
+## Doctored images{background-color='white'}
+
+![](figures/PubPeer_Lesne.png){width=510}
+
+::::aside
+<p style="color:black">DOI:[10.1038/nature04533](https://pubmed.ncbi.nlm.nih.gov/16541076/)</p>
+::::
+
+## <small style="color:transparent">QIMR</small>{background-color='white' background-image='figures/smyth.png' background-size='contain'}
+
+<!--- Mark Smyth, no action, whistleblowers lost job, ingored for seven years --->
+
+## Harms
+
+* European guidelines recommending beta-blockers for patients undergoing non-cardiac surgery were based on six randomised trials that had suffered from ‘data fabrication’ and ‘academic misconduct’
+
+
+::::aside
+DOI: [10.1136/bmj.g5210](https://www.bmj.com/content/349/bmj.g5210.long)
+::::
+
+## Harms{visibility="uncounted"}
+
+* European guidelines recommending beta-blockers for patients undergoing non-cardiac surgery were based on six randomised trials that had suffered from ‘data fabrication’ and ‘academic misconduct’
+
+* Excluding the DECREASE trials from a meta-analysis meant that the summary estimate switched from β blockers being protective to harmful
+
+::::aside
+DOI: [10.1136/bmj.g5210](https://www.bmj.com/content/349/bmj.g5210.long)
+::::
+
+## Harms{visibility="uncounted"}
+
+* European guidelines recommending beta-blockers for patients undergoing non-cardiac surgery were based on six randomised trials that had suffered from ‘data fabrication’ and ‘academic misconduct’
+
+* Excluding the DECREASE trials from a meta-analysis meant that the summary estimate switched from β blockers being protective to harmful
+
+* An estimated 800,000 excess deaths across Europe over five years because of the misinformed guidelines
+
+::::aside
+DOI: [10.1136/bmj.g5210](https://www.bmj.com/content/349/bmj.g5210.long)
+::::
+
+
+## Nonsense images{background-color='white'}
+
+![](figures/rat.png){width=560}
+
+::::aside
+<p style="color:black">Thanks to [Science Integrity Digest](https://scienceintegritydigest.com/2024/02/15/the-rat-with-the-big-balls-and-enormous-penis-how-frontiers-published-a-paper-with-botched-ai-generated-images/)</p>
+::::
+
+## Nonsense phrases
+
+| In paper| Should be |
+|---------|:-----|
+| colossal information | big data   |
+| counterfeit consciousness | artificial intelligence |
+| unmarried-shot     | single- shot  |
+| intensity and vulnerability       | strengths and weaknesses    |
+
+::::aside
+[Tortured phrases detector](https://dbrech.irit.fr/pls/apex/f?p=9999:24) by Guillaume Cabanac and colleagues
+::::
+
+## Problems:
+- Bar charts
+- AI explosion?
+- Researchers willing to compromise (DCE)
+
+## <small style="color:transparent">Statically significant</small>{background-image='figures/Statically_significant.png' background-size='contain' background-color='grey'}
+
+## Explosion in NHANES papers
+
+<!--- titles from nhanes.R --->
+
+<p style="font-size:60%">• Association between a body shape index and cognitive impairment among US older adults aged 40 years and above from a cross-sectional survey of the NHANES 2011-2014</p>
+
+<p style="font-size:60%">• Association between a body shape index and cognitive impairment among us older adults from a cross-sectional survey of the NHANES 2011–2014</p>
+
+<p style="font-size:60%">• Association Between Systemic Immune Inflammation Index and Diabetes Mellitus in the NHANES 2003-2018 Population</p>                          
+
+<p style="font-size:60%">• Association between systemic immune-inflammation index and diabetes: a population-based study from the NHANES</p>
+
+<p style="font-size:60%">• Association between muscle strength and mass and bone mineral density in the US general population: data from NHANES 1999–2002</p>
+
+<p style="font-size:60%">• Correlation of muscle mass and bone mineral density in the NHANES US general population, 2017-2018</p>
+
+::::aside
+DOI: [10.1371/journal.pbio.3003152](https://doi.org/10.1371/journal.pbio.3003152) ``Explosion of formulaic research articles, including inappropriate study designs and false discoveries, based on the NHANES US national health database"
+::::
+
+## <small style="color:transparent">Gold standard</small>{background-image='figures/Restoring_Gold_Standard_Science.png' background-size='contain'}
+
+
+# Solutions?{background-color='#d5c3a3'}
+
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWg0MjJvZ2tkNmlyMmlneHhyaWNsNmF1ZDVjZTNwbHM1czZibzc3eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ebITvSXYKNvRm/giphy.gif)
+
+::::aside
+from giphy
+::::
+
+## <small style="color:transparent">Quality vs quantity</small>{background-image='figures/trump_fauci.png' background-size='contain'}
+
+## <small style="color:transparent">Remove paper names</small>{background-image='figures/nature_cv_barnett.png' background-color='white' background-size='contain'}
+
+## De-index bad journals{background-color='#89dbfe'}
+
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmJnbTJ4cnFqbHcycGg1bW9ram0yaDRnNXF5MmloaWdpb2tqNnR4ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jBa8N5YdFvDFfmyJNr/giphy.gif)
+
+::::aside
+From giphy
+::::
+
+## <small style="color:transparent">Peer review pre-prints</small>{background-image='figures/metaror.png' background-color='white' background-size='contain'}
+
+## Funding
+
+## <small style="color:transparent">Retraction Watch</small>{background-image='figures/retraction_watch.jpg' background-color='white' background-size='contain'}
+
+## <small style="color:transparent">Pubpeer</small>{background-image='figures/pubpeer.jpg' background-size='contain' background-color='white' background-position='left'}
+
+## Automated screening{background-color='white'}
+
+![](figures/retracted_study-2.jpg){width=640}
+
+::::aside
+<p style="color:black">DOI: [10.1111/j.1399-6576.1997.tb04860.x](https://pubmed.ncbi.nlm.nih.gov/9366938/)</p><p style="color:red">Retracted</p>
+::::
+
+## Reward whistleblowers{background-color='#f3eee7'}
+
+![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmZrNXkxcXc3cTdudTduMWgyYnl6YWZjOHlqbG40YmtkanlxYzAyeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ec8HelT0VIJPgJcjaf/giphy.gif)
+
+:::: aside
+<p style="color:black">From Barbara Pozzi on giphy</p>
+::::
+
+## Forget impact factors
+
+![](figures/lancet_impact.jpg)
+
+<!--- https://twitter.com/TheLancet/status/1542088311702962177 --->
+
+## Forget impact factors
+
+![](figures/lancet_paper.jpg)
+
+* 813 hospitalised, 613 (75%) excluded because they were still hospitalised or not confirmed as infected
+
+* Has been cited 35,000+ times
+
+::::aside
+DOI: [10.1016/S0140-6736(20)30566-3](https://pubmed.ncbi.nlm.nih.gov/32171076/)
+::::
+
+
+## Forget impact factors
+
+![](figures/scrabble.jpg)
+
+
+::::aside
+From [NPR](https://www.npr.org/sections/thetwo-way/2015/07/21/424980378/winner-of-french-scrabble-title-does-not-speak-french)
+::::
+
+## <small style="color:transparent">Be less academic</small>{background-image='figures/cullan-smith-BdTtvBRhOng-unsplash.jpg' background-size='contain' background-opacity='0.6'}
+
+``Be stirring as the time; be fire with fire
+
+Threaten the threatener and outface the brow''
+
+King John, William Shakespeare
+
+::::aside
+Photo by <a href="https://unsplash.com/@cullansmith?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Cullan Smith</a> on <a href="https://unsplash.com/photos/red-fire-digital-wallpaper-BdTtvBRhOng?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::      
+      
+## More solutions
+
+- De-index bad journals now
+- More open science
+- How to spot papers: https://www.nature.com/articles/d41586-025-01826-1

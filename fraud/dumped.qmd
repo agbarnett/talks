@@ -1,0 +1,26 @@
+
+DOI: [10.1111/pala.12690](https://doi.org/10.1111/pala.12690)
+
+
+# Other problems{background-color='#aeb9e1'}
+
+:::: columns
+::: {.column width="50%"}
+* Non-reproducible research
+* University league tables
+* Fake conferences
+:::
+  
+::: {.column width="50%"}
+![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGJzbnc2bW43aHpnaXh3YnpidzEzZ3lubXViNnpvdHFzcHIzdWloNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bjxgxU6VOqdBC/giphy.gif)
+:::
+::::
+  
+:::: aside
+From giphy
+::::
+
+
+
+
+## <small style="color:transparent">Test</small>{background-image='figures/dispersion.png' background-size='contain' background-color='white'} 
