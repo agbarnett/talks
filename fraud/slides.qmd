@@ -261,6 +261,14 @@ DOI: [10.1371/journal.pbio.3003152](https://doi.org/10.1371/journal.pbio.3003152
 from giphy
 ::::
 
+## Leave paper trails{background-color='white'}
+
+![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExejVqcjk2YnNweHZ3eWZwdnhoc3A5cWhld3pxemhxZjVvcHZpemJ4NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VcAHnvyTuz68ktlyvL/giphy.gif)
+
+:::: aside
+<p style="color:black">from BoxMedia on giphy</p>
+::::
+
 ## <small style="color:transparent">Quality vs quantity</small>{background-image='figures/trump_fauci.png' background-size='contain'}
 
 ## <small style="color:transparent">Remove paper names</small>{background-image='figures/nature_cv_barnett.png' background-color='white' background-size='contain'}
@@ -344,14 +352,6 @@ From giphy
 
 ## <small style="color:transparent">League tables</small>{background-image='figures/league_tables.jpg' background-color='white' background-size='contain'}
 
-
-## Leave paper trails{background-color='white'}
-
-![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExejVqcjk2YnNweHZ3eWZwdnhoc3A5cWhld3pxemhxZjVvcHZpemJ4NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VcAHnvyTuz68ktlyvL/giphy.gif)
-
-:::: aside
-<p style="color:black">from BoxMedia on giphy</p>
-::::
 
 ## <small style="color:transparent">Be less academic</small>{background-image='figures/cullan-smith-BdTtvBRhOng-unsplash.jpg' background-size='contain' background-opacity='0.6'}
 
