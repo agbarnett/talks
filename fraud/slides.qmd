@@ -269,6 +269,10 @@ from giphy
 <p style="color:black">from BoxMedia on giphy</p>
 ::::
 
+## <small style="color:transparent">Retraction Watch</small>{background-image='figures/retraction_watch.jpg' background-color='white' background-size='contain'}
+
+## <small style="color:transparent">Pubpeer</small>{background-image='figures/pubpeer.jpg' background-size='contain' background-color='white' background-position='left'}
+
 ## <small style="color:transparent">Quality vs quantity</small>{background-image='figures/trump_fauci.png' background-size='contain'}
 
 ## <small style="color:transparent">Remove paper names</small>{background-image='figures/nature_cv_barnett.png' background-color='white' background-size='contain'}
@@ -302,9 +306,6 @@ From giphy
 
 * Publishers cry poor, but last year the mega-publisher _Elsevier_ made GBP £1.2 billion in profit
 
-## <small style="color:transparent">Retraction Watch</small>{background-image='figures/retraction_watch.jpg' background-color='white' background-size='contain'}
-
-## <small style="color:transparent">Pubpeer</small>{background-image='figures/pubpeer.jpg' background-size='contain' background-color='white' background-position='left'}
 
 ## Automated screening{background-color='white'}
 
