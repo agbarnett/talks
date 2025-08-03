@@ -116,14 +116,14 @@ ftab
 
 ## <small>Gathering votes</small>{background-image='figures/rank_questions.jpg' background-size='cover'}
 
-## Top three
+## Top three after ranking
 
 ```{r top_ten}
 tab = slice(ranks, 1:3) # top 
 ftab = flextable(tab) %>%
   theme_box() %>%
   autofit() %>%
-  fontsize(size=22, part='all') %>%
+  fontsize(size=30, part='all') %>%
   color(part='all', color='white')
 ftab
 ```
@@ -142,7 +142,7 @@ ftab
 
 :::: columns
 ::: {.column width="50%"}
-* Needed funding
+* Needed more funding
 
 * Better instructions about questions; too many linked questions
 
