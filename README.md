@@ -55,3 +55,4 @@ In date order:
 * `lottery_workshop` Using lotteries in Australia to increase fairness and assess policy impacts when allocating scarce resources (May 2025)
 * `fraud` How fraud is undermining scientific research, Duke-NUS (July 2025)
 * `priority` Brief talk about research prioritisation, QUT (August 2025)
+* `QCVRN` Annual Scientific Meeting of the Cardiac Society of Australia and New Zealand, Brisbane (August 2025)

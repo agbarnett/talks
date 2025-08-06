@@ -1,0 +1,100 @@
+---
+title: "<p style='font-size:120%' style='color:transparent'> </p>Things are bad and are getting worse"
+author: Adrian Barnett, 14 August 2025
+institute: Queensland University of Technology<br>Drawing by KC Green
+format:
+ revealjs: 
+  slide-number: true
+  theme: night
+  chalkboard: false
+  transition: fade
+  preview-links: auto
+  logo: figures/logos.jpg
+title-slide-attributes:
+ data-position: relative
+ data-background-image: figures/dog_meme.png
+ data-background-size: cover
+ data-background-opacity: "0.8"
+editor: 
+ markdown: 
+  emoji: true
+  wrap: 72
+---
+
+## <small>The Victorians were rubbish scientists</small>
+
+<!--- % https://www.bbc.co.uk/sounds/play/b00pfkw3 "Scientists competed to find the tallest species. Why not add a few extra neck bones?" --->
+
+:::: columns
+::: {.column width="50%"}
+![](https://upload.wikimedia.org/wikipedia/commons/a/af/Dinornis_maximus%2C_Natural_History_Museum_%28PV_A_608%29.jpg){height=450}
+
+
+<small>Natural History Museum, London, CC BY 4.0 <https://creativecommons.org/licenses/by/4.0>, via Wikimedia Commons</small>
+:::
+  
+::: {.column width="50%"}
+![](https://upload.wikimedia.org/wikipedia/commons/8/87/Dinornithidae_SIZE_01.png)
+
+<small>Conty, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons</small>
+:::
+::::
+
+## <small style="color:transparent">Removing neck bones</small>{background-color='white' background-image='figures/Z_plot_slide.png' background-size='contain'}
+
+## <small style="color:transparent">Statically significant</small>{background-image='figures/Statically_significant.png' background-size='contain' background-color='grey'}
+
+
+## Quantity over quality{background-color='white'}
+
+![](figures/qss_a_00327_f002.png){width=790}
+
+::::aside
+<p style="color:black">DOI: [10.1162/qss_a_00327](https://doi.org/10.1162/qss_a_00327)</p>
+::::
+
+## <xx-small style="color:transparent">Papers for sale</xx-small>{background-image='figures/Authorship-for-sale.png' background-size='contain' background-position='left'}
+
+:::: columns
+::: {.column width="60%"}
+:::
+
+::: {.column width="40%"}
+<br><br><br><br><br><p style="font-size:65%">From author-for</p>
+
+<p style="font-size:65%">-sale.bsky.social</p>
+:::
+::::
+
+
+
+## Nonsense images{background-color='#f6eedf'}
+
+![](figures/rat.png){width=590}
+
+::::aside
+<p style="color:black">Thanks to [Science Integrity Digest](https://scienceintegritydigest.com/2024/02/15/the-rat-with-the-big-balls-and-enormous-penis-how-frontiers-published-a-paper-with-botched-ai-generated-images/)</p>
+::::
+
+## Nonsense phrases
+
+| In paper| Should be |
+|---------|:-----|
+| colossal information | big data   |
+| counterfeit consciousness | artificial intelligence |
+| unmarried-shot     | single- shot  |
+| intensity and vulnerability       | strengths and weaknesses    |
+
+::::aside
+[Tortured phrases detector](https://dbrech.irit.fr/pls/apex/f?p=9999:24) by Guillaume Cabanac and colleagues
+::::
+
+## <small style="color:transparent">Explosion in NHANES papers</small>{background-image='figures/low_quality.png' background-size='contain' background-color='grey'}
+
+## <small style="color:transparent">Collusion</small>{background-image='figures/dodgy_editors.png' background-size='contain' background-color='grey'}
+
+## <small style="color:transparent">Current mood</small>{background-image='figures/dog_meme2.png' background-size='contain' background-color='white'}
+
+::::aside
+<p style="color:black">Drawing by<br>KC Green</p>
+::::
