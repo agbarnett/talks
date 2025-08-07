@@ -89,6 +89,15 @@ editor:
 [Tortured phrases detector](https://dbrech.irit.fr/pls/apex/f?p=9999:24) by Guillaume Cabanac and colleagues
 ::::
 
+## <small style="color:transparent">Terrible photoshop</small>{background-image='figures/dodgy_photoshop.png' background-size='contain' background-color='grey'}
+
+::::aside
+Thanks to Archasia belfragei
+::::
+
+## <small style="color:transparent">Self-citing pudding</small>{background-image='figures/dodgy_citations.png' background-size='contain' background-color='grey'}
+
+
 ## <small style="color:transparent">Explosion in NHANES papers</small>{background-image='figures/low_quality.png' background-size='contain' background-color='grey'}
 
 ## <small style="color:transparent">Collusion</small>{background-image='figures/dodgy_editors.png' background-size='contain' background-color='grey'}
