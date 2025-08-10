@@ -89,6 +89,18 @@ editor:
 [Tortured phrases detector](https://dbrech.irit.fr/pls/apex/f?p=9999:24) by Guillaume Cabanac and colleagues
 ::::
 
+## <small style="color:transparent">Wind tunnel #1</small>{background-image='figures/airplane_tunnel.png' background-size='contain' background-color='grey'}
+
+::::aside
+<p style="color:black">Thanks to Elizabeth Bik</p>
+::::
+
+## <small style="color:transparent">Wind tunnel #2</small>{background-image='figures/airplane_tunnel2.png' background-size='contain' background-color='grey' background-position='right'}
+
+::::aside
+<p style="color:black">Thanks to<br>Elizabeth<br>Bik</p>
+::::
+
 ## <small style="color:transparent">Terrible photoshop</small>{background-image='figures/dodgy_photoshop.png' background-size='contain' background-color='grey'}
 
 ::::aside
