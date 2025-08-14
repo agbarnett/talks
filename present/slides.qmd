@@ -1,0 +1,259 @@
+---
+title: <small>Some common mistakes and best practices for presenting and dealing with data in research</small>
+author: Adrian Barnett, 29 August 2025
+institute: Queensland University of Technology<br><br>Photo by <a href="https://unsplash.com/@rocinante_11?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mick Haupt</a> on <a href="https://unsplash.com/photos/white-red-green-and-yellow-multi-color-heart-print-textile-kgRBoAKq-4E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+format:
+ revealjs: 
+  slide-number: true
+  theme: night
+  chalkboard: false
+  transition: fade
+  preview-links: auto
+  logo: figures/logos.jpg
+title-slide-attributes:
+ data-position: relative
+ data-background-image: figures/mick-haupt-kgRBoAKq-4E-unsplash.jpg
+ data-background-size: cover
+ data-background-opacity: "0.4"
+editor: 
+ markdown: 
+  emoji: true
+  wrap: 72
+---
+
+
+# Plots{background-color='pink'}
+
+* A good graph is a great way to show your findings
+
+* Not all evidence is about hypothesis tests
+
+* "Give the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space", Tufte, _[The Visual Display of Quantitative
+Information](https://www.edwardtufte.com/book/the-visual-display-of-quantitative-information/)_
+
+## Marathon times{background-color='white'}
+
+![](figures/marathon_times.png)
+
+:::: aside
+<p style="color:black">DOI: [10.1287/mnsc.2015.2417](https://doi.org/10.1287/mnsc.2015.2417)</p>
+::::
+
+## Terrible plots 🤪
+
+![](figures/bar_chart_plos.png){.absolute top="120" left="20"
+width="720" height="480"}
+
+![](figures/bar_chart_plos_3d.png){.absolute .fragment top="120"
+right="20" width="720" height="480"}
+
+## Pie charts 🤮
+
+![](figures/bad_pie.jfif){.absolute top="120" left="20" width="720"
+height="480"}
+
+<!--- 787 x 562 --->
+
+![](figures/bad_pie_3d.jfif){.absolute .fragment top="120" right="20"
+width="720" height="480"}
+
+
+## Always start at zero{background-color='white'}
+
+![](figures/vc_pay.png){width=550}
+
+:::: aside
+<p style="color:black">From the [Australia Institute](https://australiainstitute.org.au/post/the-high-pay-for-vice-chancellors-does-not-deliver-better-outcomes-for-students/)</p>
+::::
+
+## Don't always start at zero{background-color='white'}
+
+![](figures/vc_scatter.png){width=500}
+
+:::: aside
+<p style="color:black">From the [Australia Institute](https://australiainstitute.org.au/post/the-high-pay-for-vice-chancellors-does-not-deliver-better-outcomes-for-students/)</p>
+::::
+
+## White space<br>dogma{background-color='white'}
+
+![](figures/lancet_graph.jpg){.absolute top="20" right="20"}
+
+## <small>Marathon times with white space</small>{background-color='white'}
+
+<!--- from 99_plot_marathon_times.R -->
+
+![](figures/99_marathon1.jpg){width=550}
+
+## <small>Marathon times without white space</small>{background-color='white'}
+
+<!--- from 99_plot_marathon_times.R -->
+
+![](figures/99_marathon2.jpg){width=550}
+
+## <small>Scatter plot with white space</small>{background-color='white'}
+
+<!--- from 99_plot_marathon_times.R -->
+
+![](figures/99_marathon1_scatter.jpg)
+
+## <small>Scatter plot without white space</small>{background-color='white'}
+
+<!--- from 99_plot_marathon_times.R -->
+
+![](figures/99_marathon2_scatter.jpg)
+
+## Marathon times{background-color='white' visibility='uncounted'}
+
+<!--- from 99_plot_marathon_times.R -->
+
+![](figures/99_marathon3_scatter.jpg)
+
+<!--- about a minute per year --->
+
+## Rules can be broken{background-color='white'}
+
+![](figures/HZe4vKy.png)
+
+## Never ever use pie charts{background-color='white'}
+
+![](figures/pie_charts.jfif){width=700}
+
+:::: aside
+<p style="color:black">From Wikimedia Commons by [Schutz](https://commons.wikimedia.org/wiki/User:Schutz)</p>
+::::
+
+## Bar charts #1 ...{background-color='white'}
+
+ ... should never be used for continuous data
+
+![](figures/pbio.1002128.g001.png)
+
+:::: aside
+<p style="color:black">DOI: [10.1371/journal.pbio.1002128](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128)</p>
+::::
+
+
+## Bar charts #2 ... {background-color='white'}
+
+ ... never use when within-person change is important
+
+![](figures/pbio.1002128.g002.png){width=610}
+
+:::: aside
+<p style="color:black">DOI: [10.1371/journal.pbio.1002128](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128)</p>
+::::
+
+## Example{background-color='white'}
+
+:::: columns
+::: {.column width="40%"}
+<small>Exercise induced plasma volume expansion lowers cardiovascular strain during 15-km cycling time-trial in acute normobaric hypoxia</small>
+
+<small>DOI: [10.1371/journal.
+pone.0297553](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0297553)</small>
+
+:::
+
+::: {.column width="60%"}
+![](figures/journal.pone.0297553.g002.PNG)
+:::
+::::
+
+<!--- asterisks look like outliers --->
+
+## Alternative plot{background-color='white'}
+
+<!--- from 99_slides_boxplots.R -->
+![](figures/99_box_example.jpg)
+
+## Join individuals{background-color='white'}
+
+
+<!--- from 99_slides_boxplots.R -->
+![](figures/99_box_example_joined.jpg)
+
+## <small style="color:transparent">Plots tutorial</small>{background-image='figures/graph_tutorial.jpg' background-opacity=1 background-size='contain'} 
+
+<!--- figures from https://journals.plos.org/plosone/article/figures?id=10.1371/journal.pone.0201435, 
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0292012#abstract0
+https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002295
+--->
+
+# Tables{background-color='#87CEEB'}
+
+Tables are another useful way to display results, but are also often done badly
+
+## <small>Number overload</small>{background-color='white'}
+
+<!--- Who ran the most on average -->
+
+:::: columns
+::: {.column width="30%"}
+
+<small>Inter- and intra-microcycle external load analysis in female professional soccer players: A playing position approach</small>
+
+<small>DOI: [10.1371/journal.
+pone.0264908](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0264908)</small>
+:::
+
+
+::: {.column width="70%"}
+![](figures/journal.pone.0264908.t004.PNG){width=580}
+:::
+
+::::
+
+
+## Plot instead of table{background-color='white'}
+
+<!--- from 99_table.R --->
+
+![](figures/99_table_plotted.jpg)
+
+
+## Scaling (metres)
+
+<!--- from 99_table --->
+
+| Microcycle | Position | Total Distance |
+|:-----------|:---------|:---------------|
+| M1 | Central defender | 22524 |
+| M1 | Fullback | 22496 |
+| M1 | Central midfielder | 23555 |
+| M1 | Forwards | 19112 |
+| M2 | Central defender | 24108 |
+| M2 | Fullback | 23725 |
+| M2 | Central midfielder | 22510 |
+| M2 | Forwards | 28250 |
+
+## Scaling (kilometres)
+
+| Microcycle | Position | Total Distance |
+|:-----------|:---------|:---------------|
+| M1 | Central defender | 22.5 |
+| M1 | Fullback | 22.5 |
+| M1 | Central midfielder | 23.6 |
+| M1 | Forwards | 19.1 |
+| M2 | Central defender | 24.1 |
+| M2 | Fullback | 23.7 |
+| M2 | Central midfielder | 22.5 |
+| M2 | Forwards | 28.2 |
+
+
+## <xx-small style="color:transparent">Decimal places</xx-small>
+
+<!-- Show that you get it. -->
+
+:::: columns
+::: {.column width="70%"}
+![](figures/gauss.jfif){.absolute top="40" right="30" width="600"
+height="770"}
+:::
+::::
+
+:::: aside
+Painting by Christian Albrecht<br> Jensen, Public domain, via<br>
+[Wikimedia
+Commons](https://commons.wikimedia.org/wiki/File:Carl_Friedrich_Gauss_1840_by_Jensen.jpg)
+::::
+

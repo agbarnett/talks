@@ -56,3 +56,5 @@ In date order:
 * `fraud` How fraud is undermining scientific research, Duke-NUS (July 2025)
 * `priority` Brief talk about research prioritisation, QUT (August 2025)
 * `QCVRN` Annual Scientific Meeting of the Cardiac Society of Australia and New Zealand, Brisbane (August 2025)
+* `present` AusHSI HDR Student Education Session - Data (August 2025)
+* `cardiopulmonary` Online talk for workshop of cardiopulmonary physiotherapists (November 2025)

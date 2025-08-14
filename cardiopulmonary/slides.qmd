@@ -1,0 +1,120 @@
+---
+title: Simple rules for good research practice
+author: Adrian Barnett, 29 November 2025
+institute: Queensland University of Technology<br>Photo by <a href="https://unsplash.com/@brunogm?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Bruno Mauricio</a> on <a href="https://unsplash.com/photos/lake-beside-hills-zxtLe1P9fwY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+format:
+ revealjs: 
+  slide-number: true
+  theme: night
+  chalkboard: false
+  transition: fade
+  preview-links: auto
+  logo: figures/logos.jpg
+title-slide-attributes:
+ data-position: relative
+ data-background-image: figures/bruno-mauricio-zxtLe1P9fwY-unsplash.jpg
+ data-background-size: cover
+ data-background-opacity: "0.7"
+editor: 
+ markdown: 
+  emoji: true
+  wrap: 72
+---
+
+## Current state of research
+
+<p style="font-size:66%">Correctable weaknesses in the design, conduct, and analysis of biomedical and public health research studies can produce misleading results and waste valuable resources. Small effects can be difficult to distinguish from bias introduced by study design and analyses. An absence of detailed written protocols and poor documentation of research is common. Information obtained might not be useful or important, and statistical precision or power is often too low or used in a misleading way. Insufficient consideration might be given to both previous and continuing studies. Arbitrary choice of analyses and an overemphasis on random extremes might affect the reported findings. Several problems relate to the research workforce, including failure to involve experienced statisticians and methodologists, failure to train clinical researchers and laboratory scientists in research methods and design, and the involvement of stakeholders with conflicts of interest. Inadequate emphasis is placed on recording of research decisions and on reproducibility of research. Finally, reward systems incentivise quantity more than quality, and novelty more than reliability.</p>
+
+:::: aside
+DOI: [10.1016/S0140-6736(13)62227-8](https://pubmed.ncbi.nlm.nih.gov/24411645/)
+::::
+
+
+## Declaration of Helsinki
+
+* Updated in 2024
+
+<p style="font-size:80%">"Medical research involving human participants must have a scientifically sound and rigorous design and execution that are likely to produce reliable, valid, and valuable knowledge and avoid research waste. The research must conform to generally accepted scientific principles, be based on a thorough knowledge of the scientific literature, other relevant sources of information, and adequate laboratory and, as appropriate, animal experimentation."</p>
+
+
+## Declaration of Helsinki{visibility='uncounted'}
+
+* Updated in 2024
+
+<p style="font-size:80%">"Medical research involving human participants must have a scientifically sound and rigorous design and execution that are likely to produce reliable, valid, and valuable knowledge and avoid research waste. The research must conform to generally accepted scientific principles, be based on a thorough knowledge of the scientific literature, other relevant sources of information, and adequate laboratory and, as appropriate, animal experimentation."</p>
+
+<p style="font-size:80%">"Scientific integrity is essential in the conduct of medical research involving human participants. Involved individuals, teams, and organizations must never engage in research misconduct."</p>
+
+
+## <small style="color:transparent">David Sackett</small>{background-image='figures/barn-images-t5YUoHW6zRo-unsplash.jpg' background-size='cover' background-color='grey' background-opacity='0.5' background-position='right'}
+
+"There are only a handful of ways to do a study properly but a thousand ways to do it wrong", David Sackett
+
+::::aside
+Photo by <a href="https://unsplash.com/@barnimages?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Barn Images</a> on <a href="https://unsplash.com/photos/assorted-handheld-tools-in-tool-rack-t5YUoHW6zRo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## <small style="color:transparent">COVID-19</small>{background-image='figures/mufid-majnun-oI20ehIGNd4-unsplash.jpg' background-size='cover' background-color='grey' background-opacity='0.5' background-position='right'}
+
+Out of 600 models, only 6 were useful for policy
+
+::::aside
+Photo by <a href="https://unsplash.com/@mufidpwt?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mufid Majnun</a> on <a href="https://unsplash.com/photos/person-in-blue-jacket-holding-white-textile-oI20ehIGNd4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## <small>Ten simple rules for good research practice</small>{background-color='white'}
+
+<!--- my version with spelling error fixed --->
+
+![](figures/journal.pcbi.1010139.jpg){width=610px}
+
+:::: aside
+<p style="color:black">DOI:  [10.1371/journal.pcbi.1010139](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010139)</p>
+::::
+
+## PICOT
+
+:::: columns
+::: {.column width="65%"}
+* Study population “P” 
+* Intervention “I”
+* Comparison or control “C” 
+* Outcome “O” 
+* Time "T"
+:::
+  
+::: {.column width="35%"}
+![](figures/paul-hanaoka-4nabmlliGdU-unsplash.jpg){width=430}
+:::
+::::
+
+
+:::: aside
+Photo by <a href="https://unsplash.com/@plhnk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Paul Hanaoka</a> on <a href="https://unsplash.com/photos/assorted-color-textiles-4nabmlliGdU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## PICOT{visibility='uncounted'}
+
+:::: columns
+::: {.column width="65%"}
+* Study population “P” 
+* Intervention “I”
+* Comparison or control “C” 
+* Outcome “O” 
+* Time "T"
+* Qualitative: SPIDER (Sample, Phenomenon of Interest, Design, Evaluation, Research type)
+
+:::
+  
+::: {.column width="35%"}
+![](figures/paul-hanaoka-4nabmlliGdU-unsplash.jpg){width=430}
+:::
+
+::::
+
+:::: aside
+Photo by <a href="https://unsplash.com/@plhnk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Paul Hanaoka</a> on <a href="https://unsplash.com/photos/assorted-color-textiles-4nabmlliGdU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+
+
