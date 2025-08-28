@@ -46,20 +46,26 @@ DOI: [10.1016/S0140-6736(13)62227-8](https://pubmed.ncbi.nlm.nih.gov/24411645/)
 <p style="font-size:80%">"Scientific integrity is essential in the conduct of medical research involving human participants. Involved individuals, teams, and organizations must never engage in research misconduct."</p>
 
 
-## <small style="color:transparent">David Sackett</small>{background-image='figures/barn-images-t5YUoHW6zRo-unsplash.jpg' background-size='cover' background-color='grey' background-opacity='0.5' background-position='right'}
+## <small style="color:transparent">David Sackett</small>{background-image='figures/barn-images-t5YUoHW6zRo-unsplash.jpg' background-size='cover' background-color='grey' background-opacity='0.15' background-position='right'}
 
 "There are only a handful of ways to do a study properly but a thousand ways to do it wrong", David Sackett
 
 ::::aside
-Photo by <a href="https://unsplash.com/@barnimages?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Barn Images</a> on <a href="https://unsplash.com/photos/assorted-handheld-tools-in-tool-rack-t5YUoHW6zRo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+<p style="color:black">Photo by <a href="https://unsplash.com/@barnimages?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Barn Images</a> on <a href="https://unsplash.com/photos/assorted-handheld-tools-in-tool-rack-t5YUoHW6zRo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
 ::::
 
-## <small style="color:transparent">COVID-19</small>{background-image='figures/mufid-majnun-oI20ehIGNd4-unsplash.jpg' background-size='cover' background-color='grey' background-opacity='0.5' background-position='right'}
+## <small style="color:transparent">COVID-19</small>{background-image='figures/mufid-majnun-oI20ehIGNd4-unsplash.jpg' background-size='cover' background-color='grey' background-opacity='0.15' background-position='right'}
 
-Out of 600 models, only 6 were useful for policy
+* COVID-19 saw an explosion in clinical prediction models, DOI: [10.1136/bmj.m1328](https://www.bmj.com/content/369/bmj.m1328)
+
+* Many small studies 
+
+* High risk of over-fitting: A good model for these data, but a bad model for new data. 
+
+* Out of 600 models, only 6 were useful for policy
 
 ::::aside
-Photo by <a href="https://unsplash.com/@mufidpwt?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mufid Majnun</a> on <a href="https://unsplash.com/photos/person-in-blue-jacket-holding-white-textile-oI20ehIGNd4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+<p style="color:black">Photo by <a href="https://unsplash.com/@mufidpwt?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mufid Majnun</a> on <a href="https://unsplash.com/photos/person-in-blue-jacket-holding-white-textile-oI20ehIGNd4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
 ::::
 
 ## <small>Ten simple rules for good research practice</small>{background-color='white'}
@@ -71,6 +77,10 @@ Photo by <a href="https://unsplash.com/@mufidpwt?utm_content=creditCopyText&utm_
 :::: aside
 <p style="color:black">DOI:  [10.1371/journal.pcbi.1010139](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010139)</p>
 ::::
+
+## Step 1. Specifying questions
+
+
 
 ## PICOT
 
@@ -115,6 +125,11 @@ Photo by <a href="https://unsplash.com/@plhnk?utm_content=creditCopyText&utm_med
 :::: aside
 Photo by <a href="https://unsplash.com/@plhnk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Paul Hanaoka</a> on <a href="https://unsplash.com/photos/assorted-color-textiles-4nabmlliGdU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 ::::
+
+
+## Step 2. Study protocol
+
+## Step 3. Sample size
 
 
 
