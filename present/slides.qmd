@@ -22,11 +22,11 @@ editor:
 ---
 
 
-# Plots{background-color='pink'}
+# Graphs/plots{background-color='pink'}
 
 * A good graph is a great way to show your findings
 
-* Not all evidence is about hypothesis tests
+* Not all evidence is about hypothesis tests (p-values)
 
 * "Give the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space", Tufte, _[The Visual Display of Quantitative
 Information](https://www.edwardtufte.com/book/the-visual-display-of-quantitative-information/)_
