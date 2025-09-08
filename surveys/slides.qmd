@@ -1,0 +1,440 @@
+---
+title: Some tips on running surveys
+author: Adrian Barnett, 2 October 2025
+institute: Queensland University of Technology<br>Photo by <a href="https://unsplash.com/@jannesglas?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jannes Glas</a> on <a href="https://unsplash.com/photos/silhouette-of-people-playing-basketball-during-sunset-0NaQQsLWLkA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+format:
+ revealjs: 
+  slide-number: true
+  theme: night
+  chalkboard: false
+  transition: fade
+  preview-links: auto
+  logo: figures/logos.jpg
+title-slide-attributes:
+ data-position: relative
+ data-background-image: figures/jannes-glas-0NaQQsLWLkA-unsplash.jpg
+ data-background-size: cover
+ data-background-opacity: "0.7"
+editor: 
+ markdown: 
+  emoji: true
+  wrap: 72
+---
+
+## Benefits of surveys{background-image='figures/rachel-o3tIY5pIork-unsplash.jpg' background-opacity=0.4 background-size='cover'}
+
+* Quickly uncover new insights
+* Hear from key groups
+* Compare trends over time with repeat surveys
+* Compare changes after a policy/practice change
+
+::::aside
+Photo by <a href="https://unsplash.com/@noguidebook?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Rachel</a> on <a href="https://unsplash.com/photos/boy-and-girl-answering-questions-on-white-paper-o3tIY5pIork?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## <small style="color:transparent">Popular</small>{background-image='figures/pubmed_search_survey.png' background-opacity=1 background-size='contain'}
+
+
+## Mistake #1 → Too long{background-color='#d4cebe'}
+
+:::: columns
+::: {.column width="60%"}
+* Ideally 5 mins, no more than 15 mins
+* Can be longer if you're paying people
+* My shortest survey was three questions (DOI: [10.1371/journal.pone.0214047](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0214047))
+:::
+
+::: {.column width="40%"}
+![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXR5bjVzMnd2amtsYWJkMmkwZGo4dnZ6Z3R0ZmlsZXgzOHA4ZWI3YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l378AEZceMwWboAQE/giphy.gif)
+:::
+::::
+
+:::: aside
+from giphy
+::::
+
+
+## Mistake #2 → Leading questions{background-color='white'}
+
+![](figures/nature_crisis.jpg){width=600px}
+
+::::aside
+<p style="color:black">DOI: [10.1038/533452a](https://www.nature.com/articles/533452a)</p>
+::::
+
+## Mistake #2 → Leading questions{background-color='white'}
+
+* How tired did you feel after the new exercise regime?
+
+* How much better did you feel after the new exercise regime?
+
+Use neutral wording -- get colleagues and friends to check
+  
+## Mistake #2 → Leading questions{background-color='white' visibility="uncounted"}
+
+* How tired did you feel after the new exercise regime?
+
+* How much better did you feel after the new exercise regime?
+
+Use neutral wording -- get colleagues and friends to check
+
+* How did you feel after the new exercise regime?
+  + Extremely tired
+  + Tired
+  ...
+  + Extremely energised
+
+## Mistake #2 → Leading questions
+
+:::: columns
+::: {.column width="50%"}
+* Are you worried about the number of young people without jobs?
+* Do you think there's a lack of discipline in our schools?
+* Would you be in favour of reintroducing national service?
+:::
+  
+::: {.column width="50%"}
+
+:::
+::::
+
+:::: aside
+[Yes Minister!](https://www.youtube.com/watch?v=b9LTwEVC2sc) clip on YouTube
+::::
+
+
+## Mistake #2 → Leading questions{visibility="uncounted"}
+
+:::: columns
+::: {.column width="50%"}
+* Are you worried about the number of young people without jobs?
+* Do you think there's a lack of discipline in our schools?
+* Would you be in favour of reintroducing national service?
+:::
+  
+::: {.column width="50%"}
+* Are you worried about the danger of war?
+* Do you think it's wrong to force people to take up arms against their will?
+* Would you oppose the reintroduction of national service?
+:::
+::::
+
+:::: aside
+[Yes Minister!](https://www.youtube.com/watch?v=b9LTwEVC2sc) clip on YouTube
+::::
+
+## Surprise is good{background-color='#c5c5c5'}
+
+:::: columns
+::: {.column width="55%"}
+* The most exciting phrase to hear in science, the one that heralds new discoveries, is not “Eureka” but “That’s funny”, Isaac Asimov
+:::
+
+::: {.column width="45%"}
+![](https://upload.wikimedia.org/wikipedia/commons/3/34/Isaac.Asimov01.jpg){width=320px}
+:::
+::::
+
+:::: aside
+Image: <a href="https://commons.wikimedia.org/wiki/File:Isaac.Asimov01.jpg">Phillip Leonian [1] from New York World-Telegram &amp; Sun.[2]</a>, Public domain, via Wikimedia Commons
+::::
+
+
+## Mistake #3 → No pilot study{background-image='figures/nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash.jpg' background-opacity=0.25 background-size='cover'}
+
+* Find typos and questions that are hard to read
+
+* Find missing skip logic
+
+::::aside
+Photo by <a href="https://unsplash.com/@nguyendhn?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nguyen Dang Hoang Nhu</a> on <a href="https://unsplash.com/photos/person-writing-on-white-paper-qDgTQOYk6B8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## Mistake #4 → Repeat questions
+
+* How are you feeling today on a scale of 1 (worst ever) to 10 (best ever)
+
+_Later in the questionnaire_
+
+* Tell us about your mood today, from 10 (best ever) to 1 (worst ever) 
+
+## Mistake #4 → Repeat questions{visibility="uncounted"}
+
+* How are you feeling today on a scale of 1 (worst ever) to 10 (best ever)
+
+_Later in the questionnaire_
+
+* Tell us about your mood today, from 10 (best ever) to 1 (worst ever) 
+
+Some exceptions:
+
+ * Discrete choice experiments
+
+## <small style="color:transparent">Cochrane review</small>{background-image='figures/cochrane.png' background-opacity=1 background-size='cover'}
+
+<!--- https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.MR000008.pub5/full --->
+
+## <small>Selected results from Cochrane review (Postal)</small>{background-image='figures/austris-augusts-52p1K0d0euM-unsplash.jpg' background-opacity=0.15 background-size='cover'}
+
+Odds of response increased for:
+
+* Monetary incentives, OR 1.86, 95% CI: 1.73 to 1.99
+
+* Telephone reminder, OR 1.96, 95% CI 1.03 to 3.74
+
+* Shorter questionnaires, OR 1.58, 95% CI 1.40 to 1.78
+
+::::aside
+Photo by <a href="https://unsplash.com/@austris_a?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Austris Augusts</a> on <a href="https://unsplash.com/photos/running-field-during-daytime-52p1K0d0euM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## <small>Selected results from Cochrane review (Postal)</small>{background-image='figures/austris-augusts-52p1K0d0euM-unsplash.jpg' background-opacity=0.15 background-size='cover' visibility="uncounted"}
+
+Odds of response increased for:
+
+* Monetary incentives, OR 1.86, 95% CI: 1.73 to 1.99
+
+* Telephone reminder, OR 1.96, 95% CI 1.03 to 3.74
+
+* Shorter questionnaires, OR 1.58, 95% CI 1.40 to 1.78
+
+* Questionnaires from a university, OR 1.32, 95% CI 1.13 to 1.54
+
+* Assuring confidentiality, OR 1.33, 95% CI 1.24 to 1.42
+
+* Clinical questions last, OR 2.05, 95% CI 1.00 to 4.24
+
+::::aside
+Photo by <a href="https://unsplash.com/@austris_a?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Austris Augusts</a> on <a href="https://unsplash.com/photos/running-field-during-daytime-52p1K0d0euM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+
+## <small>Selected results from Cochrane review (Electronic)</small>{background-image='figures/paul-bergmeir-FzFH41IucIY-unsplash.jpg' background-opacity=0.18 background-size='cover'}
+
+* Monetary incentives, OR 1.88, 95% CI 1.31 to 2.71
+
+* Shorter questionnaires, OR 1.51, 95% CI 1.06 to 2.16
+
+* Stressing societal benefits, OR 1.38, 95% CI 1.07 to 1.78
+
+::::aside
+Photo by <a href="https://unsplash.com/@paulbrgmr?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Paul Bergmeir</a> on <a href="https://unsplash.com/photos/green-chair-lot-FzFH41IucIY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## <small>Selected results from Cochrane review (Electronic)</small>{background-image='figures/paul-bergmeir-FzFH41IucIY-unsplash.jpg' background-opacity=0.18 background-size='cover' visibility="uncounted"}
+
+* Monetary incentives, OR 1.88, 95% CI 1.31 to 2.71
+
+* Shorter questionnaires, OR 1.51, 95% CI 1.06 to 2.16
+
+* Stressing societal benefits, OR 1.38, 95% CI 1.07 to 1.78
+
+* _University sponsorship_, OR 0.84, 95% CI 0.69 to 1.01</p>
+
+* Postal questionnaire compared with electronic, OR 2.33, 95% CI 2.25 to 2.42
+
+::::aside
+Photo by <a href="https://unsplash.com/@paulbrgmr?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Paul Bergmeir</a> on <a href="https://unsplash.com/photos/green-chair-lot-FzFH41IucIY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## Non-random samples{background-image='figures/kelly-sikkema-eUr0iVck5is-unsplash.jpg' background-opacity=0.2 background-size='cover'}
+
+* Snowball sample ("tell your friends", provide link at the end of the questionnaire)
+
+* Convenience sample
+
+* Spread on social media
+
+::::aside
+Photo by <a href="https://unsplash.com/@kellysikkema?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kelly Sikkema</a> on <a href="https://unsplash.com/photos/person-in-green-and-black-jacket-holding-snow-eUr0iVck5is?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## Random sample{background-color='white'}
+
+![](https://upload.wikimedia.org/wikipedia/commons/7/75/Population_versus_sample_%28statistics%29.png){width=870}
+
+::::aside
+<p style="color:black">Loneshieling, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons</p>
+::::
+
+## Random samples{background-image='figures/paz-arando-zwZusrYAGoM-unsplash.jpg' background-opacity=0.24 background-size='cover'}
+
+* More likely to represent the population
+
+* More believable
+
+* Requires a sampling frame, e.g., all registered trainers
+
+* Potential for higher quality data in a smaller sample
+
+::::aside
+Photo by <a href="https://unsplash.com/@pazarando?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Paz Arando</a> on <a href="https://unsplash.com/photos/person-holding-stack-of-wheat-zwZusrYAGoM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## <small>Differences in random and non-random samples</small>{background-color='white'}
+
+:::: columns
+::: {.column width="50%"}
+* Study of career disruption
+* Random sample of Australian authors on _PubMed_ 
+* Non-random convenience sample shared on _Twitter_ and _LinkedIn_ and end of survey
+:::
+  
+::: {.column width="50%"}
+![](figures/elife_survey.jpg)
+:::
+::::
+
+:::: aside
+<p style="color:black">DOI: [10.7554/eLife.76123](https://elifesciences.org/articles/76123)</p>
+::::
+
+
+## Non-response bias{background-color='white'}
+
+:::: columns
+::: {.column width="50%"}
+* Strongly motivated respondents means the sample is not representative of the population
+
+* Jeffery Archer is not a better writer than William Shakespeare
+:::
+
+::: {.column width="50%"}
+![](figures/good_reads.jpg)
+:::
+::::
+
+::::aside
+From goodreads
+::::
+
+## Census{background-image='figures/chuttersnap-gDDas5_ALRw-unsplash.jpg' background-opacity=0.15 background-size='cover'}
+
+* Approach everyone
+
+* For example, every Human Research Ethics Committee in Australia
+
+* Not a sample
+
+* Confidence intervals do not make sense (no wider population)
+
+::::aside
+Photo by <a href="https://unsplash.com/@chuttersnap?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">CHUTTERSNAP</a> on <a href="https://unsplash.com/photos/group-of-people-attending-concert-gDDas5_ALRw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## <small style="color:transparent">Regular tracking</small>{background-image='figures/Flutracking.png' background-opacity=1 background-size='cover'}
+
+
+:::: aside
+[https://info.flutracking.net/](https://info.flutracking.net/)
+::::
+
+
+
+## Imposter participants{background-image='figures/stefano-pollio-ZC0EbdLC8G0-unsplash.jpg' background-opacity=0.25 background-size='cover'}
+
+* "Potential participants were recruited via a publicly available social media advert on Facebook offering $50 AUD compensation."
+
+* "We identified imposters at an early stage via inconsistencies in their self-reported geographical location and that captured by the survey as well as recognition of suspicious actions before, during and after focus group discussions and interviews."
+
+<small>DOI: [10.1186/s12913-024-11166-x](https://link.springer.com/article/10.1186/s12913-024-11166-x)</small>
+
+::::aside
+Photo by <a href="https://unsplash.com/@stefanopollio?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Stefano Pollio</a> on <a href="https://unsplash.com/photos/person-behind-fog-glass-ZC0EbdLC8G0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## Exclusions{background-image='figures/erwan-hesry-IqB5MPcQp6k-unsplash.jpg' background-opacity=0.25 background-size='cover'}
+
+* Online survey tools can give a rating of whether people completed too fast (beware of bots)
+
+* Can also exclude people based on IP address
+
+* Report all exclusions
+
+::::aside
+Photo by <a href="https://unsplash.com/@erwanhesry?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Erwan Hesry</a> on <a href="https://unsplash.com/photos/traffic-light-in-red-IqB5MPcQp6k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## Check questions{background-color='#07e0db'}
+
+* To confirm that you're reading the questions, please click "Agree"
+  + Strongly agree
+  + Agree
+  + Neither agree of disagree
+  + Disagree
+  + Strongly disagree
+  
+Equivalent to "I am not a robot"
+  
+## Randomise{background-image='figures/riho-kroll-m4sGYaHYN5o-unsplash.jpg' background-opacity=0.2 background-size='cover'}
+
+* Randomising reduces bias
+
+* Randomise order of questions, can find priming effects
+
+
+:::: aside
+Photo by <a href="https://unsplash.com/@rihok?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Riho Kroll</a> on <a href="https://unsplash.com/photos/closeup-photo-of-dices-m4sGYaHYN5o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## Randomise{background-image='figures/riho-kroll-m4sGYaHYN5o-unsplash.jpg' background-opacity=0.2 background-size='cover' visibility="uncounted"}
+
+* Randomising reduces bias
+
+* Randomise order of questions, can find priming effects
+
+* Randomly order responses, e.g.:
+  + Strongly agree to Strongly disagree
+  + Strongly disagree to Strongly agree
+
+:::: aside
+Photo by <a href="https://unsplash.com/@rihok?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Riho Kroll</a> on <a href="https://unsplash.com/photos/closeup-photo-of-dices-m4sGYaHYN5o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## Reporting checklist{background-image='figures/kelly-sikkema--1_RZL8BGBM-unsplash.jpg' background-opacity=0.25 background-size='cover'}
+
+A Consensus-Based Checklist for Reporting of Survey Studies (CROSS),  DOI:[10.1007/s11606-021-06737-1](https://pmc.ncbi.nlm.nih.gov/articles/PMC8481359/)
+
+<p style="font-size:70%">State the word “survey” along with a commonly used term in title or abstract to introduce the study’s design</p>
+<p style="font-size:70%">Describe the questionnaire (e.g., number of sections, number of questions, number and names of instruments used)</p>
+<p style="font-size:70%">Describe the study population (i.e., background, locations, eligibility criteria for participant inclusion in survey, exclusion criteria)</p>
+
+::::aside
+Photo by <a href="https://unsplash.com/@kellysikkema?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kelly Sikkema</a> on <a href="https://unsplash.com/photos/six-white-sticky-notes--1_RZL8BGBM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+
+## Allow comments / free text{background-image='figures/aaron-burden-y02jEX_B0O0-unsplash.jpg' background-opacity=0.2 background-size='cover'}
+
+Respondents can give great quotes:
+
+* “No country bureaucratised its way to excellence” - comment on our survey on ethics
+
+* “not needed for 99.9% of applications” - comment on whether ethics committees need statisticians
+
+::::aside
+Photo by <a href="https://unsplash.com/@aaronburden?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Aaron Burden</a> on <a href="https://unsplash.com/photos/fountain-pen-on-black-lined-paper-y02jEX_B0O0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+
+## Analysis{background-image='figures/charlesdeluvio-OWkXt1ikC5g-unsplash.jpg' background-opacity=0.2 background-size='cover'}
+
+
+* Can be largely descriptive, tables and bar plots
+
+* Always check missing data - were there questions that were hard to answer?
+
+* Describe the characteristics of the sample
+
+::::aside
+Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">charlesdeluvio</a> on <a href="https://unsplash.com/photos/a-couple-of-people-standing-in-front-of-a-wall-OWkXt1ikC5g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+::::
+
+## Questions and comments{background-color='white'}
+
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc205b3V5dTFqdHA4cmIyZXJiNmZlZTgxY2liMjg0eWU4dGx5YzQydSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GMBiHA77b0yG5C4flI/giphy.gif){width=480}
+
+:::: aside
+<p style="color:black">from MaddaMom on giphy</p>
+::::
+
