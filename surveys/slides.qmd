@@ -142,7 +142,7 @@ Image: <a href="https://commons.wikimedia.org/wiki/File:Isaac.Asimov01.jpg">Phil
 
 ## Mistake #3 → No pilot study{background-image='figures/nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash.jpg' background-opacity=0.25 background-size='cover'}
 
-* Find typos and questions that are hard to read
+* Find typos and questions that are hard to read or vague
 
 * Find missing skip logic
 
@@ -370,7 +370,7 @@ Equivalent to "I am not a robot"
 
 * Randomising reduces bias
 
-* Randomise order of questions, can find priming effects
+* Randomise the order of questions (e.g., demographics first or last), can find question order effects
 
 
 :::: aside
@@ -381,7 +381,7 @@ Photo by <a href="https://unsplash.com/@rihok?utm_content=creditCopyText&utm_med
 
 * Randomising reduces bias
 
-* Randomise order of questions, can find priming effects
+* Randomise the order of questions (e.g., demographics first or last), can find question order effects
 
 * Randomly order responses, e.g.:
   + Strongly agree to Strongly disagree
@@ -395,9 +395,11 @@ Photo by <a href="https://unsplash.com/@rihok?utm_content=creditCopyText&utm_med
 
 A Consensus-Based Checklist for Reporting of Survey Studies (CROSS),  DOI:[10.1007/s11606-021-06737-1](https://pmc.ncbi.nlm.nih.gov/articles/PMC8481359/)
 
-<p style="font-size:70%">State the word “survey” along with a commonly used term in title or abstract to introduce the study’s design</p>
-<p style="font-size:70%">Describe the questionnaire (e.g., number of sections, number of questions, number and names of instruments used)</p>
-<p style="font-size:70%">Describe the study population (i.e., background, locations, eligibility criteria for participant inclusion in survey, exclusion criteria)</p>
+<p style="font-size:70%">• State the word “survey” along with a commonly used term in title or abstract to introduce the study’s design</p>
+
+<p style="font-size:70%">• Describe the questionnaire (e.g., number of sections, number of questions, number and names of instruments used)</p>
+
+<p style="font-size:70%">• Describe the study population (i.e., background, locations, eligibility criteria for participant inclusion in survey, exclusion criteria)</p>
 
 ::::aside
 Photo by <a href="https://unsplash.com/@kellysikkema?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kelly Sikkema</a> on <a href="https://unsplash.com/photos/six-white-sticky-notes--1_RZL8BGBM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
