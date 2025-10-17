@@ -1,0 +1,68 @@
+---
+title: "<small>Who opts for open peer review?</small>"
+author: Adrian Barnett, Matt Spick
+institute: QUT & Surrey<br>Photo by <a href="https://unsplash.com/@weirick?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jake Weirick</a> on <a href="https://unsplash.com/photos/worms-eye-view-of-a-lit-ferris-wheel-hieOkhzGyCE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+format:
+ revealjs: 
+  slide-number: true
+  theme: [blood]
+  chalkboard: false
+  transition: fade
+  preview-links: auto
+title-slide-attributes:
+ data-position: relative
+ data-background-image: figures/jake-weirick-hieOkhzGyCE-unsplash.jpg
+ data-background-size: cover
+ data-background-opacity: "0.5"
+editor: 
+ markdown: 
+  wrap: 72
+---
+
+
+
+## <small style="color:transparent">Most journals</small>{background-image='figures/journals1.jpg' background-opacity=1 background-size='cover'}
+
+:::: aside
+Photo by <a href="https://unsplash.com/@lostfrequency?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Enrique Macias</a> on <a href="https://unsplash.com/photos/open-led-signage-SP7PyWL6w4o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Photo by <a href="https://unsplash.com/@timmossholder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tim Mossholder</a> on <a href="https://unsplash.com/photos/shallow-focus-photo-of-white-closed-signage-w8L_K53cMPo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
+
+## <small style="color:transparent">Most journals</small>{background-image='figures/journals2.jpg' background-opacity=1 background-size='cover' visibility="uncounted"}
+
+:::: aside
+Photo by <a href="https://unsplash.com/@lostfrequency?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Enrique Macias</a> on <a href="https://unsplash.com/photos/open-led-signage-SP7PyWL6w4o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Photo by <a href="https://unsplash.com/@timmossholder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tim Mossholder</a> on <a href="https://unsplash.com/photos/shallow-focus-photo-of-white-closed-signage-w8L_K53cMPo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
+
+## Study design
+
+* Observational study of over 112,000 articles
+
+* Used stability selection to find potential predictors
+
+## Country
+
+<!--- from 3_plot_stability.R--->
+
+![](figures/3_country_slide.jpg) 
+
+## Article type, email & subject
+
+<!--- from 3_plot_stability.R--->
+
+![](figures/3_not_country_slide.jpg) 
+
+## Retractions
+
+<!--- from 2_survival.R --->
+
+![](figures/2_survival_retraction_slide.jpg)
+
+## Remaining questions{background-image='figures/countries.jpg' background-opacity=0.5 background-size='cover'}
+
+* Is opting for open review a useful marker of the quality / robustness of the paper?
+
+* Explaining Ethiopia (surprising high take up) and Poland (surprising low take up)
+
+::::aside
+Photo by <a href="https://unsplash.com/@megapixel_world?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Oleksii Topolianskyi</a> on <a href="https://unsplash.com/photos/grayscale-photo-of-gothic-concrete-tower-clock-6uSyRALz1Yw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> Photo by <a href="https://unsplash.com/@samueltsegaye?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Samuel Tsegaye</a> on <a href="https://unsplash.com/photos/grayscale-photo-of-concrete-building-c9YkZHA8qCs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
