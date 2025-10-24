@@ -56,7 +56,7 @@ editor:
 :::
 ::::
 
-
+## <small style="font-size:1%" style="color:white">.</small>{background-image='figures/metaror_workflow.jpg' background-opacity=1 background-size='cover'}
 
 ## Why MetaROR?{background-color='white'}
 
@@ -139,6 +139,13 @@ editor:
 :::
 ::::
 
+## Become a MetaROR editor{background-color='#99ccff'}
+
+![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdG96a3J3Y3pqNmttM2NzZDNlOHc3eDd1c2tyamhucnJ6Z2x5dmhoZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wjEQMRyynvrdx5g7Mn/giphy.gif)
+
+::::aside
+From pudgy penguins on giphy
+::::
 
 
 ## Questions and opinions{background-color='#f6ff73'}
