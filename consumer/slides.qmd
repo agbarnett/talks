@@ -46,3 +46,39 @@ editor:
 ::::
 
 ## NHMRC 
+
+![](figures/langridge.png)
+
+![](figures/gunson.png)
+
+## NHMRC
+
+* Draft revised Statement on Consumer and Community Involvement in Health and Medical Research in June
+2025
+* Consumers in Peer Review implemented in the 2025 Clinical Trials and Cohort Studies round.
+  + Consumer and community involvement criteria will have a weighting of 20% of the
+overall score
+
+## Cancer Australia{background-image='figures/cancer_australia.png' background-opacity=0.9 background-size='cover'}
+
+<!--- from https://www.canceraustralia.gov.au/key-initiatives/consumer-involvement--->
+
+## ARC{background-color='white'}
+
+![](figures/arc_google.png)
+
+## ARC: National interest test{background-color='white'}
+
+![](figures/nit.png)
+
+<!-- from https://www.arc.gov.au/news-publications/media/media-releases/simpler-national-interest-test-nit-statement-will-help-researchers -->
+
+## MRFF
+
+![](figures/mrff.png)
+
+## <small style="font-size:1%" style="color:white">.</small>{background-image='figures/nihr.png' background-opacity=1 background-size='contain'}
+
+## NIHR{background-color='white'}
+
+![](figures/nihr2.png)
