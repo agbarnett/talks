@@ -41,28 +41,28 @@ Photo by <a href="https://unsplash.com/@lostfrequency?utm_source=unsplash&utm_me
 
 ## Country
 
-<!--- from 3_plot_stability.R--->
+<!--- from 4_plot_stability.R--->
 
-![](figures/3_country_slide.jpg) 
+![](figures/4_country_slide.jpg) 
 
 ## Article type, email & subject
 
-<!--- from 3_plot_stability.R--->
+<!--- from 4_plot_stability.R--->
 
-![](figures/3_not_country_slide.jpg) 
+![](figures/4_not_country_slide.jpg) 
 
 ## Retractions
 
-<!--- from 2_survival.R --->
+<!--- from 2_survival_retractions.R --->
 
 ![](figures/2_survival_retraction_slide.jpg)
 
-## Remaining questions{background-image='figures/countries.jpg' background-opacity=0.5 background-size='cover'}
+## Questions{background-image='figures/samuel-tsegaye-c9YkZHA8qCs-unsplash.jpg' background-opacity=0.5 background-size='cover'}
 
-* Is opting for open review a useful marker of the quality / robustness of the paper?
+* Is opting for open review a useful marker of the quality and robustness of the paper?
 
-* Explaining Ethiopia (surprising high take up) and Poland (surprising low take up)
+* Explaining the high take up in Ethiopia as a country and Africa as a subject
 
 ::::aside
-Photo by <a href="https://unsplash.com/@megapixel_world?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Oleksii Topolianskyi</a> on <a href="https://unsplash.com/photos/grayscale-photo-of-gothic-concrete-tower-clock-6uSyRALz1Yw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> Photo by <a href="https://unsplash.com/@samueltsegaye?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Samuel Tsegaye</a> on <a href="https://unsplash.com/photos/grayscale-photo-of-concrete-building-c9YkZHA8qCs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@samueltsegaye?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Samuel Tsegaye</a> on <a href="https://unsplash.com/photos/grayscale-photo-of-concrete-building-c9YkZHA8qCs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 ::::

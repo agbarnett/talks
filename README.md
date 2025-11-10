@@ -59,5 +59,7 @@ In date order:
 * `present` AusHSI HDR Student Education Session - Data (August 2025)
 * `surveys` Some tips on running surveys (September 2025)
 * `cardiopulmonary` Online talk for workshop of cardiopulmonary physiotherapists (November 2025)
-* `AIMOS5` Talk for AIMOS2025 (November 2025)
-
+* `AIMOS5` Lightning talk for AIMOS2025 (November 2025)
+* `AIMOS6` Discussion session on MetaROR for AIMOS2025 (November 2025)
+* `consumer` Consumer engagement working group at QUT (November 2025)
+* `UKRI` Building an evidence base to help improve the allocation of research funding: Where next? (December 2025)

@@ -1,0 +1,48 @@
+---
+title: "<small><small>Funding agencies and consumers</small></small>"
+author: Adrian Barnett<br>Photo by <a href="https://unsplash.com/@ryoji__iwata?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ryoji Iwata</a> on <a href="https://unsplash.com/photos/aerial-view-of-people-walking-on-raod-IBaVuZsJJTo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+date: "24 November 2025"
+format:
+ revealjs: 
+  slide-number: true
+  theme: [blood]
+  chalkboard: false
+  transition: fade
+  preview-links: auto
+title-slide-attributes:
+ data-position: relative
+ data-background-image: figures/ryoji-iwata-IBaVuZsJJTo-unsplash.jpg
+ data-background-size: cover
+ data-background-opacity: "0.5"
+editor: 
+ markdown: 
+  wrap: 72
+---
+
+## Importance of consumers{background-color='white'}
+
+:::: columns
+::: {.column width="80%"}
+![](figures/from_science.jpg)
+:::
+  
+::: {.column width="20%"}
+* From [Science](https://www.jstor.org/stable/1639881)
+:::
+::::
+
+
+## Importance of consumers{background-color='white'  visibility="uncounted"}
+
+:::: columns
+::: {.column width="80%"}
+![](figures/from_science.jpg)
+:::
+  
+::: {.column width="20%"}
+* From [Science](https://www.jstor.org/stable/1639881)
+* In 1915!
+:::
+::::
+
+## NHMRC 
