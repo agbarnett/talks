@@ -1,0 +1,28 @@
+---
+title: "<small><small>Building an evidence base to help improve the allocation of research funding: Where next?</small></small>"
+author: Adrian Barnett<br>Photo by <a href="https://unsplash.com/@mathieustern?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mathieu Stern</a> on <a href="https://unsplash.com/photos/green-and-white-ceramic-figurine-1fzyz-bmKBw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+date: "10 December 2025"
+format:
+ revealjs: 
+  slide-number: true
+  theme: [blood]
+  chalkboard: false
+  transition: fade
+  preview-links: auto
+title-slide-attributes:
+ data-position: relative
+ data-background-image: figures/mathieu-stern-1fzyz-bmKBw-unsplash.jpg
+ data-background-size: cover
+ data-background-opacity: "0.5"
+editor: 
+ markdown: 
+  wrap: 72
+---
+
+## Lotteries
+
+## LLMs
+
+
+
+## Disruption, life events 
