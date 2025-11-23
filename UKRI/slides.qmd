@@ -1,11 +1,11 @@
 ---
-title: "<small><small>Building an evidence base to help improve the allocation of research funding: Where next?</small></small>"
+title: "<small>Building an evidence base to help improve the allocation of research funding: Where next?</small>"
 author: Adrian Barnett<br>Photo by <a href="https://unsplash.com/@mathieustern?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mathieu Stern</a> on <a href="https://unsplash.com/photos/green-and-white-ceramic-figurine-1fzyz-bmKBw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 date: "10 December 2025"
 format:
  revealjs: 
   slide-number: true
-  theme: [blood]
+  theme: [moon]
   chalkboard: false
   transition: fade
   preview-links: auto
@@ -19,10 +19,294 @@ editor:
   wrap: 72
 ---
 
-## Lotteries
-
-## LLMs
+# <small style="color:transparent">.</small>{background-image='figures/david-heiling-qD5hSSfGnOM-unsplash.jpg' background-opacity=0.8 background-size='cover'}
 
 
+<!-- instead of aside -->
+<br><br><br><br><br><br><br><br><br><br><p style="font-size:80%">Photo by <a href="https://unsplash.com/@dch21223?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">David Heiling</a> on <a href="https://unsplash.com/photos/three-gray-elephants-on-green-grass-field-during-daytime-qD5hSSfGnOM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 
-## Disruption, life events 
+## Decisions are noisy{background-color='white'}
+
+:::: columns
+::: {.column width="50%"}
+
+<!--- from lottery_bardsnet -->
+
+![](figures/gallo.jpg)
+
+<small>DOI: [10.1371/journal.pone.0165147](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0165147)</small>
+:::
+  
+::: {.column width="50%"}
+
+```{r}
+#| fig-width: 5
+#| fig-height: 4.4
+
+library(ggplot2)
+library(dplyr)
+for_plot = data.frame(percent = c(34.2, 19.7, 46.2)) %>%
+  mutate(x = 1:n(), year = 2020, level = 'EL')
+#
+colours = c('darkorange2','dodgerblue','navy')
+labels = c('Application','Reviewer','Noise')
+#
+plot = ggplot(data = for_plot, aes(x = x, y = percent, fill=factor(x)))+
+  geom_bar(stat= 'identity')+
+  scale_x_continuous(breaks = 1:3, labels = labels)+
+  scale_fill_manual(NULL, values=colours)+
+  ylab('Source of variance')+
+  xlab('')+
+  theme_bw()+
+  theme(legend.position='none',
+        text = element_text(size=18),
+        panel.grid.minor = element_blank())
+plot
+```
+
+<small>[NHMRC PRAC report](https://www.nhmrc.gov.au/sites/default/files/documents/attachments/publications/NHMRC-PRAC-Report.pdf)</small>
+
+:::
+::::
+
+
+
+## The future is unpredictable{background-color='white'}
+
+![](figures/elife_edited.jpg){width=500}
+
+:::: aside
+<p style="color:black">DOI: [10.7554/eLife.13323](https://elifesciences.org/articles/13323)</p>
+::::
+
+## Costly failures{background-color='white'}
+
+![](figures/horizon-europe-2-Search-LinkedIn-11-22-2025_11_26_AM.png)
+
+
+
+# Lotteries{background-image='figures/mick-haupt-3UbsiRcrFV4-unsplash.jpg' background-opacity=0.6 background-size='cover' visibility="uncounted"}
+
+<!-- instead of aside -->
+<br><br><br><br><p style="font-size:80%">Photo by <a href="https://unsplash.com/@rocinante_11?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mick Haupt</a> on <a href="https://unsplash.com/photos/red-and-white-round-plastic-3UbsiRcrFV4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+
+
+## Lottery first
+
+:::: columns
+::: {.column width="50%"}
+* Win in the lottery for the right to apply
+* Used by funders in Germany and Denmark
+:::
+  
+<!--- around half of applicants preferred an initial lottery followed by peer review over a conventional approach -->  
+
+::: {.column width="50%"}
+:::
+::::
+  
+:::: aside
+DOI: [10.1038/s41467-025-65660-9](https://www.nature.com/articles/s41467-025-65660-9)
+::::
+
+## Lottery first{visibility="uncounted"}
+
+:::: columns
+::: {.column width="50%"}
+* Win in the lottery for the right to apply
+* Used by funders in Germany and Denmark
+* Costs reduced by 68%
+:::
+  
+<!--- around half of applicants preferred an initial lottery followed by peer review over a conventional approach -->  
+
+::: {.column width="50%"}
+![](figures/41467_2025_65660_Fig2.jpg){.absolute top="40" right="10"}
+:::
+::::
+  
+:::: aside
+DOI: [10.1038/s41467-025-65660-9](https://www.nature.com/articles/s41467-025-65660-9)
+::::
+
+## Lottery first{background-color='#dcdcdc'}
+
+:::: columns
+::: {.column width="35%"}
+* Gaming?
+:::
+  
+::: {.column width="65%"}
+![](figures/P215_APPROACHING_THE_FOWL_WITH_STALKING-HORSE.jpg){width=1900px}
+:::
+::::
+
+::::aside
+<p style="color:black">Image from the <a href="//commons.wikimedia.org/wiki/Commons:British_Library/Mechanical_Curator_collection" title="Commons:British Library/Mechanical Curator collection">Mechanical Curator collection</a></p>
+::::
+
+# Lottery second{visibility="uncounted" background-image='figures/possessed-photography-TUIOmxxW_Zg-unsplash.jpg' background-opacity=0.8 background-size='cover'}
+
+<!-- instead of aside -->
+<br><br><br><br><br><br><br><br><p style="font-size:80%">
+Photo by <a href="https://unsplash.com/@possessedphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Possessed Photography</a> on <a href="https://unsplash.com/photos/2-artwork-TUIOmxxW_Zg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+      
+
+## Change in application numbers{background-color='white'}
+
+<!--- from 1_analysis.Rmd --->
+
+![](figures/number_change.png)
+
+<p style="font-size:90%">Average of 516 more applicants per round (95% CI: 143 to 889)</p>
+
+
+## Change in diversity{background-color='white'}
+
+<!--- from Rhys --->
+
+![](figures/proportion_asian_figure.png){width=790}
+
+<p style="font-size:90%">Asian and Asian British applicants increased by 4.3% (2.0, 6.6%)</p>
+
+
+# Distributed peer review{background-image='figures/akeyodia-business-coaching-firm-gSDSkD0tIvo-unsplash.jpg' background-opacity=0.7 background-size='cover' visibility="uncounted"}
+
+<!-- instead of aside -->
+<br><br><br><br><p style="font-size:80%">Photo by <a href="https://unsplash.com/@akeyodia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Akeyodia - Business Coaching Firm</a> on <a href="https://unsplash.com/photos/person-in-black-and-white-plaid-long-sleeve-shirt-holding-white-paper-gSDSkD0tIvo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+      
+## <small style="color:transparent">.</small>{background-color='#906834'}
+
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDQ3OWZhYzZ2dDl2N3NqMzMwejd5N3N2Y3hsZ2dnYjlhOTM1cGhhMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jPAdK8Nfzzwt2/giphy.gif){width=1000px}
+
+::::aside
+From Sesame Street on giphy
+::::
+
+## Distributed peer review
+
+:::: columns
+::: {.column width="58%"}
+
+**Positives**
+
+* Faster review times (14 vs 6 weeks)
+
+* More review time (12.5 vs 0.75 hrs)
+
+* Reduced noise
+
+* Reduced workload for funders
+
+* No more free-loaders
+:::
+  
+::: {.column width="42%"}
+
+**Negatives**
+
+* More work for applicants
+
+* Inexperienced reviewers
+
+* Sinking behaviour
+:::
+::::
+
+::::aside
+[Preprint](https://rori.figshare.com/articles/preprint/_b_Applicants_as_Reviewers_Evaluating_the_Risks_Benefits_and_Potential_of_Distributed_Peer_Review_for_Grant_Funding_Allocations_b_b_b_RoRI_Working_Paper_No_17_/29994841?file=57455452)
+::::
+
+
+## Future questions{background-color='white'}
+
+![](figures/guthrie.png)
+
+::::aside
+DOI: [10.12688/f1000research.11917.2](https://f1000research.com/articles/6-1335)
+::::
+
+# Priority setting{background-image='figures/photo_of_day.jpg' background-size='cover' font-color='black'}
+
+## Top three questions
+
+```{r top_ten}
+library(dplyr)
+library(flextable)
+# get the question data, from export_data_not_shiny.R
+directory = 'U:/Research/Projects/ihbi/aushsi/aushsi_barnetta/NHMRC/research_on_research/research_prioritisation/data/'
+f2 = paste(directory, 'votes.RData', sep='')
+load(f2) # get the voting data
+#
+tab = slice(ranks, 1:3) # top 
+ftab = flextable(tab) %>%
+  theme_box() %>%
+  autofit() %>%
+  fontsize(size=30, part='all') %>%
+  color(part='all', color='white')
+ftab
+```
+
+## Uncertainty{background-color='white'}
+
+:::: columns
+::: {.column width="60%"}
+* Ask peer reviewers to give their uncertainty
+
+* Find which applications are hardest to review
+
+* Done with journals, DOI: [10.1098/rsos.240612](https://royalsocietypublishing.org/doi/full/10.1098/rsos.240612)
+:::
+  
+::: {.column width="40%"}
+![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDRlbmp2c2lxNjR0OHVsb215eDZhZXl5ZGN4eGUwbHRobWN1b2t4NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oZQnS19L33tLO/giphy.gif)
+:::
+::::
+
+::::aside
+<p style="color:gray">From hoppip on giphy</p>
+::::
+
+
+
+## LLMs{background-color='white'}
+
+:::: columns
+::: {.column width="60%"}
+* Spikes in low-quality papers thanks to LLMs
+
+* [World Conference on Research Integrity hit with AI generated abstracts](https://retractionwatch.com/2025/11/18/research-integrity-conference-hit-with-ai-generated-abstracts/) 
+
+* We should all be worried that LLMs will also increase funding applications
+:::
+  
+::: {.column width="40%"}
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2h3NXR1MDRzOXc5NmJ2Mzk1eHp4b3NhbGlubHE3c285dTQwaGlvNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Xr0zSLkqHsaDsLurow/giphy.gif)
+:::
+::::
+
+::::aside
+<p style="color:gray">From VeeFriends on giphy</p>
+::::
+
+
+## Career disruption{background-color='#6c7e46'}
+
+:::: columns
+::: {.column width="55%"}
+* Applicants can detail life events
+* Level the playing field
+* ["Is it fair for grant reviewers — who are often our colleagues — to judge the legitimacy of career breaks due to personal circumstances?"](https://www.nature.com/articles/d41586-025-02913-z)
+:::
+
+<!--- Betteridge's law of headlines --->
+  
+::: {.column width="45%"}
+:::
+::::
+
+![](figures/jackson-simmer-ZxRHtPacwUY-unsplash.jpg){.absolute top="5" right="5" width=450px}
+
+::::aside
+Photo by <a href="https://unsplash.com/@simmerdownjpg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jackson Simmer</a> on <a href="https://unsplash.com/photos/blue-orange-green-and-yellow-plastic-toy-ZxRHtPacwUY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
