@@ -310,3 +310,20 @@ ftab
 ::::aside
 Photo by <a href="https://unsplash.com/@simmerdownjpg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jackson Simmer</a> on <a href="https://unsplash.com/photos/blue-orange-green-and-yellow-plastic-toy-ZxRHtPacwUY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 ::::
+
+## Questions{background-color='#82d895'}
+
+:::: columns
+::: {.column width="50%"}
+* Thanks to Rhys Thomas and Philip Clarke (Oxford)
+:::
+  
+::: {.column width="50%"}
+![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTBtZDhvYnF0N3c0bnhyeXBvazR4eHVndXB3OTQyamhqYzUyMnozbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9DgosbbtABTF3MyI/giphy.gif)
+:::
+::::
+  
+:::: aside
+From Kaho Yoshido on giphy
+::::
+
