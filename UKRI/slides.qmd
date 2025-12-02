@@ -25,7 +25,7 @@ editor:
 <!-- instead of aside -->
 <br><br><br><br><br><br><br><br><br><br><p style="font-size:80%">Photo by <a href="https://unsplash.com/@dch21223?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">David Heiling</a> on <a href="https://unsplash.com/photos/three-gray-elephants-on-green-grass-field-during-daytime-qD5hSSfGnOM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 
-## Decisions are noisy{background-color='white'}
+## Funding decisions are noisy{background-color='white'}
 
 :::: columns
 ::: {.column width="50%"}
@@ -148,7 +148,7 @@ DOI: [10.1038/s41467-025-65660-9](https://www.nature.com/articles/s41467-025-656
 # Lottery second{visibility="uncounted" background-image='figures/possessed-photography-TUIOmxxW_Zg-unsplash.jpg' background-opacity=0.8 background-size='cover'}
 
 <!-- instead of aside -->
-<br><br><br><br><br><br><br><br><p style="font-size:80%">
+<br><br><br><br><br><br><br><br><br><p style="font-size:80%">
 Photo by <a href="https://unsplash.com/@possessedphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Possessed Photography</a> on <a href="https://unsplash.com/photos/2-artwork-TUIOmxxW_Zg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
       
 
@@ -184,6 +184,33 @@ From Sesame Street on giphy
 ::::
 
 ## Distributed peer review
+
+:::: columns
+::: {.column width="58%"}
+
+**Positives**
+
+* Faster review times (14 vs 6 weeks)
+
+* More review time (12.5 vs 0.75 hrs)
+
+* Reduced noise
+
+* Reduced workload for funders
+
+* No more free-loaders
+:::
+  
+::: {.column width="42%"}
+
+:::
+::::
+
+::::aside
+[Preprint](https://rori.figshare.com/articles/preprint/_b_Applicants_as_Reviewers_Evaluating_the_Risks_Benefits_and_Potential_of_Distributed_Peer_Review_for_Grant_Funding_Allocations_b_b_b_RoRI_Working_Paper_No_17_/29994841?file=57455452)
+::::
+
+## Distributed peer review{visibility="uncounted"}
 
 :::: columns
 ::: {.column width="58%"}
@@ -251,7 +278,7 @@ ftab
 
 :::: columns
 ::: {.column width="60%"}
-* Ask peer reviewers to give their uncertainty
+* Ask peer reviewers to give their uncertainty for every application
 
 * Find which applications are hardest to review
 
