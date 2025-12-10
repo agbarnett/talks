@@ -70,6 +70,64 @@ plot
 ::::
 
 
+## Noisy decisions part 2
+
+```{r}
+library(dplyr)
+library(flextable)
+library(tidyverse) # for uncount
+library(janitor)
+agree = read.table(header=TRUE, sep=',', text='
+Researcher,Funder,N
+1,1,174
+2,1,0
+1,2,0
+2,2,174
+') %>%
+  uncount(N) %>%
+  mutate(Researcher = factor(Researcher, levels=1:2, labels=c('Low','High')),
+         Funder = factor(Funder, levels=1:2, labels=c('No','Yes')))
+tab = tabyl(Researcher, Funder, dat = agree)
+ftab = flextable(tab) %>%
+  theme_box() %>%
+  fontsize(part='all', size = 44) %>%
+  color(part='all', color = 'darkseagreen2')
+ftab
+```
+
+::::aside
+DOI: [10.1136/bmjopen-2013-002800](https://bmjopen.bmj.com/content/3/5/e002800)
+::::
+
+## Noisy decisions part 2{visibility="uncounted"}
+
+```{r}
+agree = read.table(header=TRUE, sep=',', text='
+Researcher,Funder,N
+1,1,82
+1,2,92
+2,1,92
+2,2,82
+') %>%
+  uncount(N)%>%
+  mutate(Researcher = factor(Researcher, levels=1:2, labels=c('Low','High')),
+         Funder = factor(Funder, levels=1:2, labels=c('No','Yes')))
+tab = tabyl(Researcher, Funder, dat = agree)
+ftab = flextable(tab) %>%
+  theme_box() %>%
+  fontsize(part='all', size = 44) %>%
+  color(part='all', color = 'yellow')
+ftab
+#
+#agree = mutate(agree, Researcher = ifelse(Researcher=='Low','No','Yes')) # rename to give same categories for agreement
+#gwet = irrCAC::gwet.ac1.raw(agree)
+```
+
+Gwet's agreement = $-0.06$
+
+::::aside
+DOI: [10.1136/bmjopen-2013-002800](https://bmjopen.bmj.com/content/3/5/e002800)
+::::
 
 ## The future is unpredictable{background-color='white'}
 
@@ -145,31 +203,6 @@ DOI: [10.1038/s41467-025-65660-9](https://www.nature.com/articles/s41467-025-656
 <p style="color:black">Image from the <a href="//commons.wikimedia.org/wiki/Commons:British_Library/Mechanical_Curator_collection" title="Commons:British Library/Mechanical Curator collection">Mechanical Curator collection</a></p>
 ::::
 
-# Lottery second{visibility="uncounted" background-image='figures/possessed-photography-TUIOmxxW_Zg-unsplash.jpg' background-opacity=0.8 background-size='cover'}
-
-<!-- instead of aside -->
-<br><br><br><br><br><br><br><br><br><p style="font-size:80%">
-Photo by <a href="https://unsplash.com/@possessedphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Possessed Photography</a> on <a href="https://unsplash.com/photos/2-artwork-TUIOmxxW_Zg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
-      
-
-## Change in application numbers{background-color='white'}
-
-<!--- from 1_analysis.Rmd --->
-
-![](figures/number_change.png)
-
-<p style="font-size:90%">Average of 516 more applicants per round (95% CI: 143 to 889)</p>
-
-
-## Change in diversity{background-color='white'}
-
-<!--- from Rhys --->
-
-![](figures/proportion_asian_figure.png){width=790}
-
-<p style="font-size:90%">Asian and Asian British applicants increased by 4.3% (2.0, 6.6%)</p>
-
-
 # Distributed peer review{background-image='figures/akeyodia-business-coaching-firm-gSDSkD0tIvo-unsplash.jpg' background-opacity=0.7 background-size='cover' visibility="uncounted"}
 
 <!-- instead of aside -->
@@ -244,6 +277,9 @@ From Sesame Street on giphy
 [Preprint](https://rori.figshare.com/articles/preprint/_b_Applicants_as_Reviewers_Evaluating_the_Risks_Benefits_and_Potential_of_Distributed_Peer_Review_for_Grant_Funding_Allocations_b_b_b_RoRI_Working_Paper_No_17_/29994841?file=57455452)
 ::::
 
+## <small style="color:transparent">.</small>{background-image='figures/uk_boost.png' background-color='white' background-size='contain'}
+
+
 
 ## Future questions{background-color='white'}
 
@@ -273,6 +309,13 @@ ftab = flextable(tab) %>%
   color(part='all', color='white')
 ftab
 ```
+
+## Funders must ...{background-color='white'}
+
+Hat tip, Hans de Jonge (Open Science NL)
+
+![](figures/funders_must.png)
+
 
 ## Uncertainty{background-color='white'}
 
