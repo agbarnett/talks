@@ -58,7 +58,7 @@ Many others:
 
 ![](figures/league_table.png)
 
-## Absurb
+## Absurd
 
 ``To assume that a rank could possibly say anything meaningful about the quality of a university relative to other universities, be it as a workplace or as a place to study, is downright absurd.'' 
 

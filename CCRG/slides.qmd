@@ -814,20 +814,71 @@ Statistical bleach
 <br><br><br><p style="font-size:80%">Photo by <a href="https://unsplash.com/@flpschi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Feliphe Schiarolli</a> on <a href="https://unsplash.com/photos/photography-of-school-room-hes6nUC1MVc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
 
 
-## Randomisation tutorial{background-color='#000300'}
+## Randomisation tutorial
 
-:::: columns
-::: {.column width="65%"}
-* TO HERE
-:::
+<p style="font-size:62%">A US state can only afford to give free health care to half its citizens so it decides to randomly allocate healthcare to half the population. A bureaucrat realises that this could be a great way to study the benefits of health care and so suggests a random allocation scheme.</p>
 
-::: {.column width="35%"}
-![](figures/tim-johnson-TW_dKLcR8s4-unsplash.jpg)
-:::
-::::
+<p style="font-size:62%">• What are the advantages and disadvantages to the following random allocations:</p>
+
+<p style="font-size:57%">&nbsp;&nbsp;&nbsp;+ Get a full list of the population and randomly allocate everyone</p>
+
+<p style="font-size:57%">&nbsp;&nbsp;&nbsp;+ Cover people whose birthday is odd (e.g., 17th Jan covered, 8th August not covered)</p>
+
+<p style="font-size:57%">&nbsp;&nbsp;&nbsp;+ Cover people whose birthday is in the second half of the year (e.g., 17th Jan not covered, 8th August covered)</p>
+
+<p style="font-size:57%">&nbsp;&nbsp;&nbsp;+ Cover people if the last digit on their social security number is odd</p>
+
+<p style="font-size:57%">&nbsp;&nbsp;&nbsp;+ Cover everyone in the youngest half of the population</p>
+  
+<p style="font-size:62%">• What primary and secondary outcomes would you collect? And over what time frames?</p>
+
+<p style="font-size:62%">• Routinely collected data (e.g., death) may not give a complete picture of the benefits. What other data might you collect?</p> 
+
+
+## Randomisation answers
+
+<p style="font-size:62%">The 2008 [Oregon Health Insurance Experiment](http://www.nber.org/oregon/1.home.html)</p>
+
+<p style="font-size:62%">• The RAND Health Insurance Experiment was an experimental study of health care costs, use and outcomes in the United States, which assigned people randomly to different kinds of plans and followed their behaviour, from 1974 to 1982</p>
+
+<p style="font-size:62%">• Uninsured low-income adult residents invited to put their name on a list</p>
+
+<p style="font-size:62%">• State drew 30,000 names by lottery from a list of 90,000; about 10,000 eventually ended up being enrolled in Medicaid (exclusions)</p>
+
+<p style="font-size:62%">• Selected individuals won the opportunity -- for themselves and any household member -- to apply for coverage</p>
+
+
+## Randomisation answers{visibility="uncounted"}
+
+<p style="font-size:62%">The 2008 [Oregon Health Insurance Experiment](http://www.nber.org/oregon/1.home.html)</p>
+
+<p style="font-size:62%">• The RAND Health Insurance Experiment was an experimental study of health care costs, use and outcomes in the United States, which assigned people randomly to different kinds of plans and followed their behaviour, from 1974 to 1982</p>
+
+<p style="font-size:62%">• Uninsured low-income adult residents invited to put their name on a list</p>
+
+<p style="font-size:62%">• State drew 30,000 names by lottery from a list of 90,000; about 10,000 eventually ended up being enrolled in Medicaid (exclusions)</p>
+
+<p style="font-size:62%">• Selected individuals won the opportunity -- for themselves and any household member -- to apply for coverage</p>
+
+<p style="font-size:62%">Results:</p>
+
+<p style="font-size:57%">&nbsp;&nbsp;&nbsp;+ Substantial increase in emergency department use [in first two years](https://www.nejm.org/doi/full/10.1056/NEJMsa1212321)</p>
+
+<p style="font-size:57%">&nbsp;&nbsp;&nbsp;+ Big increase in diabetes diagnosis</p>
+
+<p style="font-size:57%">&nbsp;&nbsp;&nbsp;+ Decrease in depression in first two years</p>
+
+<p style="font-size:57%">&nbsp;&nbsp;&nbsp;+ 25% decrease in the probability of unpaid medical bills that are sent to a collection agency</p>
+
+
+## Randomisation answers{background-color='grey'}
+
+<p style="font-size:80%">``Born on the first of July: An (un)natural experiment in birth timing''</p>
+
+![](figures/1-s2.0-S0047272708001217-gr1.jpg)
 
 ::::aside
-Photo by <a href="https://unsplash.com/@mangofantasy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tim Johnson</a> on <a href="https://unsplash.com/photos/blue-wooden-door-with-red-door-TW_dKLcR8s4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+From DOI: [10.1016/j.jpubeco.2008.07.004](https://www.sciencedirect.com/science/article/pii/S0047272708001217)
 ::::
 
 # P-values{background-color='#a6a88c'}
