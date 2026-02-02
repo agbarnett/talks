@@ -1,0 +1,410 @@
+---
+title: "University league tables"
+author: Adrian Barnett<br>11 February 2026
+institute: Queensland University of Technology<br><br>Photo by <a href="https://unsplash.com/@slelham?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Steven Lelham</a> on <a href="https://unsplash.com/photos/group-of-people-running-on-stadium-atSaEOeE8Nk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title-position: 90%
+format:
+ revealjs: 
+  slide-number: true
+  theme: night
+  chalkboard: false
+  transition: fade
+  preview-links: auto
+title-slide-attributes:
+ data-position: relative
+ data-background-image: figures/steven-lelham-atSaEOeE8Nk-unsplash.jpg
+ data-background-size: cover
+ data-background-opacity: "0.4"
+editor: 
+ markdown: 
+  wrap: 72
+---
+
+## The Tables
+
+Top three
+
+* Academic Ranking of World Universities (ARWU) (Shanghai Ranking)
+
+* Times Higher Education World University Ranking (THE WUR)
+
+* QS World University Ranking
+
+## The Tables{visibility="uncounted"}
+
+Top three
+
+* Academic Ranking of World Universities (ARWU) (Shanghai Ranking)
+
+* Times Higher Education World University Ranking (THE WUR)
+
+* QS World University Ranking
+
+Many others:
+
+* Nature Index, Australian Financial Review, US News, Aggregate Ranking of Top Universities, Leiden Ranking
+
+
+## Top ten{background-color='white'}
+
+![](figures/Academic_Ranking_of_World_Universities.png){width=730px}
+
+
+::::aside
+<p style="color:black">From Wikimedia Commons</p>
+::::
+
+## QUT's position in QS{background-color='white'}
+
+![](figures/league_table.png)
+
+## Absurb
+
+``To assume that a rank could possibly say anything meaningful about the quality of a university relative to other universities, be it as a workplace or as a place to study, is downright absurd.'' 
+
+[Jelena Brankovic](https://blogs.lse.ac.uk/impactofsocialsciences/2021/03/22/the-absurdity-of-university-rankings/), Bielefeld University
+
+## Weights{background-color='white'}
+
+![](figures/weights_diagram.png){width=730px}
+
+
+::::aside
+<p style="color:black">From [Times Higher Education](https://www.timeshighereducation.com/world-university-rankings/methodology)</p>
+::::
+
+
+
+## Evidence-free zone{background-color='#625b52'}
+
+:::: columns
+::: {.column width="70%"}
+* ``Research strength calculates the 75th percentile of field-weighted citation impact – a very robust guide to how strong typical research is.''
+
+
+:::
+  
+::: {.column width="30%"}
+![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHR2bXdlYXQ1NG5zbHc4Y2RnNjlvaHpoaGFxbjdmd3ZwaHNhZDZwcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QBA7Bd4HYoGdmwjGdA/giphy.gif)
+:::
+::::
+
+
+::::aside
+Quotes from [Times Higher Education](https://www.timeshighereducation.com/world-university-rankings/methodology); video from from 4ocean
+::::
+
+
+## Evidence-free zone{background-color='#625b52' visibility="uncounted"}
+
+:::: columns
+::: {.column width="70%"}
+* ``Research strength calculates the 75th percentile of field-weighted citation impact – a very robust guide to how strong typical research is.''
+
+* ``The idea behind Research influence is that the value of citations is not equal: a citation from an “important” paper is more significant than a citation from an “unimportant” one. ''
+:::
+  
+::: {.column width="30%"}
+![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHR2bXdlYXQ1NG5zbHc4Y2RnNjlvaHpoaGFxbjdmd3ZwaHNhZDZwcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QBA7Bd4HYoGdmwjGdA/giphy.gif)
+:::
+::::
+
+
+::::aside
+Quotes from [Times Higher Education](https://www.timeshighereducation.com/world-university-rankings/methodology); video from from 4ocean
+::::
+
+## Citations are inaccurate
+
+:::: columns
+::: {.column width="55%"}
+* Half are of the perfunctory and persuasive type
+
+* 10% to 20% are inaccurate
+:::
+  
+::: {.column width="45%"}
+![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnZ1NHZxZnFyenA2bDI4aTR3aTV3eDgxd2NraHIxa2t0cjI1dThubyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XIqCQx02E1U9W/giphy.gif)
+:::
+::::
+
+::::aside
+DOI: [10.48550/arXiv.2508.12735](https://arxiv.org/abs/2508.12735); Animation from giphy
+::::
+
+
+## Citations are inaccurate{visibility="uncounted"}
+
+:::: columns
+::: {.column width="55%"}
+* Half are of the perfunctory and persuasive type
+
+* 10% to 20% are inaccurate
+
+* Errors from citations that should have been given
+:::
+  
+::: {.column width="45%"}
+![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnZ1NHZxZnFyenA2bDI4aTR3aTV3eDgxd2NraHIxa2t0cjI1dThubyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XIqCQx02E1U9W/giphy.gif)
+:::
+::::
+
+::::aside
+DOI: [10.48550/arXiv.2508.12735](https://arxiv.org/abs/2508.12735); Animation from giphy
+::::
+
+
+## Ignore measurement error{background-color='white'}
+
+![](figures/citations.jpg)
+
+::::aside
+<p style="color:black">Data from Leiden University ranking; DOI: [10.1111/1740-9713.01663](https://rss.onlinelibrary.wiley.com/doi/full/10.1111/1740-9713.01663)</p>
+::::
+
+
+## Corruption{background-color='#2a8d91'}
+
+:::: columns
+::: {.column width="55%"}
+* Universities have jumped in league tables thanks to one new staff member
+
+:::
+  
+::: {.column width="45%"}
+![](figures/omid-armin-8Nppe0yLmn8-unsplash.jpg){.absolute top="10" right="10"}
+:::
+::::
+
+<!--- https://blogs.lse.ac.uk/impactofsocialsciences/2021/03/22/the-absurdity-of-university-rankings/ --->
+
+::::aside
+Photo by <a href="https://unsplash.com/@itsomidarmin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">omid armin</a> on <a href="https://unsplash.com/photos/person-holding-fan-of-100-us-dollar-bill-8Nppe0yLmn8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
+
+
+## Corruption{background-color='#2a8d91' visibility="uncounted"}
+
+:::: columns
+::: {.column width="55%"}
+* Universities have jumped in league tables thanks to one new staff member
+
+* Staff members in multiple countries have been bribed to add a university affiliation
+:::
+  
+::: {.column width="45%"}
+![](figures/omid-armin-8Nppe0yLmn8-unsplash.jpg){.absolute top="10" right="10"}
+:::
+::::
+
+<!--- https://blogs.lse.ac.uk/impactofsocialsciences/2021/03/22/the-absurdity-of-university-rankings/ --->
+
+::::aside
+Photo by <a href="https://unsplash.com/@itsomidarmin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">omid armin</a> on <a href="https://unsplash.com/photos/person-holding-fan-of-100-us-dollar-bill-8Nppe0yLmn8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
+
+
+## {background-color='white'}
+
+:::: columns
+::: {.column width="60%"}
+* "Industrial scale" self-citing
+
+:::
+  
+::: {.column width="40%"}
+![](figures/dental_school.png){width=400px}
+:::
+::::
+
+
+
+<!--- “Some institutes have adopted an undergraduate publication model, requiring students to publish in Scopus-indexed journals to graduate,”  https://www.financialexpress.com/jobs-career/education/are-indias-private-universities-hacking-global-rankings/4119122/--->
+
+<!--- https://www.saveetha.com/mediacoverage/k7sfcn8i02f9mk2b2xz31fyl2b7sh9 --->
+
+::::aside
+<p style="color:black">From [Retraction Watch and Science Magazine](https://www.science.org/content/article/did-nasty-publishing-scheme-help-indian-dental-school-win-high-rankings)</p>
+::::
+
+
+## {background-color='white' visibility="uncounted"}
+
+:::: columns
+::: {.column width="60%"}
+* "Industrial scale" self-citing
+
+* "The Chancellor of Saveetha Dental College, expressed his delight at this significant accomplishment, which he said was the result of the tremendous hard work and dedication of the students and faculty of the institution"
+:::
+  
+::: {.column width="40%"}
+![](figures/dental_school.png){width=400px}
+:::
+::::
+
+
+
+<!--- “Some institutes have adopted an undergraduate publication model, requiring students to publish in Scopus-indexed journals to graduate,”  https://www.financialexpress.com/jobs-career/education/are-indias-private-universities-hacking-global-rankings/4119122/--->
+
+<!--- https://www.saveetha.com/mediacoverage/k7sfcn8i02f9mk2b2xz31fyl2b7sh9 --->
+
+::::aside
+<p style="color:black">From [Retraction Watch and Science Magazine](https://www.science.org/content/article/did-nasty-publishing-scheme-help-indian-dental-school-win-high-rankings)</p>
+::::
+
+
+## Number fudging
+
+```{r}
+library(dplyr)
+library(flextable)
+table = read.table(header=TRUE, fill=TRUE, sep='\t', text='
+metric	Columbia	Prof
+Undergraduate classes with under 20 students	82.5%	62.7% to 66.9%
+Full-time faculty with Ph.D or terminal degree	100%	96%
+Percent faculty that is full time	96.5%	74.1%
+Student-faculty ratio	6 to 1	11 to 1
+Financial resources per student	$3.1 billion	$289 million
+Six-year graduation percentage	96%	92%') %>%
+  rename('League table metric' = 'metric',
+         'Prof Thaddeus`\nestimate' = 'Prof')
+flextable(table) %>%
+  theme_box() %>%
+  fontsize(size = 22, part = "all") %>%
+  color(part = 'all', color='white') %>%
+  autofit() %>%
+  align(j=2:3, align = "center") 
+```
+
+::::aside
+From [Prof Michael Thaddeus](http://www.math.columbia.edu/~thaddeus/ranking/investigation.html)
+::::
+
+## {background-color='white'} 
+
+![](figures/law_schools.jpg){.absolute top='1'}
+
+<br><br><br><br><br><br><br><p style="font-size:90%">"The US News rankings are profoundly flawed – they disincentivize programs that support public interest careers, champion need-based aid and welcome working-class students into the profession", Heather Gerkin, Dean of Yale Law School</p>
+
+:::: aside
+<p style="color:black">From [The Guardian](https://www.theguardian.com/us-news/2022/nov/17/yale-harvard-law-school-us-news-world-report-rankings)</p>
+::::
+
+
+
+## Universities that have withdrawn
+
+* University of Utrecht, the Netherlands 
+
+* University of Zurich, Switzerland
+
+* Sorbonne University, France
+
+* University of Otago, New Zealand
+
+* Indian Institutes of Technology
+
+
+## Cartel{background-color='#1859a7'}
+
+:::: columns
+::: {.column width="70%"}
+<p style="font-size:80%">• ``A combination of independent commercial or industrial enterprises designed to limit competition or fix prices''</p>
+
+<p style="font-size:80%">• Income from reselling the data that universities provide</p>
+
+:::
+  
+::: {.column width="30%"}
+![](figures/jon-tyson-1IqQDH6KgdU-unsplash.jpg)
+:::
+::::
+
+::::aside
+Photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jon Tyson</a> on <a href="https://unsplash.com/photos/stop-signage-1IqQDH6KgdU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::    
+
+
+## Cartel{background-color='#1859a7' visibility="uncounted"}
+
+:::: columns
+::: {.column width="70%"}
+<p style="font-size:80%">• ``A combination of independent commercial or industrial enterprises designed to limit competition or fix prices''</p>
+
+<p style="font-size:80%">• Income from reselling the data that universities provide</p>
+
+<p style="font-size:80%">• Unelected and overseas, but shape educational policy in Australia</p>
+
+<p style="font-size:80%">• No independent oversight</p>
+
+<p style="font-size:80%">• Little transparency</p>
+:::
+  
+::: {.column width="30%"}
+![](figures/jon-tyson-1IqQDH6KgdU-unsplash.jpg)
+:::
+::::
+
+::::aside
+Photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jon Tyson</a> on <a href="https://unsplash.com/photos/stop-signage-1IqQDH6KgdU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::    
+
+
+## Rise of Asia{background-color='white'}
+
+![](figures/science.adw3000-f1.png){width=450px}
+
+::::aside
+<p style="color:black">From DOI: [10.1126/science.adw3000](https://www.science.org/doi/full/10.1126/science.adw3000) and DOI: [10.1038/d41586-025-03636-x](https://www.nature.com/articles/d41586-025-03636-x)</p>
+::::
+
+## Rise of Asia{background-color='white' visibility="uncounted"}
+
+![](figures/science.adw3000-f1.png){width=450px}
+
+<p style="font-size:70%">"Chinese and Indian universities are taking more of the top spots in the rankings than before, with UK, US and Australian institutions in decline. If those currently at the top wait too long to speak out, they might soon find themselves lower down the ranks, with less clout to drive the reforms that would serve all institutions." Lizzie Gadd, Loughborough</p>
+
+::::aside
+<p style="color:black">From DOI: [10.1126/science.adw3000](https://www.science.org/doi/full/10.1126/science.adw3000) and DOI: [10.1038/d41586-025-03636-x](https://www.nature.com/articles/d41586-025-03636-x)</p>
+::::
+
+## Risks versus benefits
+
+:::: columns
+::: {.column width="50%"}
+Benefits
+
+* Stand up for science and evidence
+
+* Save staff time
+
+* Leave before the exodus
+
+* Encourage others to leave
+:::
+  
+::: {.column width="50%"}
+Risks
+
+* Fall down league tables
+
+* Lose overseas students, mostly from China
+:::
+::::
+
+## {background-image='figures/chairs.png' background-opacity=1 background-size='contain' background-color='white'}
+
+
+## Other stuff {visibility="uncounted"}
+
+* INORMS - qualitative CV
+
+* Counting Nobel-prize winning alumni
+
+* Science is not a competition
+
+* None of these flagship rankings adequately consider open access, equality, diversity, sustainability or other society-focused agendas
+
+* Deeply flawed reputational surveys
+
+* ‘Which is the best university in the world?’ is not a useful question. ‘Which university might be best for me, given that I care about X and Y?’

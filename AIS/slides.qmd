@@ -25,6 +25,37 @@ editor:
 
 <!--- this slide is just for table of contents -->
 
+## Key things we will cover today{background-color='black'}
+
+:::: columns
+::: {.column width="60%"}
+
+* Good practice
+
+* Normal assumption
+
+* Collecting data
+
+* P-values
+
+* Confidence intervals
+
+* Plots and tables
+
+* Outliers
+
+* Causality
+:::
+
+::: {.column width="40%"}
+
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjBsNmx6MmQ5aTYyYjlqMDczbnNsNWk0YjZtNDFrMHRnMnhjNzZvOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qKltgF7Aw515K/giphy.gif)
+
+<p style="font-size:60%">from giphy</p>
+
+:::
+::::
+
 ## Questions welcome{background-image='figures/camylla-battani-AoqgGAqrLpU-unsplash.jpg' background-opacity=0.4 background-size='cover'}
 
 :::: aside
@@ -130,11 +161,66 @@ Photo by <a href="https://unsplash.com/@cliqueimages?utm_content=creditCopyText&
 <!--- Bland and Altman: http://dx.doi.org/10.1093/ije/17.2.245; David S from: https://www.youtube.com/watch?v=nuSqWRuz-mU--->
 
 
-## Mistakes
+## My mistakes{background-color='#0d2873'}
 
+:::: columns
+::: {.column width="60%"}
 * Calculation error in my most highly cited paper on regression to the mean
 
 * Error in one of my most influential papers: total time that researchers spend applying for funding should be 604 years not 551 years
+:::
+  
+::: {.column width="40%"}
+![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExanV0ejQ2bXEzazZzcDN1dHFtNzQ1ZDUwMXp3cGppNnU0ZDY1N3pkNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GdExeeataLC5G/giphy.gif)
+:::
+::::
+
+:::: aside
+from giphy
+::::
+
+
+## Simplified research workflow
+
+```{r, fig.width=7, fig.height=4}
+library(diagram)
+par(mar = rep(0,4), bg = 'transparent')
+names <- c("Design", "Analysis", "Write-up")
+colours = c('pink','darkseagreen3','khaki')
+M <- matrix(nrow = 3, ncol = 3, byrow = TRUE, data = 0) 
+M[2,1] <- "' '"
+M[3,2] <- "' '"
+plotmat(M, pos = c(3), 
+        name = names, 
+        lwd = 1,
+        curve = 0,  
+        arr.lcol = 'grey88',
+        shadow.size = 0,
+        box.lwd = 2, 
+        cex.txt = 1.3, 
+        box.size = 0.1, 
+        box.type = "square", 
+        box.col = colours,
+        box.prop = 0.5)
+```
+
+## Simplified research workflow{visibility="uncounted"}
+
+```{r, fig.width=7, fig.height=4}
+par(mar = rep(0,4), bg = 'transparent')
+plotmat(M, pos = c(3), 
+        name = names, 
+        lwd = 1,
+        curve = 0,  
+        arr.lcol = 'grey88',
+        shadow.size = 0,
+        box.lwd = 2, 
+        cex.txt = 1.3, 
+        box.size = c(0.2,0.1,0.05), 
+        box.type = "square", 
+        box.col = colours,
+        box.prop = 0.5)
+```
 
 ## Spend time on study design
 
@@ -209,7 +295,7 @@ Photo by <a href="https://unsplash.com/@plhnk?utm_content=creditCopyText&utm_med
 ## Many parts of research are a slog{background-image='figures/ntfc.jpg' background-opacity=0.8 background-size='contain'}
 
 
-## Evidence pyramid{background-color='white'}
+## Purported evidence pyramid{background-color='white'}
 
 ![](figures/levels-of-evidence.svg){width=580}
 
@@ -217,11 +303,15 @@ Photo by <a href="https://unsplash.com/@plhnk?utm_content=creditCopyText&utm_med
 <p style="color:black">From [OpenMD](https://openmd.com/guide/levels-of-evidence)</p>
 ::::
 
-## Reality: Evidence jumble{background-color='white'}
+## Actual evidence pyramid{background-color='white'}
 
-![](figures/evidence_jumble.png){width=500}
+![](figures/Rothman_Dahly_Evidence_Pyramid.jpeg){width=650}
 
 * The quality of the study matters more than the design
+
+::::aside
+<p style="color:black">DOI: [10.5281/zenodo.18084434](https://zenodo.org/records/18084434)</p>
+::::
 
 ## Current state of research
 
@@ -402,7 +492,7 @@ hplot = ggplot(data = random, aes(x = residual, fill=factor(group)))+
 hplot
 ```
 
-## Even binary data{background-color='white'}
+## Means are often normal{background-color='white'}
 
 <!--- from 99_animate_clt.R --->
 
@@ -445,7 +535,7 @@ By Johann Ernst Heinsius - <a rel="nofollow" class="external free" href="https:/
 
 :::: columns
 ::: {.column width="30%"}
-<large>Statistics by recipe</large>
+<large>Statistics by recipe 🤮</large>
 :::
   
 ::: {.column width="70%"}
@@ -465,10 +555,14 @@ By Johann Ernst Heinsius - <a rel="nofollow" class="external free" href="https:/
 
 ## Blinding
 
+* Used in research for over 200 years
+
+<!--- https://muse.jhu.edu/article/4142 --->
+
 ![](figures/electoral_commission.png)
 
 :::: aside
-Picture from _The Guardian_
+Picture from _The Guardian_ from the 2025 Australian election
 ::::
 
 ## Easiest people to fool{background-color='#43aecc'}
@@ -513,30 +607,30 @@ DOI: [10.1371/journal.pone.0284702](https://doi.org/10.1371/journal.pone.0284702
 
 <p style="font-size:85%">• Participant says they don't feel well</p>
 
-<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the intervention group, you tell them to come back tomorrow</p>
+<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the intervention group you tell them to come back tomorrow</p>
 
-<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the control group, you say nothing</p>
+<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the control group you say nothing</p>
 
 <p style="font-size:85%">• Participant doesn't hear the starting whistle</p>
 
-<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the intervention group, you give them another chance</p>
+<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the intervention group you give them another chance</p>
 
-<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the control group, you say "hard cheese"</p>
+<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the control group you say "hard cheese"</p>
 
 
 ## Biases creep in{visibility='uncounted'}
 
 <p style="font-size:85%">• Participant says they don't feel well</p>
 
-<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the intervention group, you tell them to come back tomorrow</p>
+<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the intervention group you tell them to come back tomorrow</p>
 
-<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the control group, you say nothing</p>
+<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the control group you say nothing</p>
 
 <p style="font-size:85%">• Participant doesn't hear the starting whistle</p>
 
-<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the intervention group, you give them another chance</p>
+<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the intervention group you give them another chance</p>
 
-<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the control group, you say "hard cheese"</p>
+<p style="font-size:80%">&nbsp;&nbsp;&nbsp;&nbsp;- In the control group you say "hard cheese"</p>
 
 <p style="font-size:85%">• Animal studies that did not use randomisation and blinding were far more likely to have a positive result, odds ratio = 5.2 (95% CI: 2.0 to 13.5)</p>
 
@@ -1026,9 +1120,15 @@ Photo by <a href="https://unsplash.com/@markkoenig?utm_content=creditCopyText&ut
 
 ## Accumulating evidence{background-color='white'}
 	
+:::: columns
+::: {.column width="60%"}
+![](figures/OBR-19-1164-g003.jpg){width=590}
+:::
+  
+::: {.column width="40%"}
 <small>Cumulative meta‐analysis of interventions targeted at increasing physical activity in healthy adults</small>
-
-![](figures/OBR-19-1164-g003.jpg){width=560}
+:::
+::::
 
 :::: aside
 <p style="color:black">DOI: [10.1111/obr.12690](https://pmc.ncbi.nlm.nih.gov/articles/PMC6099338)</p>
@@ -1085,6 +1185,10 @@ DOI: [10.1001/archinternmed.2010.406](https://pubmed.ncbi.nlm.nih.gov/21098355/)
 <p style="color:black">DOI: [10.31557/APJCP.2024.25.12.4397](https://pubmed.ncbi.nlm.nih.gov/39733433)</p>
 ::::
 
+## Statically significant{background-color='white'}
+
+![](figures/statically-significant.png)
+
 ## Statistical thinking{background-color='#5a8aa1'}
 
 :::: columns
@@ -1134,6 +1238,23 @@ DOI: [10.1080/00031305.2018.1518264](https://www.tandfonline.com/doi/full/10.108
 * 1% improvement in muscle mass might be statistically significant but practically useless
 
 * Pre-specify the important difference
+
+## Triggers of myocardial infarction{background-color='white'}
+
+:::: columns
+::: {.column width="80%"}
+![](figures/risk.vs.paf.jpg){width=610}
+:::
+  
+::: {.column width="20%"}
+Individual versus public risk
+:::
+::::
+
+::::aside
+<p style="color:black">Adapted from DOI: [10.1016/S0140-6736(10)62296-9](https://pubmed.ncbi.nlm.nih.gov/21353301/)</p>
+::::
+
 
 
 # Tutorial{background-image='figures/feliphe-schiarolli-hes6nUC1MVc-unsplash.jpg' background-opacity=0.4 background-size='cover' visibility="uncounted"} 
@@ -1195,25 +1316,6 @@ Photo by Adam Purves (S3ISOR)
 <p style="font-size:80%">• For rate ratios or odds ratios the null hypothesis is at one, e.g., "The new training schedule increased the number of injuries by 2.0 compared with the existing schedule (95% CI: 1.2, 3.0)" --- which would mean a statistically significant increase in injuries</p>
 
 
-## Overlapping intervals{background-color='white'}
-
-:::: columns
-::: {.column width="60%"}
-* Be careful about judging statistical significance between two groups from confidence intervals
-* Picture assumes equal standard errors (confidence interval widths) --- even harder to judge if this isn't true
-:::
-  
-::: {.column width="40%"}
-![](figures/overlapping_ci.png)
-:::
-::::
-
-:::: aside
-<p style="color:black">DOI: [10.1002/sim.3471](https://onlinelibrary.wiley.com/doi/10.1002/sim.3471)</p>
-::::
-
-<!--- from confidence.intervals.R --->
-
 ## Ring toss{background-color='#634522'}
 
 :::: columns
@@ -1233,6 +1335,26 @@ Photo by Adam Purves (S3ISOR)
 :::: aside
 Photo by [Michael Coghlan](https://www.flickr.com/photos/mikecogh/15948532925/in/photostream/) CC BY-SA 2.0
 ::::
+
+## Overlapping intervals{background-color='white'}
+
+:::: columns
+::: {.column width="60%"}
+* Be careful about judging statistical significance between two groups from confidence intervals
+* Picture assumes equal standard errors (confidence interval widths) --- even harder to judge if this isn't true
+:::
+  
+::: {.column width="40%"}
+![](figures/overlapping_ci.png)
+:::
+::::
+
+:::: aside
+<p style="color:black">DOI: [10.1002/sim.3471](https://onlinelibrary.wiley.com/doi/10.1002/sim.3471)</p>
+::::
+
+<!--- from confidence.intervals.R --->
+
 
 # Within person change
 
@@ -1625,6 +1747,12 @@ pone.0264908](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.
 | M2 | Fullback | 23.7 |
 | M2 | Central midfielder | 22.5 |
 | M2 | Forwards | 28.2 |
+
+## Death rates example
+
+<!-- from CCRG/ plot_death_rate_decimals.R -->
+
+![](figures/death_rates.jpg)
 
 
 ## <xx-small style="color:transparent">Decimal places</xx-small>

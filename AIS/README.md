@@ -1,4 +1,4 @@
-# Statistical thinking course for the Australian Institute of Sport, May 2025
+# Statistical thinking course for the Australian Institute of Sport, May 2025 and 2026
 
 Title: Statistical thinking
 
