@@ -64,6 +64,7 @@ Many others:
 
 [Jelena Brankovic](https://blogs.lse.ac.uk/impactofsocialsciences/2021/03/22/the-absurdity-of-university-rankings/), Bielefeld University
 
+
 ## Weights{background-color='white'}
 
 ![](figures/weights_diagram.png){width=730px}
@@ -349,10 +350,29 @@ Photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&utm_medium=
 Photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jon Tyson</a> on <a href="https://unsplash.com/photos/stop-signage-1IqQDH6KgdU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 ::::    
 
+## {background-color='#a49a7b'}
+
+:::: columns
+::: {.column width="60%"}
+
+<p style="font-size:68%">By submitting our data, we grant the THE</p>
+
+<p style="font-size:68%">"A royalty-free, perpetual, irrevocable, non-exclusive and fully sub-licensable right and licence to use, reproduce, modify, adapt, publish, translate, create derivative works from, distribute, perform and display such data (in whole or part) worldwide and/or to incorporate it in other works in any form, media, or technology now known or later developed. With respect to all Data you post to the Website, you hereby waive any moral rights you have in the Data. You agree to perform all further acts necessary to perfect any of the above rights granted by you to THE, including the execution of deeds and documents, at our request."</p>
+:::
+
+::: {.column width="40%"}
+![](https://upload.wikimedia.org/wikipedia/commons/7/7e/Pickpocket_warning_sign%2C_train_station%2C_Turin%2C_Italy_%2817783621312%29.jpg)
+:::
+::::
+
+
+::::aside
+Cory Doctorow, [CC BY-SA 2.0]( https://creativecommons.org/licenses/by-sa/2.0), via Wikimedia Commons
+::::
 
 ## Rise of Asia{background-color='white'}
 
-![](figures/science.adw3000-f1.png){width=450px}
+![](figures/science.adw3000-f1.png){width=520px}
 
 ::::aside
 <p style="color:black">From DOI: [10.1126/science.adw3000](https://www.science.org/doi/full/10.1126/science.adw3000) and DOI: [10.1038/d41586-025-03636-x](https://www.nature.com/articles/d41586-025-03636-x)</p>
@@ -360,7 +380,7 @@ Photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&utm_medium=
 
 ## Rise of Asia{background-color='white' visibility="uncounted"}
 
-![](figures/science.adw3000-f1.png){width=450px}
+![](figures/science.adw3000-f1.png){width=460px}
 
 <p style="font-size:70%">"Chinese and Indian universities are taking more of the top spots in the rankings than before, with UK, US and Australian institutions in decline. If those currently at the top wait too long to speak out, they might soon find themselves lower down the ranks, with less clout to drive the reforms that would serve all institutions." Lizzie Gadd, Loughborough</p>
 
