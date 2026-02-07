@@ -417,6 +417,22 @@ From Retraction Watch
 :::
   
 ::: {.column width="50%"}
+:::
+::::
+
+::::aside
+From [Erasmus university](https://www.eur.nl/en/about-university/policy-and-regulations/integrity/research-integrity/dilemma-game)
+::::
+
+## Dilemma game{visibility="uncounted"}
+
+
+:::: columns
+::: {.column width="50%"}
+<p style="font-size:80%">The paper I worked on very hard is nearly finished. Next week is the deadline of the special edition of a prestigious journal. My student assistant then shows me an article that looks very similar to mine. A model that I present as new in my article has apparently already been published. Luckily, it was published in  a lesser-known journal. What do I do?</p>
+:::
+  
+::: {.column width="50%"}
 <p style="font-size:70%; color:#8DF863">A. I pretend to have never read the article and do not mention it in my own article. I hope the reviewers of the journal don’t know the other article either. </p>
 
 <p style="font-size:70%; color:#61F527">B. At points in my article that overlap with the other article I refer to the other article, thereby risking my paper being rejected because of a lack of substantive contribution. </p>
