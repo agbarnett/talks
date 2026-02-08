@@ -26,7 +26,7 @@ Top three
 
 * Academic Ranking of World Universities (ARWU) (Shanghai Ranking)
 
-* Times Higher Education World University Ranking (THE WUR)
+* Times Higher Education World University Ranking
 
 * QS World University Ranking
 
@@ -36,7 +36,7 @@ Top three
 
 * Academic Ranking of World Universities (ARWU) (Shanghai Ranking)
 
-* Times Higher Education World University Ranking (THE WUR)
+* Times Higher Education World University Ranking
 
 * QS World University Ranking
 
@@ -58,13 +58,6 @@ Many others:
 
 ![](figures/league_table.png)
 
-## Absurd
-
-``To assume that a rank could possibly say anything meaningful about the quality of a university relative to other universities, be it as a workplace or as a place to study, is downright absurd.'' 
-
-[Jelena Brankovic](https://blogs.lse.ac.uk/impactofsocialsciences/2021/03/22/the-absurdity-of-university-rankings/), Bielefeld University
-
-
 ## Weights{background-color='white'}
 
 ![](figures/weights_diagram.png){width=730px}
@@ -81,7 +74,6 @@ Many others:
 :::: columns
 ::: {.column width="70%"}
 * ``Research strength calculates the 75th percentile of field-weighted citation impact – a very robust guide to how strong typical research is.''
-
 
 :::
   
@@ -114,46 +106,6 @@ Quotes from [Times Higher Education](https://www.timeshighereducation.com/world-
 ::::aside
 Quotes from [Times Higher Education](https://www.timeshighereducation.com/world-university-rankings/methodology); video from from 4ocean
 ::::
-
-## Citations are inaccurate
-
-:::: columns
-::: {.column width="55%"}
-* Half are of the perfunctory and persuasive type
-
-* 10% to 20% are inaccurate
-:::
-  
-::: {.column width="45%"}
-![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnZ1NHZxZnFyenA2bDI4aTR3aTV3eDgxd2NraHIxa2t0cjI1dThubyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XIqCQx02E1U9W/giphy.gif)
-:::
-::::
-
-::::aside
-DOI: [10.48550/arXiv.2508.12735](https://arxiv.org/abs/2508.12735); Animation from giphy
-::::
-
-
-## Citations are inaccurate{visibility="uncounted"}
-
-:::: columns
-::: {.column width="55%"}
-* Half are of the perfunctory and persuasive type
-
-* 10% to 20% are inaccurate
-
-* Errors from citations that should have been given
-:::
-  
-::: {.column width="45%"}
-![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnZ1NHZxZnFyenA2bDI4aTR3aTV3eDgxd2NraHIxa2t0cjI1dThubyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XIqCQx02E1U9W/giphy.gif)
-:::
-::::
-
-::::aside
-DOI: [10.48550/arXiv.2508.12735](https://arxiv.org/abs/2508.12735); Animation from giphy
-::::
-
 
 ## Ignore measurement error{background-color='white'}
 
@@ -292,8 +244,7 @@ From [Prof Michael Thaddeus](http://www.math.columbia.edu/~thaddeus/ranking/inve
 ::::
 
 
-
-## Universities that have withdrawn
+## <small>Universities that have withdrawn</small>
 
 * University of Utrecht, the Netherlands 
 
@@ -303,7 +254,11 @@ From [Prof Michael Thaddeus](http://www.math.columbia.edu/~thaddeus/ranking/inve
 
 * University of Otago, New Zealand
 
+* Rhodes University, South Africa
+
 * Indian Institutes of Technology
+
+<!--- https://www.ru.ac.za/latestnews/a_decade_later_rhodes_university_says_we_told_you_so_on_rankings_obsession.html --->
 
 
 ## Cartel{background-color='#1859a7'}
@@ -350,17 +305,17 @@ Photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&utm_medium=
 Photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jon Tyson</a> on <a href="https://unsplash.com/photos/stop-signage-1IqQDH6KgdU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 ::::    
 
-## {background-color='#a49a7b'}
+## <xx-small style="color:transparent">Pickpocket</xx-small>{background-color='#a49a7b'}
 
 :::: columns
-::: {.column width="60%"}
+::: {.column width="65%"}
 
 <p style="font-size:68%">By submitting our data, we grant the THE</p>
 
 <p style="font-size:68%">"A royalty-free, perpetual, irrevocable, non-exclusive and fully sub-licensable right and licence to use, reproduce, modify, adapt, publish, translate, create derivative works from, distribute, perform and display such data (in whole or part) worldwide and/or to incorporate it in other works in any form, media, or technology now known or later developed. With respect to all Data you post to the Website, you hereby waive any moral rights you have in the Data. You agree to perform all further acts necessary to perfect any of the above rights granted by you to THE, including the execution of deeds and documents, at our request."</p>
 :::
 
-::: {.column width="40%"}
+::: {.column width="35%"}
 ![](https://upload.wikimedia.org/wikipedia/commons/7/7e/Pickpocket_warning_sign%2C_train_station%2C_Turin%2C_Italy_%2817783621312%29.jpg)
 :::
 ::::
@@ -370,7 +325,90 @@ Photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&utm_medium=
 Cory Doctorow, [CC BY-SA 2.0]( https://creativecommons.org/licenses/by-sa/2.0), via Wikimedia Commons
 ::::
 
-## Rise of Asia{background-color='white'}
+<!--- From https://www.timeshighereducation.com/terms-and-conditions/additional-terms-times-higher-education-data-portal --->
+
+## United Nations University{background-color='white'}
+
+:::: columns
+::: {.column width="65%"}
+<p style="font-size:75%">• "Cease sensationalist reporting when new rankings are released"</p>
+
+<p style="font-size:75%">• "There is no need to be trapped by the reputational anxiety that is strategically manufactured by rankers"</p>
+:::
+  
+::: {.column width="35%"}
+![](figures/un_report.jpg)
+:::
+::::
+
+
+::::aside
+From DOI: [10.37941/PB/2023/2](https://unu.edu/press-release/rethinking-quality-unu-convened-experts-challenge-harmful-influence-global-university), 2023
+::::
+
+
+## United Nations University{background-color='white' visibility="uncounted"}
+
+:::: columns
+::: {.column width="65%"}
+<p style="font-size:75%">• "Cease sensationalist reporting when new rankings are released"</p>
+
+<p style="font-size:75%">• "There is no need to be trapped by the reputational anxiety that is strategically manufactured by rankers"</p>
+
+<p style="font-size:75%">• "Rather than perceiving themselves as powerless victims and bystanders of the developments described in this statement, universities can inspire change in the sector and society"</p>
+:::
+  
+::: {.column width="35%"}
+![](figures/un_report.jpg)
+:::
+::::
+
+
+::::aside
+From DOI: [10.37941/PB/2023/2](https://unu.edu/press-release/rethinking-quality-unu-convened-experts-challenge-harmful-influence-global-university), 2023
+::::
+
+
+## International Association of Universities
+
+:::: columns
+::: {.column width="50%"}
+"Governments to align financial and other incentives with a focus on collaborative and socially relevant research and to reduce the emphasis on rankings in research and financial policy"
+:::
+  
+::: {.column width="50%"}
+![](figures/IAU.jpg)
+:::
+::::
+
+:::: aside
+From [IAU](https://iau.global/all-publications/note-on-rankings), October 2025
+::::
+
+## <small>Report by universities of science and technology in Europe</small>{background-color='grey'}
+
+
+:::: columns
+::: {.column width="60%"}
+
+Rankers must:
+
+* "Provide detailed explanations of all ranking criteria, including data sources, weightings, and calculation methods"
+
+* "Clearly communicate the limitations and applicability of rankings"
+:::
+  
+::: {.column width="40%"}
+![](figures/cesaer_report.jpg){width=440px}
+:::
+::::
+
+::::aside
+From [CESAER](https://www.cesaer.org/news/reimagining-university-rankings-exploring-strategic-priorities-and-alternatives-report-is-out-1841/), November 2024
+::::
+
+
+## Rise of LLMs and Asia{background-color='white'}
 
 ![](figures/science.adw3000-f1.png){width=520px}
 
@@ -378,7 +416,7 @@ Cory Doctorow, [CC BY-SA 2.0]( https://creativecommons.org/licenses/by-sa/2.0), 
 <p style="color:black">From DOI: [10.1126/science.adw3000](https://www.science.org/doi/full/10.1126/science.adw3000) and DOI: [10.1038/d41586-025-03636-x](https://www.nature.com/articles/d41586-025-03636-x)</p>
 ::::
 
-## Rise of Asia{background-color='white' visibility="uncounted"}
+## Rise of LLMs and Asia{background-color='white' visibility="uncounted"}
 
 ![](figures/science.adw3000-f1.png){width=460px}
 
@@ -387,6 +425,7 @@ Cory Doctorow, [CC BY-SA 2.0]( https://creativecommons.org/licenses/by-sa/2.0), 
 ::::aside
 <p style="color:black">From DOI: [10.1126/science.adw3000](https://www.science.org/doi/full/10.1126/science.adw3000) and DOI: [10.1038/d41586-025-03636-x](https://www.nature.com/articles/d41586-025-03636-x)</p>
 ::::
+
 
 ## Risks versus benefits
 
@@ -401,6 +440,8 @@ Benefits
 * Leave before the exodus
 
 * Encourage others to leave
+
+* Encourage the rankers to change
 :::
   
 ::: {.column width="50%"}
@@ -412,7 +453,7 @@ Risks
 :::
 ::::
 
-## {background-image='figures/chairs.png' background-opacity=1 background-size='contain' background-color='white'}
+## <small style="color:transparent">Quality vs quantity</small>{background-image='figures/chairs.png' background-opacity=1 background-size='contain' background-color='white'}
 
 
 ## Other stuff {visibility="uncounted"}
@@ -421,10 +462,56 @@ Risks
 
 * Counting Nobel-prize winning alumni
 
-* Science is not a competition
-
 * None of these flagship rankings adequately consider open access, equality, diversity, sustainability or other society-focused agendas
 
 * Deeply flawed reputational surveys
 
 * ‘Which is the best university in the world?’ is not a useful question. ‘Which university might be best for me, given that I care about X and Y?’
+
+## Citations are inaccurate{visibility="uncounted"}
+
+:::: columns
+::: {.column width="55%"}
+* Half are of the perfunctory and persuasive type
+
+* 10% to 20% are inaccurate
+:::
+  
+::: {.column width="45%"}
+![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnZ1NHZxZnFyenA2bDI4aTR3aTV3eDgxd2NraHIxa2t0cjI1dThubyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XIqCQx02E1U9W/giphy.gif)
+:::
+::::
+
+::::aside
+DOI: [10.48550/arXiv.2508.12735](https://arxiv.org/abs/2508.12735); Animation from giphy
+::::
+
+
+## Citations are inaccurate{visibility="uncounted"}
+
+:::: columns
+::: {.column width="55%"}
+* Half are of the perfunctory and persuasive type
+
+* 10% to 20% are inaccurate
+
+* Errors from citations that should have been given
+:::
+  
+::: {.column width="45%"}
+![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnZ1NHZxZnFyenA2bDI4aTR3aTV3eDgxd2NraHIxa2t0cjI1dThubyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XIqCQx02E1U9W/giphy.gif)
+:::
+::::
+
+::::aside
+DOI: [10.48550/arXiv.2508.12735](https://arxiv.org/abs/2508.12735); Animation from giphy
+::::
+
+
+## Absurd{visibility="uncounted"}
+
+``To assume that a rank could possibly say anything meaningful about the quality of a university relative to other universities, be it as a workplace or as a place to study, is downright absurd.'' 
+
+[Jelena Brankovic](https://blogs.lse.ac.uk/impactofsocialsciences/2021/03/22/the-absurdity-of-university-rankings/), Humboldt University
+
+
