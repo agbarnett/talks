@@ -185,7 +185,7 @@ from giphy
 ```{r, fig.width=7, fig.height=4}
 library(diagram)
 par(mar = rep(0,4), bg = 'transparent')
-names <- c("Design", "Analysis", "Write-up")
+names <- c("Design", "Data collection\n& Analysis", "Write-up")
 colours = c('pink','darkseagreen3','khaki')
 M <- matrix(nrow = 3, ncol = 3, byrow = TRUE, data = 0) 
 M[2,1] <- "' '"
@@ -332,6 +332,17 @@ DOI: [10.1016/S0140-6736(13)62227-8](https://pubmed.ncbi.nlm.nih.gov/24411645/)
 ::::aside
 Photo by <a href="https://unsplash.com/@hellojanaknorr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jana Knorr</a> on <a href="https://unsplash.com/photos/red-and-white-no-smoking-sign-d-JNCzsRDFE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 ::::
+
+## Mistakes have consequences{background-color='white'}
+
+![](figures/Reinhart_Rogoff.png){width=720}
+
+::::aside
+<p style="color:black">From [The Conversation](https://theconversation.com/the-reinhart-rogoff-error-or-how-not-to-excel-at-economics-13646)</p>
+::::
+
+<!--- Papers on the error and deaths. 1. Leek JT, Jager LR. Is most published research really false? Annual Review of Statistics and Its Application. 2017;4(1):109–122.
+2. Martin S, Longo F, Lomas J, Claxton K. Causal impact of social care, public health and healthcare expenditure on mortality in England: cross-sectional evidence for 2013/2014. BMJ open. 2021;11(10):e046417.--->
 
 ## Declaration of Helsinki
 
