@@ -1118,6 +1118,16 @@ Photo by <a href="https://unsplash.com/@markkoenig?utm_content=creditCopyText&ut
 Photo by <a href="https://unsplash.com/@markkoenig?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mark König</a> on <a href="https://unsplash.com/photos/blue-and-white-quote-board-1CLBm-lnx40?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 ::::
 
+## King Richard III{background-color='white'}
+
+![](figures/richard_iii.jpg){width=880px}
+
+<small>Analysis by David Balding and Mark Thomas. LR = likelihood ratio.</small>
+
+:::: aside
+<p style="color:black">From [National Geographic](https://www.nationalgeographic.com/science/article/141202-richard-iii-genes-shakespeare-science#:~:text=DNA%20Confirms:%20Here%20Lieth%20Richard,long%20after%20death%E2%80%94527%20years.)</p>
+::::
+
 ## Accumulating evidence{background-color='white'}
 	
 :::: columns

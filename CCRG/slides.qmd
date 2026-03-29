@@ -1950,7 +1950,7 @@ Image: <a href="https://commons.wikimedia.org/wiki/File:Isaac.Asimov01.jpg">Phil
 
 ## Question wording
 
-* How do your rate your appointment?
+* How do you rate your appointment?
   + Extremely happy
   + Happy
   + Unhappy

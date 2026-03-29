@@ -6,8 +6,8 @@
 <script src="slides_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="slides_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="slides_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="slides_files/libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.32">
+<link href="slides_files/libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.25">
 
   <meta name="author" content="Adrian Barnett 13 May 2025">
   <title>Statistical thinking</title>
@@ -29,7 +29,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="slides_files/libs/revealjs/dist/theme/quarto-00033b64c7f4405b1251d0bf85080562.css">
+  <link rel="stylesheet" href="slides_files/libs/revealjs/dist/theme/quarto-73806f0e93c0950b605bb3afe7220856.css">
   <link href="slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="slides_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="slides_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -143,6 +143,27 @@ Adrian Barnett<br>13 May 2025
 </section>
 <section>
 
+<section id="key-things-we-will-cover-today" class="slide level2" data-background-color="black">
+<h2>Key things we will cover today</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<ul>
+<li><p>Good practice</p></li>
+<li><p>Normal assumption</p></li>
+<li><p>Collecting data</p></li>
+<li><p>P-values</p></li>
+<li><p>Confidence intervals</p></li>
+<li><p>Plots and tables</p></li>
+<li><p>Outliers</p></li>
+<li><p>Causality</p></li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><img data-src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjBsNmx6MmQ5aTYyYjlqMDczbnNsNWk0YjZtNDFrMHRnMnhjNzZvOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qKltgF7Aw515K/giphy.gif"></p>
+<p style="font-size:60%">
+from giphy
+</p>
+</div></div>
+</section>
 <section id="questions-welcome" class="slide level2" data-background-image="figures/camylla-battani-AoqgGAqrLpU-unsplash.jpg" data-background-opacity="0.4" data-background-size="cover">
 <h2>Questions welcome</h2>
 
@@ -232,13 +253,29 @@ Adrian Barnett<br>13 May 2025
 </ul>
 <!--- Bland and Altman: http://dx.doi.org/10.1093/ije/17.2.245; David S from: https://www.youtube.com/watch?v=nuSqWRuz-mU--->
 </section>
-<section id="mistakes" class="slide level2">
-<h2>Mistakes</h2>
+<section id="my-mistakes" class="slide level2" data-background-color="#0d2873">
+<h2>My mistakes</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
 <ul>
 <li><p>Calculation error in my most highly cited paper on regression to the mean</p></li>
 <li><p>Error in one of my most influential papers: total time that researchers spend applying for funding should be 604 years not 551 years</p></li>
 </ul>
-</section>
+</div><div class="column" style="width:40%;">
+<p><img data-src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExanV0ejQ2bXEzazZzcDN1dHFtNzQ1ZDUwMXp3cGppNnU0ZDY1N3pkNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GdExeeataLC5G/giphy.gif"></p>
+</div></div>
+
+<aside><div>
+<p>from giphy</p>
+</div></aside></section>
+<section id="simplified-research-workflow" class="slide level2">
+<h2>Simplified research workflow</h2>
+
+<img data-src="slides_files/figure-revealjs/unnamed-chunk-1-1.png" width="672" class="r-stretch"></section>
+<section id="simplified-research-workflow-1" class="slide level2" data-visibility="uncounted">
+<h2>Simplified research workflow</h2>
+
+<img data-src="slides_files/figure-revealjs/unnamed-chunk-2-1.png" width="672" class="r-stretch"></section>
 <section id="spend-time-on-study-design" class="slide level2">
 <h2>Spend time on study design</h2>
 <ul>
@@ -424,17 +461,17 @@ DOI: <a href="https://www.sciencedirect.com/science/article/pii/S144024402300040
 <section id="normal-dogma" class="slide level2" data-background-color="white">
 <h2>Normal dogma</h2>
 
-<img data-src="slides_files/figure-revealjs/unnamed-chunk-1-1.png" width="960" class="r-stretch"></section>
+<img data-src="slides_files/figure-revealjs/unnamed-chunk-3-1.png" width="960" class="r-stretch"></section>
 <section id="normal-dogma-1" class="slide level2" data-background-color="white" data-visibility="uncounted">
 <h2>Normal dogma</h2>
 
-<img data-src="slides_files/figure-revealjs/unnamed-chunk-2-1.png" width="960" class="r-stretch"></section>
+<img data-src="slides_files/figure-revealjs/unnamed-chunk-4-1.png" width="960" class="r-stretch"></section>
 <section id="normal-dogma-2" class="slide level2" data-background-color="white" data-visibility="uncounted">
 <h2>Normal dogma</h2>
 
 <img data-src="slides_files/figure-revealjs/residuals-1.png" width="960" class="r-stretch"></section>
-<section id="even-binary-data" class="slide level2" data-background-color="white">
-<h2>Even binary data</h2>
+<section id="means-are-often-normal" class="slide level2" data-background-color="white">
+<h2>Means are often normal</h2>
 <!--- from 99_animate_clt.R --->
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -468,7 +505,7 @@ DOI: <a href="https://www.sciencedirect.com/science/article/pii/S144024402300040
 <h2><xx-small style="color:transparent">Recipe</xx-small></h2>
 <div class="columns">
 <div class="column" style="width:30%;">
-<p><large>Statistics by recipe</large></p>
+<p><large>Statistics by recipe 🤮</large></p>
 </div><div class="column" style="width:70%;">
 <p><img data-src="figures/sats-e1557157102677.jpg" class="absolute" style="top: 20px; right: 20px; width: 500px; "></p>
 </div></div>
@@ -483,10 +520,14 @@ DOI: <a href="https://www.sciencedirect.com/science/article/pii/S144024402300040
 </div></aside></section>
 <section id="blinding" class="slide level2">
 <h2>Blinding</h2>
+<ul>
+<li>Used in research for over 200 years</li>
+</ul>
+<!--- https://muse.jhu.edu/article/4142 --->
 <p><img data-src="figures/electoral_commission.png"></p>
 
 <aside><div>
-<p>Picture from <em>The Guardian</em></p>
+<p>Picture from <em>The Guardian</em> from the 2025 Australian election</p>
 </div></aside></section>
 <section id="easiest-people-to-fool" class="slide level2" data-background-color="#43aecc">
 <h2>Easiest people to fool</h2>
@@ -523,19 +564,19 @@ DOI: <a href="https://www.sciencedirect.com/science/article/pii/S144024402300040
 • Participant says they don’t feel well
 </p>
 <p style="font-size:80%">
-&nbsp;&nbsp;&nbsp;&nbsp;- In the intervention group, you tell them to come back tomorrow
+&nbsp;&nbsp;&nbsp;&nbsp;- In the intervention group you tell them to come back tomorrow
 </p>
 <p style="font-size:80%">
-&nbsp;&nbsp;&nbsp;&nbsp;- In the control group, you say nothing
+&nbsp;&nbsp;&nbsp;&nbsp;- In the control group you say nothing
 </p>
 <p style="font-size:85%">
 • Participant doesn’t hear the starting whistle
 </p>
 <p style="font-size:80%">
-&nbsp;&nbsp;&nbsp;&nbsp;- In the intervention group, you give them another chance
+&nbsp;&nbsp;&nbsp;&nbsp;- In the intervention group you give them another chance
 </p>
 <p style="font-size:80%">
-&nbsp;&nbsp;&nbsp;&nbsp;- In the control group, you say “hard cheese”
+&nbsp;&nbsp;&nbsp;&nbsp;- In the control group you say “hard cheese”
 </p>
 </section>
 <section id="biases-creep-in-1" class="slide level2" data-visibility="uncounted">
@@ -544,19 +585,19 @@ DOI: <a href="https://www.sciencedirect.com/science/article/pii/S144024402300040
 • Participant says they don’t feel well
 </p>
 <p style="font-size:80%">
-&nbsp;&nbsp;&nbsp;&nbsp;- In the intervention group, you tell them to come back tomorrow
+&nbsp;&nbsp;&nbsp;&nbsp;- In the intervention group you tell them to come back tomorrow
 </p>
 <p style="font-size:80%">
-&nbsp;&nbsp;&nbsp;&nbsp;- In the control group, you say nothing
+&nbsp;&nbsp;&nbsp;&nbsp;- In the control group you say nothing
 </p>
 <p style="font-size:85%">
 • Participant doesn’t hear the starting whistle
 </p>
 <p style="font-size:80%">
-&nbsp;&nbsp;&nbsp;&nbsp;- In the intervention group, you give them another chance
+&nbsp;&nbsp;&nbsp;&nbsp;- In the intervention group you give them another chance
 </p>
 <p style="font-size:80%">
-&nbsp;&nbsp;&nbsp;&nbsp;- In the control group, you say “hard cheese”
+&nbsp;&nbsp;&nbsp;&nbsp;- In the control group you say “hard cheese”
 </p>
 <p style="font-size:85%">
 • Animal studies that did not use randomisation and blinding were far more likely to have a positive result, odds ratio = 5.2 (95% CI: 2.0 to 13.5)
@@ -1045,10 +1086,24 @@ or in stats language
 <aside><div>
 <p>Photo by <a href="https://unsplash.com/@markkoenig?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Mark König</a> on <a href="https://unsplash.com/photos/blue-and-white-quote-board-1CLBm-lnx40?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a></p>
 </div></aside></section>
+<section id="king-richard-iii" class="slide level2" data-background-color="white">
+<h2>King Richard III</h2>
+<p><img data-src="figures/richard_iii.jpg" width="880"></p>
+<p><small>Analysis by David Balding and Mark Thomas. LR = likelihood ratio.</small></p>
+
+<aside><div>
+<p style="color:black">
+From <a href="https://www.nationalgeographic.com/science/article/141202-richard-iii-genes-shakespeare-science#:~:text=DNA%20Confirms:%20Here%20Lieth%20Richard,long%20after%20death%E2%80%94527%20years.">National Geographic</a>
+</p>
+</div></aside></section>
 <section id="accumulating-evidence" class="slide level2" data-background-color="white">
 <h2>Accumulating evidence</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img data-src="figures/OBR-19-1164-g003.jpg" width="590"></p>
+</div><div class="column" style="width:40%;">
 <p><small>Cumulative meta‐analysis of interventions targeted at increasing physical activity in healthy adults</small></p>
-<p><img data-src="figures/OBR-19-1164-g003.jpg" width="560"></p>
+</div></div>
 
 <aside><div>
 <p style="color:black">
@@ -1127,6 +1182,10 @@ DOI: <a href="https://www.tandfonline.com/doi/full/10.1080/02640414.2021.1899610
 DOI: <a href="https://pubmed.ncbi.nlm.nih.gov/39733433">10.31557/APJCP.2024.25.12.4397</a>
 </p>
 </div></aside></section>
+<section id="statically-significant" class="slide level2" data-background-color="white">
+<h2>Statically significant</h2>
+
+<img data-src="figures/statically-significant.png" class="r-stretch"></section>
 <section id="statistical-thinking-1" class="slide level2" data-background-color="#5a8aa1">
 <h2>Statistical thinking</h2>
 <div class="columns">
@@ -1169,7 +1228,21 @@ From <a href="https://xkcd.com/1478/">xkcd</a>
 <li><p>1% improvement in muscle mass might be statistically significant but practically useless</p></li>
 <li><p>Pre-specify the important difference</p></li>
 </ul>
-</section></section>
+</section>
+<section id="triggers-of-myocardial-infarction" class="slide level2" data-background-color="white">
+<h2>Triggers of myocardial infarction</h2>
+<div class="columns">
+<div class="column" style="width:80%;">
+<p><img data-src="figures/risk.vs.paf.jpg" width="610"></p>
+</div><div class="column" style="width:20%;">
+<p>Individual versus public risk</p>
+</div></div>
+
+<aside><div>
+<p style="color:black">
+Adapted from DOI: <a href="https://pubmed.ncbi.nlm.nih.gov/21353301/">10.1016/S0140-6736(10)62296-9</a>
+</p>
+</div></aside></section></section>
 <section>
 <section id="tutorial-1" class="title-slide slide level1 center" data-background-image="figures/feliphe-schiarolli-hes6nUC1MVc-unsplash.jpg" data-background-opacity="0.4" data-background-size="cover" data-visibility="uncounted">
 <h1>Tutorial</h1>
@@ -1246,6 +1319,22 @@ Photo by <a href="https://unsplash.com/@flpschi?utm_content=creditCopyText&amp;u
 • For rate ratios or odds ratios the null hypothesis is at one, e.g., “The new training schedule increased the number of injuries by 2.0 compared with the existing schedule (95% CI: 1.2, 3.0)” — which would mean a statistically significant increase in injuries
 </p>
 </section>
+<section id="ring-toss" class="slide level2" data-background-color="#634522">
+<h2>Ring toss</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p>Calculating a confidence interval is like throwing a ring toss</p></li>
+<li><p>A larger ring is more likely to include the target</p></li>
+<li><p>Rings either include or exclude the target</p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="figures/ring_toss.jpg"></p>
+</div></div>
+
+<aside><div>
+<p>Photo by <a href="https://www.flickr.com/photos/mikecogh/15948532925/in/photostream/">Michael Coghlan</a> CC BY-SA 2.0</p>
+</div></aside></section>
 <section id="overlapping-intervals" class="slide level2" data-background-color="white">
 <h2>Overlapping intervals</h2>
 <div class="columns">
@@ -1263,22 +1352,6 @@ Photo by <a href="https://unsplash.com/@flpschi?utm_content=creditCopyText&amp;u
 <p style="color:black">
 DOI: <a href="https://onlinelibrary.wiley.com/doi/10.1002/sim.3471">10.1002/sim.3471</a>
 </p>
-</div></aside></section>
-<section id="ring-toss" class="slide level2" data-background-color="#634522">
-<h2>Ring toss</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li><p>Calculating a confidence interval is like throwing a ring toss</p></li>
-<li><p>A larger ring is more likely to include the target</p></li>
-<li><p>Rings either include or exclude the target</p></li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p><img data-src="figures/ring_toss.jpg"></p>
-</div></div>
-
-<aside><div>
-<p>Photo by <a href="https://www.flickr.com/photos/mikecogh/15948532925/in/photostream/">Michael Coghlan</a> CC BY-SA 2.0</p>
 </div></aside></section></section>
 <section>
 <section id="within-person-change" class="title-slide slide level1 center">
@@ -1714,6 +1787,11 @@ https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002295
 </tbody>
 </table>
 </section>
+<section id="death-rates-example" class="slide level2">
+<h2>Death rates example</h2>
+<!-- from CCRG/ plot_death_rate_decimals.R -->
+
+<img data-src="figures/death_rates.jpg" class="r-stretch"></section>
 <section id="decimal-places" class="slide level2">
 <h2><xx-small style="color:transparent">Decimal places</xx-small></h2>
 <!-- Show that you get it. -->
@@ -2124,7 +2202,7 @@ from Olympics on giphy
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -2274,13 +2352,14 @@ from Olympics on giphy
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy
