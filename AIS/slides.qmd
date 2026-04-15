@@ -1,6 +1,6 @@
 ---
 title: "Statistical thinking"
-author: Adrian Barnett<br>13 May 2025
+author: Adrian Barnett<br>16 April 2026
 institute: Queensland University of Technology<br><br>Photo by <a href="https://unsplash.com/@rocinante_11?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mick Haupt</a> on <a href="https://unsplash.com/photos/white-red-green-and-yellow-multi-color-heart-print-textile-kgRBoAKq-4E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 title-position: 90%
 format:

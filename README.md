@@ -64,4 +64,6 @@ In date order:
 * `consumer` Consumer engagement working group at QUT (November 2025)
 * `UKRI` Building an evidence base to help improve the allocation of research funding: Where next? (December 2025)
 * `CCRG` Statistical Thinking for the Critical Care Research Group (February 2026)
-* `tables` Talk on university league tables (February 2026)
+* `tables` University league tables (February 2026)
+* `RSC` Research Support Community Day (June 2026)
+* `RIF` research integrity forum, Swinburne (August 2026)
