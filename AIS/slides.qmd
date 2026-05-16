@@ -1524,7 +1524,7 @@ Photo by [Michael Coghlan](https://www.flickr.com/photos/mikecogh/15948532925/in
 
 * Research question: Are football referees more likely to give red cards to dark-skin-toned players than to light-skin-toned players?
 
-* What is the PICO: Population, Intervention, Control, Outcome?
+* What is the PICO/PECO: Population, Intervention/Exposure, Control/Comparison, Outcome? 
 
 * Potential variables: skin tone, sent off (yes/no), player position, team won/lost, referee, league, game date, ... you can add more
 

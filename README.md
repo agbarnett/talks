@@ -65,5 +65,8 @@ In date order:
 * `UKRI` Building an evidence base to help improve the allocation of research funding: Where next? (December 2025)
 * `CCRG` Statistical Thinking for the Critical Care Research Group (February 2026)
 * `tables` University league tables (February 2026)
+* `administrative_data` Maximizing the use of, and value derived from, linked and integrated administrative data assets to inform government policy decision-making (May 2026)
+* `fraud_detection` automating fraud detection (June 2026)
 * `RSC` Research Support Community Day (June 2026)
 * `RIF` research integrity forum, Swinburne (August 2026)
+* `IEPN` Impact Evaluation Practitioners Network (September 2026)
