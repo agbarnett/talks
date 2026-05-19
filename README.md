@@ -68,5 +68,6 @@ In date order:
 * `administrative_data` Maximizing the use of, and value derived from, linked and integrated administrative data assets to inform government policy decision-making (May 2026)
 * `fraud_detection` automating fraud detection (June 2026)
 * `RSC` Research Support Community Day (June 2026)
+* `Leadership` 2026 Essential Skills for Statistics Leadership in Consultancy and Research Symposium (July 2026)
 * `RIF` research integrity forum, Swinburne (August 2026)
 * `IEPN` Impact Evaluation Practitioners Network (September 2026)

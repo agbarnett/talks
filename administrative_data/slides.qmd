@@ -45,24 +45,14 @@ Report [here](https://www.nhmrc.gov.au/about-us/publications/draft-national-heal
 
 ## Barriers{background-image='figures/markus-spiske-dMh1A35w_BE-unsplash.jpg' background-opacity=0.4 background-size='cover'}
 
-* Lack of skills in AI, statistics and data management
+::: {.incremental}
 
-* Understanding of causality
+- Lack of skills in AI, statistics and data management
+- Understanding of causality
+- Time and money needed to arrange data access
+- Collaboration between those with questions and those with skills to answer questions
 
-::::aside
-Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Spiske</a> on <a href="https://unsplash.com/photos/a-bird-sitting-on-top-of-a-chain-link-fence-dMh1A35w_BE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-::::
-
-## Barriers{background-image='figures/markus-spiske-dMh1A35w_BE-unsplash.jpg' background-opacity=0.4 background-size='cover' visibility="uncounted"}
-
-* Lack of skills in AI, statistics and data management
-
-* Understanding of causality
-
-* Time and money needed to arrange data access
-
-* Collaboration between those with questions and those with skills to answer questions
-
+:::
 
 ::::aside
 Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Spiske</a> on <a href="https://unsplash.com/photos/a-bird-sitting-on-top-of-a-chain-link-fence-dMh1A35w_BE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
@@ -111,7 +101,7 @@ Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_med
 :::
 ::: {.column width="50%"}
 
-<p style="font-size:70%">"an authoritative dataset was used as the research object"</p>
+<p style="font-size:70%">"An authoritative dataset was used as the research object"</p>
 
 ![](figures/diabetes_bmi.jpg){width=400}
 
