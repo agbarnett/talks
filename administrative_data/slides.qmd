@@ -21,6 +21,25 @@ editor:
   wrap: 72
 ---
 
+## When it works well{background-color='white'}
+
+:::: columns
+::: {.column width="45%"}
+``Would not have been possible without the efforts from structural biologists in providing all the experimentally determined structures that have gone into the Protein Data Bank''
+
+The Nobel Committee for Chemistry
+
+<!--- from https://www.nobelprize.org/uploads/2024/10/advanced-chemistryprize2024.pdf--->
+:::
+  
+::: {.column width="55%"}
+![](figures/nobel_chemistry.png)
+
+<small>Picture from NobelPrize.org</small>
+:::
+::::
+
+
 ## National health and medical research strategy, August 2025
 
 :::: columns
@@ -69,7 +88,7 @@ Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_med
 <p style="color:black">Story from [BBC](https://www.bbc.com/news/articles/cpvxgl3n138o)</p>
 ::::
 
-## Data that is too open{background-color='white'}
+## Fully open data is dead?{background-color='white'}
 
 :::: columns
 ::: {.column width="50%"}
