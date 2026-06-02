@@ -13,3 +13,6 @@ Things could also get much worse. There’s been a recent explosion in “fast c
 What is our value in an AI future? We can hope that many researchers will still want to talk with a well-qualified colleague about their research question and what they want to achieve. Where the stakes are highest, for example the “top” journals and analyses that will impact government funding, key decision makers will hopefully value human statisticians. We need to be prepared for this huge challenge to our field.
 
 Slides are available [here](https://agbarnett.github.io/talks/leadership/slides).
+
+
+For slides, very good essay here: https://www.ft.com/content/aceabeb1-1152-43d1-ad76-e1531cd37f39?accessToken=zwAAAZ54SfGEkdOs6r6xEVJD0dOtduFTHNN_OQ.MEUCIQDAF-TPvhRXIWIUPo6EiWVsPB7UmQlQZGEHs2DR5QSofAIgDcDuCRdOridp-dG-F_k1MMBvqzDFr367q9TNgG7nrLU&segmentId=e95a9ae7-622c-6235-5f87-51e412b47e97&shareId=cfa87609-8d5b-4603-94bc-ee5ec9d654a3&shareType=enterprise&syn-25a6b1a6=1

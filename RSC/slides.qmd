@@ -23,16 +23,19 @@ editor:
 
 # <xx-small style="color:transparent">Oil spill</xx-small>{background-image='figures/alex-albert-p7kl7eTp6dM-unsplash.jpg' background-opacity=0.75 background-size='cover'}
 
-<p style="font-size:200%">AI slop is an oil spill in our digital oceans</p>
+<p style="font-size:200%">"AI slop is an oil spill in our digital oceans"</p>
+
+<p style="font-size:120%">[Katelyn Chedraoui](https://www.cnet.com/tech/services-and-software/features/ai-slop-is-destroying-the-internet-these-are-the-people-fighting-to-save-it/)</p>
+
 
 <!-- instead of aside -->
-<br><br><br><br><br><p style="font-size:80%">Photo by <a href="https://unsplash.com/@alexalbert?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alex Albert</a> on <a href="https://unsplash.com/photos/a-duck-swimming-in-a-pond-p7kl7eTp6dM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+<br><br><br><br><p style="font-size:80%">Photo by <a href="https://unsplash.com/@alexalbert?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alex Albert</a> on <a href="https://unsplash.com/photos/a-duck-swimming-in-a-pond-p7kl7eTp6dM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 
 <!--- aim for 30 mins, then Q&A --->
 
 ## How deep?{background-color='white'}
 
-![](figures/F1.large.jpg){width=620px}
+![](figures/F1.large.jpg){width=640px}
 
 ## How much is cleaned up?{background-color='white'}
 
@@ -64,9 +67,7 @@ editor:
 
 <small>Dear Dr. Barnett,</small> 
 
-<small>Thank you for alerting us to your concerns about this publication. We take any issues raised seriously. Neurological Sciences is a member of the Committee on Publication Ethics (COPE). We will investigate this matter in line with COPE guidelines.</small> 
-
-<small>Thank you for providing information to support your complaint. As part of our investigation, we may need to share this information with the authors of the publication, their institution or other organizations.</small>  
+<small>Thank you for alerting us to your concerns about this publication. **We take any issues raised seriously**. Neurological Sciences is a member of the Committee on Publication Ethics (COPE). We will investigate this matter in line with COPE guidelines.</small> 
 
 <small>etc</small>
 
@@ -84,8 +85,8 @@ Photo by <a href="https://unsplash.com/@dcanadianphotographer?utm_source=unsplas
 <Large>Where are the spills?</Large>
 :::
   
-::: {.column width="60%"}
-![](figures/F2.large.jpg){.absolute top="20"
+::: {.column width="62%"}
+![](figures/F2.large.jpg){.absolute top="10"
 right="20"}
 :::
 ::::
@@ -119,7 +120,7 @@ video from giphy; DOI: [10.1186/s12916-025-04569-y](https://link.springer.com/ar
 
 ## Data too open?{background-image='figures/muhammad-zaqy-al-fattah-Lexcm-6FHRU-unsplash.jpg' background-opacity=0.4 background-size='cover'}
 
-* With Matt Spick (Surrey), we created a paper using _Prism_ (_OpenAI_) in 30 minutes with no human input
+* With Matt Spick (Uni of Surrey), we created a paper using _Prism_ (_OpenAI_) in 30 minutes with no human input
 
 ::::aside
 [LSE Impact](https://blogs.lse.ac.uk/impactofsocialsciences/2026/03/17/research-integrity-is-locked-into-an-arms-race-with-agentic-ai-slop/); Photo by <a href="https://unsplash.com/@dizzydizz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Muhammad Zaqy Al Fattah</a> on <a href="https://unsplash.com/photos/silver-padlock-Lexcm-6FHRU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
@@ -128,7 +129,7 @@ video from giphy; DOI: [10.1186/s12916-025-04569-y](https://link.springer.com/ar
 
 ## Data too open?{visibility='uncounted' background-image='figures/muhammad-zaqy-al-fattah-Lexcm-6FHRU-unsplash.jpg' background-opacity=0.4 background-size='cover'}
 
-* With Matt Spick (Surrey), we created a paper using _Prism_ (_OpenAI_) in 30 minutes with no human input
+* With Matt Spick (Uni of Surrey), we created a paper using _Prism_ (_OpenAI_) in 30 minutes with no human input
 
 * _Paper Orchestra_ (_Google_), produces a submission-ready manuscript with figures and verified citations in about 40 minutes
 
@@ -227,24 +228,31 @@ Photo by <a href="https://unsplash.com/@cbetito?utm_source=unsplash&utm_medium=r
 <p style="color:black">DOI: [10.1162/qss_a_00327](https://doi.org/10.1162/qss_a_00327)</p>
 ::::
 
-## Money for quality control
+## Money for quality control{background-image='figures/adam-nir-wTO6MWpMrJk-unsplash.jpg' background-opacity=0.15 background-size='cover'}
 
 * The _American Society for Quality_ states that organisations typically spend 10 to 15% of their operating costs on quality-related costs 
 
-* For NHMRC money only, this would mean $740 million per year on quality-related work
+* For the NHMRC budget only, this would mean $740 million per year on quality-related work
 
 * What we actually spend is around $1 million
 
+::::aside
+Photo by <a href="https://unsplash.com/@adamnir?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adam Nir</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-one-dollar-bill-wTO6MWpMrJk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
 
-## Money for quality control{visibility="uncounted"}
+## Money for quality control{visibility="uncounted" background-image='figures/adam-nir-wTO6MWpMrJk-unsplash.jpg' background-opacity=0.15 background-size='cover'}
 
 * The _American Society for Quality_ states that organisations typically spend 10 to 15% of their operating costs on quality-related costs 
 
-* For NHMRC money only, this would mean $740 million per year on quality-related work
+* For the NHMRC budget only, this would mean $740 million per year on quality-related work
 
 * What we actually spend is around $1 million
 
 * Publishers cry poor, but last year the mega-publisher _Elsevier_ made GBP £1.2 billion in profit
+
+::::aside
+Photo by <a href="https://unsplash.com/@adamnir?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adam Nir</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-one-dollar-bill-wTO6MWpMrJk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
 
 ## <xx-small style="color:transparent">Turn down the heat</xx-small>{background-image='figures/nature_articles.jpg' background-opacity=1 background-color='white' background-size='contain'}
 
@@ -282,7 +290,7 @@ from dotdave on giphy
 
 ## What's next?{background-color='#26435d'}
 
-<img width="960" alt="Oiled diving duck" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Oiled_diving_duck.JPG/960px-Oiled_diving_duck.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail">
+![](figures/Oiled_diving_duck.JPG)
 
 ::::aside
 <a href="https://commons.wikimedia.org/wiki/File:Oiled_diving_duck.JPG">Brocken Inaglory</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
