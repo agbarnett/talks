@@ -142,7 +142,7 @@ right="20"}
 from giphy
 ::::
 
-## Other techniques
+## Some other techniques{background-image='figures/alina-grubnyak-ZiQkhI7417A-unsplash.jpg' background-opacity=0.4 background-size='cover'}
 
 * Unusual author networks (Leslie McIntosh)
 
@@ -150,6 +150,9 @@ from giphy
 
 * INSPECT-SR tool (from Jack Wilkinson and colleagues); potential to automate
 
+::::aside
+Photo by <a href="https://unsplash.com/@alinnnaaaa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alina Grubnyak</a> on <a href="https://unsplash.com/photos/low-angle-photography-of-metal-structure-ZiQkhI7417A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
 
 ## Leave paper trails{background-color='white'}
 
