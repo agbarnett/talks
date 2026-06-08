@@ -10,6 +10,4 @@ To separate the sound from the slop, large changes are needed to our systems for
 
 A potential positive of AI is that a well-designed and validated model could “read” every paper ever published and give scores against key criteria, including competence and originality. This could create a welcome shift in the overall direction of research to move away from speed, volume and the impossible to define “excellence”, towards the more important goals of quality and competence. 
 
-
-Slides are available [here](https://agbarnett.github.io/talks/RSC/slides).
-
+Slides are [here](https://agbarnett.github.io/talks/RSC/slides).

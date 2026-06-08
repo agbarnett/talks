@@ -1,0 +1,75 @@
+---
+title: "Will AI take my job?"
+author: Adrian Barnett<br>19 July 2026
+institute: Queensland University of Technology<br><br>Photo by <a href="https://unsplash.com/@ekrull?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Eric Krull</a> on <a href="https://unsplash.com/photos/blue-and-purple-robot-toy-Ejcuhcdfwrs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title-position: 90%
+format:
+ revealjs: 
+  slide-number: true
+  theme: night
+  chalkboard: false
+  transition: fade
+  preview-links: auto
+  logo: figures/logos.jpg
+title-slide-attributes:
+ data-position: relative
+ data-background-image: figures/eric-krull-Ejcuhcdfwrs-unsplash.jpg
+ data-background-size: cover
+ data-background-opacity: "0.4"
+editor: 
+ markdown: 
+  wrap: 72
+---
+
+## <small style="color:transparent">Robots</small>{background-colour='#6596d1' background-image='figures/stop_hiring_humans.jpg'}
+
+## Should AI steal your job?
+
+## 30 minute paper{background-color='white'}
+
+![](figures/cmm9a4c470003dla6jd9xomuw.png)
+
+::::aside
+[Octopus](https://www.octopus.ac/publications/za6p-4457/versions/latest)
+::::
+
+## Data slop{background-color='white'}
+
+:::: columns
+::: {.column width="50%"}
+<p style="font-size:70%">"A smart camera located in patient rooms has been used to collect images"</p>
+
+![](figures/stroke_crazy.jpg){width=400}
+
+:::
+::: {.column width="50%"}
+
+
+:::
+::::
+  
+::::aside
+<p style="color:black">DOI:[10.1038/s41598-025-28513-5](https://www.nature.com/articles/s41598-025-28513-5) </p>
+::::
+
+## Data slop{background-color='white' visibility="uncounted"}
+
+:::: columns
+::: {.column width="50%"}
+<p style="font-size:70%">"A smart camera located in patient rooms has been used to collect images"</p>
+
+![](figures/stroke_crazy.jpg){width=400}
+
+:::
+::: {.column width="50%"}
+
+<p style="font-size:70%">"An authoritative dataset was used as the research object"</p>
+
+![](figures/diabetes_bmi.jpg){width=400}
+
+:::
+::::
+  
+::::aside
+<p style="color:black">DOI:[10.1038/s41598-025-28513-5](https://www.nature.com/articles/s41598-025-28513-5) & DOI:[10.1038/d41586-026-00697-4](https://www.nature.com/articles/d41586-026-00697-4)</p>
+::::
