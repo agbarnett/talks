@@ -1,0 +1,196 @@
+---
+title: "Responsible use of AI and reproducible research"
+author: Adrian Barnett<br>10 June 2026
+institute: Queensland University of Technology<br><br>Photo by <a href="https://unsplash.com/@iza_y_ah?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ryan Zazueta</a> on <a href="https://unsplash.com/photos/a-bunch-of-test-tubes-filled-with-different-colored-liquids--lulun7F32c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title-position: 90%
+format:
+ revealjs: 
+  slide-number: true
+  theme: night
+  chalkboard: false
+  transition: fade
+  preview-links: auto
+  logo: figures/logos.jpg
+title-slide-attributes:
+ data-position: relative
+ data-background-image: figures/ryan-zazueta-lulun7F32c-unsplash.jpg
+ data-background-size: cover 
+ data-background-opacity: "0.4"
+editor: 
+ markdown: 
+  wrap: 72
+---
+
+<!--- 12 minutes plus 3 minutes for questions --->
+
+::::aside
+Reproduced with permission from the Canadian Dental Association
+::::
+
+## <xx-small style="color:transparent">Templated papers</xx-small>{background-image='figures/baptiste_slide1.jpg' background-opacity=1 background-size='cover'}
+
+## <xx-small style="color:transparent">Retraction watch</xx-small>{background-image='figures/baptiste_slide2.jpg' background-opacity=1 background-size='cover'}
+
+## <xx-small style="color:transparent">Templated papers</xx-small>{background-image='figures/baptiste_slide3.jpg' background-opacity=1 background-size='cover'}
+
+## Paper mills are growing{background-color='white'}
+
+![](figures/F1.large.jpg){width=640px}
+
+## <xx-small style="color:transparent">Where</xx-small>{background-color='white'}
+
+:::: columns
+::: {.column width="40%"}
+<Large>Country incentives are important</Large>
+:::
+  
+::: {.column width="62%"}
+![](figures/F2.large.jpg){.absolute top="10"
+right="20"}
+:::
+::::
+
+
+## High citations, low engagement{background-color='white'}
+
+![](figures/citations_no_readers.png)
+
+::::aside
+<p style="color:black">DOI [10.64898/2026.05.25.727627](https://www.biorxiv.org/content/10.64898/2026.05.25.727627v1)</p>
+::::
+
+
+## Limitations
+
+* Our language model is specific to pre-clinical cancer papers.
+
+* Other fields and study designs would need new models --- needs to be a good number of retractions to train the model
+
+* Our model was built before the explosion of LLM-written papers which do not use a template and will be much harder to detect
+
+## Data and paper mining{background-color='white'}
+
+![](figures/1-s2.0-S0895435626000788-gr1_lrg.jpg){width=630px}
+
+::::aside
+<p style="color:black">DOI: [10.1016/j.jclinepi.2026.112203](https://www.sciencedirect.com/science/article/pii/S0895435626000788)</p>
+::::
+
+## Data too open?{background-image='figures/muhammad-zaqy-al-fattah-Lexcm-6FHRU-unsplash.jpg' background-opacity=0.4 background-size='cover'}
+
+* With Matt Spick (Uni of Surrey), we created a paper using _Prism_ (_OpenAI_) in 30 minutes with no human input
+
+::::aside
+[LSE Impact](https://blogs.lse.ac.uk/impactofsocialsciences/2026/03/17/research-integrity-is-locked-into-an-arms-race-with-agentic-ai-slop/); Photo by <a href="https://unsplash.com/@dizzydizz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Muhammad Zaqy Al Fattah</a> on <a href="https://unsplash.com/photos/silver-padlock-Lexcm-6FHRU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      
+::::
+
+## Data too open?{visibility='uncounted' background-image='figures/muhammad-zaqy-al-fattah-Lexcm-6FHRU-unsplash.jpg' background-opacity=0.4 background-size='cover'}
+
+* With Matt Spick (Uni of Surrey), we created a paper using _Prism_ (_OpenAI_) in 30 minutes with no human input
+
+* _Paper Orchestra_ (_Google_), produces a submission-ready manuscript with figures and verified citations in about 40 minutes
+
+<!--- https://yiwen-song.github.io/paper_orchestra/ --->
+
+::::aside
+[LSE Impact](https://blogs.lse.ac.uk/impactofsocialsciences/2026/03/17/research-integrity-is-locked-into-an-arms-race-with-agentic-ai-slop/); Photo by <a href="https://unsplash.com/@dizzydizz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Muhammad Zaqy Al Fattah</a> on <a href="https://unsplash.com/photos/silver-padlock-Lexcm-6FHRU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
+
+
+## Data slop{background-color='white'}
+
+:::: columns
+::: {.column width="50%"}
+<p style="font-size:70%">"A smart camera located in patient rooms has been used to collect images"</p>
+
+![](figures/stroke_crazy.jpg){width=400}
+
+:::
+::: {.column width="50%"}
+
+
+:::
+::::
+  
+::::aside
+<p style="color:black">DOI:[10.1038/s41598-025-28513-5](https://www.nature.com/articles/s41598-025-28513-5) </p>
+::::
+
+## Data slop{background-color='white' visibility="uncounted"}
+
+:::: columns
+::: {.column width="50%"}
+<p style="font-size:70%">"A smart camera located in patient rooms has been used to collect images"</p>
+
+![](figures/stroke_crazy.jpg){width=400}
+
+:::
+::: {.column width="50%"}
+
+<p style="font-size:70%">"An authoritative dataset was used as the research object"</p>
+
+![](figures/diabetes_bmi.jpg){width=400}
+
+:::
+::::
+  
+::::aside
+<p style="color:black">DOI:[10.1038/s41598-025-28513-5](https://www.nature.com/articles/s41598-025-28513-5) & DOI:[10.1038/d41586-026-00697-4](https://www.nature.com/articles/d41586-026-00697-4)</p>
+::::
+
+
+# Solutions?{background-color='#d5c3a3'}
+
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWg0MjJvZ2tkNmlyMmlneHhyaWNsNmF1ZDVjZTNwbHM1czZibzc3eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ebITvSXYKNvRm/giphy.gif)
+
+::::aside
+from giphy
+::::
+
+## Some other techniques{background-image='figures/alina-grubnyak-ZiQkhI7417A-unsplash.jpg' background-opacity=0.4 background-size='cover'}
+
+* Unusual author networks (Leslie McIntosh)
+
+* Fast submissions, duplicate submissions
+
+* INSPECT-SR tool (from Jack Wilkinson and colleagues); potential to automate
+
+::::aside
+Photo by <a href="https://unsplash.com/@alinnnaaaa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alina Grubnyak</a> on <a href="https://unsplash.com/photos/low-angle-photography-of-metal-structure-ZiQkhI7417A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
+
+## Leave paper trails{background-color='white'}
+
+![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExejVqcjk2YnNweHZ3eWZwdnhoc3A5cWhld3pxemhxZjVvcHZpemJ4NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VcAHnvyTuz68ktlyvL/giphy.gif)
+
+:::: aside
+<p style="color:black">from BoxMedia on giphy</p>
+::::
+
+## Money for quality control{background-image='figures/adam-nir-wTO6MWpMrJk-unsplash.jpg' background-opacity=0.2 background-size='cover'}
+
+* The _American Society for Quality_ states that organisations typically spend 10 to 15% of their operating costs on quality-related costs 
+
+* For the NHMRC budget only, this would mean $740 million per year on quality-related work
+
+* Actual spending is around $1 million
+
+::::aside
+Photo by <a href="https://unsplash.com/@adamnir?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adam Nir</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-one-dollar-bill-wTO6MWpMrJk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
+
+## Money for quality control{visibility="uncounted" background-image='figures/adam-nir-wTO6MWpMrJk-unsplash.jpg' background-opacity=0.2 background-size='cover'}
+
+* The _American Society for Quality_ states that organisations typically spend 10 to 15% of their operating costs on quality-related costs 
+
+* For the NHMRC budget only, this would mean $740 million per year on quality-related work
+
+* Actual spending is around $1 million
+
+* Publishers cry poor, but last year the mega-publisher _Elsevier_ made GBP £1.2 billion in profit
+
+::::aside
+Photo by <a href="https://unsplash.com/@adamnir?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adam Nir</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-one-dollar-bill-wTO6MWpMrJk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
+

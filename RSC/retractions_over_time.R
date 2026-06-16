@@ -44,7 +44,6 @@ retractions = read.csv(destfile) %>%
 unlink('retractions.csv')
 
 ## denominator from PubMed
-## Part 1: get BMJ papers from pubmed ##
 years = 2005:2026
 all_search = NULL
 for (y in years) {

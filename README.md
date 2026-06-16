@@ -70,5 +70,6 @@ In date order:
 * `RSC` Research Support Community Day (June 2026)
 * `Leadership` 2026 Essential Skills for Statistics Leadership in Consultancy and Research Symposium (July 2026)
 * `RIF` research integrity forum, Swinburne (August 2026)
+* `ANZSOC` Australia and New Zealand Stroke Association (August 2026)
 * `IEPN` Impact Evaluation Practitioners Network (September 2026)
 * `slow` Slow scholarship (November 2026)
