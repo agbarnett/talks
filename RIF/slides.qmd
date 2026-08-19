@@ -304,10 +304,10 @@ images"
 
 ## Doctored data{background-color='white'}
 
-![](figures/Doctored-data-sets.png){width=400}
+![](figures/Doctored-data-sets.png){width=500}
 
 ::::aside
-DOI: [10.1038/d41586-026-02071-w](https://www.nature.com/articles/d41586-026-02071-w)
+<p style="color:black">DOI: [10.1038/d41586-026-02071-w](https://www.nature.com/articles/d41586-026-02071-w)</p>
 ::::
 
 
@@ -324,11 +324,7 @@ from giphy
 ![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExejVqcjk2YnNweHZ3eWZwdnhoc3A5cWhld3pxemhxZjVvcHZpemJ4NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VcAHnvyTuz68ktlyvL/giphy.gif)
 
 ::: aside
-<p style="color:black">
-
-from BoxMedia on giphy
-
-</p>
+<p style="color:black">from BoxMedia on giphy</p>
 :::
 
 ## Take precautations {background-image="figures/charles-betito-filho-ccYgXLar_1I-unsplash.jpg" background-opacity="0.4" background-size="cover"}
@@ -373,8 +369,7 @@ Nir</a> on
 
 - What we actually spend is around \$1 million
 
-- Publishers cry poor, but last year the mega-publisher *Elsevier* made
-  GBP £1.2 billion in profit
+- Publishers cry poor, but last year the mega-publisher *Elsevier* made GBP £1.2 billion in profit
 
 ::: aside
 Photo by
