@@ -1,0 +1,30 @@
+## Hand crafted{background-color='#e9dccc'}
+
+:::: columns
+::: {.column width="50%"}
+"Before the invention and adoption of [machines], all paper in a paper mill was made by hand, one sheet at a time, by specialized laborers."
+:::
+  
+::: {.column width="50%"}
+![](figures/courtney-cook-nXYmYO_-JUk-unsplash.jpg)
+:::
+::::
+
+
+::::aside
+[Wikipedia page](https://en.wikipedia.org/wiki/Paper_mill) on Paper Mills
+
+Photo by <a href="https://unsplash.com/@courtneymcook?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Courtney Cook</a> on <a href="https://unsplash.com/photos/person-holding-white-clay-pot-nXYmYO_-JUk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
+
+## Hand crafted{visibility="uncounted"}
+
+"Before the invention and adoption of [machines], all paper in a paper mill was made by hand, one sheet at a time, by specialized laborers."
+
+- "Slop machines"
+
+::::aside
+[Wikipedia page](https://en.wikipedia.org/wiki/Paper_mill) on Paper Mills
+::::
+
+

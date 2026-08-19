@@ -6,4 +6,4 @@
 
 *Duration*: 12 minutes plus 3 minutes for questions
 
-Slides are [here](https://agbarnett.github.io/talks/ANZSOC/slides).
+Slides are in PowerPoint.
