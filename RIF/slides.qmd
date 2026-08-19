@@ -47,10 +47,8 @@ Knack</a> on
 ::: {.column width="60%"}
 :::
 
-::: {.column width="40%"}
-<br><br><br><br><br><p style="font-size:65%">From author-for</p>
-
-<p style="font-size:65%">-sale.bsky.social</p>
+::: {.column width="40%" style="text-align: right;"}
+<br><br><br><br><br><p style="font-size:65%" style="text-align: right;">From author-for-sale.bsky.social</p>
 :::
 ::::
 
@@ -211,7 +209,7 @@ Albert</a> on
 
 ## Drill, baby, drill! {background-color="white"}
 
-![](figures/1-s2.png){width="1060px"}
+![](figures/1-s2.png){width="1400px"}
 
 ::: aside
 <p style="color:black">DOI:
