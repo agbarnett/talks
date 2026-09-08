@@ -1,0 +1,62 @@
+---
+title: "Statistics for HRECs"
+author: Adrian Barnett<br>16 November 2026
+institute: Queensland University of Technology<br><br>Photo by <a href="https://unsplash.com/@kommumikation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mika Baumeister</a> on <a href="https://unsplash.com/photos/white-printing-paper-with-numbers-Wpnoqo2plFA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title-position: 90%
+format:
+ revealjs: 
+  slide-number: true
+  theme: night
+  chalkboard: false
+  transition: fade
+  preview-links: auto
+  logo: figures/logos.jpg
+title-slide-attributes:
+ data-position: relative
+ data-background-image: figures/mika-baumeister-Wpnoqo2plFA-unsplash.jpg
+ data-background-size: cover
+ data-background-opacity: "0.4"
+editor: 
+ markdown: 
+  wrap: 72
+---
+
+## Can ethics help?
+
+-- Ethics can be used to stop poor study designs
+
+-- Get quotes from National Statement
+
+
+## How bad is it?
+
+-- Current problems in research
+
+-- Glasziou and Chalmers
+
+-- Waste in trials figure
+
+-- Lack of reproducibility
+
+## Immortal time bias
+
+how to diagnose - diagram
+
+## RTM
+
+
+## Dichotomania
+
+-- Loss of power
+
+## Survival data => survival analysis
+
+## Table 2 fallacy
+
+## Prediction models
+
+## Trials must be registered with protocol
+
+-- Add seriousness of each error
+
+Look for slides from one-day talk

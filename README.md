@@ -73,3 +73,5 @@ In date order:
 * `ANZSOC` Australia and New Zealand Stroke Association (August 2026)
 * `IEPN` Impact Evaluation Practitioners Network (September 2026)
 * `slow` Slow scholarship (November 2026)
+* `hrecs` Statistics workshop for the [7th National HREC Conference](https://hrecconference.au/) (November 2026)
+* `stats` Statistical Society of Australia, National Speaker Series  (? 2026)

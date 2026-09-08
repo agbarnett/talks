@@ -1,0 +1,7 @@
+# Statistical Society of Australia, National Speaker Series (20 August 2026)
+
+*Title*: Research quality is under threat from speed, fraud and AI
+
+*Abstract*: High quality research takes time. The best research uses a detailed study protocol, carefully collects data, and thoroughly reports the findings and limitations. The pressure to "publish or perish" means that much current research is rushed, with corners cut so that research teams can be first at the cost of being correct. Statistical coding is often rushed and model checking is rarely done. As well as sloppy practice, there is also outright fraud where results are massaged or even entirely faked to get a published paper. These problems are being exacerbated by a research system under strain, as publication numbers are rising and stretching the already limited resource of peer review. AI is adding to the strain, as it allows researchers to quickly write papers and create code in areas that were previously outside their expertise. Large changes are needed to the research system to ensure that published research findings are reliable. Researchers who want to demonstrate good quality will soon need to leave detailed paper trails of their work to show their work's provenance. Better systems of reproducibility checks are urgently needed, which could be automated or by qualified researchers for high impact papers. 
+
+Slides are [here](https://agbarnett.github.io/talks/stats/slides).
