@@ -70,7 +70,7 @@ editor:
 
 <br><br><br><br><br><br><br><p style="font-size:70%">Photo by <a href="https://unsplash.com/@claybanks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clay Banks</a> on <a href="https://unsplash.com/photos/blue-and-white-clorox-plastic-bottle-kBaf0DwBPbE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
 
-## Another recent high-profile observational disaster{background-color='#585f76'}
+## Observational disaster{background-color='#585f76'}
 
 :::: columns
 ::: {.column width="70%"}
@@ -89,7 +89,7 @@ Photo by <a href="https://unsplash.com/@sharonmccutcheon?utm_source=unsplash&utm
 ::::
 
 
-## Another recent high-profile observational disaster{background-color='#585f76' visibility="uncounted"}
+## Observational disaster{background-color='#585f76' visibility="uncounted"}
 
 :::: columns
 ::: {.column width="70%"}
@@ -359,7 +359,7 @@ Image from the <a href="//commons.wikimedia.org/wiki/Commons:British_Library/Mec
 
 ::: {.column width="50%"}
 
-![](https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg){width=380}
+![](https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg){width=420}
 :::
 ::::
 
@@ -398,7 +398,15 @@ DOI: [10.1257/app.20200405](https://www.aeaweb.org/articles?id=10.1257/app.20200
 
 * For prospective randomised trials, we should know the mechanism in order to get ethical approval
 
-* Can assume this is causal, but what is the mechanism? 
+::::aside
+Photo by <a href="https://unsplash.com/@cdd20?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">愚木混株 Yumu</a> on <a href="https://unsplash.com/photos/a-group-of-red-arrows-on-a-black-surface-HQH-GOZ6K2c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
+
+## Reverse direction{background-image='figures/yumu-HQH-GOZ6K2c-unsplash.jpg' background-opacity=0.3 background-size='cover' visibility="uncounted"}
+
+* For prospective randomised trials, we should know the mechanism in order to get ethical approval
+
+* Can assume the doctor effect is causal, but what is the mechanism? 
 
 ::::aside
 Photo by <a href="https://unsplash.com/@cdd20?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">愚木混株 Yumu</a> on <a href="https://unsplash.com/photos/a-group-of-red-arrows-on-a-black-surface-HQH-GOZ6K2c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
@@ -408,7 +416,7 @@ Photo by <a href="https://unsplash.com/@cdd20?utm_source=unsplash&utm_medium=ref
 
 * For prospective randomised trials, we should know the mechanism in order to get ethical approval
 
-* Can assume this is causal, but what is the mechanism? 
+* Can assume the doctor is causal, but what is the mechanism? 
 
 * Easy access to qualified advice saves lives
 
@@ -420,7 +428,7 @@ Photo by <a href="https://unsplash.com/@cdd20?utm_source=unsplash&utm_medium=ref
 
 ## In Australia
 
-* Places at Australian medical schools are greatly over-subscribed, with 3 to 4 applicants for every place. 
+* Places at Australian medical schools are greatly over-subscribed, with 3 to 4 applicants for every place
 
 * Most applicants have excellent grades and CVs with impressive extra-curricular activities
 
