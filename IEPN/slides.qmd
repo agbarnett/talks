@@ -249,7 +249,7 @@ Photo by <a href="https://unsplash.com/@swafie?utm_source=unsplash&utm_medium=re
 
 * Two criteria: 
   + the research is potentially transformative
-  + the proposal is exploratory but viable. 
+  + the proposal is exploratory but viable 
 
 * Short-listed applications are funded at random until the budget is exhausted
 
@@ -416,7 +416,7 @@ Photo by <a href="https://unsplash.com/@cdd20?utm_source=unsplash&utm_medium=ref
 
 * For prospective randomised trials, we should know the mechanism in order to get ethical approval
 
-* Can assume the doctor is causal, but what is the mechanism? 
+* Can assume the doctor effect is causal, but what is the mechanism? 
 
 * Easy access to qualified advice saves lives
 
@@ -473,7 +473,7 @@ Photo by <a href="https://unsplash.com/@cdd20?utm_source=unsplash&utm_medium=ref
 
 * They are acceptable to many applicants where it's amongst equally qualified
 
-* Ideal design to create causal estimates
+* Ideal design to create causal estimates to inform policy
 
 * Still a hard sell for some
 :::
