@@ -1,4 +1,4 @@
-# Statistical Society of Australia, National Speaker Series (20 August 2026)
+# Statistical Society of Australia, National Speaker Series (21 October 2026)
 
 *Title*: Research quality is under threat from speed, fraud and AI
 

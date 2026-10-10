@@ -1,0 +1,64 @@
+---
+title: "The future of peer review: challenges, opportunities and AI"
+author: Adrian Barnett<br>14 October 2026
+institute: Queensland University of Technology<br><br>Photo by <a href="https://unsplash.com/@eliottreyna?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Eliott Reyna</a> on <a href="https://unsplash.com/photos/woman-reading-book-kcT-7cirBEw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+title-position: 90%
+format:
+ revealjs: 
+  slide-number: true
+  theme: night
+  chalkboard: false
+  transition: fade
+  preview-links: auto
+  logo: figures/logos.jpg
+title-slide-attributes:
+ data-position: relative
+ data-background-image: figures/eliott-reyna-kcT-7cirBEw-unsplash.jpg
+ data-background-size: cover
+ data-background-opacity: "0.5"
+editor: 
+ markdown: 
+  wrap: 72
+---
+
+
+## Publishing under strain{background-color='#edf4fa'}
+
+![](figures/arXiv-Monthly-Submissions-September-2026.jpg){width=860}
+
+::::aside
+<p style="color:black">From [ArXiv](https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/)</p>
+::::
+
+
+## Paper mining{background-color="white"}
+
+![](figures/1-s2.png){width="1400px"}
+
+::: aside
+<p style="color:black">DOI:
+[10.1016/j.jclinepi.2026.112203](https://www.sciencedirect.com/science/article/pii/S0895435626000788)</p>
+:::
+
+## Paper mills{background-color="white"}
+
+![](figures/F1.large.jpg){width="640px"}
+
+
+## Peer review under strain
+
+![](figures/1-s2.0-S0010854524002881-ga1_lrg.jpg)
+
+::::aside
+Thanks to [Peer-Reviewed Slop](https://bsky.app/profile/peer-reviewed-slop.bsky.social); paper in [Elsevier journal](https://www.sciencedirect.com/science/article/abs/pii/S0010854524002881)
+::::
+
+## AI review{background-image='figures/jeffery-ho-pjUyvoq7mUI-unsplash.jpg' background-opacity=0.4 background-size='cover'}
+
+AI is behind many of the problems
+
+Can AI help solve some of them?
+
+::::aside
+Photo by <a href="https://unsplash.com/@jefferyho?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jeffery Ho</a> on <a href="https://unsplash.com/photos/white-red-blue-and-yellow-robot-toy-pjUyvoq7mUI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::

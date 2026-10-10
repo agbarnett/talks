@@ -72,6 +72,7 @@ In date order:
 * `RIF` research integrity forum, Swinburne (August 2026)
 * `ANZSOC` Australia and New Zealand Stroke Association (August 2026)
 * `IEPN` Impact Evaluation Practitioners Network (September 2026)
+* `future` The future of peer review: challenges, opportunities and AI (October 2026)
+* `stats` Statistical Society of Australia, National Speaker Series  (October 2026)
 * `slow` Slow scholarship (November 2026)
 * `hrecs` Statistics workshop for the [7th National HREC Conference](https://hrecconference.au/) (November 2026)
-* `stats` Statistical Society of Australia, National Speaker Series  (? 2026)
