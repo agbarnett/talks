@@ -1,8 +1,8 @@
 :::: columns
-::: {.column width="40%"}
+::: {.column width="50%"}
 :::
   
-::: {.column width="60%"}
+::: {.column width="50%"}
 :::
 ::::
   

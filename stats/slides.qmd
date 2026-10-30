@@ -22,43 +22,56 @@ editor:
 ---
 
 
-## Outline{background-color='#ffc100'}
+## Rambly{background-color='#ffc100'}
 
 <!--- 40 min? presentation --->
 
 :::: columns
 ::: {.column width="50%"}
 
-* Ramble
+* Labels
+
+* AI & ML
+
+* Good things turning bad
+
+* Prediction models
+
+* Research fraud
 
 :::
   
 ::: {.column width="50%"}
 <iframe src="https://giphy.com/embed/RK9E0eC8LvDmI3QddR" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
 :::
 ::::
 
 ::::aside
-<p><a href="https://giphy.com/gifs/man-talking-text-balloon-RK9E0eC8LvDmI3QddR">via GIPHY</a></p>
+<p><a href="https://giphy.com/gifs/man-talking-text-balloon-RK9E0eC8LvDmI3QddR">via @darienson on GIPHY</a></p>
 ::::
+
 
 
 ## My first professional job{background-image='figures/smith_kline_beecham.jpg' background-opacity=0.6 background-size='cover'}
 
+* 1994
+
+* Harlow, Essex
 
 ::::aside
 [CC BY-SA 2.0](https://commons.wikimedia.org/w/index.php?curid=14189699), Stephen Craven
 ::::
 
-## x
+## Taken as read
 
-Number of additional people randomised because people use dichotomous variables.
+* Overall research quality is bad
 
-## Darren's blog
+* When I read a new paper my prior is "this is wrong" and the authors need to show me that they have worked carefully and thoroughly
 
-## Ethics stuff
+## I see this in my sleep{background-color='white'}
 
-People without statistical qualifications
+![](figures/Z_plot_slide.png)
 
 # Labels
 
@@ -66,13 +79,15 @@ The Great Bear
 
 [click here](https://web.archive.org/web/20041111062328/http://www.dareonline.org/artwork/patterson/patterson3.html)
 
-## Machine Learning
+<!--- lived at Peter Fonda, went to university at Jean-Paul Satre --->
+
+## Machine learning?
 
 :::: columns
 ::: {.column width="50%"}
 "By employing best-practice machine-learning techniques, such as PCA" PMID: [38253940](https://pubmed.ncbi.nlm.nih.gov/38253940/)
 
-"Utilizing an artificial intelligence-based machine learning approach a generalized linear mixed (GLM) model was developed ... " 
+"Utilizing an artificial intelligence-based machine learning approach a generalized linear mixed (GLM) model was developed" 
 
 PMID: [40616247](https://pubmed.ncbi.nlm.nih.gov/40616247/)
 :::
@@ -82,6 +97,87 @@ PMID: [40616247](https://pubmed.ncbi.nlm.nih.gov/40616247/)
 
 PMCID: [PMC12820067](https://pmc.ncbi.nlm.nih.gov/articles/PMC12820067/)
 :::
+::::
+
+## Machine learning??{background-color='white'}
+
+#### Lasso
+
+![](figures/lasso_minimise.svg){width=600}
+
+#### Support vector machine
+
+![](figures/svm.svg){width=650}
+
+<!--- presentation by Matt Wand on SVMs --->
+
+## I know big words{background-color='#0e0803'}
+
+:::: columns
+::: {.column width="50%"}
+* Methodology
+
+* Utilisation
+:::
+  
+::: {.column width="50%"}
+<iframe src="https://giphy.com/embed/Ll8zeNeGAFOV6PvKDF" width="480" height="259" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+:::
+::::
+
+::::aside
+<p><a href="https://giphy.com/gifs/muppets-Ll8zeNeGAFOV6PvKDF">via GIPHY</a></p>
+::::
+
+## Platform trials{background-color='white'}
+
+![](figures/platform_trials.png)
+
+::::aside
+<p style="color:black">From [NHMRC](https://www.nhmrc.gov.au/funding/find-funding/mrff-and-nhmrc-2025-australia-uk-platform-studies-areas-unmet-clinical-need-grant-opportunity-go8535)</p>
+::::
+
+## Change is easy{background-color='#271d2d'}
+
+:::: columns
+::: {.column width="55%"}
+* Do the protocol, do the analysis, report the results
+:::
+  
+::: {.column width="45%"}
+<iframe src="https://giphy.com/embed/fqIBaMWI7m7O8" width="480" height="269" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+:::
+::::
+
+::::aside
+<p><a href="https://giphy.com/gifs/bill-nye-dancing-with-the-stars-fqIBaMWI7m7O8">via GIPHY</a></p>
+::::
+
+
+## Change is easy{background-color='#271d2d' visibility="uncounted"}
+
+:::: columns
+::: {.column width="55%"}
+* Do the protocol, do the analysis, report the results
+
+* **Target trials** also in vogue
+:::
+  
+::: {.column width="45%"}
+<iframe src="https://giphy.com/embed/fqIBaMWI7m7O8" width="480" height="269" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+:::
+::::
+
+::::aside
+<p><a href="https://giphy.com/gifs/bill-nye-dancing-with-the-stars-fqIBaMWI7m7O8">via GIPHY</a></p>
+::::
+
+## Slow skills
+
+![](figures/4956450293_ddc3897166_b.jpg)
+
+::::aside
+[CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/) [Casa-Steve](https://www.flickr.com/photos/casa-steve/4956450293/in/photostream/) on flickr
 ::::
 
 
@@ -95,15 +191,41 @@ PMCID: [PMC12820067](https://pmc.ncbi.nlm.nih.gov/articles/PMC12820067/)
 <p style="color:black">From [ArXiv](https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/)</p>
 ::::
 
-## dxx
-Paper numbers. Metrics, people add top 2% to their name 
+## Crazy behaviour{background-color='white'}
+
+![](figures/top_2.jpg){height=300}
+![](figures/200_paper_prof.png){height=300 .absolute top="210" right="0"}
+
+::::aside
+<p style="color:black">From [Ship X/ TechX on medium](https://medium.com/techx-official/meet-a-professor-who-wrote-200-papers-this-year-using-ai-792cb4377154)</p>
+::::
+
+
+## AI has uses
+
+peer review
+
+ethics
+
 
 # Good reforms go bad{background-image='figures/joe-dudeck-lt4Pb2vhkyw-unsplash.jpg' background-opacity=0.8 background-size='cover' visibility="uncounted"}
 
-Photo by <a href="https://unsplash.com/@joetography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joe Dudeck</a> on <a href="https://unsplash.com/photos/an-old-rusty-train-car-sitting-in-a-field-lt4Pb2vhkyw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+<!-- instead of aside -->
+<br><br><br><br><br><br><br><p style="font-size:80%">
+Photo by <a href="https://unsplash.com/@joetography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joe Dudeck</a> on <a href="https://unsplash.com/photos/an-old-rusty-train-car-sitting-in-a-field-lt4Pb2vhkyw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 
-## Data sharing
 
+## 1) Data sharing
+
+* A good reform that has been underused
+
+* Allows others to validate your work
+
+* Allows others to run new analyses
+
+* Helps spot research fraud
+
+## Open data mining{background-color='white'}
 
 ![](figures/1-s2.png)
 
@@ -112,43 +234,156 @@ Photo by <a href="https://unsplash.com/@joetography?utm_source=unsplash&utm_medi
 [10.1016/j.jclinepi.2026.112203](https://www.sciencedirect.com/science/article/pii/S0895435626000788)</p>
 :::
 
-## Dorothy Blog
 
-Do we need to rethink data sharing. Dorothy blog?
+## OpenSafely{background-color='white'}
+
+:::: columns
+::: {.column width="50%"}
+* Keeps data safe
+
+* Allow more analysis
+
+* Solves many ethical concerns
+
+* Keep the machines at arms length
+:::
+  
+::: {.column width="50%"}
+![](figures/cant-Ipv_MNTzcQI-unsplash.jpg){.absolute top="1" right="1" width=320}
+:::
+::::
+
+::::aside
+<p style="color:black">[opensafely.org](https://www.opensafely.org/); Bennett Institute, University of Oxford, and NHS England; Photo by <a href="https://unsplash.com/@cantt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">cant</a> on <a href="https://unsplash.com/photos/white-clouds-hovering-above-grey-castle-Ipv_MNTzcQI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+::::
+
+## 2) Ethics
 
 
-## OpenSafely
+## Attempted census of Australian ethics committees
 
-TO DO: Image of silver bullet, or use previous image of castle
+People without statistical qualifications
 
-Keep data safe
+::::aside
+DOI: [10.1162/QSS.a.479](https://direct.mit.edu/qss/article/doi/10.1162/QSS.a.479/136239/The-varying-perceptions-of-a-statistician-s-value) with Nicole White and Taya Collyer
+::::
 
-Allow lots more analysis
+## Transparency
 
-Solves ethical concerns
+* Every Australian Human Research Ethics Committees needs to publicly state if they examine the study design or not
 
-Keep the machines out
+* Need a national public registry of cleared projects
 
+## {background-color='white'}
 
-## Shiny{background-color='white'}
+![](figures/RAPS_registry.png)
 
-#### Mesothelioma personalized survival predictions
+:::: aside
+[Registry of all Projects in Switzerland](https://raps.swissethics.ch/runningProjects_list.php?orderby=dBASECID)
+::::
 
-![](figures/shiny1.png)
+## 3) Shiny
 
-Anyone can make a shiny app
+* Allows easy translation of statistical tools 
 
-Crappy prediction model
+* Removed barrier of needing html programming skills
+
+## {background-color='white'}
+
+#### Personalised survival predictions
+
+![](figures/shiny1.jpg){width=980}
 
 ::::aside
 [from shiny](https://panacea.shinyapps.io/Mesothelioma/)
 ::::
 
+
+# Prediction models{background-image='figures/immo-wegmann-DX3_dXuHVl8-unsplash.jpg' background-opacity=0.4 background-size='cover'}
+
+
+<!-- instead of aside -->
+<br><br><br><br><br><br><p style="font-size:80%">
+Photo by <a href="https://unsplash.com/@tinkerman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Immo Wegmann</a> on <a href="https://unsplash.com/photos/brown-and-black-round-board-DX3_dXuHVl8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+
+
 ## Hacking
 
-<!--- from Alex --->
+<!--- from Alex, T:\CLGEUS2171\02_auc_hacking\cpm_auc\03_figures --->
+
+![](figures/auc_distribution_for_slide.jpg)
+
+::::aside
+Alex's DOI to come
+::::
+
+## Routes to goals{background-color='white'}
+
+![](figures/auc_sample_plot_for_slide.jpg)
+
+## The temptation of perfection
+
+TO DO, split over slides
+
+* 0.90 to 1.0 looks like a small difference
+
+* No pills work in everybody
+
+* We rarely say we are 'curing diseases' with drugs/interventions, we usually say 'treating'
+
+* Is 'predicting disease' the problem? Do we need a new phrase?
+
+
+## Changing treatment{background-color='white'}
+
+<!--- Bayesian Additive Regression Trees for treatment effect heterogeneity; also subgroup analysis --->
+
+![](figures/41591_2023_2670_Fig5_ESM.jpg){width = 500}
+
+::::aside
+<p style="color:black">DOI: [10.1038/s41591-023-02670-4](https://www.nature.com/articles/s41591-023-02670-4)</p>
+::::
+
+<!--- pinch of salt that would make you wince --->
+
+# AI{background-image='figures/melanie-wasser-j8a-TEakg78-unsplash.jpg' background-opacity=0.4 background-size='cover'}
+
+<!-- instead of aside -->
+<br><br><br><br><br><br><br><p style="font-size:80%">
+Photo by <a href="https://unsplash.com/@melwasser?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Melanie Wasser</a> on <a href="https://unsplash.com/photos/woman-holding-her-face-in-dark-room-j8a-TEakg78?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+
+## AI making too much (part 1){background-color='white'}
+
+![](figures/math_openai.png){height=500}
+
+::::aside
+<p style="color:black">DOI: [10.1038/d41586-026-03196-8](https://www.nature.com/articles/d41586-026-03196-8)</p>
+::::
+
+## AI making too much (part 2){background-color='white'}
+
+![](figures/ai_requests.png){height=500}
+
+::::aside
+<p style="color:black">DOI: [10.1038/d41586-026-03005-2](https://www.nature.com/articles/d41586-026-03005-2)</p>
+::::
+
+<!--- No time for me to comment --->
+
+
+##
+
+![](figures/will_i_am_drumming.png){height=400}
+
+``Need a lived experience file'', Will.i.am
+
+::::aside
+[will.i.am talking on the Mishal Husian show](https://www.youtube.com/watch?v=crP2r9BmRPs)
+::::
 
 ## Predict the next word
+
+<!--- can't capture in in-jokes from living in the UK in the 1980s --->
 
 :::: columns
 ::: {.column width="40%"}
@@ -172,18 +407,18 @@ Julian Barnes
 ::: {.column width="50%"}
 AI
 
-![](figures/FSN3-14-e72068-g006.jpg){width=400}
+![](figures/FSN3-14-e72068-g006.jpg){width=450}
 :::
   
 ::: {.column width="50%"}
 Real
 
-![](figures/12011_2020_2268_Fig5.jpg){width=400}
+![](figures/12011_2020_2268_Fig5.jpg){width=450}
 :::
 ::::
 
 ::::aside
-<p style="color:black">Hat tip to [Sholto David](https://www.youtube.com/watch?v=G9KHwXNIJyk&t=318s); [Image 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC13332335/figure/fsn372068-fig-0010/); [Paper 2](https://link.springer.com/article/10.1007/s12011-020-02268-8/figures/5)</p>
+<p style="color:black">Hat tip to [Sholto David](https://www.youtube.com/watch?v=G9KHwXNIJyk&t=318s); [Image 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC13332335/figure/fsn372068-fig-0010/); [Image 2](https://link.springer.com/article/10.1007/s12011-020-02268-8/figures/5)</p>
 ::::
 
 ## Bonkers stuff
@@ -194,38 +429,37 @@ Real
 Thanks to [Peer-Reviewed Slop](https://bsky.app/profile/peer-reviewed-slop.bsky.social); paper in [Elsevier journal](https://www.sciencedirect.com/science/article/abs/pii/S0010854524002881)
 ::::
 
+## Shift the AUC distribution?
+
+
+
+# Fraud
+
+## BMJ
+
+## Kaggle
+
 
 ## Upper limit on publication counts
 
 Are you real?
 
-Drumming one.
+![](figures/i_am_human.png)
 
-Machine learning, benefits, shift the AUC distribution?
+* Magazine that now only [takes pitches by phone](https://www.niemanlab.org/2026/08/facing-a-deluge-from-ai-this-publication-will-only-take-pitches-by-phone/) after a deluge of AI stories
 
-Perfect predictions from alex. Like a pill working in everyone, does not happen.
 
-## Changing drug treatment
 
-If we could change the treatment we would, and people do, subgroup analysis!
-
-<!--- pinch of salt that would make you wince --->
-
-## Lasso
-
-Everything about lasso and SVM screams 'statistics' to me, so why is it machine learning? Obsessed with labels. 
-
-## Platform trial. 
-
-Funding for platform trials only.
-
-We need more one hit studies. Do the protocol, do the analysis, report the results. 
-
-Don't mind target trials - stop and think. Should have protocols. 
-
-Everything I see in lasso screams statistics. Meeting with Matt Wand.
-
-No time for me to comment
-https://www.nature.com/articles/d41586-026-03196-8
 
 ## Why are we here?{background-image='figures/childrens_hospital.jpg' background-opacity=0.9 background-size='cover'}
+
+
+## Questions and comments
+
+<iframe src="https://giphy.com/embed/1hMjHC64mp26EKQbDK" width="490" height="490" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+::::aside
+<p><a href="https://giphy.com/gifs/loop-trippy-psychedelic-1hMjHC64mp26EKQbDK">via GIPHY</a></p>
+::::
+
+# what was the other thing you thought about during sleep?
