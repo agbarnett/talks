@@ -17,3 +17,9 @@
 
 {background-image='figures/x.jpg' background-opacity=0.4 background-size='cover'}
 
+# find colours
+rgb_vals <- col2rgb("grey66")
+rgb_vals
+hex_code <- rgb(rgb_vals[1], rgb_vals[2], rgb_vals[3], maxColorValue = 255)
+
+

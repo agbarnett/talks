@@ -31,9 +31,11 @@ editor:
 
 * Scale of bad research
 
-* Bad designs that can be fixed at source
+* Common bad designs that can be fixed
 
 * Resources
+
+* Questions welcome
 :::
   
 ::: {.column width="50%"}
@@ -46,18 +48,31 @@ editor:
 <p><a href="https://giphy.com/gifs/man-talking-text-balloon-RK9E0eC8LvDmI3QddR">via @darienson on GIPHY</a></p>
 ::::
 
-## Disclaimer
+## Disclaimer{background-color='#e0e0e0'}
 
+:::: columns
+::: {.column width="55%"}
 * I am giving a surface-level summary of some statistical issues
 
+* Researchers using statistical methods should have a thorough understanding of those methods
+:::
+  
+::: {.column width="45%"}
+![](figures/jorgen-hendriksen-BomU_atAAKQ-unsplash.jpg){width=380}
+:::
+::::
 
+::::aside
+<p style="color:black">Photo by <a href="https://unsplash.com/@jor9en?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jorgen Hendriksen</a> on <a href="https://unsplash.com/photos/a-blurred-person-is-riding-a-bicycle-BomU_atAAKQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+::::
+  
 # Current problems in health and medical research{background-image='figures/simon-wilkes-S297j2CsdlM-unsplash.jpg' background-opacity=0.4 background-size='cover'}
 
 <!-- instead of aside -->
 <br><br><br><br><br><p style="font-size:80%">
 Photo by <a href="https://unsplash.com/@simonfromengland?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Simon Wilkes</a> on <a href="https://unsplash.com/photos/green-leafed-tree-surrounded-by-fog-during-daytime-S297j2CsdlM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 
-## First concerns{background-color='#ddd6cc'}
+## Early concerns{background-color='#ddd6cc'}
 
 :::: columns
 ::: {.column width="60%"}
@@ -74,8 +89,9 @@ Photo by <a href="https://unsplash.com/@simonfromengland?utm_source=unsplash&utm
 Photo from Oxford Clinical Trials Research Unit
 ::::
 
+<!--- 1395 citations for scandal paper --->
 
-## First concerns{background-color='#ddd6cc' visibility="uncounted"}
+## Early concerns{background-color='#ddd6cc' visibility="uncounted"}
 
 :::: columns
 ::: {.column width="60%"}
@@ -99,15 +115,15 @@ Photo from Oxford Clinical Trials Research Unit
 ## Research waste
 
 * An estimated 85% of research is wasted due to:
-  + Badly chosen research questions
-  + Biases in study design
-  + Poor reporting
+  + 50% is not published
+  + Over 50% has avoidable design flaws
+  + Over 50% is unusable or incompletely reported, or both
 
 ::::aside
 [Glasziou & Chalmers](https://www.bmj.com/content/363/bmj.k4645) "Research waste is still a scandal" _BMJ_ 2018
 ::::
 
-## Lancet series of research waste
+## Lancet series on research waste
 
 <p style="font-size:66%">Correctable weaknesses in the design, conduct, and analysis of biomedical and public health research studies can produce misleading results and waste valuable resources. Small effects can be difficult to distinguish from bias introduced by study design and analyses. An absence of detailed written protocols and poor documentation of research is common. Information obtained might not be useful or important, and statistical precision or power is often too low or used in a misleading way. Insufficient consideration might be given to both previous and continuing studies. Arbitrary choice of analyses and an overemphasis on random extremes might affect the reported findings. Several problems relate to the research workforce, including failure to involve experienced statisticians and methodologists, failure to train clinical researchers and laboratory scientists in research methods and design, and the involvement of stakeholders with conflicts of interest. Inadequate emphasis is placed on recording of research decisions and on reproducibility of research. Finally, reward systems incentivise quantity more than quality, and novelty more than reliability.</p>
 
@@ -118,7 +134,7 @@ DOI: [10.1016/S0140-6736(13)62227-8](https://pubmed.ncbi.nlm.nih.gov/24411645/) 
 
 ## Significance obsession{background-color='white'}
 
-![](figures/Z_plot_slide.png){width=770}
+![](figures/Z_plot_slide.png){width=790}
 
 ::::aside
 <p style="color:black">Z-values extracted from confidence intervals in _Medline_ between 1976 and 2019. DOI: [10.1111/stan.12241](https://onlinelibrary.wiley.com/doi/full/10.1111/stan.12241)</p>
@@ -128,12 +144,13 @@ DOI: [10.1016/S0140-6736(13)62227-8](https://pubmed.ncbi.nlm.nih.gov/24411645/) 
 
 * 1,013 out of 1,659 trials were at high risk of bias. Estimated cost of bad trials was £726 million to £8 billion. DOI: [10.1186/s13063-022-06415-5](https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-022-06415-5)
 
+:::incremental
 * Out of 606 COVID-19 prediction models, only 7 were useful for policy. DOI: [10.1136/bmj.m1328](https://www.bmj.com/content/369/bmj.m1328)
 
 * Only eight of 20 papers on linear regression were computationally reproducible. DOI: [10.64898/2026.04.07.26350286](https://www.medrxiv.org/content/10.64898/2026.04.07.26350286.abstract)
+:::
 
-
-## AI slop{background-color='white'}
+## Paper mining{background-color='white'}
 
 ![](figures/1-s2.png)
 
@@ -143,16 +160,22 @@ DOI: [10.1016/S0140-6736(13)62227-8](https://pubmed.ncbi.nlm.nih.gov/24411645/) 
 :::
 
 
-## Can ethics help?
+## Ethics and bad study design
 
 * 2024 change to the Declaration of Helsinki: 
    + "Medical research involving human participants must have a scientifically sound and rigorous design and execution that are likely to produce reliable, valid, and valuable knowledge and avoid research waste."
 
-* Ethics can be used to stop poor study designs
+:::incremental
+* Ethics approval is an ideal time to intervene to avoid wasted time
+:::
 
-* Ideal time to intervene to avoid wasted time
+## National statement
 
-## Does ethics help?
+* "Research that has merit is [...] designed or developed using methods appropriate for achieving the aims of the proposal" (Section&nbsp;1.1b)
+
+* "Each institution must ensure that any human research for which it is responsible is designed, reviewed, approved, authorised, conducted and monitored in accordance with the National Statement and the Code" (Section&nbsp;5.1.2)
+
+## Current situation
 
 * Only 35% of Australian HRECs had a qualified statistician as full member or available for consultation (95% CI: 31% to 40%)
 
@@ -166,16 +189,14 @@ DOI: [10.1162/QSS.a.479/136239](https://direct.mit.edu/qss/article/doi/10.1162/Q
 ::::
 
 
-## Can AI help with study design?{background-color='#fbf8e5'}
-
+## Can AI help with study design?{background-color='#fbf8e5' .smaller}
 
 :::: columns
 ::: {.column width="60%"}
-* AI models will p-hack and provide pleasing answers
+* The internet and literature is full of bad advice on statistics, so models may regurgitate these errors 
 
-* TO DO, add references, see Investigator Grant
+* AI models provide pleasing answers and have dichotomania. DOIs: [10.1017/jdm.2025.7](https://www.cambridge.org/core/journals/judgment-and-decision-making/article/artificial-intelligence-and-dichotomania/0421D2310727D73FAB47069FD1620AA1); [10.48550/arXiv.2509.08713](https://arxiv.org/abs/2509.08713)
 
-* AI peer review of completed work is promising
 :::
   
 ::: {.column width="40%"}
@@ -188,19 +209,46 @@ DOI: [10.1162/QSS.a.479/136239](https://direct.mit.edu/qss/article/doi/10.1162/Q
 ::::
 
 
-# Bad designs{background-image='figures/jon-tyson-od1pKBU7PKA-unsplash.jpg' background-opacity=0.5 background-size='cover'}
+
+## Can AI help with study design?{background-color='#fbf8e5' .smaller visibility='uncounted'}
+
+:::: columns
+::: {.column width="60%"}
+* The internet and literature is full of bad advice on statistics, so models may regurgitate these errors 
+
+* AI models provide pleasing answers and have dichotomania. DOIs: [10.1017/jdm.2025.7](https://www.cambridge.org/core/journals/judgment-and-decision-making/article/artificial-intelligence-and-dichotomania/0421D2310727D73FAB47069FD1620AA1); [10.48550/arXiv.2509.08713](https://arxiv.org/abs/2509.08713)
+
+* AI as an additional journal peer reviewer is promising
+
+* AI as an additional ethical reviewer?
+:::
+  
+::: {.column width="40%"}
+![](figures/emilipothese-FTfjMijq-Ws-unsplash.jpg)
+:::
+::::
+
+::::aside
+<p style="color:black">Photo by <a href="https://unsplash.com/@emilipothese?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Emilipothèse</a> on <a href="https://unsplash.com/photos/gray-and-white-robot-illustration-FTfjMijq-Ws?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+::::
+
+
+
+# Bad designs...{background-image='figures/jon-tyson-od1pKBU7PKA-unsplash.jpg' background-opacity=0.5 background-size='cover'}
+
+... that are fixable
 
 <!-- instead of aside -->
-<br><br><br><br><br><br><br><br><br><br><p style="font-size:80%">Photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jon Tyson</a> on <a href="https://unsplash.com/photos/orange-and-white-prescription-bottle-od1pKBU7PKA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+<br><br><br><br><br><br><br><br><p style="font-size:80%">Photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jon Tyson</a> on <a href="https://unsplash.com/photos/orange-and-white-prescription-bottle-od1pKBU7PKA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 
 
 ## Regression to the mean{background-color='white'} 
 
 :::: columns
 ::: {.column width="65%"}
-* When things are at their best, they will often get worse
+* When things are at their best they will often get worse
 
-* When things are at their worst, they will often get better
+* When things are at their worst they will often get better
 
 :::
   
@@ -219,9 +267,9 @@ DOI: [10.1162/QSS.a.479/136239](https://direct.mit.edu/qss/article/doi/10.1162/Q
 
 :::: columns
 ::: {.column width="65%"}
-* When things are at their best, they will often get worse
+* When things are at their best they will often get worse
 
-* When things are at their worst, they will often get better
+* When things are at their worst they will often get better
 
 * This happens because of random chance, not real change
 
@@ -242,7 +290,7 @@ DOI: [10.1162/QSS.a.479/136239](https://direct.mit.edu/qss/article/doi/10.1162/Q
 ### Regression to the mean
 
 ::: incremental
-* After a period of unusually high hospital acquired infections, new hand washing policies are introduced. Infections are compared pre- and post-policy change.
+* After a period of unusually high hospital acquired infections, new hand washing policies are introduced. Infection rates are compared pre- and post-policy change.
 
 * Patients with extreme back pain are referred to a new back program. Patients are measured at baseline and six weeks follow-up.
 :::
@@ -250,14 +298,14 @@ DOI: [10.1162/QSS.a.479/136239](https://direct.mit.edu/qss/article/doi/10.1162/Q
 ## Regression to the mean
 
 * Happens in studies that include time
-   + Individuals measured before and after some intervention
-   + Monthly or weekly statistics, e.g., death counts
 
 ::: incremental
-* Pre-post study designs
+* Individuals/groups/locations measured before and after some intervention
+
+* Can be monthly or weekly statistics, e.g., death counts
 
 * Only occurs if there is measurement error, also known as noise or randomness
-  + <p style="font-size:80%">Question: Is there anything in health that does not have some measurement error?</p>
+  + <p style="font-size:80%">Question: Is there any outcome in health and medicine that does not have some measurement error?</p>
 ::: 
 
 ## Design solutions 
@@ -314,19 +362,137 @@ DOI: [10.1162/QSS.a.479/136239](https://direct.mit.edu/qss/article/doi/10.1162/Q
 Photo by <a href="https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Javier Allegue Barros</a> on <a href="https://unsplash.com/photos/silhouette-of-a-road-signage-during-golden-hour-0nOP5iHVaZ8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 ::::
 
+## Equivalence{background-color='#A8A8A8'}
 
-## Dichotomania
+:::incremental
+* Studies often aim to find a difference, for example, treatment&nbsp;A is better than treatment&nbsp;B
+
+* But finding no difference does not necessarily mean the two treatments are the same
+
+* Absence of evidence is not evidence of absence
+
+* Studies aiming to claim equivalence must use a suitable study design that tests equivalence (or non-inferiority)
+
+* Equivalence studies need much larger sample sizes than difference (superiority) studies
+:::
+
+## Reductio ad absurdum{background-color='#A8A8A8'}
+
+:::: columns
+::: {.column width="55%"}
+* Treatment A: 1 success out of 2&nbsp;patients
+
+* Treatment B: 1 success out of 2&nbsp;patients
+
+* P-value for treatment difference = 1, hence there is no difference, hence the two treatments are the same!
+:::
+
+
+::: {.column width="45%"}
+![](figures/John_Pettie_-_Reductio_Ad_Absurdum.jpg){width=400}
+:::
+::::
+
+::::aside
+By [John Pettie](https://commons.wikimedia.org/w/index.php?curid=44945384)  Public Domain
+::::
+
+## Equivalence{background-color='#cdbdb0'}
+
+:::: columns
+::: {.column width="50%"}
+* Equivalance and non-inferiority studies can be extremely useful
+
+* Demonstrate that two treatments have equal efficacy, but one treatment may be cheaper and/or have less side effects
+:::
+  
+::: {.column width="50%"}
+![](figures/pina-messina-kfJkpeI6Lgc-unsplash.jpg){width=400}
+:::
+::::
+
+
+::::aside
+Photo by <a href="https://unsplash.com/@pinamessina?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">pina messina</a> on <a href="https://unsplash.com/photos/assorted-color-medication-pills-kfJkpeI6Lgc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
+
+## Equivalence{background-color='#A8A8A8'}
+### Study design
+
+* Need to \textit{a priori} define what is considered equivalent
+  + Example: "A patient and public involvement group predefined the non-inferiority margin as one episode of urinary tract infection per person year." DOI: [10.1136/bmj-2021-0068229](https://pubmed.ncbi.nlm.nih.gov/35264408)
+  + Might consider efficacy of two drugs as equivalent if the difference is no more than 10%
+
+## Equivalence{background-color='#A8A8A8'}
+### Importance of confidence intervals
+
+<!--- from plot_equivalence.R --->
+
+:::: columns
+::: {.column width="42%"}
+* Example plot shows the mean treatment difference (dot) and 95% confidence interval (horizontal line)
+
+* Equivalance is a treatment difference within 10%
+:::
+  
+::: {.column width="58%"}
+![](figures/equivalence.jpg)
+:::
+::::
+
+## Equivalence{.smaller background-color='white'}
+
+:::: columns
+::: {.column width="50%"}
+* 76% to 85% of psychology articles that discussed a non-significant finding misinterpreted non-significance as reflecting no effect. DOI: [10.1098/rsos.242167](https://doi.org/10.1098/rsos.242167)
+
+* In a sample of 498 press releases, 7% wrongly interpreted a non-significant difference as demonstrating equivalence. DOI: [10.1371/journal.pmed.1001308](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001308)
+:::
+  
+::: {.column width="50%"}
+![](figures/rishabh-sharma-R-js25Pv1LQ-unsplash.jpg){width=400 .absolute top='10'}
+:::
+::::
+
+
+::::aside
+<p style="color:black">Photo by <a href="https://unsplash.com/@rishabhben?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rishabh Sharma</a> on <a href="https://unsplash.com/photos/newspaper-article-lot-R-js25Pv1LQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+::::
+
+## Equivalence{background-color='#476685'}
+### Summary
+
+:::: columns
+::: {.column width="50%"}
+* Common
+
+* Wrongly claiming no difference can misinform policy and practice
+
+* Fixable with more planning and larger sample sizes
+:::
+  
+::: {.column width="50%"}
+![](figures/javier-allegue-barros-0nOP5iHVaZ8-unsplash.jpg){.absolute top="50" right="0" width="410"}
+:::
+::::
+
+::::aside
+Photo by <a href="https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Javier Allegue Barros</a> on <a href="https://unsplash.com/photos/silhouette-of-a-road-signage-during-golden-hour-0nOP5iHVaZ8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
+
+
+## Dichotomania{.smaller}
 
 * Categorise continuous data, e.g., continuous blood pressure categorised to low vs high
 
 :::incremental
-* Very common problem in health and medical research
+* Common problem in health and medical research
 
-* "inefficient at best and misleading and arbitrary at worst", [Frank Harrell](https://www.fharrell.com/post/errmed/#catg)
+* "Inefficient at best and misleading and arbitrary at worst", [Frank Harrell](https://www.fharrell.com/post/errmed/#catg)
 
-* "the stupidity, the criminal vandalism, the wanton destruction of information involved in dichotomisation", [Stephen Senn](https://statmodeling.stat.columbia.edu/2026/02/14/the-stupidity-the-criminal-vandalism-the-wanton-destruction-of-information-involved-in-dichotomisation/)
+* "The stupidity, the criminal vandalism, the wanton destruction of information involved in dichotomisation", [Stephen Senn](https://statmodeling.stat.columbia.edu/2026/02/14/the-stupidity-the-criminal-vandalism-the-wanton-destruction-of-information-involved-in-dichotomisation/)
 
-* Can also be in change variables, e.g., response defined as an increase from baseline of at least 10&nbsp;mmHg
+* Also in changes, e.g., response defined as an increase from baseline of at least 10&nbsp;mmHg
 :::
 
 ## Dichotomania{background-color='white'}
@@ -360,7 +526,7 @@ EU Civil Protection and Humanitarian Aid on Flickr [CC BY-ND 2.0](https://creati
 :::
   
 ::: {.column width="50%"}
-![](figures/sim70402-fig-0004-m.jpg){width=400}
+![](figures/sim70402-fig-0004-m.jpg){width=440}
 :::
 ::::
 
@@ -381,16 +547,16 @@ EU Civil Protection and Humanitarian Aid on Flickr [CC BY-ND 2.0](https://creati
 ### Fixes
 
 :::: columns
-::: {.column width="55%"}
+::: {.column width="68%"}
 * Do not discard collected information
 
 * Use statistical models for continuous outcomes, e.g.
   + linear regression instead of logistic regression
-  + t-test instead of chi-squared test
+  + t-test instead of chi-squared
 :::
   
-::: {.column width="45%"}
-![](figures/recha-oktaviani-5tYUk7sZzqc-unsplash.jpg){.absolute top="50" right="0" width="410"}
+::: {.column width="32%"}
+![](figures/recha-oktaviani-5tYUk7sZzqc-unsplash.jpg){.background .absolute top="50" right="0" width="410"}
 :::
 ::::
 
@@ -405,9 +571,9 @@ Photo by <a href="https://unsplash.com/@rechaoktaviani?utm_source=unsplash&utm_m
 ::: {.column width="50%"}
 * Common
 
-* Reduces study value
+* Reduces study's value
 
-* Increases the required sample size, puts more people at risk
+* Unneccesarily increases the required sample size
 
 * Fixable
 :::
@@ -426,12 +592,13 @@ Photo by <a href="https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium
 
 * Occurs in studies that follow people over time
 
+:::incremental
 * Study design accidentally creates a period of time when people are "immortal"
 
-* Can be difficult to spot as flawed study designs appear intuitive
+* Can be difficult to spot as flawed study designs can appear intuitive
 
-* Studies involving time are generally far more complicated 
-
+* Studies involving long time periods are always more complicated 
+:::
 ## Immortal time bias{background-color='#FFB5C5'}
 
 <!--- from plot_immortal.R --->
@@ -455,15 +622,14 @@ DOI: [10.1001/jamanetworkopen.2026.12133](https://jamanetwork.com/journals/jaman
 
 ## Immortal time
 
-* More often happens in routinely collected data
+* More often happens in routinely collected data, e.g., data linkage of hospital and PBS data
 
 :::incremental
-* Researchers look backwards in time from existing data
+* Dangerous to look backwards in time using observed data
 
-* Don't see the people they have lost
+* Don't see the people who were lost to follow-up
 
-* Think about a prospective study, who would have been lost to follow-up?
-:::
+* Think about a prospective study, who would have been lost to follow-up? :::
 
 ## Immortal time
 ### Fixes
@@ -487,7 +653,7 @@ Photo by <a href="https://unsplash.com/@rechaoktaviani?utm_source=unsplash&utm_m
 ## Immortal time
 ### Fixes
 
-<!--- from plot_states --->
+<!--- from plot_states.R --->
 
 ![](figures/states.jpg)
 
@@ -498,7 +664,7 @@ Photo by <a href="https://unsplash.com/@rechaoktaviani?utm_source=unsplash&utm_m
 ::: {.column width="50%"}
 * Not uncommon
 
-* Can be a very large bias
+* Can cause a very large bias
 
 * Fixable but requires advanced methods and lots of thinking
 :::
@@ -519,8 +685,8 @@ Photo by <a href="https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium
 * Key unknowns:
   + Difference between groups
   + Standard deviation (variance) in outcome
-  + Significance level (avoid type~1 errors), often 5\%
-  + Statistical power (avoid type~2 errors), often 80\%
+  + Significance level (avoid type&nbsp;1 errors), often 5\%
+  + Statistical power (avoid type&nbsp;2 errors), often 80\%
 
 ## Sample size{background-color='#e2ffe3'}
 
@@ -542,7 +708,7 @@ research question
 :::
 
 ::: {.column width="30%"}
-![](figures/elena-mozhvilo-j06gLuKK0GM-unsplash.jpg)
+![](figures/elena-mozhvilo-j06gLuKK0GM-unsplash.jpg){.absolute top='30'}
 :::
 ::::
 
@@ -610,5 +776,10 @@ Photo by <a href="https://unsplash.com/@laukev?utm_source=unsplash&utm_medium=re
 
 * Reference Collection to push back against “Common Statistical Myths” [here](https://discourse.datamethods.org/t/reference-collection-to-push-back-against-common-statistical-myths/1787)
 
-## Papers
+## Papers/books
 
+* [The Art of Statistics](https://www.google.com.au/books/edition/The_Art_of_Statistics/04-FDwAAQBAJ?hl=en) David Spiegelhalter
+
+* Competing risks
+
+* [Equivalence studies](https://pmc.ncbi.nlm.nih.gov/articles/PMC12406809/)
