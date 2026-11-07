@@ -1,0 +1,11 @@
+## Prediction models
+
+## Trials must be registered with protocol
+
+randomized trials should not receive ethical approval unless the trial team contains methodological and statistical expertise (Pirosca et\~al., 2022)
+
+Look for slides from one-day talk
+
+## Parametric tests?
+
+## Outliers

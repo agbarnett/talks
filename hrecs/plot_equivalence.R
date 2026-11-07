@@ -74,11 +74,3 @@ eplot = ggplot(df, aes(y = scenario, x = estimate)) +
 
 eplot
 
-ggsave(
-  filename = 'figures/equivalence.jpg',
-  plot = eplot,
-  width = 5.2,
-  height = 4,
-  units = 'in',
-  dpi = 400
-)

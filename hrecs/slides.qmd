@@ -52,9 +52,9 @@ editor:
 
 :::: columns
 ::: {.column width="55%"}
-* I am giving a surface-level summary of some statistical issues
+* Surface-level summary of some statistical issues
 
-* Researchers using statistical methods should have a thorough understanding of those methods
+* Researchers should have a thorough understanding of the statistical methods that they use
 :::
   
 ::: {.column width="45%"}
@@ -66,6 +66,28 @@ editor:
 <p style="color:black">Photo by <a href="https://unsplash.com/@jor9en?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jorgen Hendriksen</a> on <a href="https://unsplash.com/photos/a-blurred-person-is-riding-a-bicycle-BomU_atAAKQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 ::::
   
+
+## Disclaimer{background-color='#e0e0e0' visibility='uncounted'}
+
+:::: columns
+::: {.column width="55%"}
+* Surface-level summary of some statistical issues
+
+* Researchers should have a thorough understanding of the statistical methods that they use
+
+* My opinions based on my 30+ years of experience as a statistician
+:::
+  
+::: {.column width="45%"}
+![](figures/jorgen-hendriksen-BomU_atAAKQ-unsplash.jpg){width=380}
+:::
+::::
+
+::::aside
+<p style="color:black">Photo by <a href="https://unsplash.com/@jor9en?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jorgen Hendriksen</a> on <a href="https://unsplash.com/photos/a-blurred-person-is-riding-a-bicycle-BomU_atAAKQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+::::
+  
+
 # Current problems in health and medical research{background-image='figures/simon-wilkes-S297j2CsdlM-unsplash.jpg' background-opacity=0.4 background-size='cover'}
 
 <!-- instead of aside -->
@@ -114,7 +136,7 @@ Photo from Oxford Clinical Trials Research Unit
 
 ## Research waste
 
-* An estimated 85% of research is wasted due to:
+* An estimated 85% of research is wasted because:
   + 50% is not published
   + Over 50% has avoidable design flaws
   + Over 50% is unusable or incompletely reported, or both
@@ -134,7 +156,7 @@ DOI: [10.1016/S0140-6736(13)62227-8](https://pubmed.ncbi.nlm.nih.gov/24411645/) 
 
 ## Significance obsession{background-color='white'}
 
-![](figures/Z_plot_slide.png){width=790}
+![](figures/Z_plot_slide.png){width=780}
 
 ::::aside
 <p style="color:black">Z-values extracted from confidence intervals in _Medline_ between 1976 and 2019. DOI: [10.1111/stan.12241](https://onlinelibrary.wiley.com/doi/full/10.1111/stan.12241)</p>
@@ -142,7 +164,7 @@ DOI: [10.1016/S0140-6736(13)62227-8](https://pubmed.ncbi.nlm.nih.gov/24411645/) 
 
 ## Meta-research studies
 
-* 1,013 out of 1,659 trials were at high risk of bias. Estimated cost of bad trials was £726 million to £8 billion. DOI: [10.1186/s13063-022-06415-5](https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-022-06415-5)
+* 1,013 out of 1,659 trials were at high risk of bias. Estimated cost of bad trials was £726 million to £8&nbsp;billion. DOI: [10.1186/s13063-022-06415-5](https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-022-06415-5)
 
 :::incremental
 * Out of 606 COVID-19 prediction models, only 7 were useful for policy. DOI: [10.1136/bmj.m1328](https://www.bmj.com/content/369/bmj.m1328)
@@ -154,10 +176,10 @@ DOI: [10.1016/S0140-6736(13)62227-8](https://pubmed.ncbi.nlm.nih.gov/24411645/) 
 
 ![](figures/1-s2.png)
 
-::: aside
+::::aside
 <p style="color:black">DOI:
 [10.1016/j.jclinepi.2026.112203](https://www.sciencedirect.com/science/article/pii/S0895435626000788)</p>
-:::
+::::
 
 
 ## Ethics and bad study design
@@ -166,7 +188,7 @@ DOI: [10.1016/S0140-6736(13)62227-8](https://pubmed.ncbi.nlm.nih.gov/24411645/) 
    + "Medical research involving human participants must have a scientifically sound and rigorous design and execution that are likely to produce reliable, valid, and valuable knowledge and avoid research waste."
 
 :::incremental
-* Ethics approval is an ideal time to intervene to avoid wasted time
+* Ethics approval is an ideal time to intervene to avoid waste
 :::
 
 ## National statement
@@ -193,7 +215,7 @@ DOI: [10.1162/QSS.a.479/136239](https://direct.mit.edu/qss/article/doi/10.1162/Q
 
 :::: columns
 ::: {.column width="60%"}
-* The internet and literature is full of bad advice on statistics, so models may regurgitate these errors 
+* The internet and literature is full of bad advice on statistics, so chatbots may regurgitate these errors 
 
 * AI models provide pleasing answers and have dichotomania. DOIs: [10.1017/jdm.2025.7](https://www.cambridge.org/core/journals/judgment-and-decision-making/article/artificial-intelligence-and-dichotomania/0421D2310727D73FAB47069FD1620AA1); [10.48550/arXiv.2509.08713](https://arxiv.org/abs/2509.08713)
 
@@ -214,11 +236,11 @@ DOI: [10.1162/QSS.a.479/136239](https://direct.mit.edu/qss/article/doi/10.1162/Q
 
 :::: columns
 ::: {.column width="60%"}
-* The internet and literature is full of bad advice on statistics, so models may regurgitate these errors 
+* The internet and literature is full of bad advice on statistics, so chatbots may regurgitate these errors 
 
 * AI models provide pleasing answers and have dichotomania. DOIs: [10.1017/jdm.2025.7](https://www.cambridge.org/core/journals/judgment-and-decision-making/article/artificial-intelligence-and-dichotomania/0421D2310727D73FAB47069FD1620AA1); [10.48550/arXiv.2509.08713](https://arxiv.org/abs/2509.08713)
 
-* AI as an additional journal peer reviewer is promising
+* AI as an addition to human journal peer reviewer is promising
 
 * AI as an additional ethical reviewer?
 :::
@@ -290,9 +312,11 @@ DOI: [10.1162/QSS.a.479/136239](https://direct.mit.edu/qss/article/doi/10.1162/Q
 ### Regression to the mean
 
 ::: incremental
-* After a period of unusually high hospital acquired infections, new hand washing policies are introduced. Infection rates are compared pre- and post-policy change.
+* After a period of unusually high hospital-acquired infections, new hand washing policies are introduced. Infection rates are compared pre- and post-policy change.
 
 * Patients with extreme back pain are referred to a new back program. Patients are measured at baseline and six weeks follow-up.
+
+* Adaptive trials at risk, especially for "non-responders"
 :::
 
 ## Regression to the mean
@@ -331,7 +355,7 @@ DOI: [10.1162/QSS.a.479/136239](https://direct.mit.edu/qss/article/doi/10.1162/Q
 
 * Many diseases are seasonal
 
-* (Figure shows idealised smooth seasonal pattern, real patterns will be noiser)
+* <p style="font-size:70%">(Figure shows idealised smooth seasonal pattern, real patterns will be noiser)</p>
 :::
   
 ::: {.column width="50%"}
@@ -350,7 +374,7 @@ DOI: [10.1162/QSS.a.479/136239](https://direct.mit.edu/qss/article/doi/10.1162/Q
 
 * Can be a large bias
 
-* Fixable
+* Fixable with a control group
 :::
   
 ::: {.column width="50%"}
@@ -387,7 +411,6 @@ Photo by <a href="https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium
 * P-value for treatment difference = 1, hence there is no difference, hence the two treatments are the same!
 :::
 
-
 ::: {.column width="45%"}
 ![](figures/John_Pettie_-_Reductio_Ad_Absurdum.jpg){width=400}
 :::
@@ -411,7 +434,6 @@ By [John Pettie](https://commons.wikimedia.org/w/index.php?curid=44945384)  Publ
 :::
 ::::
 
-
 ::::aside
 Photo by <a href="https://unsplash.com/@pinamessina?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">pina messina</a> on <a href="https://unsplash.com/photos/assorted-color-medication-pills-kfJkpeI6Lgc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 ::::
@@ -419,9 +441,9 @@ Photo by <a href="https://unsplash.com/@pinamessina?utm_source=unsplash&utm_medi
 ## Equivalence{background-color='#A8A8A8'}
 ### Study design
 
-* Need to \textit{a priori} define what is considered equivalent
+* Need to *a priori* define what is considered equivalent
   + Example: "A patient and public involvement group predefined the non-inferiority margin as one episode of urinary tract infection per person year." DOI: [10.1136/bmj-2021-0068229](https://pubmed.ncbi.nlm.nih.gov/35264408)
-  + Might consider efficacy of two drugs as equivalent if the difference is no more than 10%
+  + Consider the efficacy of two drugs as equivalent if the percentage cured is no more than 10%
 
 ## Equivalence{background-color='#A8A8A8'}
 ### Importance of confidence intervals
@@ -432,7 +454,7 @@ Photo by <a href="https://unsplash.com/@pinamessina?utm_source=unsplash&utm_medi
 ::: {.column width="42%"}
 * Example plot shows the mean treatment difference (dot) and 95% confidence interval (horizontal line)
 
-* Equivalance is a treatment difference within 10%
+* Equivalence here is a treatment difference within 10%
 :::
   
 ::: {.column width="58%"}
@@ -450,10 +472,9 @@ Photo by <a href="https://unsplash.com/@pinamessina?utm_source=unsplash&utm_medi
 :::
   
 ::: {.column width="50%"}
-![](figures/rishabh-sharma-R-js25Pv1LQ-unsplash.jpg){width=400 .absolute top='10'}
+![](figures/rishabh-sharma-R-js25Pv1LQ-unsplash.jpg){width=380 .absolute top='10' right='0'}
 :::
 ::::
-
 
 ::::aside
 <p style="color:black">Photo by <a href="https://unsplash.com/@rishabhben?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rishabh Sharma</a> on <a href="https://unsplash.com/photos/newspaper-article-lot-R-js25Pv1LQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
@@ -483,7 +504,7 @@ Photo by <a href="https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium
 
 ## Dichotomania{.smaller}
 
-* Categorise continuous data, e.g., continuous blood pressure categorised to low vs high
+* Categorise continuous data, e.g., continuous blood pressure categorised to low versus high
 
 :::incremental
 * Common problem in health and medical research
@@ -492,7 +513,7 @@ Photo by <a href="https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium
 
 * "The stupidity, the criminal vandalism, the wanton destruction of information involved in dichotomisation", [Stephen Senn](https://statmodeling.stat.columbia.edu/2026/02/14/the-stupidity-the-criminal-vandalism-the-wanton-destruction-of-information-involved-in-dichotomisation/)
 
-* Also in changes, e.g., response defined as an increase from baseline of at least 10&nbsp;mmHg
+* Also happens in changes, e.g., response defined as an increase from baseline of at least 10&nbsp;mmHg
 :::
 
 ## Dichotomania{background-color='white'}
@@ -516,32 +537,29 @@ EU Civil Protection and Humanitarian Aid on Flickr [CC BY-ND 2.0](https://creati
 
 
 ## Dichotomania{background-color='white'}
-### Consequence: lower statistical power
 
-:::: columns
-::: {.column width="50%"}
+:::incremental
 * "Only about 60% of the information is retained after dichotomization"
 
+* Example using [this web page](https://vanzwet.shinyapps.io/info_loss/): 
+  + <p style="font-size:70%">Testing group 1 = 30% and group 2 = 40%, the sample size required to have 80% power is 712 (356 per group) (alpha = 0.05, two-sided)</p>
+  + <p style="font-size:70%">If the outcome were kept as continuous this would require 430 (215 per group); 282 more participants because of a design choice</p>
+  
 * "Burdening more participants than necessary is wasteful, costly, and unethical"
 :::
-  
-::: {.column width="50%"}
-![](figures/sim70402-fig-0004-m.jpg){width=440}
-:::
-::::
-
 
 ::::aside
 <p style="color:black">DOI: [10.1002/sim.70402](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.70402)</p>
 ::::
 
 ## Dichotomania
-### Unacceptable excuses to dichotomise
+### Unacceptable excuses to dichotomise:
 
-* This approach is standard in our field
+* "This approach is standard in our field"
 
-* We used a clinically meaningful cut-off
+* "We used a clinically meaningful cut-off"
 
+* "We used a continuous outcome as a secondary analysis"
 
 ## Dichotomania
 ### Fixes
@@ -571,9 +589,9 @@ Photo by <a href="https://unsplash.com/@rechaoktaviani?utm_source=unsplash&utm_m
 ::: {.column width="50%"}
 * Common
 
-* Reduces study's value
+* Reduces a study's value
 
-* Unneccesarily increases the required sample size
+* Unnecessarily increases the number of participants
 
 * Fixable
 :::
@@ -588,6 +606,41 @@ Photo by <a href="https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium
 ::::
 
 
+## Survival data ...{background-color='#B8B8B8'}
+### ... needs survival analysis
+
+* Any time-to-event data needs a time-to-event analysis
+
+* For example, time from surgery to readmission to hospital
+
+* Can also have censoring, e.g., those people who were never readmitted during the study period
+
+:::incremental
+
+* Common error to use logistic regression, e.g., binary outcome of readmission (yes/no)
+
+* Related to dichotomania (discarding information)
+:::
+
+## Survival data{background-color='#B8B8B8'}
+
+:::: columns
+::: {.column width="52%"}
+
+* Using logistic regression the two groups appear equal
+
+* Using survival analysis group&nbsp;2 is clearly better
+
+* (Made-up data)
+:::
+  
+::: {.column width="48%"}
+![](figures/two_curves.jpg)
+:::
+::::
+
+<!--- from plot_curves.R --->
+
 ## Immortal time bias
 
 * Occurs in studies that follow people over time
@@ -599,11 +652,6 @@ Photo by <a href="https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium
 
 * Studies involving long time periods are always more complicated 
 :::
-## Immortal time bias{background-color='#FFB5C5'}
-
-<!--- from plot_immortal.R --->
-
-![](figures/immortal.jpg){width=770}
 
 ## Immortal time bias
 ### Recent example
@@ -612,13 +660,39 @@ Photo by <a href="https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium
 
 * Patients in treatment group had to have 2+ GLP-1 RA prescriptions, creating immortal time
 
-:::incremental
-* Received large media attention; cancer patients asking doctors for treatment; false hope
-:::
-
 ::::aside
 DOI: [10.1001/jamanetworkopen.2026.12133](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2848788)
 ::::
+
+## <small style="color:transparent">Instagram</small>{background-image='figures/instagram-glp1.png' background-opacity=0.6 background-size='cover'}
+
+## Immortal time{background-color='#e1ded9'}
+### My favourite example
+
+:::: columns
+::: {.column width="50%"}
+* Story: Men who remarry live longer
+
+* Truth: Dead men can't remarry
+:::
+  
+::: {.column width="50%"}
+![](figures/narissa-de-villiers-WmtpJcAPMco-unsplash.jpg){.absolute top="20" right="0" width="410"}
+:::
+::::
+
+::::aside
+Photo by <a href="https://unsplash.com/@narissa_dv225?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Narissa de Villiers</a> on <a href="https://unsplash.com/photos/a-close-up-of-two-people-holding-hands-WmtpJcAPMco?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
+
+
+## Immortal time bias{background-color='#FFB5C5'}
+### Group assignment depends on treatment
+
+<!--- from plot_immortal.R --->
+
+![](figures/immortal.jpg){width=770}
+
 
 ## Immortal time
 
@@ -627,18 +701,24 @@ DOI: [10.1001/jamanetworkopen.2026.12133](https://jamanetwork.com/journals/jaman
 :::incremental
 * Dangerous to look backwards in time using observed data
 
-* Don't see the people who were lost to follow-up
+* Don't see the people who died or exited early
 
-* Think about a prospective study, who would have been lost to follow-up? :::
+* Think about a prospective study, who would have been lost to follow-up? 
+
+:::
+
+
 
 ## Immortal time
 ### Fixes
 
 :::: columns
 ::: {.column width="59%"}
-* Never condition on the future
+* <p style="font-size:80%">Never condition on the future</p>
 
-* Use a state-space model combined with survival analysis that allows people to move between states (advanced statistical method)
+* <p style="font-size:80%">State-space model combined with survival analysis that allows people to move between states (advanced statistical method)</p>
+
+* <p style="font-size:80%">Active controls, e.g., statin A vs statin B</p>
 :::
   
 ::: {.column width="41%"}
@@ -651,11 +731,12 @@ Photo by <a href="https://unsplash.com/@rechaoktaviani?utm_source=unsplash&utm_m
 ::::
 
 ## Immortal time
-### Fixes
+### Fix (requires data with dates)
 
 <!--- from plot_states.R --->
 
 ![](figures/states.jpg)
+
 
 ## Immortal time bias{background-color='#476685'}
 ### Summary
@@ -678,19 +759,23 @@ Photo by <a href="https://unsplash.com/@rechaoktaviani?utm_source=unsplash&utm_m
 Photo by <a href="https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Javier Allegue Barros</a> on <a href="https://unsplash.com/photos/silhouette-of-a-road-signage-during-golden-hour-0nOP5iHVaZ8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 ::::
 
-## Sample size
+## Sample size{background-color="#228B22"}
 
 * How many people/participants/patients do we need to answer our research question?
 
+:::incremental
 * Key unknowns:
   + Difference between groups
   + Standard deviation (variance) in outcome
   + Significance level (avoid type&nbsp;1 errors), often 5\%
   + Statistical power (avoid type&nbsp;2 errors), often 80\%
+:::
 
 ## Sample size{background-color='#e2ffe3'}
 
-![](figures/type.errors.jpg)
+![](figures/type.errors.jpg){width=490}
+
+* Usually set at 5% type I and 20% for type 2 (often dogmatic)
 
 ## {background-color='#968c96'} 
 
@@ -700,7 +785,7 @@ Photo by <a href="https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium
 * Sample size must be:
   + Sufficiently large to have reasonable chance of answering the
 research question
-  + Reduce costs of:
+  + Reduce risks and costs:
     - Money
     - Delayed decision
     - Participant time
@@ -716,41 +801,373 @@ research question
 Photo by <a href="https://unsplash.com/@miracleday?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Elena Mozhvilo</a> on <a href="https://unsplash.com/photos/small-gold-balance-scale-on-colorful-wood-j06gLuKK0GM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 ::::
 
-## Sample size 
+## Sample size{background-color="#228B22"}
+### Example
+
+:::incremental
+* Randomised controlled trial of adding an AI reviewer to human review at a journal
+
+* With 334 articles per group, the trial will have a 90% power to detect a reduction in articles with a fundamental flaw from 25% to 15% (5% type I error)
+
+* 95% power requires 413 per group (79 more per group)
+
+* 20% vs 25% difference requires 1464 per group (90% power)
+:::
+
+```{r include=FALSE}
+library(stats)
+d1 = power.prop.test(
+  n = NULL,
+  p1 = 0.25, # baseline error rate
+  p2 = 0.15, # improvement
+  sig.level = 0.05,
+  power = 0.90,
+  alternative = "two.sided"
+)
+d2 = power.prop.test(
+  n = NULL,
+  p1 = 0.25, # baseline error rate
+  p2 = 0.15, # improvement
+  sig.level = 0.05,
+  power = 0.95,
+  alternative = "two.sided"
+)
+d3 = power.prop.test(
+  n = NULL,
+  p1 = 0.25, # baseline error rate
+  p2 = 0.20, # improvement
+  sig.level = 0.05,
+  power = 0.90,
+  alternative = "two.sided"
+)
+```
+
+## Sample size{background-color="#228B22"}
 ### Catch-22
 
-* Studies that are very similar to previous studies can estimate all paramaters easily
+* Studies that are very similar to previous studies can estimate all unknowns easily, but these are the most derivative
 
-## Using correlation for causation
+* Truly novel studies can struggle to justify sample sizes, but these are likely to be the most valuable
 
-## Matching
+## Sample size{background-color="#228B22"}
 
-## Clustering
+:::incremental
+* Every sample size calculation is a compromise
 
-See Lee's example
+* The calculations assume a meaningful boundary between adequate and inadequate sample sizes that does not exist
 
-## Count data?
+* Rarely reflect how a completed study's information will be used
 
-## Survival data => survival analysis
+*  “One size fits all” numbers. Sample sizes of 400 for small effects, 64 for medium, and 25 for small
+:::
 
-## Table 2 fallacy
+::::aside
+DOIs: [10.1186/1741-7015-8-17](https://link.springer.com/article/10.1186/1741-7015-8-17) & [10.1136/bmj.e5278](https://www.bmj.com/content/345/bmj.e5278.long)
+::::
 
-## Prediction models
+## Sample size{background-color="#228B22"}
+
+* Sample size calculation based on a simple comparison (e.g., comparing two means), but the study design is more complex, for example:
+  + Multiple follow-up observations
+  + Participant drop-out
+  + Within-person correlation
+  + Geographical clustering
+  
+* Can use simulation in these cases, requires consultation with a statistician  
+
+## {background-color='white'}
+
+![](figures/sample_size_lady_helen.jpg){width=690}
+
+::::aside
+<p style="color:black">[Lady Helen Vincent](https://commons.wikimedia.org/wiki/File:Sargent_Portrait_of_Lady_Helen_Vincent_1904.jpg) by John Singer Sargent, Public domain, via Wikimedia Commons</p>
+::::
+
+## Sample size{background-color="#476685"}
+### Summary
+
+:::: columns
+::: {.column width="50%"}
+* Relies on guesswork
+
+* Aim for the most informed and transparent guess
+:::
+  
+::: {.column width="50%"}
+![](figures/javier-allegue-barros-0nOP5iHVaZ8-unsplash.jpg){.absolute top="50" right="0" width="410"}
+:::
+::::
+
+::::aside
+Photo by <a href="https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Javier Allegue Barros</a> on <a href="https://unsplash.com/photos/silhouette-of-a-road-signage-during-golden-hour-0nOP5iHVaZ8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
 
 ## Blinding
 
-Add effect size when blinding was not used.
+* Used in research for over 200 years
 
-## Randomising
+<!--- https://muse.jhu.edu/article/4142 --->
 
-## Trials must be registered with protocol
+![](figures/electoral_commission.png)
 
-randomized trials should not receive ethical approval unless the trial team contains methodological and statistical expertise (Pirosca et~al., 2022)
+:::: aside
+Picture from _The Guardian_ from the 2025 Australian election
+::::
 
-Look for slides from one-day talk
+## Collect subjective data blind{background-color='#dadbdd'}
+
+![](https://upload.wikimedia.org/wikipedia/commons/7/7b/Blind_taste_test.jpg){width=720px}
+
+:::: aside
+<p style="color:black">From Crispin Porter + Bogusky on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Blind_taste_test.jpg)</p>
+::::
+
+## Blinding
+### Whenever possible...
+
+* Keep participants and researchers blind to treatment
+
+* Collect data blind to treatment, especially key outcomes
+
+* Analyse data blind to treatment
+
+* Report initial results blind to treatment
+
+## Blinding
+
+:::incremental
+* Animal studies that did not use randomisation and blinding were far more likely to have a positive result, odds ratio = 5.2 (95% CI: 2.0 to 13.5)
+
+* Many researchers appear unaware as to the importance of blinding
+:::
+
+:::: aside
+DOI: [10.1111/j.1553-2712.2003.tb00056.x](https://onlinelibrary.wiley.com/doi/10.1111/j.1553-2712.2003.tb00056.x)
+::::
 
 
-## Parametric tests?
+
+## Randomising{background-image='figures/clay-banks-kBaf0DwBPbE-unsplash.jpg' background-opacity=0.8 background-size='cover'}
+
+Statistical bleach
+
+<br><br><br><br><p style="font-size:80%">Photo by <a href="https://unsplash.com/@claybanks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clay Banks</a> on <a href="https://unsplash.com/photos/blue-and-white-clorox-plastic-bottle-kBaf0DwBPbE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+
+## Randomise everything{background-color='#dfe0e0'}
+
+* Randomisation isn't always about randomised trials
+ 
+* We could randomise:
+ 
+  + The order of questions in a questionnaire
+ 
+  + The order of observations, e.g., is a 20 or 30 degree bed angle better for lung volume?
+
+## Randomise everything{background-color='#dfe0e0' visibility='uncounted'}
+
+* Randomisation isn't always about randomised trials
+ 
+* We could randomise:
+ 
+  + The order of questions in a questionnaire
+ 
+  + The order of observations, e.g., is a 20 or 30 degree bed angle better for lung volume?
+  
+  + Data collection order, e.g., interviews
+
+* Avoid trends over time or other patterns looking like real differences
+
+## Randomising{background-color='#dfe0e0'}
+
+* Easy to do
+  + Excel
+  + Free online tools, e.g., [Research Randomizer](https://www.randomizer.org/)
+
+* "Randomization is too important to be left to chance."
+— [J. D. Petruccelli](https://www.math.wpi.edu/Course_Materials/SAS/quotes.html)
+
+## Blinding and randomising{background-color="#476685"}
+### Summary
+
+:::: columns
+::: {.column width="50%"}
+* Counters well-known biases
+
+* Should both be used wherever they can be used
+
+* Two simple changes that would greatly improve research quality
+:::
+  
+::: {.column width="50%"}
+![](figures/javier-allegue-barros-0nOP5iHVaZ8-unsplash.jpg){.absolute top="70" right="0" width="400"}
+:::
+::::
+
+::::aside
+Photo by <a href="https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Javier Allegue Barros</a> on <a href="https://unsplash.com/photos/silhouette-of-a-road-signage-during-golden-hour-0nOP5iHVaZ8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
+
+
+## Observational data
+### Confounding
+
+* Randomised trials have no confounding of the treatment of interest --- this is why trials are amazing
+
+* But we can't randomise everything, so some inferences rely on observational data
+
+* Often see large observational data sets with many variables where researchers adjust for confounding
+
+* This can work, but it is very challenging to do well
+
+## Observational data{background-color='#766d75'}
+
+:::: columns
+::: {.column width="60%"}
+* Model of 200+ variables predicting in-hospital mortality
+
+* Whether the patient had breakfast was a huge predictor of mortality
+
+* Already dead or nearly dead patients don't get breakfast
+
+* Statistically true, but practically useless
+:::
+  
+::: {.column width="40%"}
+![](figures/zheyu-huang-pKRL1XaO_zE-unsplash.jpg)
+:::
+::::
+
+::::aside
+Photo by <a href="https://unsplash.com/@papayaboii?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zheyu Huang</a> on <a href="https://unsplash.com/photos/a-row-of-beds-in-a-room-with-tiled-walls-pKRL1XaO_zE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
+
+
+## Observational data
+### Confounding
+
+* Every variable is complex, think about your age for example, that predicts a lot about you but not everything and it also comes with "baggage"
+
+* No statistical method makes the problem of confounding disappear
+   + "We will use propensity score matching to adjust for confounding" - this is an inadequate statement without a lot more detail
+
+## Observational data
+
+* Complex statistical methods, such as matching, are often applied with little deep thought
+  + Not a magic wand, can make things worse
+
+* What's needed is a thorough understanding of the data and the relationships between variables
+
+* Conventional statistical methods can be just as good as matching; it's the thinking not the method that's important
+
+::::aside
+DOI: [10.1016/j.jacc.2016.10.060](https://pubmed.ncbi.nlm.nih.gov/28104076/)
+::::
+
+## Observational data
+### Variable selection
+
+* Common research problem: we have a large number of potential predictors/confounders and we want to know the key subset of important predictors
+
+* Forwards stepwise selection should never be used. DOI: [10.1186/s40537-018-0143-6](https://link.springer.com/article/10.1186/s40537-018-0143-6)
+
+* Backwards selection is better, also other techniques such as LASSO
+
+## Observational data{background-color='white'}
+### Draw a casual diagram
+
+:::: columns
+::: {.column width="50%"}
+* No statistical or AI algorithm can understand chemistry, biology, social determinants, etc
+
+* Draw a causal diagram, think about the data and your question; think about who and what are missing
+:::
+  
+::: {.column width="50%"}
+![](figures/99_confounders1b.jpg)
+
+<!--- from AIS course --->
+:::
+::::
+
+
+## Dependence{background-color='#698B69'}
+
+* Data is often correlated
+  + Repeated data from the same person
+  + Repeated data from the same clinic, town, area, etc
+
+
+## Dependence{visibility='uncounted' background-color='#698B69'}
+
+* Data is often correlated
+  + Repeated data from the same person
+  + Repeated data from the same clinic, town, area, etc
+
+* Following people/places repeated can be a great design ...
+
+* ... but the repeated data must be included in the analyses
+
+## Dependence{background-color='#698B69'}
+
+:::incremental
+* Many common statistical methods assume data is independent (e.g., t-test, linear regression)
+
+* Each observation is whole "packet" of new information
+
+* That's not true when we follow individuals repeatedly
+
+* Treating correlated variables as independent falsely increases the sample size and the certainty (risk of Type&nbsp;1 errors)
+:::
+
+## Dependence{background-color='#698B69'}
+
+![](figures/correlation.png){height=520}
+
+::::aside
+Photos by <a href="https://unsplash.com/@lucasgouvea?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lucas Gouvêa</a> on <a href="https://unsplash.com/photos/a-woman-with-red-hair-and-sunglasses-vkCUpYy6xGU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> and <a href="https://unsplash.com/photos/man-wearing-black-shirt-aoEwuEH7YAs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
+
+## Dependence{background-color='#698B69'}
+
+:::: columns
+::: {.column width="62%"}
+* Study of heart monitors in heart failure patients
+* 29 patients monitored for 3 days wearing multiple devices
+* Wider confidence intervals (more uncertainty) after accounting for within-person dependence
+:::
+  
+::: {.column width="38%"}
+![](figures/dependence.jpg){.absolute top='60' right='0' width=520}
+<!--- from plot_dependence --->
+:::
+::::
+
+
+::::aside
+From DOI: [10.64898/2026.04.07.26350296](https://www.medrxiv.org/content/10.64898/2026.04.07.26350296v2), thanks to Lee Jones
+::::
+
+## Dependence{background-color='#476685'}
+### Summary
+
+:::: columns
+::: {.column width="50%"}
+* Dependence is often missed
+
+* Can increase the risk of a Type&nbsp;1 error
+
+* Fixable with statistical adjustment
+:::
+  
+::: {.column width="50%"}
+![](figures/javier-allegue-barros-0nOP5iHVaZ8-unsplash.jpg){.absolute top="50" right="0" width="410"}
+:::
+::::
+
+::::aside
+Photo by <a href="https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Javier Allegue Barros</a> on <a href="https://unsplash.com/photos/silhouette-of-a-road-signage-during-golden-hour-0nOP5iHVaZ8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
+
 
 # Closing remarks{background-image='figures/kevin-et-laurianne-langlais-iMRlp_Ldxus-unsplash.jpg' background-opacity=0.4 background-size='cover'}
 
@@ -778,8 +1195,23 @@ Photo by <a href="https://unsplash.com/@laukev?utm_source=unsplash&utm_medium=re
 
 ## Papers/books
 
-* [The Art of Statistics](https://www.google.com.au/books/edition/The_Art_of_Statistics/04-FDwAAQBAJ?hl=en) David Spiegelhalter
+* Book: [The Art of Statistics](https://www.google.com.au/books/edition/The_Art_of_Statistics/04-FDwAAQBAJ?hl=en) David Spiegelhalter
 
-* Competing risks
+* Paper: [Competing risks](https://pubmed.ncbi.nlm.nih.gov/25146097/)
 
-* [Equivalence studies](https://pmc.ncbi.nlm.nih.gov/articles/PMC12406809/)
+* Paper: [Immortal time bias](https://jamanetwork.com/journals/jama/article-abstract/2776315)
+
+* Papers: [Dichotomania](https://pubmed.ncbi.nlm.nih.gov/16217841), [Dichotomania](https://doi.org/10.1093/oxfordjournals.aje.a117020)
+
+* Papers: [Equivalence](https://pmc.ncbi.nlm.nih.gov/articles/PMC12406809), [Equivalence](http://bmj.com/content/311/7003/485.full)
+
+* Papers: [Blinding](https://www.nature.com/articles/526182a), [Blinding](https://www.bmj.com/content/321/7259/504.full)
+
+## Phew!{background-color='white'}
+
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXlmNWwzc2RiZzEyc2R3dDM3dDF1eDZwMnF0endjdjlzMnRyMHRtdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rt91ojZ9EB8clgWHFj/giphy.gif)
+
+:::: aside
+<p style="color:black">from Olympics on giphy</p>
+::::
+
