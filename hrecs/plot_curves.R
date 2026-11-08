@@ -98,7 +98,7 @@ splot1 = splot$plot +
 ggsave(
   filename = 'figures/two_curves.jpg',
   plot = splot1,
-  width = 4.5,
+  width = 5.1,
   height = 4.5,
   units = 'in',
   dpi = 400

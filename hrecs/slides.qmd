@@ -88,7 +88,7 @@ editor:
 ::::
   
 
-# Current problems in health and medical research{background-image='figures/simon-wilkes-S297j2CsdlM-unsplash.jpg' background-opacity=0.4 background-size='cover'}
+# Current problems in health and medical{visibility="uncounted"} research{background-image='figures/simon-wilkes-S297j2CsdlM-unsplash.jpg' background-opacity=0.4 background-size='cover'}
 
 <!-- instead of aside -->
 <br><br><br><br><br><p style="font-size:80%">
@@ -201,6 +201,14 @@ DOI: [10.1016/S0140-6736(13)62227-8](https://pubmed.ncbi.nlm.nih.gov/24411645/) 
 
 * Only 35% of Australian HRECs had a qualified statistician as full member or available for consultation (95% CI: 31% to 40%)
 
+::::aside
+DOI: [10.1162/QSS.a.479/136239](https://direct.mit.edu/qss/article/doi/10.1162/QSS.a.479/136239)
+::::
+
+## Current situation{visibility="uncounted"}
+
+* Only 35% of Australian HRECs had a qualified statistician as full member or available for consultation (95% CI: 31% to 40%)
+
 * Many HRECs do not examine study design
   + <p style="font-size:80%">“It is NOT up to the committee to design the research”</p> 
   + <p style="font-size:80%">Seen as an institutional responsibility to examine study design</p>
@@ -215,7 +223,7 @@ DOI: [10.1162/QSS.a.479/136239](https://direct.mit.edu/qss/article/doi/10.1162/Q
 
 :::: columns
 ::: {.column width="60%"}
-* The internet and literature is full of bad advice on statistics, so chatbots may regurgitate these errors 
+* The internet and literature is full of bad advice on statistics, so AI chatbots may regurgitate these errors 
 
 * AI models provide pleasing answers and have dichotomania. DOIs: [10.1017/jdm.2025.7](https://www.cambridge.org/core/journals/judgment-and-decision-making/article/artificial-intelligence-and-dichotomania/0421D2310727D73FAB47069FD1620AA1); [10.48550/arXiv.2509.08713](https://arxiv.org/abs/2509.08713)
 
@@ -236,7 +244,7 @@ DOI: [10.1162/QSS.a.479/136239](https://direct.mit.edu/qss/article/doi/10.1162/Q
 
 :::: columns
 ::: {.column width="60%"}
-* The internet and literature is full of bad advice on statistics, so chatbots may regurgitate these errors 
+* The internet and literature is full of bad advice on statistics, so AI chatbots may regurgitate these errors 
 
 * AI models provide pleasing answers and have dichotomania. DOIs: [10.1017/jdm.2025.7](https://www.cambridge.org/core/journals/judgment-and-decision-making/article/artificial-intelligence-and-dichotomania/0421D2310727D73FAB47069FD1620AA1); [10.48550/arXiv.2509.08713](https://arxiv.org/abs/2509.08713)
 
@@ -319,12 +327,14 @@ DOI: [10.1162/QSS.a.479/136239](https://direct.mit.edu/qss/article/doi/10.1162/Q
 * Adaptive trials at risk, especially for "non-responders"
 :::
 
+<!--- real example on depression if needed --->
+
 ## Regression to the mean
 
 * Happens in studies that include time
 
 ::: incremental
-* Individuals/groups/locations measured before and after some intervention
+* Individuals/groups/locations measured before and after some intervention, treatment, policy change, etc
 
 * Can be monthly or weekly statistics, e.g., death counts
 
@@ -441,9 +451,9 @@ Photo by <a href="https://unsplash.com/@pinamessina?utm_source=unsplash&utm_medi
 ## Equivalence{background-color='#A8A8A8'}
 ### Study design
 
-* Need to *a priori* define what is considered equivalent
+* Define *a priori* what is considered equivalent
   + Example: "A patient and public involvement group predefined the non-inferiority margin as one episode of urinary tract infection per person year." DOI: [10.1136/bmj-2021-0068229](https://pubmed.ncbi.nlm.nih.gov/35264408)
-  + Consider the efficacy of two drugs as equivalent if the percentage cured is no more than 10%
+  + Consider the efficacy of two drugs as equivalent if difference in the percentage cured is no more than 10%
 
 ## Equivalence{background-color='#A8A8A8'}
 ### Importance of confidence intervals
@@ -521,7 +531,7 @@ Photo by <a href="https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium
 
 ![](figures/99_non_linear2.jpg)
 
-* Inefficient and potentially misleading
+* Arbitrary, inefficient and potentially misleading
 
 
 ## Dichotomania
@@ -539,7 +549,7 @@ EU Civil Protection and Humanitarian Aid on Flickr [CC BY-ND 2.0](https://creati
 ## Dichotomania{background-color='white'}
 
 :::incremental
-* "Only about 60% of the information is retained after dichotomization"
+* "Only about 60% of the information is retained after dichotomization" (based on over 21,000 trials)
 
 * Example using [this web page](https://vanzwet.shinyapps.io/info_loss/): 
   + <p style="font-size:70%">Testing group 1 = 30% and group 2 = 40%, the sample size required to have 80% power is 712 (356 per group) (alpha = 0.05, two-sided)</p>
@@ -555,7 +565,7 @@ EU Civil Protection and Humanitarian Aid on Flickr [CC BY-ND 2.0](https://creati
 ## Dichotomania
 ### Unacceptable excuses to dichotomise:
 
-* "This approach is standard in our field"
+* "A binary design is standard in our field"
 
 * "We used a clinically meaningful cut-off"
 
@@ -613,7 +623,7 @@ Photo by <a href="https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium
 
 * For example, time from surgery to readmission to hospital
 
-* Can also have censoring, e.g., those people who were never readmitted during the study period
+* Can also have censoring, e.g., those people who were never readmitted to hospital during the study period
 
 :::incremental
 
@@ -718,7 +728,7 @@ Photo by <a href="https://unsplash.com/@narissa_dv225?utm_source=unsplash&utm_me
 
 * <p style="font-size:80%">State-space model combined with survival analysis that allows people to move between states (advanced statistical method)</p>
 
-* <p style="font-size:80%">Active controls, e.g., statin A vs statin B</p>
+* <p style="font-size:80%">Active instead of non-active controls, e.g., statin&nbsp;A vs statin&nbsp;B instead of statin&nbsp;A vs no treatment </p>
 :::
   
 ::: {.column width="41%"}
@@ -764,7 +774,7 @@ Photo by <a href="https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium
 * How many people/participants/patients do we need to answer our research question?
 
 :::incremental
-* Key unknowns:
+* Key assumptions:
   + Difference between groups
   + Standard deviation (variance) in outcome
   + Significance level (avoid type&nbsp;1 errors), often 5\%
@@ -773,7 +783,7 @@ Photo by <a href="https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium
 
 ## Sample size{background-color='#e2ffe3'}
 
-![](figures/type.errors.jpg){width=490}
+![](figures/type.errors.jpg){width=5=10}
 
 * Usually set at 5% type I and 20% for type 2 (often dogmatic)
 
@@ -865,6 +875,15 @@ d3 = power.prop.test(
 DOIs: [10.1186/1741-7015-8-17](https://link.springer.com/article/10.1186/1741-7015-8-17) & [10.1136/bmj.e5278](https://www.bmj.com/content/345/bmj.e5278.long)
 ::::
 
+
+## {background-color='white'}
+
+![](figures/sample_size_lady_helen.jpg){width=690}
+
+::::aside
+<p style="color:black">[Lady Helen Vincent](https://commons.wikimedia.org/wiki/File:Sargent_Portrait_of_Lady_Helen_Vincent_1904.jpg) by John Singer Sargent, Public domain, via Wikimedia Commons</p>
+::::
+
 ## Sample size{background-color="#228B22"}
 
 * Sample size calculation based on a simple comparison (e.g., comparing two means), but the study design is more complex, for example:
@@ -874,14 +893,6 @@ DOIs: [10.1186/1741-7015-8-17](https://link.springer.com/article/10.1186/1741-70
   + Geographical clustering
   
 * Can use simulation in these cases, requires consultation with a statistician  
-
-## {background-color='white'}
-
-![](figures/sample_size_lady_helen.jpg){width=690}
-
-::::aside
-<p style="color:black">[Lady Helen Vincent](https://commons.wikimedia.org/wiki/File:Sargent_Portrait_of_Lady_Helen_Vincent_1904.jpg) by John Singer Sargent, Public domain, via Wikimedia Commons</p>
-::::
 
 ## Sample size{background-color="#476685"}
 ### Summary
@@ -938,7 +949,10 @@ Picture from _The Guardian_ from the 2025 Australian election
 :::incremental
 * Animal studies that did not use randomisation and blinding were far more likely to have a positive result, odds ratio = 5.2 (95% CI: 2.0 to 13.5)
 
-* Many researchers appear unaware as to the importance of blinding
+* Many researchers appear unaware of the importance of blinding
+
+* "If I was king of the world [...] I would insist that
+every experiment was performed blinded." [Dr Glen Begley](https://www.youtube.com/watch?v=YJADzllTM9w)
 :::
 
 :::: aside
@@ -1026,6 +1040,26 @@ Photo by <a href="https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium
 * Model of 200+ variables predicting in-hospital mortality
 
 * Whether the patient had breakfast was a huge predictor of mortality
+:::
+  
+::: {.column width="40%"}
+![](figures/zheyu-huang-pKRL1XaO_zE-unsplash.jpg)
+:::
+::::
+
+::::aside
+Photo by <a href="https://unsplash.com/@papayaboii?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zheyu Huang</a> on <a href="https://unsplash.com/photos/a-row-of-beds-in-a-room-with-tiled-walls-pKRL1XaO_zE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
+
+
+
+## Observational data{background-color='#766d75' visibility="uncounted"}
+
+:::: columns
+::: {.column width="60%"}
+* Model of 200+ variables predicting in-hospital mortality
+
+* Whether the patient had breakfast was a huge predictor of mortality
 
 * Already dead or nearly dead patients don't get breakfast
 
@@ -1048,12 +1082,25 @@ Photo by <a href="https://unsplash.com/@papayaboii?utm_source=unsplash&utm_mediu
 * Every variable is complex, think about your age for example, that predicts a lot about you but not everything and it also comes with "baggage"
 
 * No statistical method makes the problem of confounding disappear
-   + "We will use propensity score matching to adjust for confounding" - this is an inadequate statement without a lot more detail
+
+* "We will use propensity score matching to adjust for confounding" - this is an inadequate statement without a lot more detail
 
 ## Observational data
 
 * Complex statistical methods, such as matching, are often applied with little deep thought
-  + Not a magic wand, can make things worse
+
+* Not a magic wand, can make things worse
+
+
+::::aside
+DOI: [10.1016/j.jacc.2016.10.060](https://pubmed.ncbi.nlm.nih.gov/28104076/)
+::::
+
+## Observational data{visibility="uncounted"}
+
+* Complex statistical methods, such as matching, are often applied with little deep thought
+
+* Not a magic wand, can make things worse
 
 * What's needed is a thorough understanding of the data and the relationships between variables
 
@@ -1062,7 +1109,6 @@ Photo by <a href="https://unsplash.com/@papayaboii?utm_source=unsplash&utm_mediu
 ::::aside
 DOI: [10.1016/j.jacc.2016.10.060](https://pubmed.ncbi.nlm.nih.gov/28104076/)
 ::::
-
 ## Observational data
 ### Variable selection
 
@@ -1079,7 +1125,7 @@ DOI: [10.1016/j.jacc.2016.10.060](https://pubmed.ncbi.nlm.nih.gov/28104076/)
 ::: {.column width="50%"}
 * No statistical or AI algorithm can understand chemistry, biology, social determinants, etc
 
-* Draw a causal diagram, think about the data and your question; think about who and what are missing
+* Draw a causal diagram, think about the data and the question; think about who and what are missing
 :::
   
 ::: {.column width="50%"}
@@ -1094,14 +1140,13 @@ DOI: [10.1016/j.jacc.2016.10.060](https://pubmed.ncbi.nlm.nih.gov/28104076/)
 
 * Data is often correlated
   + Repeated data from the same person
-  + Repeated data from the same clinic, town, area, etc
-
+  + Repeated data from the same clinic, town, school, etc
 
 ## Dependence{visibility='uncounted' background-color='#698B69'}
 
 * Data is often correlated
   + Repeated data from the same person
-  + Repeated data from the same clinic, town, area, etc
+  + Repeated data from the same clinic, town, school, etc
 
 * Following people/places repeated can be a great design ...
 
@@ -1116,10 +1161,12 @@ DOI: [10.1016/j.jacc.2016.10.060](https://pubmed.ncbi.nlm.nih.gov/28104076/)
 
 * That's not true when we follow individuals repeatedly
 
-* Treating correlated variables as independent falsely increases the sample size and the certainty (risk of Type&nbsp;1 errors)
+* Treating correlated variables as independent falsely increases the sample size and the statistical certainty (risk of Type&nbsp;1 errors)
 :::
 
 ## Dependence{background-color='#698B69'}
+
+<!--- from plot_dependence.R --->
 
 ![](figures/correlation.png){height=520}
 
@@ -1130,14 +1177,14 @@ Photos by <a href="https://unsplash.com/@lucasgouvea?utm_source=unsplash&utm_med
 ## Dependence{background-color='#698B69'}
 
 :::: columns
-::: {.column width="62%"}
+::: {.column width="55%"}
 * Study of heart monitors in heart failure patients
-* 29 patients monitored for 3 days wearing multiple devices
+* 29 patients monitored for 3&nbsp;days wearing multiple devices
 * Wider confidence intervals (more uncertainty) after accounting for within-person dependence
 :::
   
-::: {.column width="38%"}
-![](figures/dependence.jpg){.absolute top='60' right='0' width=520}
+::: {.column width="45%"}
+![](figures/dependence.jpg){.absolute top='120' right='0' width=480}
 <!--- from plot_dependence --->
 :::
 ::::
@@ -1154,7 +1201,7 @@ From DOI: [10.64898/2026.04.07.26350296](https://www.medrxiv.org/content/10.6489
 ::: {.column width="50%"}
 * Dependence is often missed
 
-* Can increase the risk of a Type&nbsp;1 error
+* Likely to increase the risk of a Type&nbsp;1 error
 
 * Fixable with statistical adjustment
 :::
@@ -1186,6 +1233,24 @@ Photo by <a href="https://unsplash.com/@laukev?utm_source=unsplash&utm_medium=re
 
 * Steer researchers towards simpler designs
 :::
+
+## Nudge{background-color='#213e46'}
+
+:::: columns
+::: {.column width="60%"}
+* Ask researchers about publishing a protocol, checking their statistical models, sharing their data/code
+
+* Steer researchers away from clinical prediction models, especially if nobody on the team has statistical qualifications
+:::
+  
+::: {.column width="40%"}
+![](figures/35mm-IstXvxHGoA4-unsplash.jpg){height=490 .absolute top='60' right='0'}
+:::
+::::
+
+::::aside
+Photo by <a href="https://unsplash.com/@35mm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">35mm</a> on <a href="https://unsplash.com/photos/a-row-of-street-signs-sitting-on-the-side-of-a-road-IstXvxHGoA4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+::::
 
 ## Online resources
 

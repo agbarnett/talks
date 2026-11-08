@@ -42,8 +42,8 @@ plot
 ggsave(
   filename = 'figures/dependence.jpg',
   plot = plot,
-  width = 4.1,
-  height = 4.1,
+  width = 3.7,
+  height = 2.4,
   units = 'in',
   dpi = 400
 )
@@ -102,7 +102,7 @@ ggsave(
   filename = 'figures/correlation.png',
   device = 'png',
   plot = lplot.plus,
-  width = 4.7,
+  width = 5.4,
   height = 3.5,
   units = 'in',
   dpi = 400
