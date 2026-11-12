@@ -1085,6 +1085,11 @@ Photo by <a href="https://unsplash.com/@papayaboii?utm_source=unsplash&utm_mediu
 
 * "We will use propensity score matching to adjust for confounding" - this is an inadequate statement without a lot more detail
 
+::::aside
+DOI: [10.1371/journal.pmed.1005282](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005282)
+::::
+
+
 ## Observational data
 
 * Complex statistical methods, such as matching, are often applied with little deep thought
