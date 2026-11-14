@@ -88,7 +88,7 @@ editor:
 ::::
   
 
-# Current problems in health and medical{visibility="uncounted"} research{background-image='figures/simon-wilkes-S297j2CsdlM-unsplash.jpg' background-opacity=0.4 background-size='cover'}
+# Current problems in health and medical research{background-image='figures/simon-wilkes-S297j2CsdlM-unsplash.jpg' background-opacity=0.4 background-size='cover' visibility="uncounted"}
 
 <!-- instead of aside -->
 <br><br><br><br><br><p style="font-size:80%">
@@ -453,6 +453,12 @@ Photo by <a href="https://unsplash.com/@pinamessina?utm_source=unsplash&utm_medi
 
 * Define *a priori* what is considered equivalent
   + Example: "A patient and public involvement group predefined the non-inferiority margin as one episode of urinary tract infection per person year." DOI: [10.1136/bmj-2021-0068229](https://pubmed.ncbi.nlm.nih.gov/35264408)
+
+## Equivalence{background-color='#A8A8A8' visibility="uncounted"}
+### Study design
+
+* Define *a priori* what is considered equivalent
+  + Example: "A patient and public involvement group predefined the non-inferiority margin as one episode of urinary tract infection per person year." DOI: [10.1136/bmj-2021-0068229](https://pubmed.ncbi.nlm.nih.gov/35264408)
   + Consider the efficacy of two drugs as equivalent if difference in the percentage cured is no more than 10%
 
 ## Equivalence{background-color='#A8A8A8'}
@@ -741,7 +747,7 @@ Photo by <a href="https://unsplash.com/@rechaoktaviani?utm_source=unsplash&utm_m
 ::::
 
 ## Immortal time
-### Fix (requires data with dates)
+### Fix (requires all important dates)
 
 <!--- from plot_states.R --->
 
@@ -774,7 +780,7 @@ Photo by <a href="https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium
 * How many people/participants/patients do we need to answer our research question?
 
 :::incremental
-* Key assumptions:
+* Key assumptions (for a two-group comparison):
   + Difference between groups
   + Standard deviation (variance) in outcome
   + Significance level (avoid type&nbsp;1 errors), often 5\%
@@ -783,7 +789,7 @@ Photo by <a href="https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium
 
 ## Sample size{background-color='#e2ffe3'}
 
-![](figures/type.errors.jpg){width=5=10}
+![](figures/type.errors.jpg){width=550}
 
 * Usually set at 5% type I and 20% for type 2 (often dogmatic)
 
@@ -868,7 +874,7 @@ d3 = power.prop.test(
 
 * Rarely reflect how a completed study's information will be used
 
-*  “One size fits all” numbers. Sample sizes of 400 for small effects, 64 for medium, and 25 for small
+*  “One size fits all” numbers. Sample sizes of 400 for small effects, 64 for medium, and 25 for large
 :::
 
 ::::aside
@@ -1029,6 +1035,14 @@ Photo by <a href="https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium
 
 * But we can't randomise everything, so some inferences rely on observational data
 
+
+## Observational data{visibility="uncounted"}
+### Confounding
+
+* Randomised trials have no confounding of the treatment of interest --- this is why trials are amazing
+
+* But we can't randomise everything, so some inferences rely on observational data
+
 * Often see large observational data sets with many variables where researchers adjust for confounding
 
 * This can work, but it is very challenging to do well
@@ -1083,11 +1097,24 @@ Photo by <a href="https://unsplash.com/@papayaboii?utm_source=unsplash&utm_mediu
 
 * No statistical method makes the problem of confounding disappear
 
+::::aside
+DOI: [10.1371/journal.pmed.1005282](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005282)
+::::
+
+
+## Observational data{visibility="uncounted"}
+### Confounding
+
+* Every variable is complex, think about your age for example, that predicts a lot about you but not everything and it also comes with "baggage"
+
+* No statistical method makes the problem of confounding disappear
+
 * "We will use propensity score matching to adjust for confounding" - this is an inadequate statement without a lot more detail
 
 ::::aside
 DOI: [10.1371/journal.pmed.1005282](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005282)
 ::::
+
 
 
 ## Observational data

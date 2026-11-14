@@ -201,8 +201,8 @@ Photo by <a href="https://unsplash.com/@jor9en?utm_source=unsplash&amp;utm_mediu
 </p>
 </div></aside></section>
 <section>
-<section id="current-problems-in-health-and-medicalvisibilityuncounted-research" class="title-slide slide level1 center" data-background-image="figures/simon-wilkes-S297j2CsdlM-unsplash.jpg" data-background-opacity="0.4" data-background-size="cover">
-<h1>Current problems in health and medical{visibility=“uncounted”} research</h1>
+<section id="current-problems-in-health-and-medical-research" class="title-slide slide level1 center" data-background-image="figures/simon-wilkes-S297j2CsdlM-unsplash.jpg" data-background-opacity="0.4" data-background-size="cover" data-visibility="uncounted">
+<h1>Current problems in health and medical research</h1>
 <!-- instead of aside -->
 <br><br><br><br><br>
 <p style="font-size:80%">
@@ -549,11 +549,21 @@ Question: Is there any outcome in health and medicine that does not have some me
 <li>Define <em>a priori</em> what is considered equivalent
 <ul>
 <li>Example: “A patient and public involvement group predefined the non-inferiority margin as one episode of urinary tract infection per person year.” DOI: <a href="https://pubmed.ncbi.nlm.nih.gov/35264408">10.1136/bmj-2021-0068229</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="equivalence-3" class="slide level2" data-background-color="#A8A8A8" data-visibility="uncounted">
+<h2>Equivalence</h2>
+<h3 id="study-design-1">Study design</h3>
+<ul>
+<li>Define <em>a priori</em> what is considered equivalent
+<ul>
+<li>Example: “A patient and public involvement group predefined the non-inferiority margin as one episode of urinary tract infection per person year.” DOI: <a href="https://pubmed.ncbi.nlm.nih.gov/35264408">10.1136/bmj-2021-0068229</a></li>
 <li>Consider the efficacy of two drugs as equivalent if difference in the percentage cured is no more than 10%</li>
 </ul></li>
 </ul>
 </section>
-<section id="equivalence-3" class="slide level2" data-background-color="#A8A8A8">
+<section id="equivalence-4" class="slide level2" data-background-color="#A8A8A8">
 <h2>Equivalence</h2>
 <h3 id="importance-of-confidence-intervals">Importance of confidence intervals</h3>
 <!--- from plot_equivalence.R --->
@@ -567,7 +577,7 @@ Question: Is there any outcome in health and medicine that does not have some me
 <p><img data-src="figures/equivalence.jpg"></p>
 </div></div>
 </section>
-<section id="equivalence-4" class="slide level2 smaller" data-background-color="white">
+<section id="equivalence-5" class="slide level2 smaller" data-background-color="white">
 <h2>Equivalence</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -584,7 +594,7 @@ Question: Is there any outcome in health and medicine that does not have some me
 Photo by <a href="https://unsplash.com/@rishabhben?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Rishabh Sharma</a> on <a href="https://unsplash.com/photos/newspaper-article-lot-R-js25Pv1LQ?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
 </p>
 </div></aside></section>
-<section id="equivalence-5" class="slide level2" data-background-color="#476685">
+<section id="equivalence-6" class="slide level2" data-background-color="#476685">
 <h2>Equivalence</h2>
 <h3 id="summary-1">Summary</h3>
 <div class="columns">
@@ -807,7 +817,7 @@ Active instead of non-active controls, e.g., statin&nbsp;A vs statin&nbsp;B inst
 </div></aside></section>
 <section id="immortal-time-3" class="slide level2">
 <h2>Immortal time</h2>
-<h3 id="fix-requires-data-with-dates">Fix (requires data with dates)</h3>
+<h3 id="fix-requires-all-important-dates">Fix (requires all important dates)</h3>
 <!--- from plot_states.R --->
 
 <img data-src="figures/states.jpg" class="r-stretch"></section>
@@ -834,7 +844,7 @@ Active instead of non-active controls, e.g., statin&nbsp;A vs statin&nbsp;B inst
 <li>How many people/participants/patients do we need to answer our research question?</li>
 </ul>
 <ul>
-<li class="fragment">Key assumptions:
+<li class="fragment">Key assumptions (for a two-group comparison):
 <ul>
 <li class="fragment">Difference between groups</li>
 <li class="fragment">Standard deviation (variance) in outcome</li>
@@ -846,7 +856,7 @@ Active instead of non-active controls, e.g., statin&nbsp;A vs statin&nbsp;B inst
 <section id="sample-size-1" class="slide level2" data-background-color="#e2ffe3">
 <h2>Sample size</h2>
 
-<img data-src="figures/type.errors.jpg" class="r-stretch"><ul>
+<img data-src="figures/type.errors.jpg" width="550" class="r-stretch"><ul>
 <li>Usually set at 5% type I and 20% for type 2 (often dogmatic)</li>
 </ul>
 </section>
@@ -898,7 +908,7 @@ Active instead of non-active controls, e.g., statin&nbsp;A vs statin&nbsp;B inst
 <li class="fragment"><p>Every sample size calculation is a compromise</p></li>
 <li class="fragment"><p>The calculations assume a meaningful boundary between adequate and inadequate sample sizes that does not exist</p></li>
 <li class="fragment"><p>Rarely reflect how a completed study’s information will be used</p></li>
-<li class="fragment"><p>“One size fits all” numbers. Sample sizes of 400 for small effects, 64 for medium, and 25 for small</p></li>
+<li class="fragment"><p>“One size fits all” numbers. Sample sizes of 400 for small effects, 64 for medium, and 25 for large</p></li>
 </ul>
 
 <aside><div>
@@ -1049,11 +1059,19 @@ Photo by <a href="https://unsplash.com/@claybanks?utm_content=creditCopyText&amp
 <ul>
 <li><p>Randomised trials have no confounding of the treatment of interest — this is why trials are amazing</p></li>
 <li><p>But we can’t randomise everything, so some inferences rely on observational data</p></li>
+</ul>
+</section>
+<section id="observational-data-1" class="slide level2" data-visibility="uncounted">
+<h2>Observational data</h2>
+<h3 id="confounding-1">Confounding</h3>
+<ul>
+<li><p>Randomised trials have no confounding of the treatment of interest — this is why trials are amazing</p></li>
+<li><p>But we can’t randomise everything, so some inferences rely on observational data</p></li>
 <li><p>Often see large observational data sets with many variables where researchers adjust for confounding</p></li>
 <li><p>This can work, but it is very challenging to do well</p></li>
 </ul>
 </section>
-<section id="observational-data-1" class="slide level2" data-background-color="#766d75">
+<section id="observational-data-2" class="slide level2" data-background-color="#766d75">
 <h2>Observational data</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
@@ -1068,7 +1086,7 @@ Photo by <a href="https://unsplash.com/@claybanks?utm_content=creditCopyText&amp
 <aside><div>
 <p>Photo by <a href="https://unsplash.com/@papayaboii?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Zheyu Huang</a> on <a href="https://unsplash.com/photos/a-row-of-beds-in-a-room-with-tiled-walls-pKRL1XaO_zE?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
 </div></aside></section>
-<section id="observational-data-2" class="slide level2" data-background-color="#766d75" data-visibility="uncounted">
+<section id="observational-data-3" class="slide level2" data-background-color="#766d75" data-visibility="uncounted">
 <h2>Observational data</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
@@ -1085,9 +1103,20 @@ Photo by <a href="https://unsplash.com/@claybanks?utm_content=creditCopyText&amp
 <aside><div>
 <p>Photo by <a href="https://unsplash.com/@papayaboii?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Zheyu Huang</a> on <a href="https://unsplash.com/photos/a-row-of-beds-in-a-room-with-tiled-walls-pKRL1XaO_zE?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
 </div></aside></section>
-<section id="observational-data-3" class="slide level2">
+<section id="observational-data-4" class="slide level2">
 <h2>Observational data</h2>
-<h3 id="confounding-1">Confounding</h3>
+<h3 id="confounding-2">Confounding</h3>
+<ul>
+<li><p>Every variable is complex, think about your age for example, that predicts a lot about you but not everything and it also comes with “baggage”</p></li>
+<li><p>No statistical method makes the problem of confounding disappear</p></li>
+</ul>
+
+<aside><div>
+<p>DOI: <a href="https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005282">10.1371/journal.pmed.1005282</a></p>
+</div></aside></section>
+<section id="observational-data-5" class="slide level2" data-visibility="uncounted">
+<h2>Observational data</h2>
+<h3 id="confounding-3">Confounding</h3>
 <ul>
 <li><p>Every variable is complex, think about your age for example, that predicts a lot about you but not everything and it also comes with “baggage”</p></li>
 <li><p>No statistical method makes the problem of confounding disappear</p></li>
@@ -1097,7 +1126,7 @@ Photo by <a href="https://unsplash.com/@claybanks?utm_content=creditCopyText&amp
 <aside><div>
 <p>DOI: <a href="https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005282">10.1371/journal.pmed.1005282</a></p>
 </div></aside></section>
-<section id="observational-data-4" class="slide level2">
+<section id="observational-data-6" class="slide level2">
 <h2>Observational data</h2>
 <ul>
 <li><p>Complex statistical methods, such as matching, are often applied with little deep thought</p></li>
@@ -1107,7 +1136,7 @@ Photo by <a href="https://unsplash.com/@claybanks?utm_content=creditCopyText&amp
 <aside><div>
 <p>DOI: <a href="https://pubmed.ncbi.nlm.nih.gov/28104076/">10.1016/j.jacc.2016.10.060</a></p>
 </div></aside></section>
-<section id="observational-data-5" class="slide level2" data-visibility="uncounted">
+<section id="observational-data-7" class="slide level2" data-visibility="uncounted">
 <h2>Observational data</h2>
 <ul>
 <li><p>Complex statistical methods, such as matching, are often applied with little deep thought</p></li>
@@ -1119,7 +1148,7 @@ Photo by <a href="https://unsplash.com/@claybanks?utm_content=creditCopyText&amp
 <aside><div>
 <p>DOI: <a href="https://pubmed.ncbi.nlm.nih.gov/28104076/">10.1016/j.jacc.2016.10.060</a></p>
 </div></aside></section>
-<section id="observational-data-6" class="slide level2">
+<section id="observational-data-8" class="slide level2">
 <h2>Observational data</h2>
 <h3 id="variable-selection">Variable selection</h3>
 <ul>
@@ -1128,7 +1157,7 @@ Photo by <a href="https://unsplash.com/@claybanks?utm_content=creditCopyText&amp
 <li><p>Backwards selection is better, also other techniques such as LASSO</p></li>
 </ul>
 </section>
-<section id="observational-data-7" class="slide level2" data-background-color="white">
+<section id="observational-data-9" class="slide level2" data-background-color="white">
 <h2>Observational data</h2>
 <h3 id="draw-a-casual-diagram">Draw a casual diagram</h3>
 <div class="columns">
